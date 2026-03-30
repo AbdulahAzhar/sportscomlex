@@ -40,15 +40,16 @@
         .font-archivo { font-family: 'Archivo Black', sans-serif; }
         .font-jetbrains { font-family: 'JetBrains Mono', monospace; font-weight: 800; }
         
+        /* NEO-BRUTALIST UTILITIES */
         .brutal-border {
-            border: 3px solid var(--harsh-black);
-            box-shadow: 6px 6px 0px 0px var(--harsh-black);
-            transition: all 0.1s ease;
+            border: 4px solid var(--harsh-black);
+            box-shadow: 8px 8px 0px 0px var(--harsh-black);
+            transition: all 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
         
         .brutal-border:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 8px 8px 0px 0px var(--harsh-black);
+            transform: translate(-3px, -3px);
+            box-shadow: 11px 11px 0px 0px var(--harsh-black);
         }
         
         .brutal-border:active {
@@ -58,36 +59,37 @@
         
         .brutal-card {
             background: white;
-            border: 3px solid var(--harsh-black);
-            box-shadow: 8px 8px 0px 0px var(--harsh-black);
-            transition: all 0.2s ease;
+            border: 4px solid var(--harsh-black);
+            box-shadow: 10px 10px 0px 0px var(--harsh-black);
+            transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
         
         .brutal-card:hover {
-            transform: translate(-4px, -4px);
-            box-shadow: 12px 12px 0px 0px var(--electric-pink);
+            transform: translate(-5px, -5px);
+            box-shadow: 15px 15px 0px 0px var(--electric-pink);
         }
         
         .category-badge {
             background: var(--neon-yellow);
-            border: 2px solid var(--harsh-black);
+            border: 3px solid var(--harsh-black);
             font-family: 'Space Mono', monospace;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: -0.5px;
+            box-shadow: 3px 3px 0px var(--harsh-black);
         }
         
         .live-indicator {
-            animation: pulse-brutal 1.5s infinite;
+            animation: pulse-brutal 1.2s infinite;
         }
         
         @keyframes pulse-brutal {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.1); }
+            0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 0, 110, 0.7); }
+            50% { opacity: 0.8; transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 0, 110, 0); }
         }
         
         .loading-skeleton {
-            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
             background-size: 200% 100%;
             animation: loading 1.5s infinite;
         }
@@ -97,10 +99,11 @@
             100% { background-position: -200% 0; }
         }
         
+        /* PLAYER STYLES */
         .video-card { 
             background: #000; 
-            border: 4px solid var(--harsh-black); 
-            box-shadow: 12px 12px 0px var(--electric-pink); 
+            border: 5px solid var(--harsh-black); 
+            box-shadow: 15px 15px 0px var(--electric-pink); 
             position: relative; 
         }
         
@@ -113,23 +116,27 @@
         
         #switch-indicator {
             position: absolute; top:0; left:0; width:100%; height:100%;
-            background: var(--psl-navy); display: none; justify-content: center; align-items: center;
-            z-index: 6; color: var(--neon-yellow); 
-            border: 4px solid var(--harsh-black);
+            background: var(--harsh-black); 
+            display: none; 
+            justify-content: center; 
+            align-items: center;
+            z-index: 6; 
+            color: var(--neon-yellow); 
+            border: 5px solid var(--neon-yellow);
         }
         
         .switch-content {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 15px;
+            gap: 20px;
         }
         
         .switch-spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid var(--neon-yellow);
-            border-top: 4px solid transparent;
+            width: 50px;
+            height: 50px;
+            border: 5px solid var(--neon-yellow);
+            border-top: 5px solid transparent;
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -141,83 +148,92 @@
         
         #error-overlay {
             position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: var(--danger); display: none; flex-direction: column; justify-content: center; align-items: center;
-            z-index: 10; color: #000; padding: 20px;
+            background: var(--danger); 
+            display: none; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+            z-index: 10; 
+            color: var(--harsh-black); 
+            padding: 20px;
+            border: 5px solid var(--harsh-black);
         }
         
         .retry-btn {
             background: var(--neon-yellow);
-            border: 3px solid var(--harsh-black);
-            padding: 12px 24px;
+            border: 4px solid var(--harsh-black);
+            padding: 15px 30px;
             font-family: 'Archivo Black', sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             text-transform: uppercase;
             cursor: pointer;
-            box-shadow: 4px 4px 0px var(--harsh-black);
+            box-shadow: 6px 6px 0px var(--harsh-black);
             margin-top: 20px;
-            transition: all 0.1s;
+            transition: all 0.15s;
         }
         
         .retry-btn:hover {
-            transform: translate(2px, 2px);
+            transform: translate(3px, 3px);
             box-shadow: 2px 2px 0px var(--harsh-black);
+            background: var(--white);
         }
         
         .source-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: 12px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
         }
         
         .source-btn {
-            background: #f4f4f4;
-            border: 3px solid var(--harsh-black);
-            padding: 12px 8px;
+            background: var(--off-white);
+            border: 4px solid var(--harsh-black);
+            padding: 15px 10px;
             cursor: pointer;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            transition: all 0.1s;
+            transition: all 0.15s;
             text-align: center;
-            min-height: 85px;
+            min-height: 95px;
             position: relative;
-            box-shadow: 4px 4px 0px var(--harsh-black);
+            box-shadow: 6px 6px 0px var(--harsh-black);
         }
         
         .source-btn::before {
             content: attr(data-id);
             position: absolute;
-            top: 2px;
-            left: 4px;
+            top: 3px;
+            left: 6px;
             font-family: 'JetBrains Mono';
-            font-size: 8px;
-            color: #888;
+            font-size: 9px;
+            color: #666;
+            font-weight: 800;
         }
         
         .source-btn .status-dot {
             position: absolute;
-            top: 4px;
-            right: 4px;
-            width: 8px;
-            height: 8px;
+            top: 5px;
+            right: 5px;
+            width: 10px;
+            height: 10px;
             background: var(--danger);
-            border: 1px solid var(--harsh-black);
+            border: 2px solid var(--harsh-black);
             border-radius: 50%;
         }
         
         .source-btn img { 
-            width: 28px; 
-            height: 28px; 
-            margin-bottom: 6px; 
+            width: 32px; 
+            height: 32px; 
+            margin-bottom: 8px; 
             filter: grayscale(1) contrast(1.2);
             object-fit: contain;
         }
         
         .source-btn strong { 
             font-family: 'Archivo Black', sans-serif; 
-            font-size: 11px; 
+            font-size: 12px; 
             display: block; 
             text-transform: uppercase; 
             line-height: 1.1;
@@ -225,27 +241,28 @@
         
         .source-btn span { 
             font-family: 'JetBrains Mono'; 
-            font-size: 8px; 
+            font-size: 9px; 
             font-weight: 800; 
             background: var(--harsh-black);
             color: var(--off-white);
-            padding: 2px 6px;
-            margin-top: 6px;
+            padding: 3px 8px;
+            margin-top: 8px;
+            border: 2px solid var(--harsh-black);
         }
         
         .source-btn:hover { 
-            transform: translate(2px, 2px); 
+            transform: translate(3px, 3px); 
             box-shadow: 2px 2px 0px var(--harsh-black); 
             background: var(--neon-yellow);
         }
         
         .source-btn:hover img { filter: none; }
-        .source-btn:hover span { background: var(--danger); color: white; }
+        .source-btn:hover span { background: var(--electric-pink); color: var(--white); }
         
         .source-btn.active { 
             background: var(--neon-yellow); 
             box-shadow: 0px 0px 0px var(--harsh-black);
-            transform: translate(4px, 4px);
+            transform: translate(6px, 6px);
         }
         
         .source-btn.active .status-dot { background: var(--acid-green); }
@@ -268,13 +285,13 @@
             width: 100%;
             max-width: 1200px;
             margin: auto;
-            border: 4px solid var(--harsh-black);
-            box-shadow: 16px 16px 0px var(--electric-pink);
+            border: 5px solid var(--harsh-black);
+            box-shadow: 20px 20px 0px var(--electric-pink);
         }
         
         .modal-header {
-            border-bottom: 4px solid var(--harsh-black);
-            padding: 16px;
+            border-bottom: 5px solid var(--harsh-black);
+            padding: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -283,38 +300,38 @@
         
         .modal-title {
             font-family: 'Archivo Black', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
         }
         
         .close-btn {
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             background: var(--harsh-black);
             color: white;
             border: none;
             font-family: 'Space Mono', monospace;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 24px;
             cursor: pointer;
-            box-shadow: 4px 4px 0px var(--electric-pink);
-            transition: all 0.1s;
+            box-shadow: 5px 5px 0px var(--electric-pink);
+            transition: all 0.15s;
         }
         
         .close-btn:hover {
-            transform: translate(2px, 2px);
+            transform: translate(3px, 3px);
             box-shadow: 2px 2px 0px var(--electric-pink);
             background: var(--electric-pink);
         }
         
         ::-webkit-scrollbar {
-            width: 12px;
+            width: 15px;
             background: var(--off-white);
         }
         ::-webkit-scrollbar-thumb {
             background: var(--harsh-black);
-            border: 2px solid var(--off-white);
+            border: 3px solid var(--off-white);
         }
         ::-webkit-scrollbar-thumb:hover {
             background: var(--electric-pink);
@@ -330,6 +347,76 @@
             border: none;
             display: none;
         }
+        
+        /* FILTER BUTTONS */
+        .filter-btn {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .filter-btn.active {
+            background: var(--harsh-black) !important;
+            color: var(--white) !important;
+            box-shadow: 4px 4px 0px var(--electric-pink) !important;
+        }
+        
+        /* STATUS BADGE */
+        #status {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* GLITCH TEXT EFFECT */
+        .glitch {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--electric-pink);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+        
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--acid-green);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim2 5s infinite linear alternate-reverse;
+        }
+        
+        @keyframes glitch-anim {
+            0% { clip: rect(31px, 9999px, 94px, 0); }
+            20% { clip: rect(6px, 9999px, 15px, 0); }
+            40% { clip: rect(78px, 9999px, 96px, 0); }
+            60% { clip: rect(15px, 9999px, 82px, 0); }
+            80% { clip: rect(54px, 9999px, 25px, 0); }
+            100% { clip: rect(9px, 9999px, 96px, 0); }
+        }
+        
+        @keyframes glitch-anim2 {
+            0% { clip: rect(65px, 9999px, 100px, 0); }
+            20% { clip: rect(9px, 9999px, 86px, 0); }
+            40% { clip: rect(48px, 9999px, 26px, 0); }
+            60% { clip: rect(72px, 9999px, 15px, 0); }
+            80% { clip: rect(15px, 9999px, 94px, 0); }
+            100% { clip: rect(63px, 9999px, 38px, 0); }
+        }
     </style>
 </head>
 <body class="min-h-screen">
@@ -341,11 +428,11 @@
                 <div class="w-12 h-12 bg-black flex items-center justify-center brutal-border cursor-pointer">
                     <span class="text-white font-mono font-bold text-2xl">▶</span>
                 </div>
-                <h1 class="text-3xl md:text-5xl font-black tracking-tighter uppercase">RAW//STREAM</h1>
+                <h1 class="text-3xl md:text-5xl font-black tracking-tighter uppercase glitch" data-text="RAW//STREAM">RAW//STREAM</h1>
             </div>
             
             <div class="flex items-center gap-4">
-                <span id="status" class="font-mono text-xs bg-gray-200 px-3 py-2 border-2 border-black font-bold">LOADING</span>
+                <span id="status" class="bg-gray-200 px-3 py-2 border-4 border-black">LOADING</span>
                 <button onclick="loadData()" class="brutal-border bg-[#FFFF00] px-4 py-2 font-mono font-bold text-sm hover:bg-[#FF006E] hover:text-white">
                     REFRESH ↻
                 </button>
@@ -357,13 +444,13 @@
     <div class="sticky top-[73px] z-40 bg-white border-b-4 border-black py-4">
         <div class="max-w-7xl mx-auto px-4 flex flex-wrap gap-3 items-center justify-between">
             <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0" id="categoryFilters">
-                <button class="filter-btn active brutal-border bg-black text-white px-4 py-2 font-mono font-bold text-sm" data-category="all">ALL_EVENTS</button>
-                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#FFFF00]" data-category="Football">FOOTBALL</button>
-                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#39FF14]" data-category="Cricket">CRICKET</button>
-                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#FF006E]" data-category="Boxing">BOXING/WWE</button>
-                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#00FFFF]" data-category="Motorsports">F1/MOTORS</button>
+                <button class="filter-btn active brutal-border bg-black text-white px-4 py-2 text-sm" data-category="all">ALL_EVENTS</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 text-sm hover:bg-[#FFFF00]" data-category="Football">FOOTBALL</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 text-sm hover:bg-[#39FF14]" data-category="Cricket">CRICKET</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 text-sm hover:bg-[#FF006E]" data-category="Boxing">BOXING/WWE</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 text-sm hover:bg-[#00FFFF]" data-category="Motorsports">F1/MOTORS</button>
             </div>
-            <div class="font-mono text-xs font-bold border-2 border-black px-3 py-1 bg-[#FFFF00]">
+            <div class="font-mono text-xs font-bold border-4 border-black px-3 py-1 bg-[#FFFF00]">
                 <span id="matchCount">00</span> ACTIVE STREAMS
             </div>
         </div>
@@ -405,7 +492,7 @@
                             <div class="switch-content">
                                 <div class="switch-spinner"></div>
                                 <div class="switch-text font-jetbrains">>> SWITCHING_FEED</div>
-                                <div id="switch-channel-id" class="font-archivo text-lg bg-black text-white px-3 py-1 border-2 border-[#FFFF00]">CH_01</div>
+                                <div id="switch-channel-id" class="font-archivo text-lg bg-black text-white px-3 py-1 border-4 border-[#FFFF00]">CH_01</div>
                             </div>
                         </div>
                         
@@ -484,7 +571,7 @@
 
         async function loadData() {
             document.getElementById('status').textContent = 'FETCHING';
-            document.getElementById('status').className = 'font-mono text-xs bg-[#FFFF00] px-3 py-2 border-2 border-black font-bold';
+            document.getElementById('status').className = 'bg-[#FFFF00] px-3 py-2 border-4 border-black';
             
             try {
                 const res = await fetch(API_URL + '?t=' + Date.now());
@@ -496,7 +583,7 @@
                 renderMatches();
                 
                 document.getElementById('status').textContent = 'LIVE';
-                document.getElementById('status').className = 'font-mono text-xs bg-[#39FF14] px-3 py-2 border-2 border-black font-bold';
+                document.getElementById('status').className = 'bg-[#39FF14] px-3 py-2 border-4 border-black';
                 
                 document.getElementById('loadingState').classList.add('hidden');
                 document.getElementById('errorState').classList.add('hidden');
@@ -509,7 +596,7 @@
                 document.getElementById('contentGrid').classList.add('hidden');
                 document.getElementById('errorState').classList.remove('hidden');
                 document.getElementById('status').textContent = 'ERROR';
-                document.getElementById('status').className = 'font-mono text-xs bg-[#FF006E] text-white px-3 py-2 border-2 border-black font-bold';
+                document.getElementById('status').className = 'bg-[#FF006E] text-white px-3 py-2 border-4 border-black';
             }
         }
 
@@ -522,7 +609,7 @@
                 : matchesData.filter(m => m.category === currentCategory);
             
             if (filtered.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-12 font-mono font-bold text-2xl border-4 border-dashed border-black">NO EVENTS FOUND</div>`;
+                grid.innerHTML = '<div class="col-span-full text-center py-12 font-mono font-bold text-2xl border-4 border-dashed border-black">NO EVENTS FOUND</div>';
                 return;
             }
             
@@ -540,79 +627,71 @@
             const categoryColor = getCategoryColor(match.category);
             const hasLinks = match.links && match.links.length > 0;
             
-            div.innerHTML = `
-                <div class="relative h-48 bg-gray-200 border-b-4 border-black overflow-hidden group">
-                    ${match.eventLogo ? `
-                        <img src="${match.eventLogo}" 
-                             class="w-full h-full object-cover filter contrast-125 group-hover:scale-110 transition-transform duration-500"
-                             onerror="this.style.display='none'"
-                             alt="${match.eventName}">
-                    ` : `
-                        <div class="absolute inset-0 flex items-center justify-center bg-gray-300">
-                            <span class="font-black text-6xl text-black/20">${match.category?.[0] || 'S'}</span>
-                        </div>
-                    `}
-                    
-                    <div class="absolute top-3 left-3">
-                        <span class="category-badge px-3 py-1 text-xs" style="background-color: ${categoryColor}">
-                            ${match.category || 'SPORTS'}
-                        </span>
-                    </div>
-                    
-                    ${isLive ? `
-                        <div class="absolute top-3 right-3 bg-red-600 text-white font-mono font-bold px-3 py-1 border-2 border-black text-xs live-indicator">
-                            ● LIVE
-                        </div>
-                    ` : ''}
-                    
-                    ${!match.visible ? `
-                        <div class="absolute bottom-3 right-3 bg-gray-600 text-white font-mono text-xs px-2 py-1 border-2 border-black">
-                            HIDDEN
-                        </div>
-                    ` : ''}
-                </div>
-                
-                <div class="p-5 flex-1 flex flex-col">
-                    <h3 class="font-black text-xl md:text-2xl mb-4 leading-tight uppercase tracking-tight line-clamp-2">
-                        ${match.eventName}
-                    </h3>
-                    
-                    <div class="flex items-center justify-between mb-4 bg-gray-100 p-3 border-2 border-black">
-                        <div class="flex items-center gap-2 flex-1">
-                            ${match.teamAFlag ? `<img src="${match.teamAFlag}" class="w-8 h-8 object-cover border border-black bg-white" onerror="this.style.display='none'">` : ''}
-                            <span class="font-bold text-sm truncate">${match.teamAName}</span>
-                        </div>
-                        
-                        <span class="font-mono font-black text-[#FF006E] text-lg mx-2 italic">VS</span>
-                        
-                        <div class="flex items-center gap-2 flex-1 justify-end">
-                            <span class="font-bold text-sm truncate text-right">${match.teamBName}</span>
-                            ${match.teamBFlag ? `<img src="${match.teamBFlag}" class="w-8 h-8 object-cover border border-black bg-white" onerror="this.style.display='none'">` : ''}
-                        </div>
-                    </div>
-                    
-                    <div class="font-mono text-xs mb-4 space-y-1 border-l-2 border-black pl-3">
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">DATE:</span>
-                            <span class="font-bold">${match.date || 'TBA'}</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">TIME:</span>
-                            <span class="font-bold">${match.time ? match.time.substring(0, 5) : 'TBA'}</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">STREAMS:</span>
-                            <span class="font-bold text-[#FF006E]">${match.links?.length || 0} SOURCES</span>
-                        </div>
-                    </div>
-                    
-                    <button onclick="${hasLinks ? `openStreamModal(${match.id})` : ''}" 
-                            class="mt-auto w-full brutal-border ${hasLinks ? 'bg-black text-white hover:bg-[#FF006E]' : 'bg-gray-400 text-gray-600 cursor-not-allowed'} py-3 font-mono font-bold transition-colors flex items-center justify-center gap-2 group">
-                        <span>${hasLinks ? 'ACCESS STREAM' : 'NO STREAMS'}</span>
-                        ${hasLinks ? '<span class="group-hover:translate-x-1 transition-transform">→</span>' : ''}
-                    </button>
-                </div>
-            `;
+            // Build card HTML - NOTE: No inline JS in onclick, using data attributes
+            let html = '<div class="relative h-48 bg-gray-200 border-b-4 border-black overflow-hidden group">';
+            
+            if (match.eventLogo) {
+                html += '<img src="' + match.eventLogo + '" class="w-full h-full object-cover filter contrast-125 group-hover:scale-110 transition-transform duration-500" onerror="this.style.display=\'none\'" alt="' + match.eventName + '">';
+            } else {
+                html += '<div class="absolute inset-0 flex items-center justify-center bg-gray-300"><span class="font-black text-6xl text-black/20">' + (match.category ? match.category[0] : 'S') + '</span></div>';
+            }
+            
+            html += '<div class="absolute top-3 left-3"><span class="category-badge px-3 py-1 text-xs" style="background-color: ' + categoryColor + '">' + (match.category || 'SPORTS') + '</span></div>';
+            
+            if (isLive) {
+                html += '<div class="absolute top-3 right-3 bg-red-600 text-white font-mono font-bold px-3 py-1 border-2 border-black text-xs live-indicator">● LIVE</div>';
+            }
+            
+            if (!match.visible) {
+                html += '<div class="absolute bottom-3 right-3 bg-gray-600 text-white font-mono text-xs px-2 py-1 border-2 border-black">HIDDEN</div>';
+            }
+            
+            html += '</div>';
+            
+            html += '<div class="p-5 flex-1 flex flex-col">';
+            html += '<h3 class="font-black text-xl md:text-2xl mb-4 leading-tight uppercase tracking-tight line-clamp-2">' + match.eventName + '</h3>';
+            
+            html += '<div class="flex items-center justify-between mb-4 bg-gray-100 p-3 border-4 border-black">';
+            html += '<div class="flex items-center gap-2 flex-1">';
+            if (match.teamAFlag) {
+                html += '<img src="' + match.teamAFlag + '" class="w-8 h-8 object-cover border-2 border-black bg-white" onerror="this.style.display=\'none\'">';
+            }
+            html += '<span class="font-bold text-sm truncate">' + match.teamAName + '</span>';
+            html += '</div>';
+            html += '<span class="font-mono font-black text-[#FF006E] text-lg mx-2 italic">VS</span>';
+            html += '<div class="flex items-center gap-2 flex-1 justify-end">';
+            html += '<span class="font-bold text-sm truncate text-right">' + match.teamBName + '</span>';
+            if (match.teamBFlag) {
+                html += '<img src="' + match.teamBFlag + '" class="w-8 h-8 object-cover border-2 border-black bg-white" onerror="this.style.display=\'none\'">';
+            }
+            html += '</div></div>';
+            
+            html += '<div class="font-mono text-xs mb-4 space-y-1 border-l-4 border-black pl-3">';
+            html += '<div class="flex justify-between"><span class="text-gray-600">DATE:</span><span class="font-bold">' + (match.date || 'TBA') + '</span></div>';
+            html += '<div class="flex justify-between"><span class="text-gray-600">TIME:</span><span class="font-bold">' + (match.time ? match.time.substring(0, 5) : 'TBA') + '</span></div>';
+            html += '<div class="flex justify-between"><span class="text-gray-600">STREAMS:</span><span class="font-bold text-[#FF006E]">' + (match.links ? match.links.length : 0) + ' SOURCES</span></div>';
+            html += '</div>';
+            
+            // Button with data attribute instead of inline onclick
+            if (hasLinks) {
+                html += '<button data-match-id="' + match.id + '" class="stream-access-btn mt-auto w-full brutal-border bg-black text-white py-3 font-mono font-bold hover:bg-[#FF006E] transition-colors flex items-center justify-center gap-2 group">';
+                html += '<span>ACCESS STREAM</span><span class="group-hover:translate-x-1 transition-transform">→</span>';
+                html += '</button>';
+            } else {
+                html += '<button disabled class="mt-auto w-full brutal-border bg-gray-400 text-gray-600 cursor-not-allowed py-3 font-mono font-bold">NO STREAMS</button>';
+            }
+            
+            html += '</div>';
+            
+            div.innerHTML = html;
+            
+            // Add event listener properly
+            if (hasLinks) {
+                const btn = div.querySelector('.stream-access-btn');
+                btn.addEventListener('click', function() {
+                    openStreamModal(match.id);
+                });
+            }
             
             return div;
         }
@@ -633,8 +712,8 @@
             const now = new Date();
             try {
                 const [day, month, year] = match.date.split('/');
-                const matchDate = new Date(`${year}-${month}-${day}T${match.time}`);
-                const endTime = match.end_time ? new Date(`${year}-${month}-${day}T${match.end_time}`) : new Date(matchDate.getTime() + 3*60*60*1000);
+                const matchDate = new Date(year + '-' + month + '-' + day + 'T' + match.time);
+                const endTime = match.end_time ? new Date(year + '-' + month + '-' + day + 'T' + match.end_time) : new Date(matchDate.getTime() + 3*60*60*1000);
                 return now >= matchDate && now <= endTime;
             } catch (e) {
                 return false;
@@ -659,25 +738,29 @@
             match.links.forEach((link, idx) => {
                 const btn = document.createElement('button');
                 btn.className = 'source-btn' + (idx === 0 ? ' active' : '');
-                btn.setAttribute('data-id', `SRC_${String(idx + 1).padStart(2, '0')}`);
-                btn.onclick = () => loadSource(idx);
+                btn.setAttribute('data-id', 'SRC_' + String(idx + 1).padStart(2, '0'));
+                btn.addEventListener('click', function() {
+                    loadSource(idx);
+                });
                 
                 const parsed = parseLink(link.link);
                 let type = 'WEB';
-                if (parsed.url.includes('youtube')) type = 'YOUTUBE';
-                else if (parsed.url.includes('.m3u8')) type = 'HLS';
-                else if (parsed.url.includes('.mpd')) type = 'DASH';
-                else if (parsed.url.includes('embed') || parsed.url.includes('.php?id=')) type = 'EMBED';
+                if (parsed.url.indexOf('youtube') !== -1) type = 'YOUTUBE';
+                else if (parsed.url.indexOf('.m3u8') !== -1) type = 'HLS';
+                else if (parsed.url.indexOf('.mpd') !== -1) type = 'DASH';
+                else if (parsed.url.indexOf('embed') !== -1 || parsed.url.indexOf('.php?id=') !== -1) type = 'EMBED';
                 
-                const hasDrm = link.api && link.api.includes(':');
+                const hasDrm = link.api && link.api.indexOf(':') !== -1;
                 
-                btn.innerHTML = `
-                    <div class="status-dot"></div>
-                    <img src="https://www.google.com/s2/favicons?domain=${new URL(parsed.url).hostname}&sz=64" 
-                         onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>'">
-                    <strong>${link.name || `Source ${idx + 1}`}</strong>
-                    <span>${type}${hasDrm ? '+DRM' : ''}</span>
-                `;
+                // Get favicon URL safely
+                let faviconUrl = '';
+                try {
+                    faviconUrl = 'https://www.google.com/s2/favicons?domain=' + new URL(parsed.url).hostname + '&sz=64';
+                } catch(e) {
+                    faviconUrl = 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>';
+                }
+                
+                btn.innerHTML = '<div class="status-dot"></div><img src="' + faviconUrl + '" onerror="this.src=\'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>\'" alt=""><strong>' + (link.name || 'Source ' + (idx + 1)) + '</strong><span>' + type + (hasDrm ? '+DRM' : '') + '</span>';
                 
                 sourcesContainer.appendChild(btn);
             });
@@ -703,7 +786,7 @@
             // Show switching indicator
             const switchIndicator = document.getElementById('switch-indicator');
             const switchChannel = document.getElementById('switch-channel-id');
-            switchChannel.textContent = `SRC_${String(index + 1).padStart(2, '0')}`;
+            switchChannel.textContent = 'SRC_' + String(index + 1).padStart(2, '0');
             switchIndicator.style.display = 'flex';
             document.getElementById('error-overlay').style.display = 'none';
             
@@ -721,7 +804,7 @@
             
             try {
                 // YouTube handling
-                if (parsed.url.includes('youtube.com') || parsed.url.includes('youtu.be')) {
+                if (parsed.url.indexOf('youtube.com') !== -1 || parsed.url.indexOf('youtu.be') !== -1) {
                     currentMode = 'youtube';
                     youtubeEl.style.display = 'block';
                     
@@ -729,21 +812,21 @@
                     if (shakaControls) shakaControls.classList.add('shaka-controls-container-hidden');
                     
                     let embedUrl = parsed.url;
-                    if (parsed.url.includes('watch?v=')) {
+                    if (parsed.url.indexOf('watch?v=') !== -1) {
                         const videoId = parsed.url.split('watch?v=')[1].split('&')[0];
-                        embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1`;
+                        embedUrl = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1';
                     }
                     
                     youtubeEl.src = embedUrl;
                     
-                    setTimeout(() => {
+                    setTimeout(function() {
                         switchIndicator.style.display = 'none';
                     }, 1000);
                     return;
                 }
                 
                 // Embed iframe handling (huraweb, etc.)
-                if (parsed.url.includes('embed') || parsed.url.includes('.php?id=')) {
+                if (parsed.url.indexOf('embed') !== -1 || parsed.url.indexOf('.php?id=') !== -1) {
                     currentMode = 'iframe';
                     iframeEl.style.display = 'block';
                     
@@ -752,7 +835,7 @@
                     
                     iframeEl.src = parsed.url;
                     
-                    setTimeout(() => {
+                    setTimeout(function() {
                         switchIndicator.style.display = 'none';
                     }, 1500);
                     return;
@@ -782,7 +865,7 @@
                 
                 // Configure request headers (referer, origin) if present
                 if (parsed.headers.referer || parsed.headers.origin) {
-                    player.getNetworkingEngine().registerRequestFilter((type, request) => {
+                    player.getNetworkingEngine().registerRequestFilter(function(type, request) {
                         if (parsed.headers.referer) {
                             request.headers['Referer'] = parsed.headers.referer;
                         }
@@ -835,9 +918,9 @@
         }
 
         // Filter setup
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                document.querySelectorAll('.filter-btn').forEach(b => {
+        document.querySelectorAll('.filter-btn').forEach(function(btn) {
+            btn.addEventListener('click', function(e) {
+                document.querySelectorAll('.filter-btn').forEach(function(b) {
                     b.classList.remove('bg-black', 'text-white', 'active');
                     b.classList.add('bg-white');
                 });
@@ -851,7 +934,7 @@
         });
 
         // Keyboard shortcuts
-        document.addEventListener('keydown', (e) => {
+        document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeModal();
             
             if (document.getElementById('videoModal').classList.contains('active')) {
