@@ -27,11 +27,6 @@
             background-size: 20px 20px;
         }
         
-        .brutal-border {
-            border: 4px solid var(--harsh-black);
-            box-shadow: 8px 8px 0px 0px var(--harsh-black);
-        }
-        
         .brutal-card {
             background: white;
             border: 4px solid var(--harsh-black);
@@ -44,32 +39,31 @@
             box-shadow: 15px 15px 0px 0px var(--electric-pink);
         }
 
-        .category-badge {
-            background: var(--neon-yellow);
-            border: 3px solid var(--harsh-black);
+        .filter-btn {
+            border: 3px solid black;
+            box-shadow: 4px 4px 0px black;
             font-family: 'Space Mono', monospace;
-            box-shadow: 3px 3px 0px var(--harsh-black);
+            transition: 0.1s;
+        }
+
+        .filter-btn.active {
+            background: black !important;
+            color: white !important;
+            box-shadow: 0px 0px 0px black;
+            transform: translate(4px, 4px);
         }
 
         #video-modal {
             display: none;
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.9);
+            background: rgba(0,0,0,0.95);
             z-index: 100;
             padding: 20px;
         }
 
         #video-modal.active { display: flex; }
 
-        .source-btn {
-            border: 4px solid black;
-            box-shadow: 4px 4px 0px black;
-            transition: 0.1s;
-        }
-
-        .source-btn:active { transform: translate(2px, 2px); box-shadow: 0px 0px 0px black; }
-        
         .line-clamp-2 {
             display: -webkit-box;
             -webkit-line-clamp: 2;
@@ -81,31 +75,40 @@
 <body class="min-h-screen pb-20">
 
     <header class="sticky top-0 z-50 bg-white border-b-4 border-black p-4">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-black italic tracking-tighter">RAW//STREAMS</h1>
-            <div class="flex gap-4 items-center">
-                <div id="status" class="bg-[#39FF14] border-4 border-black px-3 py-1 font-mono font-bold text-xs">LIVE</div>
-                <button onclick="loadData()" class="bg-[#FFFF00] border-4 border-black px-4 py-1 font-bold shadow-[4px_4px_0px_black] hover:shadow-none hover:translate-x-1 hover:translate-y-1">REFRESH</button>
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <h1 class="text-4xl font-black italic tracking-tighter uppercase">RAW//STREAMS</h1>
+            
+            <div class="flex gap-2 flex-wrap justify-center" id="timeFilters">
+                <button onclick="setTimeFilter('all')" class="filter-btn active bg-white px-3 py-1 text-xs font-bold" data-time="all">ALL</button>
+                <button onclick="setTimeFilter('live')" class="filter-btn bg-[#39FF14] px-3 py-1 text-xs font-bold" data-time="live">LIVE NOW</button>
+                <button onclick="setTimeFilter('today')" class="filter-btn bg-[#FFFF00] px-3 py-1 text-xs font-bold" data-time="today">TODAY</button>
+                <button onclick="setTimeFilter('upcoming')" class="filter-btn bg-[#00FFFF] px-3 py-1 text-xs font-bold" data-time="upcoming">UPCOMING</button>
             </div>
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 mt-10">
+    <nav class="bg-black text-white p-3 border-b-4 border-black overflow-x-auto whitespace-nowrap">
+        <div class="max-w-7xl mx-auto flex gap-6 px-4 font-mono text-xs font-bold uppercase tracking-widest" id="sportFilters">
+            <span onclick="setSportFilter('all')" class="cursor-pointer hover:text-[#FFFF00] text-[#FFFF00]" data-sport="all">[ ALL_SPORTS ]</span>
+            </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 mt-8">
         <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             </div>
     </main>
 
     <div id="video-modal" class="items-center justify-center">
-        <div class="bg-white border-8 border-black w-full max-w-5xl shadow-[30px_30px_0px_#FF006E]">
-            <div class="bg-[#FFFF00] border-b-4 border-black p-4 flex justify-between items-center">
-                <h2 id="modal-title" class="font-black text-xl uppercase">STREAM_VIEW</h2>
-                <button onclick="closeModal()" class="bg-black text-white px-4 py-2 font-bold">CLOSE [X]</button>
+        <div class="bg-white border-8 border-black w-full max-w-5xl">
+            <div class="bg-[#FF006E] text-white border-b-4 border-black p-4 flex justify-between items-center">
+                <h2 id="modal-title" class="font-black text-xl uppercase italic">BUFFERING_SIGNAL...</h2>
+                <button onclick="closeModal()" class="bg-black text-white px-4 py-2 font-bold border-2 border-white">EXIT [X]</button>
             </div>
-            <div class="p-4">
-                <div class="aspect-video bg-black border-4 border-black" data-shaka-player-container>
+            <div class="p-4 bg-black">
+                <div class="aspect-video bg-black" data-shaka-player-container>
                     <video data-shaka-player id="video" class="w-full h-full" autoplay></video>
                 </div>
-                <div id="source-list" class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6"></div>
+                <div id="source-list" class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-4"></div>
             </div>
         </div>
     </div>
@@ -113,57 +116,105 @@
     <script>
         let matchesData = [];
         let player = null;
-        const API_URL = 'data/matches.json';
+        let currentSport = 'all';
+        let currentTime = 'all';
 
         async function initPlayer() {
             const video = document.getElementById('video');
             const ui = video['ui'];
             player = ui.getControls().getPlayer();
         }
-
         document.addEventListener('shaka-ui-loaded', initPlayer);
 
         async function loadData() {
             try {
-                const res = await fetch(API_URL + '?t=' + Date.now());
+                const res = await fetch('data/matches.json?t=' + Date.now());
                 const data = await res.json();
                 
-                // Map the new "results" structure to our UI
-                matchesData = data.results.map(item => ({
-                    id: item.id,
-                    title: item.eventInfo?.eventName || item.title,
-                    category: item.cat,
-                    image: item.eventInfo?.teamAFlag || item.image,
-                    teamA: item.eventInfo?.teamA,
-                    teamB: item.eventInfo?.teamB,
-                    teamAFlag: item.eventInfo?.teamAFlag,
-                    teamBFlag: item.eventInfo?.teamBFlag,
-                    time: item.eventInfo?.startTime?.split(' ')[1]?.substring(0,5) || 'LIVE',
-                    links: item.channels || []
-                }));
+                matchesData = data.results.map(item => {
+                    const startStr = item.eventInfo?.startTime || ""; // "YYYY/MM/DD HH:MM:SS"
+                    const startTime = new Date(startStr.replace(/\//g, '-'));
+                    const endTime = item.eventInfo?.endTime ? new Date(item.eventInfo.endTime.replace(/\//g, '-')) : new Date(startTime.getTime() + 7200000);
+                    
+                    return {
+                        id: item.id,
+                        title: item.eventInfo?.eventName || item.title,
+                        category: item.cat || "Other",
+                        image: item.eventInfo?.teamAFlag || item.image,
+                        teamA: item.eventInfo?.teamA,
+                        teamB: item.eventInfo?.teamB,
+                        teamAFlag: item.eventInfo?.teamAFlag,
+                        teamBFlag: item.eventInfo?.teamBFlag,
+                        startTime: startTime,
+                        endTime: endTime,
+                        isLive: new Date() >= startTime && new Date() <= endTime,
+                        isToday: new Date().toDateString() === startTime.toDateString(),
+                        links: item.channels || []
+                    };
+                });
 
+                renderSportsFilters();
                 render();
-            } catch (e) {
-                console.error("Fetch error", e);
-            }
+            } catch (e) { console.error("API Error", e); }
+        }
+
+        function renderSportsFilters() {
+            const container = document.getElementById('sportFilters');
+            const categories = ['all', ...new Set(matchesData.map(m => m.category))];
+            container.innerHTML = categories.map(cat => `
+                <span onclick="setSportFilter('${cat}')" 
+                      class="cursor-pointer hover:text-[#FFFF00] ${currentSport === cat ? 'text-[#FFFF00]' : ''}" 
+                      data-sport="${cat}">
+                    [ ${cat.replace(/\s+/g, '_').toUpperCase()} ]
+                </span>
+            `).join('');
+        }
+
+        function setSportFilter(sport) {
+            currentSport = sport;
+            render();
+            renderSportsFilters();
+        }
+
+        function setTimeFilter(time) {
+            currentTime = time;
+            document.querySelectorAll('#timeFilters button').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.time === time);
+            });
+            render();
         }
 
         function render() {
             const grid = document.getElementById('contentGrid');
-            grid.innerHTML = matchesData.map(m => `
+            const now = new Date();
+
+            let filtered = matchesData.filter(m => {
+                const sportMatch = currentSport === 'all' || m.category === currentSport;
+                let timeMatch = true;
+                if (currentTime === 'live') timeMatch = m.isLive;
+                if (currentTime === 'today') timeMatch = m.isToday;
+                if (currentTime === 'upcoming') timeMatch = m.startTime > now;
+                return sportMatch && timeMatch;
+            });
+
+            grid.innerHTML = filtered.map(m => `
                 <div class="brutal-card flex flex-col">
-                    <div class="relative h-48 border-b-4 border-black bg-gray-200">
-                        <img src="${m.image}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x400?text=SPORTS'">
-                        <div class="absolute top-2 left-2 category-badge px-2 py-1 text-xs font-bold uppercase">${m.category}</div>
+                    <div class="relative h-48 border-b-4 border-black bg-black overflow-hidden">
+                        <img src="${m.image}" class="w-full h-full object-cover opacity-80" onerror="this.src='https://placehold.co/600x400?text=SPORTS'">
+                        <div class="absolute top-2 left-2 bg-[#FFFF00] border-2 border-black px-2 py-1 text-[10px] font-black uppercase">${m.category}</div>
+                        ${m.isLive ? '<div class="absolute top-2 right-2 bg-[#FF006E] text-white border-2 border-black px-2 py-1 text-[10px] font-black animate-pulse">LIVE</div>' : ''}
                     </div>
                     <div class="p-5 flex-1 flex flex-col">
-                        <h3 class="font-black text-xl mb-4 uppercase line-clamp-2">${m.title}</h3>
-                        <div class="bg-gray-100 border-2 border-black p-2 flex justify-between items-center mb-4">
-                            <span class="font-bold text-xs">${m.teamA}</span>
-                            <span class="text-[#FF006E] font-black italic text-xs">VS</span>
-                            <span class="font-bold text-xs">${m.teamB}</span>
+                        <h3 class="font-black text-xl mb-2 uppercase line-clamp-2 italic">${m.title}</h3>
+                        <div class="flex items-center justify-between mb-4 bg-gray-50 border-2 border-black p-2">
+                             <img src="${m.teamAFlag}" class="w-6 h-6 border border-black bg-white" onerror="this.style.display='none'">
+                             <span class="text-[10px] font-bold">VS</span>
+                             <img src="${m.teamBFlag}" class="w-6 h-6 border border-black bg-white" onerror="this.style.display='none'">
                         </div>
-                        <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#FF006E] transition-all">WATCH NOW →</button>
+                        <div class="font-mono text-[10px] mb-4 bg-black text-white p-1 text-center">
+                            START: ${m.startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                        </div>
+                        <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#39FF14] hover:text-black transition-all border-t-2 border-black">OPEN_STREAM_PIPE_→</button>
                     </div>
                 </div>
             `).join('');
@@ -172,16 +223,13 @@
         async function openStream(id) {
             const match = matchesData.find(m => m.id === id);
             if (!match) return;
-
-            document.getElementById('modal-title').textContent = match.title;
+            document.getElementById('modal-title').textContent = `SIGNAL: ${match.title}`;
             const sourceList = document.getElementById('source-list');
-            
             sourceList.innerHTML = match.links.map((l, i) => `
-                <button onclick="playLink('${l.link}', '${l.api || ''}')" class="source-btn bg-white p-2 font-bold text-xs uppercase hover:bg-[#FFFF00]">
-                    ${l.title || 'Source ' + (i+1)}
+                <button onclick="playLink('${l.link}', '${l.api || ''}')" class="bg-white border-2 border-black p-2 font-bold text-[10px] uppercase hover:bg-[#FFFF00]">
+                    FEED_${String(i+1).padStart(2, '0')} [${l.title.substring(0,6)}]
                 </button>
             `).join('');
-
             document.getElementById('video-modal').classList.add('active');
             if (match.links.length > 0) playLink(match.links[0].link, match.links[0].api);
         }
@@ -192,13 +240,9 @@
                 if (api && api.includes(':')) {
                     const [keyId, key] = api.split(':');
                     player.configure({ drm: { clearKeys: { [keyId]: key } } });
-                } else {
-                    player.configure({ drm: { clearKeys: {} } });
-                }
+                } else { player.configure({ drm: { clearKeys: {} } }); }
                 await player.load(url.split('|')[0]);
-            } catch (e) {
-                console.error("Load error", e);
-            }
+            } catch (e) { console.error("Load failed", e); }
         }
 
         function closeModal() {
@@ -207,6 +251,7 @@
         }
 
         loadData();
+        setInterval(loadData, 60000); // Auto refresh every minute
     </script>
 </body>
 </html>
