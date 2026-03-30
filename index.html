@@ -66,10 +66,10 @@
             background: white;
             border: 6px solid black;
             width: 100%;
-            max-width: 900px;
+            max-width: 650px; /* Made player container smaller */
             position: relative;
             box-shadow: 15px 15px 0px var(--electric-pink);
-            max-height: 95vh;
+            max-height: 90vh;
             display: flex;
             flex-direction: column;
         }
@@ -81,10 +81,10 @@
             background: var(--harsh-black);
             color: white;
             border: 4px solid var(--electric-pink);
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
             font-weight: 900;
-            font-size: 22px;
+            font-size: 20px;
             cursor: pointer;
             z-index: 10001;
             display: flex;
@@ -102,31 +102,32 @@
 
         /* SCROLLABLE LINKS SECTION */
         .links-section {
-            padding: 20px;
+            padding: 15px;
             background: white;
             overflow-y: auto;
-            max-height: 250px;
+            height: 140px; /* Fixed height to show roughly two rows */
         }
 
         .links-section::-webkit-scrollbar {
-            width: 8px;
+            width: 10px;
         }
         .links-section::-webkit-scrollbar-track {
-            background: #eee;
-            border-left: 2px solid black;
+            background: #f0f0f0;
+            border-left: 3px solid black;
         }
         .links-section::-webkit-scrollbar-thumb {
             background: black;
+            border: 2px solid white;
         }
 
         .feed-btn {
             border: 3px solid black;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 11px;
+            font-size: 10px;
             text-align: left;
             transition: 0.2s;
             background: white;
-            padding: 12px;
+            padding: 10px;
         }
 
         .feed-btn.active-link {
@@ -161,12 +162,12 @@
         <div class="modal-container">
             <button onclick="closeModal()" class="close-btn">✕</button>
             
-            <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black flex-shrink-0">
-                <div class="flex items-center gap-4">
-                    <span id="modal-title" class="font-bold text-sm italic uppercase tracking-tighter">SIGNAL_LOAD</span>
-                    <span id="modal-cat" class="bg-[#FFFF00] text-black px-2 py-0.5 font-black">CAT</span>
+            <div class="bg-black p-2 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black flex-shrink-0">
+                <div class="flex items-center gap-3">
+                    <span id="modal-title" class="font-bold text-xs italic uppercase tracking-tighter truncate max-w-[200px]">SIGNAL_LOAD</span>
+                    <span id="modal-cat" class="bg-[#FFFF00] text-black px-1.5 py-0.5 font-black text-[9px]">CAT</span>
                 </div>
-                <span class="text-[#39FF14] hidden md:block">● STABLE_FEED</span>
+                <span class="text-[#39FF14] text-[9px]">● LIVE_FEED</span>
             </div>
 
             <div class="video-viewport" data-shaka-player-container>
@@ -174,8 +175,8 @@
             </div>
 
             <div class="links-section">
-                <p class="font-black text-xs uppercase mb-4 border-l-4 border-[#FF006E] pl-2">Available Signal Feeds:</p>
-                <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <p class="font-black text-[10px] uppercase mb-3 border-l-4 border-[#FF006E] pl-2">Signal Sources:</p>
+                <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     </div>
             </div>
         </div>
@@ -263,9 +264,9 @@
             const sourceList = document.getElementById('source-list');
             sourceList.innerHTML = match.channels.map((ch, i) => `
                 <button id="feed-${i}" onclick="playLink('${ch.link}', '${ch.api || ''}', ${i})" 
-                        class="feed-btn flex flex-col gap-1 border-2 border-black hover:border-[#FF006E]">
-                    <span class="font-black text-xs uppercase">${ch.title}</span>
-                    <span class="text-[8px] opacity-60">ENCRYPTED_SIGNAL_0${i+1}</span>
+                        class="feed-btn flex flex-col gap-0.5 border-2 border-black hover:border-[#FF006E]">
+                    <span class="font-black text-[10px] uppercase truncate">${ch.title}</span>
+                    <span class="text-[7px] opacity-60">LINK_SIGNAL_0${i+1}</span>
                 </button>
             `).join('');
 
