@@ -8,7 +8,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/shaka-player.ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/controls.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700;900&family=Archivo+Black&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -31,18 +31,11 @@
             background: white;
             border: 4px solid var(--harsh-black);
             box-shadow: 10px 10px 0px 0px var(--harsh-black);
-            transition: all 0.2s ease;
-        }
-
-        .brutal-card:hover {
-            transform: translate(-5px, -5px);
-            box-shadow: 15px 15px 0px 0px var(--electric-pink);
         }
 
         .filter-btn {
             border: 3px solid black;
             box-shadow: 4px 4px 0px black;
-            font-family: 'Space Mono', monospace;
             transition: 0.1s;
         }
 
@@ -53,62 +46,115 @@
             transform: translate(4px, 4px);
         }
 
+        /* MODAL FIXES */
         #video-modal {
             display: none;
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.95);
-            z-index: 100;
-            padding: 20px;
+            background: rgba(0,0,0,0.98);
+            z-index: 9999; /* Higher than Shaka UI */
+            padding: 10px;
+            overflow-y: auto;
         }
 
-        #video-modal.active { display: flex; }
+        #video-modal.active { display: flex; align-items: center; justify-content: center; }
 
-        .line-clamp-2 {
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+        .modal-container {
+            background: white;
+            border: 6px solid black;
+            width: 100%;
+            max-width: 1000px;
+            position: relative;
+            box-shadow: 15px 15px 0px var(--electric-pink);
         }
+
+        /* Close Button Fix */
+        .close-modal-btn {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background: var(--electric-pink);
+            color: white;
+            border: 4px solid black;
+            width: 50px;
+            height: 50px;
+            font-weight: 900;
+            font-size: 24px;
+            z-index: 10001;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .close-modal-btn:hover { background: black; }
+
+        .source-btn {
+            border: 3px solid black;
+            font-family: 'Space Mono', monospace;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .source-btn.playing {
+            background: var(--acid-green) !important;
+            border-color: black;
+            box-shadow: inset 4px 4px 0px rgba(0,0,0,0.2);
+        }
+
+        /* Responsive Video */
+        .video-wrapper {
+            width: 100%;
+            background: black;
+            aspect-ratio: 16 / 9;
+            border-bottom: 4px solid black;
+        }
+
+        video { width: 100%; height: 100%; }
+
+        .shaka-video-container { width: 100% !important; height: 100% !important; }
     </style>
 </head>
 <body class="min-h-screen pb-20">
 
     <header class="sticky top-0 z-50 bg-white border-b-4 border-black p-4">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <h1 class="text-4xl font-black italic tracking-tighter uppercase">RAW//STREAMS</h1>
+            <h1 class="text-3xl font-black italic tracking-tighter uppercase">RAW//STREAMS</h1>
             
             <div class="flex gap-2 flex-wrap justify-center" id="timeFilters">
                 <button onclick="setTimeFilter('all')" class="filter-btn active bg-white px-3 py-1 text-xs font-bold" data-time="all">ALL</button>
-                <button onclick="setTimeFilter('live')" class="filter-btn bg-[#39FF14] px-3 py-1 text-xs font-bold" data-time="live">LIVE NOW</button>
+                <button onclick="setTimeFilter('live')" class="filter-btn bg-[#39FF14] px-3 py-1 text-xs font-bold" data-time="live">LIVE</button>
                 <button onclick="setTimeFilter('today')" class="filter-btn bg-[#FFFF00] px-3 py-1 text-xs font-bold" data-time="today">TODAY</button>
-                <button onclick="setTimeFilter('upcoming')" class="filter-btn bg-[#00FFFF] px-3 py-1 text-xs font-bold" data-time="upcoming">UPCOMING</button>
             </div>
         </div>
     </header>
 
     <nav class="bg-black text-white p-3 border-b-4 border-black overflow-x-auto whitespace-nowrap">
-        <div class="max-w-7xl mx-auto flex gap-6 px-4 font-mono text-xs font-bold uppercase tracking-widest" id="sportFilters">
-            <span onclick="setSportFilter('all')" class="cursor-pointer hover:text-[#FFFF00] text-[#FFFF00]" data-sport="all">[ ALL_SPORTS ]</span>
-            </div>
+        <div class="max-w-7xl mx-auto flex gap-6 px-4 font-mono text-[10px] font-bold uppercase" id="sportFilters">
+            <span onclick="setSportFilter('all')" class="cursor-pointer text-[#FFFF00]" data-sport="all">[ ALL_SPORTS ]</span>
+        </div>
     </nav>
 
     <main class="max-w-7xl mx-auto px-4 mt-8">
-        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            </div>
+        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
     </main>
 
-    <div id="video-modal" class="items-center justify-center">
-        <div class="bg-white border-8 border-black w-full max-w-5xl">
-            <div class="bg-[#FF006E] text-white border-b-4 border-black p-4 flex justify-between items-center">
-                <h2 id="modal-title" class="font-black text-xl uppercase italic">BUFFERING_SIGNAL...</h2>
-                <button onclick="closeModal()" class="bg-black text-white px-4 py-2 font-bold border-2 border-white">EXIT [X]</button>
+    <div id="video-modal">
+        <div class="modal-container">
+            <button onclick="closeModal()" class="close-modal-btn" title="Close Player">✕</button>
+            
+            <div class="bg-black p-2 text-white font-mono text-[10px] flex justify-between border-b-2 border-black">
+                <span id="modal-title">STREAMPING_ID: NULL</span>
+                <span id="playing-status" class="text-[#39FF14]">● SIGNAL_OK</span>
             </div>
-            <div class="p-4 bg-black">
-                <div class="aspect-video bg-black" data-shaka-player-container>
-                    <video data-shaka-player id="video" class="w-full h-full" autoplay></video>
-                </div>
-                <div id="source-list" class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-4"></div>
+
+            <div class="video-wrapper" data-shaka-player-container>
+                <video data-shaka-player id="video" autoplay></video>
+            </div>
+
+            <div class="p-4 bg-gray-100">
+                <p class="font-bold text-[10px] mb-3 uppercase tracking-widest text-gray-500">Available Feed Links:</p>
+                <div id="source-list" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
             </div>
         </div>
     </div>
@@ -118,6 +164,7 @@
         let player = null;
         let currentSport = 'all';
         let currentTime = 'all';
+        let activeLink = '';
 
         async function initPlayer() {
             const video = document.getElementById('video');
@@ -132,30 +179,20 @@
                 const data = await res.json();
                 
                 matchesData = data.results.map(item => {
-                    const startStr = item.eventInfo?.startTime || ""; // "YYYY/MM/DD HH:MM:SS"
+                    const startStr = item.eventInfo?.startTime || "";
                     const startTime = new Date(startStr.replace(/\//g, '-'));
-                    const endTime = item.eventInfo?.endTime ? new Date(item.eventInfo.endTime.replace(/\//g, '-')) : new Date(startTime.getTime() + 7200000);
-                    
                     return {
                         id: item.id,
                         title: item.eventInfo?.eventName || item.title,
                         category: item.cat || "Other",
                         image: item.eventInfo?.teamAFlag || item.image,
-                        teamA: item.eventInfo?.teamA,
-                        teamB: item.eventInfo?.teamB,
-                        teamAFlag: item.eventInfo?.teamAFlag,
-                        teamBFlag: item.eventInfo?.teamBFlag,
-                        startTime: startTime,
-                        endTime: endTime,
-                        isLive: new Date() >= startTime && new Date() <= endTime,
-                        isToday: new Date().toDateString() === startTime.toDateString(),
+                        isLive: new Date() >= startTime,
                         links: item.channels || []
                     };
                 });
-
                 renderSportsFilters();
                 render();
-            } catch (e) { console.error("API Error", e); }
+            } catch (e) { console.error(e); }
         }
 
         function renderSportsFilters() {
@@ -163,95 +200,84 @@
             const categories = ['all', ...new Set(matchesData.map(m => m.category))];
             container.innerHTML = categories.map(cat => `
                 <span onclick="setSportFilter('${cat}')" 
-                      class="cursor-pointer hover:text-[#FFFF00] ${currentSport === cat ? 'text-[#FFFF00]' : ''}" 
-                      data-sport="${cat}">
-                    [ ${cat.replace(/\s+/g, '_').toUpperCase()} ]
+                      class="cursor-pointer hover:text-[#FFFF00] ${currentSport === cat ? 'text-[#FFFF00]' : ''}">
+                    [ ${cat.toUpperCase()} ]
                 </span>
             `).join('');
         }
 
-        function setSportFilter(sport) {
-            currentSport = sport;
-            render();
-            renderSportsFilters();
-        }
-
-        function setTimeFilter(time) {
-            currentTime = time;
-            document.querySelectorAll('#timeFilters button').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.time === time);
-            });
-            render();
+        function setSportFilter(s) { currentSport = s; render(); renderSportsFilters(); }
+        function setTimeFilter(t) { 
+            currentTime = t; 
+            document.querySelectorAll('#timeFilters button').forEach(b => b.classList.toggle('active', b.dataset.time === t));
+            render(); 
         }
 
         function render() {
             const grid = document.getElementById('contentGrid');
-            const now = new Date();
-
-            let filtered = matchesData.filter(m => {
-                const sportMatch = currentSport === 'all' || m.category === currentSport;
-                let timeMatch = true;
-                if (currentTime === 'live') timeMatch = m.isLive;
-                if (currentTime === 'today') timeMatch = m.isToday;
-                if (currentTime === 'upcoming') timeMatch = m.startTime > now;
-                return sportMatch && timeMatch;
+            const filtered = matchesData.filter(m => {
+                const sMatch = currentSport === 'all' || m.category === currentSport;
+                const tMatch = currentTime === 'all' || (currentTime === 'live' && m.isLive);
+                return sMatch && tMatch;
             });
 
             grid.innerHTML = filtered.map(m => `
                 <div class="brutal-card flex flex-col">
-                    <div class="relative h-48 border-b-4 border-black bg-black overflow-hidden">
-                        <img src="${m.image}" class="w-full h-full object-cover opacity-80" onerror="this.src='https://placehold.co/600x400?text=SPORTS'">
-                        <div class="absolute top-2 left-2 bg-[#FFFF00] border-2 border-black px-2 py-1 text-[10px] font-black uppercase">${m.category}</div>
-                        ${m.isLive ? '<div class="absolute top-2 right-2 bg-[#FF006E] text-white border-2 border-black px-2 py-1 text-[10px] font-black animate-pulse">LIVE</div>' : ''}
+                    <div class="h-40 bg-black overflow-hidden relative border-b-4 border-black">
+                        <img src="${m.image}" class="w-full h-full object-cover opacity-70">
+                        <div class="absolute top-2 left-2 bg-[#FFFF00] border-2 border-black px-2 py-0.5 text-[10px] font-black">${m.category}</div>
                     </div>
-                    <div class="p-5 flex-1 flex flex-col">
-                        <h3 class="font-black text-xl mb-2 uppercase line-clamp-2 italic">${m.title}</h3>
-                        <div class="flex items-center justify-between mb-4 bg-gray-50 border-2 border-black p-2">
-                             <img src="${m.teamAFlag}" class="w-6 h-6 border border-black bg-white" onerror="this.style.display='none'">
-                             <span class="text-[10px] font-bold">VS</span>
-                             <img src="${m.teamBFlag}" class="w-6 h-6 border border-black bg-white" onerror="this.style.display='none'">
-                        </div>
-                        <div class="font-mono text-[10px] mb-4 bg-black text-white p-1 text-center">
-                            START: ${m.startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
-                        </div>
-                        <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#39FF14] hover:text-black transition-all border-t-2 border-black">OPEN_STREAM_PIPE_→</button>
+                    <div class="p-4 flex-1 flex flex-col">
+                        <h3 class="font-black text-lg leading-tight mb-4 uppercase italic">${m.title}</h3>
+                        <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#39FF14] hover:text-black border-2 border-black shadow-[4px_4px_0px_black]">WATCH_STREAM</button>
                     </div>
                 </div>
             `).join('');
         }
 
-        async function openStream(id) {
+        function openStream(id) {
             const match = matchesData.find(m => m.id === id);
             if (!match) return;
-            document.getElementById('modal-title').textContent = `SIGNAL: ${match.title}`;
+            
+            document.getElementById('modal-title').textContent = `LIVE_FEED // ${match.title}`;
             const sourceList = document.getElementById('source-list');
+            
             sourceList.innerHTML = match.links.map((l, i) => `
-                <button onclick="playLink('${l.link}', '${l.api || ''}')" class="bg-white border-2 border-black p-2 font-bold text-[10px] uppercase hover:bg-[#FFFF00]">
-                    FEED_${String(i+1).padStart(2, '0')} [${l.title.substring(0,6)}]
+                <button id="btn-${i}" onclick="playLink('${l.link}', '${l.api || ''}', ${i})" 
+                        class="source-btn bg-white p-2 text-[10px] uppercase hover:bg-[#FFFF00]">
+                    LINK_${String(i+1).padStart(2, '0')}
                 </button>
             `).join('');
+
             document.getElementById('video-modal').classList.add('active');
-            if (match.links.length > 0) playLink(match.links[0].link, match.links[0].api);
+            document.body.style.overflow = 'hidden';
+            if (match.links.length > 0) playLink(match.links[0].link, match.links[0].api, 0);
         }
 
-        async function playLink(url, api) {
+        async function playLink(url, api, index) {
             if (!player) return;
+            
+            // UI Update for Active Link
+            document.querySelectorAll('.source-btn').forEach(btn => btn.classList.remove('playing'));
+            const activeBtn = document.getElementById(`btn-${index}`);
+            if (activeBtn) activeBtn.classList.add('playing');
+
             try {
                 if (api && api.includes(':')) {
-                    const [keyId, key] = api.split(':');
-                    player.configure({ drm: { clearKeys: { [keyId]: key } } });
+                    const [kId, k] = api.split(':');
+                    player.configure({ drm: { clearKeys: { [kId]: k } } });
                 } else { player.configure({ drm: { clearKeys: {} } }); }
                 await player.load(url.split('|')[0]);
-            } catch (e) { console.error("Load failed", e); }
+            } catch (e) { console.error(e); }
         }
 
         function closeModal() {
             if (player) player.unload();
             document.getElementById('video-modal').classList.remove('active');
+            document.body.style.overflow = 'auto';
         }
 
         loadData();
-        setInterval(loadData, 60000); // Auto refresh every minute
     </script>
 </body>
 </html>
