@@ -227,4 +227,644 @@
             font-family: 'JetBrains Mono'; 
             font-size: 8px; 
             font-weight: 800; 
-            background
+            background: var(--harsh-black);
+            color: var(--off-white);
+            padding: 2px 6px;
+            margin-top: 6px;
+        }
+        
+        .source-btn:hover { 
+            transform: translate(2px, 2px); 
+            box-shadow: 2px 2px 0px var(--harsh-black); 
+            background: var(--neon-yellow);
+        }
+        
+        .source-btn:hover img { filter: none; }
+        .source-btn:hover span { background: var(--danger); color: white; }
+        
+        .source-btn.active { 
+            background: var(--neon-yellow); 
+            box-shadow: 0px 0px 0px var(--harsh-black);
+            transform: translate(4px, 4px);
+        }
+        
+        .source-btn.active .status-dot { background: var(--acid-green); }
+        .source-btn.active img { filter: none; }
+        
+        #videoModal {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            background: rgba(0,0,0,0.95);
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        #videoModal.active { display: flex; }
+        
+        .modal-content {
+            background: white;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            border: 4px solid var(--harsh-black);
+            box-shadow: 16px 16px 0px var(--electric-pink);
+        }
+        
+        .modal-header {
+            border-bottom: 4px solid var(--harsh-black);
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--neon-yellow);
+        }
+        
+        .modal-title {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .close-btn {
+            width: 40px;
+            height: 40px;
+            background: var(--harsh-black);
+            color: white;
+            border: none;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 4px 4px 0px var(--electric-pink);
+            transition: all 0.1s;
+        }
+        
+        .close-btn:hover {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--electric-pink);
+            background: var(--electric-pink);
+        }
+        
+        ::-webkit-scrollbar {
+            width: 12px;
+            background: var(--off-white);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--harsh-black);
+            border: 2px solid var(--off-white);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--electric-pink);
+        }
+        
+        .shaka-controls-container-hidden {
+            display: none !important;
+        }
+        
+        #youtube-player, #iframe-player {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: none;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b-4 border-black">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-black flex items-center justify-center brutal-border cursor-pointer">
+                    <span class="text-white font-mono font-bold text-2xl">▶</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-black tracking-tighter uppercase">RAW//STREAM</h1>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <span id="status" class="font-mono text-xs bg-gray-200 px-3 py-2 border-2 border-black font-bold">LOADING</span>
+                <button onclick="loadData()" class="brutal-border bg-[#FFFF00] px-4 py-2 font-mono font-bold text-sm hover:bg-[#FF006E] hover:text-white">
+                    REFRESH ↻
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="sticky top-[73px] z-40 bg-white border-b-4 border-black py-4">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap gap-3 items-center justify-between">
+            <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0" id="categoryFilters">
+                <button class="filter-btn active brutal-border bg-black text-white px-4 py-2 font-mono font-bold text-sm" data-category="all">ALL_EVENTS</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#FFFF00]" data-category="Football">FOOTBALL</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#39FF14]" data-category="Cricket">CRICKET</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#FF006E]" data-category="Boxing">BOXING/WWE</button>
+                <button class="filter-btn brutal-border bg-white px-4 py-2 font-mono font-bold text-sm hover:bg-[#00FFFF]" data-category="Motorsports">F1/MOTORS</button>
+            </div>
+            <div class="font-mono text-xs font-bold border-2 border-black px-3 py-1 bg-[#FFFF00]">
+                <span id="matchCount">00</span> ACTIVE STREAMS
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8" id="matchesGrid">
+        <div id="loadingState" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="brutal-card h-96 loading-skeleton"></div>
+            <div class="brutal-card h-96 loading-skeleton"></div>
+            <div class="brutal-card h-96 loading-skeleton"></div>
+        </div>
+        
+        <div id="errorState" class="hidden brutal-border bg-[#FF006E] p-8 text-center m-4">
+            <h3 class="font-black text-3xl mb-4 text-white">CONNECTION FAILED</h3>
+            <p class="font-mono font-bold mb-4 text-white" id="errorMessage">Unable to fetch stream data.</p>
+            <button onclick="loadData()" class="brutal-border bg-white px-6 py-3 font-mono font-bold hover:bg-[#FFFF00]">RETRY CONNECTION ↻</button>
+        </div>
+        
+        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden"></div>
+    </main>
+
+    <!-- Video Modal -->
+    <div id="videoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle" class="modal-title">STREAM TITLE</h3>
+                <button onclick="closeModal()" class="close-btn">✕</button>
+            </div>
+            
+            <div class="p-4">
+                <div class="video-card mb-4">
+                    <div id="player-wrapper" data-shaka-player-container>
+                        <video data-shaka-player id="video" autoplay playsinline style="width:100%;height:100%"></video>
+                        <iframe id="youtube-player" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        <iframe id="iframe-player" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>
+                        
+                        <div id="switch-indicator">
+                            <div class="switch-content">
+                                <div class="switch-spinner"></div>
+                                <div class="switch-text font-jetbrains">>> SWITCHING_FEED</div>
+                                <div id="switch-channel-id" class="font-archivo text-lg bg-black text-white px-3 py-1 border-2 border-[#FFFF00]">CH_01</div>
+                            </div>
+                        </div>
+                        
+                        <div id="error-overlay">
+                            <b class="font-archivo text-4xl mb-2">SIGNAL_LOST</b>
+                            <p class="font-jetbrains text-sm mb-4">RETRY_DIFFERENT_SERVER</p>
+                            <button class="retry-btn" onclick="retryCurrentStream()">>> RETRY_TOGGLE</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="streamSources" class="source-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let matchesData = [];
+        let currentCategory = 'all';
+        let currentMatch = null;
+        let currentSourceIndex = 0;
+        let player = null;
+        
+        const API_URL = 'data/matches.json';
+        
+        // Parse API key string into keyId and key
+        function parseApiKey(apiString) {
+            if (!apiString || apiString === '') return null;
+            const parts = apiString.split(':');
+            if (parts.length === 2) {
+                return { keyId: parts[0], key: parts[1] };
+            }
+            return null;
+        }
+        
+        // Parse link to extract URL and headers (referer, origin)
+        function parseLink(linkString) {
+            const parts = linkString.split('|');
+            const url = parts[0];
+            const headers = {};
+            
+            if (parts.length > 1) {
+                const headerPart = parts[1];
+                const headerPairs = headerPart.split('&');
+                headerPairs.forEach(pair => {
+                    const [key, value] = pair.split('=');
+                    if (key && value) {
+                        headers[key.toLowerCase()] = value;
+                    }
+                });
+            }
+            
+            return { url, headers };
+        }
+        
+        async function initPlayer() {
+            const container = document.getElementById('player-wrapper');
+            const ui = container['ui'];
+            if (ui) {
+                ui.configure({ 
+                    'controlPanelElements': ['play_pause', 'time_and_duration', 'spacer', 'mute', 'volume', 'fullscreen', 'overflow_menu'] 
+                });
+                player = ui.getControls().getPlayer();
+                
+                player.addEventListener('error', () => {
+                    if (currentMode === 'shaka') {
+                        document.getElementById('error-overlay').style.display = 'flex';
+                        document.getElementById('switch-indicator').style.display = 'none';
+                    }
+                });
+            }
+        }
+        
+        document.addEventListener('shaka-ui-loaded', initPlayer);
+        document.addEventListener('DOMContentLoaded', () => shaka.polyfill.installAll());
+
+        async function loadData() {
+            document.getElementById('status').textContent = 'FETCHING';
+            document.getElementById('status').className = 'font-mono text-xs bg-[#FFFF00] px-3 py-2 border-2 border-black font-bold';
+            
+            try {
+                const res = await fetch(API_URL + '?t=' + Date.now());
+                const data = await res.json();
+                
+                if (!Array.isArray(data)) throw new Error('Invalid data format');
+                
+                matchesData = data;
+                renderMatches();
+                
+                document.getElementById('status').textContent = 'LIVE';
+                document.getElementById('status').className = 'font-mono text-xs bg-[#39FF14] px-3 py-2 border-2 border-black font-bold';
+                
+                document.getElementById('loadingState').classList.add('hidden');
+                document.getElementById('errorState').classList.add('hidden');
+                document.getElementById('contentGrid').classList.remove('hidden');
+                updateMatchCount();
+                
+            } catch (e) {
+                document.getElementById('errorMessage').textContent = e.message;
+                document.getElementById('loadingState').classList.add('hidden');
+                document.getElementById('contentGrid').classList.add('hidden');
+                document.getElementById('errorState').classList.remove('hidden');
+                document.getElementById('status').textContent = 'ERROR';
+                document.getElementById('status').className = 'font-mono text-xs bg-[#FF006E] text-white px-3 py-2 border-2 border-black font-bold';
+            }
+        }
+
+        function renderMatches() {
+            const grid = document.getElementById('contentGrid');
+            grid.innerHTML = '';
+            
+            const filtered = currentCategory === 'all' 
+                ? matchesData 
+                : matchesData.filter(m => m.category === currentCategory);
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-12 font-mono font-bold text-2xl border-4 border-dashed border-black">NO EVENTS FOUND</div>`;
+                return;
+            }
+            
+            filtered.forEach((match, index) => {
+                const card = createMatchCard(match, index);
+                grid.appendChild(card);
+            });
+        }
+
+        function createMatchCard(match, index) {
+            const div = document.createElement('div');
+            div.className = 'brutal-card overflow-hidden flex flex-col';
+            
+            const isLive = checkIfLive(match);
+            const categoryColor = getCategoryColor(match.category);
+            const hasLinks = match.links && match.links.length > 0;
+            
+            div.innerHTML = `
+                <div class="relative h-48 bg-gray-200 border-b-4 border-black overflow-hidden group">
+                    ${match.eventLogo ? `
+                        <img src="${match.eventLogo}" 
+                             class="w-full h-full object-cover filter contrast-125 group-hover:scale-110 transition-transform duration-500"
+                             onerror="this.style.display='none'"
+                             alt="${match.eventName}">
+                    ` : `
+                        <div class="absolute inset-0 flex items-center justify-center bg-gray-300">
+                            <span class="font-black text-6xl text-black/20">${match.category?.[0] || 'S'}</span>
+                        </div>
+                    `}
+                    
+                    <div class="absolute top-3 left-3">
+                        <span class="category-badge px-3 py-1 text-xs" style="background-color: ${categoryColor}">
+                            ${match.category || 'SPORTS'}
+                        </span>
+                    </div>
+                    
+                    ${isLive ? `
+                        <div class="absolute top-3 right-3 bg-red-600 text-white font-mono font-bold px-3 py-1 border-2 border-black text-xs live-indicator">
+                            ● LIVE
+                        </div>
+                    ` : ''}
+                    
+                    ${!match.visible ? `
+                        <div class="absolute bottom-3 right-3 bg-gray-600 text-white font-mono text-xs px-2 py-1 border-2 border-black">
+                            HIDDEN
+                        </div>
+                    ` : ''}
+                </div>
+                
+                <div class="p-5 flex-1 flex flex-col">
+                    <h3 class="font-black text-xl md:text-2xl mb-4 leading-tight uppercase tracking-tight line-clamp-2">
+                        ${match.eventName}
+                    </h3>
+                    
+                    <div class="flex items-center justify-between mb-4 bg-gray-100 p-3 border-2 border-black">
+                        <div class="flex items-center gap-2 flex-1">
+                            ${match.teamAFlag ? `<img src="${match.teamAFlag}" class="w-8 h-8 object-cover border border-black bg-white" onerror="this.style.display='none'">` : ''}
+                            <span class="font-bold text-sm truncate">${match.teamAName}</span>
+                        </div>
+                        
+                        <span class="font-mono font-black text-[#FF006E] text-lg mx-2 italic">VS</span>
+                        
+                        <div class="flex items-center gap-2 flex-1 justify-end">
+                            <span class="font-bold text-sm truncate text-right">${match.teamBName}</span>
+                            ${match.teamBFlag ? `<img src="${match.teamBFlag}" class="w-8 h-8 object-cover border border-black bg-white" onerror="this.style.display='none'">` : ''}
+                        </div>
+                    </div>
+                    
+                    <div class="font-mono text-xs mb-4 space-y-1 border-l-2 border-black pl-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">DATE:</span>
+                            <span class="font-bold">${match.date || 'TBA'}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">TIME:</span>
+                            <span class="font-bold">${match.time ? match.time.substring(0, 5) : 'TBA'}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">STREAMS:</span>
+                            <span class="font-bold text-[#FF006E]">${match.links?.length || 0} SOURCES</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="${hasLinks ? `openStreamModal(${match.id})` : ''}" 
+                            class="mt-auto w-full brutal-border ${hasLinks ? 'bg-black text-white hover:bg-[#FF006E]' : 'bg-gray-400 text-gray-600 cursor-not-allowed'} py-3 font-mono font-bold transition-colors flex items-center justify-center gap-2 group">
+                        <span>${hasLinks ? 'ACCESS STREAM' : 'NO STREAMS'}</span>
+                        ${hasLinks ? '<span class="group-hover:translate-x-1 transition-transform">→</span>' : ''}
+                    </button>
+                </div>
+            `;
+            
+            return div;
+        }
+
+        function getCategoryColor(category) {
+            const colors = {
+                'Football': '#39FF14',
+                'Cricket': '#FF006E',
+                'Boxing': '#FFFF00',
+                'Motorsports': '#00FFFF',
+                'WWE': '#FF4500'
+            };
+            return colors[category] || '#FFFFFF';
+        }
+
+        function checkIfLive(match) {
+            if (!match.date || !match.time) return false;
+            const now = new Date();
+            try {
+                const [day, month, year] = match.date.split('/');
+                const matchDate = new Date(`${year}-${month}-${day}T${match.time}`);
+                const endTime = match.end_time ? new Date(`${year}-${month}-${day}T${match.end_time}`) : new Date(matchDate.getTime() + 3*60*60*1000);
+                return now >= matchDate && now <= endTime;
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function openStreamModal(matchId) {
+            const match = matchesData.find(m => m.id === matchId);
+            if (!match || !match.links || match.links.length === 0) return;
+            
+            currentMatch = match;
+            currentSourceIndex = 0;
+            
+            document.getElementById('modalTitle').textContent = match.eventName;
+            document.getElementById('videoModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Render source buttons
+            const sourcesContainer = document.getElementById('streamSources');
+            sourcesContainer.innerHTML = '';
+            
+            match.links.forEach((link, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'source-btn' + (idx === 0 ? ' active' : '');
+                btn.setAttribute('data-id', `SRC_${String(idx + 1).padStart(2, '0')}`);
+                btn.onclick = () => loadSource(idx);
+                
+                const parsed = parseLink(link.link);
+                let type = 'WEB';
+                if (parsed.url.includes('youtube')) type = 'YOUTUBE';
+                else if (parsed.url.includes('.m3u8')) type = 'HLS';
+                else if (parsed.url.includes('.mpd')) type = 'DASH';
+                else if (parsed.url.includes('embed') || parsed.url.includes('.php?id=')) type = 'EMBED';
+                
+                const hasDrm = link.api && link.api.includes(':');
+                
+                btn.innerHTML = `
+                    <div class="status-dot"></div>
+                    <img src="https://www.google.com/s2/favicons?domain=${new URL(parsed.url).hostname}&sz=64" 
+                         onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>'">
+                    <strong>${link.name || `Source ${idx + 1}`}</strong>
+                    <span>${type}${hasDrm ? '+DRM' : ''}</span>
+                `;
+                
+                sourcesContainer.appendChild(btn);
+            });
+            
+            loadSource(0);
+        }
+
+        let currentMode = 'shaka';
+
+        async function loadSource(index) {
+            if (!currentMatch || !currentMatch.links[index]) return;
+            
+            currentSourceIndex = index;
+            const link = currentMatch.links[index];
+            const parsed = parseLink(link.link);
+            const drmKeys = parseApiKey(link.api);
+            
+            // Update UI
+            document.querySelectorAll('.source-btn').forEach((btn, idx) => {
+                btn.classList.toggle('active', idx === index);
+            });
+            
+            // Show switching indicator
+            const switchIndicator = document.getElementById('switch-indicator');
+            const switchChannel = document.getElementById('switch-channel-id');
+            switchChannel.textContent = `SRC_${String(index + 1).padStart(2, '0')}`;
+            switchIndicator.style.display = 'flex';
+            document.getElementById('error-overlay').style.display = 'none';
+            
+            const videoEl = document.getElementById('video');
+            const youtubeEl = document.getElementById('youtube-player');
+            const iframeEl = document.getElementById('iframe-player');
+            const container = document.getElementById('player-wrapper');
+            
+            // Reset all players
+            videoEl.style.display = 'none';
+            youtubeEl.style.display = 'none';
+            iframeEl.style.display = 'none';
+            youtubeEl.src = '';
+            iframeEl.src = '';
+            
+            try {
+                // YouTube handling
+                if (parsed.url.includes('youtube.com') || parsed.url.includes('youtu.be')) {
+                    currentMode = 'youtube';
+                    youtubeEl.style.display = 'block';
+                    
+                    const shakaControls = container.querySelector('.shaka-controls-container');
+                    if (shakaControls) shakaControls.classList.add('shaka-controls-container-hidden');
+                    
+                    let embedUrl = parsed.url;
+                    if (parsed.url.includes('watch?v=')) {
+                        const videoId = parsed.url.split('watch?v=')[1].split('&')[0];
+                        embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1`;
+                    }
+                    
+                    youtubeEl.src = embedUrl;
+                    
+                    setTimeout(() => {
+                        switchIndicator.style.display = 'none';
+                    }, 1000);
+                    return;
+                }
+                
+                // Embed iframe handling (huraweb, etc.)
+                if (parsed.url.includes('embed') || parsed.url.includes('.php?id=')) {
+                    currentMode = 'iframe';
+                    iframeEl.style.display = 'block';
+                    
+                    const shakaControls = container.querySelector('.shaka-controls-container');
+                    if (shakaControls) shakaControls.classList.add('shaka-controls-container-hidden');
+                    
+                    iframeEl.src = parsed.url;
+                    
+                    setTimeout(() => {
+                        switchIndicator.style.display = 'none';
+                    }, 1500);
+                    return;
+                }
+                
+                // Shaka Player for HLS/MPD
+                currentMode = 'shaka';
+                videoEl.style.display = 'block';
+                
+                const shakaControls = container.querySelector('.shaka-controls-container');
+                if (shakaControls) shakaControls.classList.remove('shaka-controls-container-hidden');
+                
+                if (!player) await initPlayer();
+                
+                await player.unload();
+                
+                // Configure DRM if keys provided
+                if (drmKeys) {
+                    player.configure({ 
+                        drm: { 
+                            clearKeys: { [drmKeys.keyId]: drmKeys.key } 
+                        } 
+                    });
+                } else {
+                    player.configure({ drm: { clearKeys: {} } });
+                }
+                
+                // Configure request headers (referer, origin) if present
+                if (parsed.headers.referer || parsed.headers.origin) {
+                    player.getNetworkingEngine().registerRequestFilter((type, request) => {
+                        if (parsed.headers.referer) {
+                            request.headers['Referer'] = parsed.headers.referer;
+                        }
+                        if (parsed.headers.origin) {
+                            request.headers['Origin'] = parsed.headers.origin;
+                        }
+                    });
+                }
+                
+                await player.load(parsed.url);
+                
+                switchIndicator.style.display = 'none';
+                
+            } catch (e) {
+                console.error('Player error:', e);
+                document.getElementById('error-overlay').style.display = 'flex';
+                switchIndicator.style.display = 'none';
+            }
+        }
+
+        function retryCurrentStream() {
+            document.getElementById('error-overlay').style.display = 'none';
+            loadSource(currentSourceIndex);
+        }
+
+        function closeModal() {
+            document.getElementById('videoModal').classList.remove('active');
+            document.body.style.overflow = '';
+            
+            const videoEl = document.getElementById('video');
+            const youtubeEl = document.getElementById('youtube-player');
+            const iframeEl = document.getElementById('iframe-player');
+            
+            if (player) player.unload();
+            youtubeEl.src = '';
+            iframeEl.src = '';
+            
+            videoEl.style.display = 'block';
+            youtubeEl.style.display = 'none';
+            iframeEl.style.display = 'none';
+            
+            document.getElementById('error-overlay').style.display = 'none';
+        }
+
+        function updateMatchCount() {
+            const count = currentCategory === 'all' 
+                ? matchesData.length 
+                : matchesData.filter(m => m.category === currentCategory).length;
+            document.getElementById('matchCount').textContent = count.toString().padStart(2, '0');
+        }
+
+        // Filter setup
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.classList.remove('bg-black', 'text-white', 'active');
+                    b.classList.add('bg-white');
+                });
+                e.target.classList.remove('bg-white');
+                e.target.classList.add('bg-black', 'text-white', 'active');
+                
+                currentCategory = e.target.dataset.category;
+                renderMatches();
+                updateMatchCount();
+            });
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+            
+            if (document.getElementById('videoModal').classList.contains('active')) {
+                const num = parseInt(e.key);
+                if (num >= 1 && num <= 9 && currentMatch && currentMatch.links[num - 1]) {
+                    loadSource(num - 1);
+                }
+            }
+        });
+
+        // Initialize
+        loadData();
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>
