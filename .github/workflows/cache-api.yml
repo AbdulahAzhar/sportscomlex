@@ -2,11 +2,13 @@ name: Cache Sports API
 
 on:
   schedule:
-    # Run every 5 minutes
     - cron: '*/5 * * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
   push:
-    branches: [main]  # Run on push to main
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   fetch-and-save:
@@ -15,23 +17,36 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Create data directory
+        run: mkdir -p data
       
       - name: Fetch API data
         run: |
           curl -s "https://sportzx.cc/wp-admin/admin-ajax.php?action=vsc_matches" -o data/matches.json
+          cat data/matches.json | head -c 500
+          echo ""
           echo "Fetched at $(date)"
       
-      - name: Validate JSON
+      - name: Check if valid
         run: |
-          if ! jq empty data/matches.json 2>/dev/null; then
-            echo "Invalid JSON response"
+          if [ ! -s data/matches.json ]; then
+            echo "File is empty"
             exit 1
           fi
+          if ! jq empty data/matches.json 2>/dev/null; then
+            echo "Invalid JSON"
+            cat data/matches.json
+            exit 1
+          fi
+          echo "JSON is valid, matches count: $(jq length data/matches.json)"
       
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/matches.json
-          git diff --staged --quiet || git commit -m "Update matches.json - $(date +'%Y-%m-%d %H:%M:%S')"
+          git diff --staged --quiet || git commit -m "Update matches $(date +'%Y-%m-%d %H:%M:%S')"
           git push
