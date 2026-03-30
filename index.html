@@ -11,8 +11,6 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;700;900&family=Archivo+Black&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <style>
         :root {
             --neon-yellow: #FFFF00;
@@ -571,11 +569,42 @@
             
             try {
                 const res = await fetch(API_URL + '?t=' + Date.now());
-                const data = await res.json();
+                const rawData = await res.json();
                 
-                if (!Array.isArray(data)) throw new Error('Invalid data format');
+                // DATA TRANSLATION: Map new API results to existing UI structure
+                if (rawData && rawData.results && Array.isArray(rawData.results)) {
+                    matchesData = rawData.results.map(item => {
+                        // Extract date/time from "YYYY/MM/DD HH:MM:SS +0000"
+                        const startParts = (item.eventInfo?.startTime || "").split(' ');
+                        const dateParts = startParts[0] ? startParts[0].split('/') : [];
+                        // Convert to DD/MM/YYYY for existing live logic
+                        const formattedDate = dateParts.length === 3 ? `${dateParts[2]}/${dateParts[1]}/${dateParts[0]}` : 'TBA';
+                        const formattedTime = startParts[1] ? startParts[1].substring(0, 5) : 'TBA';
+
+                        return {
+                            id: item.id,
+                            category: item.cat || 'SPORTS',
+                            eventName: item.eventInfo?.eventName || item.title,
+                            eventLogo: item.eventInfo?.teamAFlag || item.image,
+                            teamAName: item.eventInfo?.teamA || 'Team A',
+                            teamBName: item.eventInfo?.teamB || 'Team B',
+                            teamAFlag: item.eventInfo?.teamAFlag,
+                            teamBFlag: item.eventInfo?.teamBFlag,
+                            date: formattedDate,
+                            time: formattedTime,
+                            end_time: (item.eventInfo?.endTime || "").split(' ')[1] || null,
+                            visible: item.publish === "1",
+                            links: (item.channels || []).map(ch => ({
+                                name: ch.title,
+                                link: ch.link,
+                                api: ch.api
+                            }))
+                        };
+                    });
+                } else {
+                    throw new Error('Invalid data format: missing results array');
+                }
                 
-                matchesData = data;
                 renderMatches();
                 
                 document.getElementById('status').textContent = 'LIVE';
@@ -623,7 +652,6 @@
             const categoryColor = getCategoryColor(match.category);
             const hasLinks = match.links && match.links.length > 0;
             
-            // Build card HTML
             let html = '<div class="relative h-48 bg-gray-200 border-b-4 border-black overflow-hidden group">';
             
             if (match.eventLogo) {
@@ -795,72 +823,50 @@
                 if (parsed.url.indexOf('youtube.com') !== -1 || parsed.url.indexOf('youtu.be') !== -1) {
                     currentMode = 'youtube';
                     youtubeEl.style.display = 'block';
-                    
                     const shakaControls = container.querySelector('.shaka-controls-container');
                     if (shakaControls) shakaControls.classList.add('shaka-controls-container-hidden');
-                    
                     let embedUrl = parsed.url;
                     if (parsed.url.indexOf('watch?v=') !== -1) {
                         const videoId = parsed.url.split('watch?v=')[1].split('&')[0];
                         embedUrl = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1';
                     }
-                    
                     youtubeEl.src = embedUrl;
-                    
-                    setTimeout(function() {
-                        switchIndicator.style.display = 'none';
-                    }, 1000);
+                    setTimeout(() => { switchIndicator.style.display = 'none'; }, 1000);
                     return;
                 }
                 
                 if (parsed.url.indexOf('embed') !== -1 || parsed.url.indexOf('.php?id=') !== -1) {
                     currentMode = 'iframe';
                     iframeEl.style.display = 'block';
-                    
                     const shakaControls = container.querySelector('.shaka-controls-container');
                     if (shakaControls) shakaControls.classList.add('shaka-controls-container-hidden');
-                    
                     iframeEl.src = parsed.url;
-                    
-                    setTimeout(function() {
-                        switchIndicator.style.display = 'none';
-                    }, 1500);
+                    setTimeout(() => { switchIndicator.style.display = 'none'; }, 1500);
                     return;
                 }
                 
                 currentMode = 'shaka';
                 videoEl.style.display = 'block';
-                
                 const shakaControls = container.querySelector('.shaka-controls-container');
                 if (shakaControls) shakaControls.classList.remove('shaka-controls-container-hidden');
                 
                 if (!player) await initPlayer();
-                
                 await player.unload();
                 
                 if (drmKeys) {
-                    player.configure({ 
-                        drm: { 
-                            clearKeys: { [drmKeys.keyId]: drmKeys.key } 
-                        } 
-                    });
+                    player.configure({ drm: { clearKeys: { [drmKeys.keyId]: drmKeys.key } } });
                 } else {
                     player.configure({ drm: { clearKeys: {} } });
                 }
                 
                 if (parsed.headers.referer || parsed.headers.origin) {
                     player.getNetworkingEngine().registerRequestFilter(function(type, request) {
-                        if (parsed.headers.referer) {
-                            request.headers['Referer'] = parsed.headers.referer;
-                        }
-                        if (parsed.headers.origin) {
-                            request.headers['Origin'] = parsed.headers.origin;
-                        }
+                        if (parsed.headers.referer) request.headers['Referer'] = parsed.headers.referer;
+                        if (parsed.headers.origin) request.headers['Origin'] = parsed.headers.origin;
                     });
                 }
                 
                 await player.load(parsed.url);
-                
                 switchIndicator.style.display = 'none';
                 
             } catch (e) {
@@ -878,19 +884,11 @@
         function closeModal() {
             document.getElementById('videoModal').classList.remove('active');
             document.body.style.overflow = '';
-            
-            const videoEl = document.getElementById('video');
             const youtubeEl = document.getElementById('youtube-player');
             const iframeEl = document.getElementById('iframe-player');
-            
             if (player) player.unload();
             youtubeEl.src = '';
             iframeEl.src = '';
-            
-            videoEl.style.display = 'block';
-            youtubeEl.style.display = 'none';
-            iframeEl.style.display = 'none';
-            
             document.getElementById('error-overlay').style.display = 'none';
         }
 
@@ -909,7 +907,6 @@
                 });
                 e.target.classList.remove('bg-white');
                 e.target.classList.add('bg-black', 'text-white', 'active');
-                
                 currentCategory = e.target.dataset.category;
                 renderMatches();
                 updateMatchCount();
@@ -918,7 +915,6 @@
 
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeModal();
-            
             if (document.getElementById('videoModal').classList.contains('active')) {
                 const num = parseInt(e.key);
                 if (num >= 1 && num <= 9 && currentMatch && currentMatch.links[num - 1]) {
