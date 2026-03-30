@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Create data directory
         run: mkdir -p data
@@ -26,11 +24,11 @@ jobs:
       - name: Fetch API data
         run: |
           curl -s "https://sportzx.cc/wp-admin/admin-ajax.php?action=vsc_matches" -o data/matches.json
-          cat data/matches.json | head -c 500
+          cat data/matches.json | head -c 1000
           echo ""
           echo "Fetched at $(date)"
       
-      - name: Check if valid
+      - name: Validate JSON
         run: |
           if [ ! -s data/matches.json ]; then
             echo "File is empty"
@@ -41,7 +39,7 @@ jobs:
             cat data/matches.json
             exit 1
           fi
-          echo "JSON is valid, matches count: $(jq length data/matches.json)"
+          echo "Valid JSON with $(jq length data/matches.json) matches"
       
       - name: Commit and push
         run: |
