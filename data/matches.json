@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 14,
+  "total_events": 13,
   "results": [
     {
       "id": "312",
@@ -742,64 +742,6 @@
       ]
     },
     {
-      "id": "381",
-      "title": "Denver Nuggets vs Warriors",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Nuggets",
-        "teamB": "Warriors",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3417/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3428/image",
-        "eventName": "Denver Nuggets vs Golden State Warriors",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/03/30 02:00:00 +0000",
-        "endTime": "2026/03/30 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NBA",
-        "SportzX Live",
-        "HD SERVER",
-        "SD SERVER",
-        "SPX CAM."
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48070/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NBA9/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/cbf3PwTr7B1A/index.m3u8",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SPX CAM.",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "397",
       "title": "Cyprus vs Moldova",
       "image": "o",
@@ -852,10 +794,10 @@
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4517781.m3u8?txSecret=8fea94815d4255f9255186abafc0d666&txTime=69C9759E|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
         }
       ]
     }
