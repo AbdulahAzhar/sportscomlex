@@ -54,7 +54,7 @@
             inset: 0;
             background: rgba(0,0,0,0.95);
             z-index: 9999;
-            padding: 10px;
+            padding: 15px;
             overflow-y: auto;
             align-items: center;
             justify-content: center;
@@ -66,22 +66,22 @@
             background: white;
             border: 6px solid black;
             width: 100%;
-            max-width: 1100px;
+            max-width: 850px; /* Reduced width to make player smaller */
             position: relative;
-            box-shadow: 20px 20px 0px var(--electric-pink);
+            box-shadow: 15px 15px 0px var(--electric-pink);
         }
 
         .close-btn {
             position: absolute;
-            top: -25px;
-            right: -25px;
+            top: -20px;
+            right: -20px;
             background: var(--harsh-black);
             color: white;
             border: 4px solid var(--electric-pink);
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             font-weight: 900;
-            font-size: 24px;
+            font-size: 22px;
             cursor: pointer;
             z-index: 10001;
             display: flex;
@@ -108,14 +108,6 @@
         .feed-btn.active-link {
             background: var(--acid-green) !important;
             box-shadow: inset 4px 4px 0px rgba(0,0,0,0.1);
-        }
-
-        .tech-tag {
-            font-family: 'Space Mono', monospace;
-            font-size: 9px;
-            padding: 2px 6px;
-            border: 1px solid black;
-            background: #eee;
         }
     </style>
 </head>
@@ -147,10 +139,10 @@
             
             <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black">
                 <div class="flex items-center gap-4">
-                    <span id="modal-title" class="font-bold text-sm italic">LOADING_SIGNAL...</span>
-                    <span id="modal-cat" class="bg-[#FFFF00] text-black px-2 py-0.5 font-black">CATEGORY</span>
+                    <span id="modal-title" class="font-bold text-sm italic uppercase tracking-tighter">SIGNAL_LOAD</span>
+                    <span id="modal-cat" class="bg-[#FFFF00] text-black px-2 py-0.5 font-black">CAT</span>
                 </div>
-                <span class="text-[#39FF14] hidden md:block">● ENCRYPTED_CONNECTION_STABLE</span>
+                <span class="text-[#39FF14] hidden md:block">● STABLE_FEED</span>
             </div>
 
             <div class="video-viewport" data-shaka-player-container>
@@ -158,25 +150,9 @@
             </div>
 
             <div class="p-6 bg-white">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="md:col-span-2">
-                        <p class="font-black text-xs uppercase mb-4 border-l-4 border-[#FF006E] pl-2">Available Signal Feeds (From Data):</p>
-                        <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            </div>
+                <p class="font-black text-xs uppercase mb-4 border-l-4 border-[#FF006E] pl-2">Available Signal Feeds:</p>
+                <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     </div>
-
-                    <div class="bg-gray-100 border-4 border-black p-4">
-                        <p class="font-black text-[11px] uppercase mb-3 text-center bg-black text-white p-1">Event_Metadata</p>
-                        <div class="space-y-3 font-mono text-[10px]">
-                            <div class="flex justify-between"><span>ADS_LIMIT:</span><span id="meta-ads" class="font-bold underline">0</span></div>
-                            <div class="flex justify-between"><span>PUBLISH:</span><span id="meta-pub" class="text-green-600 font-bold">YES</span></div>
-                            <div>
-                                <p class="mb-1">AVAILABLE_FORMATS:</p>
-                                <div id="meta-formats" class="flex flex-wrap gap-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -199,9 +175,8 @@
                 const res = await fetch('data/matches.json?t=' + Date.now());
                 const data = await res.json();
                 
-                // DATA EXTRACTION (Preserving raw fields)
                 matchesData = data.results.map(item => ({
-                    ...item, // Keep raw object
+                    ...item,
                     id: item.id,
                     displayTitle: item.eventInfo?.eventName || item.title,
                     isLive: new Date() >= new Date(item.eventInfo?.startTime.replace(/\//g, '-')) && 
@@ -248,9 +223,6 @@
                     </div>
                     <div class="p-5 flex-1 flex flex-col">
                         <h3 class="font-black text-xl mb-4 leading-tight uppercase italic line-clamp-2">${m.displayTitle}</h3>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            ${(m.formats || []).slice(0,3).map(f => `<span class="tech-tag">${f}</span>`).join('')}
-                        </div>
                         <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#39FF14] hover:text-black border-2 border-black shadow-[6px_6px_0px_black] active:shadow-none transition-all">ACCESS_SYSTEM →</button>
                     </div>
                 </div>
@@ -261,21 +233,15 @@
             const match = matchesData.find(m => m.id === id);
             if (!match) return;
             
-            // Sync Player UI with raw data
             document.getElementById('modal-title').textContent = match.displayTitle.toUpperCase();
             document.getElementById('modal-cat').textContent = match.cat.toUpperCase();
-            document.getElementById('meta-ads').textContent = match.adsLimit;
-            document.getElementById('meta-pub').textContent = match.publish === "1" ? "YES" : "NO";
             
-            const formatList = document.getElementById('meta-formats');
-            formatList.innerHTML = (match.formats || []).map(f => `<span class="tech-tag">${f}</span>`).join('');
-
             const sourceList = document.getElementById('source-list');
             sourceList.innerHTML = match.channels.map((ch, i) => `
                 <button id="feed-${i}" onclick="playLink('${ch.link}', '${ch.api || ''}', ${i})" 
                         class="feed-btn p-3 flex flex-col gap-1 border-2 border-black hover:border-[#FF006E]">
-                    <span class="font-black text-xs">${ch.title}</span>
-                    <span class="text-[8px] opacity-60">TYPE: ${ch.type === "1" ? 'ENCRYPTED_DASH' : 'HLS_STREAM'}</span>
+                    <span class="font-black text-xs uppercase">${ch.title}</span>
+                    <span class="text-[8px] opacity-60">ENCRYPTED_SIGNAL_0${i+1}</span>
                 </button>
             `).join('');
 
@@ -295,7 +261,7 @@
                     player.configure({ drm: { clearKeys: { [kId]: k } } });
                 } else { player.configure({ drm: { clearKeys: {} } }); }
                 await player.load(url.split('|')[0]);
-            } catch (e) { console.error("Signal Lost", e); }
+            } catch (e) { console.error(e); }
         }
 
         function closeModal() {
