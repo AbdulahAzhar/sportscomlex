@@ -6,12 +6,12 @@
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>RAW STREAMS // NEO-BRUTALIST SPORTS</title>
     
-    <!-- Shaka Player -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/shaka-player.ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/controls.css">
     
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;700;900&family=Archivo+Black&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         :root {
@@ -421,7 +421,6 @@
 </head>
 <body class="min-h-screen">
 
-    <!-- Header -->
     <header class="sticky top-0 z-50 bg-white border-b-4 border-black">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center gap-4">
@@ -440,7 +439,6 @@
         </div>
     </header>
 
-    <!-- Filter Bar -->
     <div class="sticky top-[73px] z-40 bg-white border-b-4 border-black py-4">
         <div class="max-w-7xl mx-auto px-4 flex flex-wrap gap-3 items-center justify-between">
             <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0" id="categoryFilters">
@@ -456,7 +454,6 @@
         </div>
     </div>
 
-    <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 py-8" id="matchesGrid">
         <div id="loadingState" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="brutal-card h-96 loading-skeleton"></div>
@@ -473,7 +470,6 @@
         <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden"></div>
     </main>
 
-    <!-- Video Modal -->
     <div id="videoModal">
         <div class="modal-content">
             <div class="modal-header">
@@ -627,7 +623,7 @@
             const categoryColor = getCategoryColor(match.category);
             const hasLinks = match.links && match.links.length > 0;
             
-            // Build card HTML - NOTE: No inline JS in onclick, using data attributes
+            // Build card HTML
             let html = '<div class="relative h-48 bg-gray-200 border-b-4 border-black overflow-hidden group">';
             
             if (match.eventLogo) {
@@ -672,7 +668,6 @@
             html += '<div class="flex justify-between"><span class="text-gray-600">STREAMS:</span><span class="font-bold text-[#FF006E]">' + (match.links ? match.links.length : 0) + ' SOURCES</span></div>';
             html += '</div>';
             
-            // Button with data attribute instead of inline onclick
             if (hasLinks) {
                 html += '<button data-match-id="' + match.id + '" class="stream-access-btn mt-auto w-full brutal-border bg-black text-white py-3 font-mono font-bold hover:bg-[#FF006E] transition-colors flex items-center justify-center gap-2 group">';
                 html += '<span>ACCESS STREAM</span><span class="group-hover:translate-x-1 transition-transform">→</span>';
@@ -685,7 +680,6 @@
             
             div.innerHTML = html;
             
-            // Add event listener properly
             if (hasLinks) {
                 const btn = div.querySelector('.stream-access-btn');
                 btn.addEventListener('click', function() {
@@ -731,7 +725,6 @@
             document.getElementById('videoModal').classList.add('active');
             document.body.style.overflow = 'hidden';
             
-            // Render source buttons
             const sourcesContainer = document.getElementById('streamSources');
             sourcesContainer.innerHTML = '';
             
@@ -752,7 +745,6 @@
                 
                 const hasDrm = link.api && link.api.indexOf(':') !== -1;
                 
-                // Get favicon URL safely
                 let faviconUrl = '';
                 try {
                     faviconUrl = 'https://www.google.com/s2/favicons?domain=' + new URL(parsed.url).hostname + '&sz=64';
@@ -778,12 +770,10 @@
             const parsed = parseLink(link.link);
             const drmKeys = parseApiKey(link.api);
             
-            // Update UI
             document.querySelectorAll('.source-btn').forEach((btn, idx) => {
                 btn.classList.toggle('active', idx === index);
             });
             
-            // Show switching indicator
             const switchIndicator = document.getElementById('switch-indicator');
             const switchChannel = document.getElementById('switch-channel-id');
             switchChannel.textContent = 'SRC_' + String(index + 1).padStart(2, '0');
@@ -795,7 +785,6 @@
             const iframeEl = document.getElementById('iframe-player');
             const container = document.getElementById('player-wrapper');
             
-            // Reset all players
             videoEl.style.display = 'none';
             youtubeEl.style.display = 'none';
             iframeEl.style.display = 'none';
@@ -803,7 +792,6 @@
             iframeEl.src = '';
             
             try {
-                // YouTube handling
                 if (parsed.url.indexOf('youtube.com') !== -1 || parsed.url.indexOf('youtu.be') !== -1) {
                     currentMode = 'youtube';
                     youtubeEl.style.display = 'block';
@@ -825,7 +813,6 @@
                     return;
                 }
                 
-                // Embed iframe handling (huraweb, etc.)
                 if (parsed.url.indexOf('embed') !== -1 || parsed.url.indexOf('.php?id=') !== -1) {
                     currentMode = 'iframe';
                     iframeEl.style.display = 'block';
@@ -841,7 +828,6 @@
                     return;
                 }
                 
-                // Shaka Player for HLS/MPD
                 currentMode = 'shaka';
                 videoEl.style.display = 'block';
                 
@@ -852,7 +838,6 @@
                 
                 await player.unload();
                 
-                // Configure DRM if keys provided
                 if (drmKeys) {
                     player.configure({ 
                         drm: { 
@@ -863,7 +848,6 @@
                     player.configure({ drm: { clearKeys: {} } });
                 }
                 
-                // Configure request headers (referer, origin) if present
                 if (parsed.headers.referer || parsed.headers.origin) {
                     player.getNetworkingEngine().registerRequestFilter(function(type, request) {
                         if (parsed.headers.referer) {
@@ -917,7 +901,6 @@
             document.getElementById('matchCount').textContent = count.toString().padStart(2, '0');
         }
 
-        // Filter setup
         document.querySelectorAll('.filter-btn').forEach(function(btn) {
             btn.addEventListener('click', function(e) {
                 document.querySelectorAll('.filter-btn').forEach(function(b) {
@@ -933,7 +916,6 @@
             });
         });
 
-        // Keyboard shortcuts
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeModal();
             
@@ -945,7 +927,6 @@
             }
         });
 
-        // Initialize
         loadData();
         setInterval(loadData, 30000);
     </script>
