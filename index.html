@@ -8,7 +8,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/shaka-player.ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.16.3/controls.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700;900&family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700;900&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -23,7 +23,7 @@
         body {
             font-family: 'Work Sans', sans-serif;
             background-color: var(--off-white);
-            background-image: linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
+            background-image: linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px), linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
             background-size: 20px 20px;
         }
         
@@ -31,12 +31,6 @@
             background: white;
             border: 4px solid var(--harsh-black);
             box-shadow: 10px 10px 0px 0px var(--harsh-black);
-            transition: all 0.15s ease;
-        }
-
-        .brutal-card:hover {
-            transform: translate(-5px, -5px);
-            box-shadow: 15px 15px 0px 0px var(--electric-pink);
         }
 
         .filter-btn {
@@ -53,14 +47,14 @@
             transform: translate(4px, 4px);
         }
 
-        /* MODAL & PLAYER FIXES */
+        /* MODAL LAYER */
         #video-modal {
             display: none;
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.9);
+            background: rgba(0,0,0,0.95);
             z-index: 9999;
-            padding: 15px;
+            padding: 10px;
             overflow-y: auto;
             align-items: center;
             justify-content: center;
@@ -72,18 +66,18 @@
             background: white;
             border: 6px solid black;
             width: 100%;
-            max-width: 1000px;
+            max-width: 1100px;
             position: relative;
-            box-shadow: 20px 20px 0px var(--harsh-black);
+            box-shadow: 20px 20px 0px var(--electric-pink);
         }
 
-        .close-x {
+        .close-btn {
             position: absolute;
             top: -25px;
             right: -25px;
-            background: var(--electric-pink);
+            background: var(--harsh-black);
             color: white;
-            border: 4px solid black;
+            border: 4px solid var(--electric-pink);
             width: 50px;
             height: 50px;
             font-weight: 900;
@@ -102,18 +96,26 @@
             border-bottom: 4px solid black;
         }
 
-        .source-pill {
+        .feed-btn {
             border: 3px solid black;
-            font-family: 'Space Mono', monospace;
-            font-weight: bold;
+            font-family: 'JetBrains Mono', monospace;
             font-size: 11px;
+            text-align: left;
             transition: 0.2s;
+            background: white;
         }
 
-        .source-pill.active-link {
+        .feed-btn.active-link {
             background: var(--acid-green) !important;
-            box-shadow: inset 4px 4px 0px rgba(0,0,0,0.2);
-            transform: scale(0.98);
+            box-shadow: inset 4px 4px 0px rgba(0,0,0,0.1);
+        }
+
+        .tech-tag {
+            font-family: 'Space Mono', monospace;
+            font-size: 9px;
+            padding: 2px 6px;
+            border: 1px solid black;
+            background: #eee;
         }
     </style>
 </head>
@@ -121,47 +123,60 @@
 
     <header class="sticky top-0 z-50 bg-white border-b-4 border-black p-4">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <h1 class="text-4xl font-black italic tracking-tighter uppercase">RAW//STREAMS</h1>
-            
-            <div class="flex gap-2 flex-wrap justify-center" id="timeFilters">
-                <button onclick="setTimeFilter('all')" class="filter-btn active bg-white px-4 py-1 text-xs font-bold" data-time="all">ALL_EVENTS</button>
-                <button onclick="setTimeFilter('live')" class="filter-btn bg-[#39FF14] px-4 py-1 text-xs font-bold" data-time="live">LIVE_NOW</button>
-                <button onclick="setTimeFilter('today')" class="filter-btn bg-[#FFFF00] px-4 py-1 text-xs font-bold" data-time="today">TODAY</button>
-                <button onclick="setTimeFilter('upcoming')" class="filter-btn bg-[#00FFFF] px-4 py-1 text-xs font-bold" data-time="upcoming">UPCOMING</button>
+            <h1 class="text-4xl font-black tracking-tighter uppercase italic">RAW//STREAMS</h1>
+            <div class="flex gap-2" id="timeFilters">
+                <button onclick="setTimeFilter('all')" class="filter-btn active bg-white px-4 py-1 text-xs font-bold" data-time="all">ALL</button>
+                <button onclick="setTimeFilter('live')" class="filter-btn bg-[#39FF14] px-4 py-1 text-xs font-bold" data-time="live">LIVE</button>
             </div>
         </div>
     </header>
 
     <nav class="bg-black text-white p-3 border-b-4 border-black overflow-x-auto">
         <div class="max-w-7xl mx-auto flex gap-6 px-4 font-mono text-[10px] font-bold uppercase tracking-widest" id="sportFilters">
-            <span onclick="setSportFilter('all')" class="cursor-pointer text-[#FFFF00]" data-sport="all">[ ALL_SPORTS ]</span>
+            <span onclick="setSportFilter('all')" class="cursor-pointer text-[#FFFF00]">[ ALL_SPORTS ]</span>
         </div>
     </nav>
 
     <main class="max-w-7xl mx-auto px-4 mt-8">
-        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            </div>
+        <div id="contentGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
     </main>
 
     <div id="video-modal">
         <div class="modal-container">
-            <button onclick="closeModal()" class="close-x">✕</button>
+            <button onclick="closeModal()" class="close-btn">✕</button>
             
-            <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between border-b-4 border-black">
-                <span id="modal-title">STREAMING_ID: NULL</span>
-                <span class="text-[#39FF14] animate-pulse">● SIGNAL_CONNECTED</span>
+            <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black">
+                <div class="flex items-center gap-4">
+                    <span id="modal-title" class="font-bold text-sm italic">LOADING_SIGNAL...</span>
+                    <span id="modal-cat" class="bg-[#FFFF00] text-black px-2 py-0.5 font-black">CATEGORY</span>
+                </div>
+                <span class="text-[#39FF14] hidden md:block">● ENCRYPTED_CONNECTION_STABLE</span>
             </div>
 
             <div class="video-viewport" data-shaka-player-container>
-                <video data-shaka-player id="video" class="w-full h-full" autoplay></video>
+                <video data-shaka-player id="video" autoplay></video>
             </div>
 
-            <div class="p-5 bg-gray-50">
-                <div class="flex justify-between items-center mb-4">
-                    <span class="font-black text-xs uppercase italic">Select Signal Feed:</span>
-                    <span id="current-feed-name" class="font-mono text-[10px] bg-black text-white px-2 py-0.5">FEED_01</span>
+            <div class="p-6 bg-white">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="md:col-span-2">
+                        <p class="font-black text-xs uppercase mb-4 border-l-4 border-[#FF006E] pl-2">Available Signal Feeds (From Data):</p>
+                        <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            </div>
+                    </div>
+
+                    <div class="bg-gray-100 border-4 border-black p-4">
+                        <p class="font-black text-[11px] uppercase mb-3 text-center bg-black text-white p-1">Event_Metadata</p>
+                        <div class="space-y-3 font-mono text-[10px]">
+                            <div class="flex justify-between"><span>ADS_LIMIT:</span><span id="meta-ads" class="font-bold underline">0</span></div>
+                            <div class="flex justify-between"><span>PUBLISH:</span><span id="meta-pub" class="text-green-600 font-bold">YES</span></div>
+                            <div>
+                                <p class="mb-1">AVAILABLE_FORMATS:</p>
+                                <div id="meta-formats" class="flex flex-wrap gap-1"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="source-list" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
             </div>
         </div>
     </div>
@@ -184,34 +199,18 @@
                 const res = await fetch('data/matches.json?t=' + Date.now());
                 const data = await res.json();
                 
-                // EXTRACT DATA AS IS: Mapping from your specific JSON structure
-                matchesData = data.results.map(item => {
-                    const startStr = item.eventInfo?.startTime || "";
-                    const startTime = new Date(startStr.replace(/\//g, '-'));
-                    const endTimeStr = item.eventInfo?.endTime || "";
-                    const endTime = endTimeStr ? new Date(endTimeStr.replace(/\//g, '-')) : new Date(startTime.getTime() + 7200000);
-                    
-                    const now = new Date();
-                    return {
-                        id: item.id,
-                        title: item.eventInfo?.eventName || item.title,
-                        cat: item.cat || "Other",
-                        image: item.eventInfo?.teamAFlag || item.image,
-                        teamA: item.eventInfo?.teamA,
-                        teamB: item.eventInfo?.teamB,
-                        teamAFlag: item.eventInfo?.teamAFlag,
-                        teamBFlag: item.eventInfo?.teamBFlag,
-                        startTime: startTime,
-                        isLive: now >= startTime && now <= endTime,
-                        isToday: now.toDateString() === startTime.toDateString(),
-                        isUpcoming: startTime > now,
-                        links: item.channels || []
-                    };
-                });
+                // DATA EXTRACTION (Preserving raw fields)
+                matchesData = data.results.map(item => ({
+                    ...item, // Keep raw object
+                    id: item.id,
+                    displayTitle: item.eventInfo?.eventName || item.title,
+                    isLive: new Date() >= new Date(item.eventInfo?.startTime.replace(/\//g, '-')) && 
+                            new Date() <= (item.eventInfo?.endTime ? new Date(item.eventInfo.endTime.replace(/\//g, '-')) : new Date())
+                }));
 
                 renderSportsFilters();
                 render();
-            } catch (e) { console.error("Data Load Error", e); }
+            } catch (e) { console.error(e); }
         }
 
         function renderSportsFilters() {
@@ -220,7 +219,7 @@
             container.innerHTML = categories.map(cat => `
                 <span onclick="setSportFilter('${cat}')" 
                       class="cursor-pointer hover:text-[#FFFF00] ${currentSport === cat ? 'text-[#FFFF00]' : ''}">
-                    [ ${cat.toUpperCase().replace(/\s+/g, '_')} ]
+                    [ ${cat.toUpperCase()} ]
                 </span>
             `).join('');
         }
@@ -236,43 +235,23 @@
             const grid = document.getElementById('contentGrid');
             const filtered = matchesData.filter(m => {
                 const sMatch = currentSport === 'all' || m.cat === currentSport;
-                let tMatch = true;
-                if (currentTime === 'live') tMatch = m.isLive;
-                if (currentTime === 'today') tMatch = m.isToday;
-                if (currentTime === 'upcoming') tMatch = m.isUpcoming;
+                const tMatch = currentTime === 'all' || (currentTime === 'live' && m.isLive);
                 return sMatch && tMatch;
             });
 
             grid.innerHTML = filtered.map(m => `
-                <div class="brutal-card flex flex-col h-full">
-                    <div class="relative h-44 bg-black overflow-hidden border-b-4 border-black">
-                        <img src="${m.image}" class="w-full h-full object-cover opacity-80" onerror="this.src='https://placehold.co/400x200?text=SIGNAL_LOSS'">
-                        <div class="absolute top-2 left-2 bg-[#FFFF00] border-2 border-black px-2 py-1 text-[9px] font-black uppercase tracking-tighter">${m.cat}</div>
-                        ${m.isLive ? '<div class="absolute top-2 right-2 bg-[#FF006E] text-white border-2 border-black px-2 py-1 text-[9px] font-black animate-pulse">● LIVE</div>' : ''}
+                <div class="brutal-card flex flex-col">
+                    <div class="h-44 bg-black relative border-b-4 border-black overflow-hidden">
+                        <img src="${m.eventInfo?.teamAFlag || m.image}" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute top-2 left-2 bg-[#FFFF00] border-2 border-black px-2 py-1 text-[9px] font-black uppercase">${m.cat}</div>
+                        ${m.isLive ? '<div class="absolute top-2 right-2 bg-[#FF006E] text-white border-2 border-black px-2 py-0.5 text-[9px] font-black animate-pulse">LIVE</div>' : ''}
                     </div>
                     <div class="p-5 flex-1 flex flex-col">
-                        <h3 class="font-black text-xl mb-3 leading-tight uppercase italic line-clamp-2">${m.title}</h3>
-                        
-                        <div class="flex items-center justify-between mb-4 bg-gray-50 border-2 border-black p-2">
-                            <div class="flex flex-col items-center flex-1">
-                                <img src="${m.teamAFlag}" class="w-8 h-8 object-contain mb-1" onerror="this.style.display='none'">
-                                <span class="text-[9px] font-bold text-center uppercase">${m.teamA || ''}</span>
-                            </div>
-                            <span class="text-[#FF006E] font-black italic text-xs mx-2">VS</span>
-                            <div class="flex flex-col items-center flex-1">
-                                <img src="${m.teamBFlag}" class="w-8 h-8 object-contain mb-1" onerror="this.style.display='none'">
-                                <span class="text-[9px] font-bold text-center uppercase">${m.teamB || ''}</span>
-                            </div>
+                        <h3 class="font-black text-xl mb-4 leading-tight uppercase italic line-clamp-2">${m.displayTitle}</h3>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            ${(m.formats || []).slice(0,3).map(f => `<span class="tech-tag">${f}</span>`).join('')}
                         </div>
-
-                        <div class="mt-auto pt-4 border-t-2 border-dashed border-black flex items-center justify-between">
-                            <div class="font-mono text-[10px] font-bold">
-                                START: ${m.startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
-                            </div>
-                            <button onclick="openStream('${m.id}')" class="bg-black text-white font-black px-4 py-2 hover:bg-[#39FF14] hover:text-black border-2 border-black shadow-[4px_4px_0px_black] active:shadow-none active:translate-x-1 active:translate-y-1 transition-all text-xs">
-                                ACCESS_STREAM →
-                            </button>
-                        </div>
+                        <button onclick="openStream('${m.id}')" class="mt-auto bg-black text-white font-bold py-3 hover:bg-[#39FF14] hover:text-black border-2 border-black shadow-[6px_6px_0px_black] active:shadow-none transition-all">ACCESS_SYSTEM →</button>
                     </div>
                 </div>
             `).join('');
@@ -280,39 +259,43 @@
 
         function openStream(id) {
             const match = matchesData.find(m => m.id === id);
-            if (!match || match.links.length === 0) return;
+            if (!match) return;
             
-            document.getElementById('modal-title').textContent = `SIGNAL_ID: ${match.title}`;
+            // Sync Player UI with raw data
+            document.getElementById('modal-title').textContent = match.displayTitle.toUpperCase();
+            document.getElementById('modal-cat').textContent = match.cat.toUpperCase();
+            document.getElementById('meta-ads').textContent = match.adsLimit;
+            document.getElementById('meta-pub').textContent = match.publish === "1" ? "YES" : "NO";
+            
+            const formatList = document.getElementById('meta-formats');
+            formatList.innerHTML = (match.formats || []).map(f => `<span class="tech-tag">${f}</span>`).join('');
+
             const sourceList = document.getElementById('source-list');
-            
-            sourceList.innerHTML = match.links.map((l, i) => `
-                <button id="feed-${i}" onclick="playLink('${l.link}', '${l.api || ''}', ${i}, '${l.title}')" 
-                        class="source-pill bg-white p-3 uppercase hover:bg-[#FFFF00] text-center">
-                    FEED_${String(i+1).padStart(2, '0')}
+            sourceList.innerHTML = match.channels.map((ch, i) => `
+                <button id="feed-${i}" onclick="playLink('${ch.link}', '${ch.api || ''}', ${i})" 
+                        class="feed-btn p-3 flex flex-col gap-1 border-2 border-black hover:border-[#FF006E]">
+                    <span class="font-black text-xs">${ch.title}</span>
+                    <span class="text-[8px] opacity-60">TYPE: ${ch.type === "1" ? 'ENCRYPTED_DASH' : 'HLS_STREAM'}</span>
                 </button>
             `).join('');
 
             document.getElementById('video-modal').classList.add('active');
             document.body.style.overflow = 'hidden';
-            playLink(match.links[0].link, match.links[0].api, 0, match.links[0].title);
+            if (match.channels.length > 0) playLink(match.channels[0].link, match.channels[0].api, 0);
         }
 
-        async function playLink(url, api, index, title) {
+        async function playLink(url, api, index) {
             if (!player) return;
-            
-            document.querySelectorAll('.source-pill').forEach(b => b.classList.remove('active-link'));
-            const activeBtn = document.getElementById(`feed-${index}`);
-            if (activeBtn) activeBtn.classList.add('active-link');
-            document.getElementById('current-feed-name').textContent = title || `FEED_${index+1}`;
+            document.querySelectorAll('.feed-btn').forEach(b => b.classList.remove('active-link'));
+            document.getElementById(`feed-${index}`).classList.add('active-link');
 
             try {
                 if (api && api.includes(':')) {
                     const [kId, k] = api.split(':');
                     player.configure({ drm: { clearKeys: { [kId]: k } } });
                 } else { player.configure({ drm: { clearKeys: {} } }); }
-                
                 await player.load(url.split('|')[0]);
-            } catch (e) { console.error("Stream Load Error", e); }
+            } catch (e) { console.error("Signal Lost", e); }
         }
 
         function closeModal() {
