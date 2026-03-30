@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAW STREAMS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --neon: #FFFF00; --pink: #FF006E; --green: #39FF14; --black: #000; --white: #F0F0F0; }
+        body { font-family: 'Work Sans', sans-serif; background: var(--white); }
+        .font-mono { font-family: 'Space Mono', monospace; }
+        .brutal { border: 3px solid var(--black); box-shadow: 6px 6px 0 var(--black); transition: all 0.1s; }
+        .brutal:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--black); }
+        .brutal:active { transform: translate(4px, 4px); box-shadow: 2px 2px 0 var(--black); }
+        .card { background: white; border: 3px solid var(--black); box-shadow: 8px 8px 0 var(--black); }
+        .card:hover { transform: translate(-4px, -4px); box-shadow: 12px 12px 0 var(--pink); }
+        .badge { background: var(--neon); border: 2px solid var(--black); font-family: 'Space Mono'; font-weight: 700; }
+        .live { animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .skeleton { background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: load 1.5s infinite; }
+        @keyframes load { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="sticky top-0 bg-white border-b-4 border-black p-4 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl md:text-5xl font-black tracking-tighter">RAW//STREAM</h1>
+            <div class="flex gap-4 items-center">
+                <span id="status" class="font-mono text-xs bg-gray-200 px-2 py-1 border-2 border-black">LOADING</span>
+                <span id="lastUpdate" class="font-mono text-xs text-gray-500 hidden md:block">--:--</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="border-b-4 border-black bg-white p-4 sticky top-[72px] z-40">
+        <div class="max-w-7xl mx-auto flex gap-2 overflow-x-auto" id="filters">
+            <button onclick="filter('all')" class="filter-btn brutal bg-black text-white px-4 py-2 font-mono font-bold text-sm" data-cat="all">ALL</button>
+            <button onclick="filter('Football')" class="filter-btn brutal bg-white px-4 py-2 font-mono font-bold text-sm" data-cat="Football">FOOTBALL</button>
+            <button onclick="filter('Cricket')" class="filter-btn brutal bg-white px-4 py-2 font-mono font-bold text-sm" data-cat="Cricket">CRICKET</button>
+            <button onclick="filter('Boxing')" class="filter-btn brutal bg-white px-4 py-2 font-mono font-bold text-sm" data-cat="Boxing">BOXING</button>
+            <button onclick="filter('Motorsports')" class="filter-btn brutal bg-white px-4 py-2 font-mono font-bold text-sm" data-cat="Motorsports">F1</button>
+        </div>
+    </div>
+
+    <!-- Grid -->
+    <main class="max-w-7xl mx-auto p-4">
+        <div id="loading" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="card h-80 skeleton"></div>
+            <div class="card h-80 skeleton"></div>
+            <div class="card h-80 skeleton"></div>
+        </div>
+        <div id="error" class="hidden brutal bg-red-500 text-white p-8 text-center">
+            <h3 class="font-black text-2xl mb-2">FAILED</h3>
+            <p class="font-mono" id="errMsg">Error</p>
+            <button onclick="loadData()" class="mt-4 brutal bg-white text-black px-6 py-2 font-mono font-bold">RETRY</button>
+        </div>
+        <div id="grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 hidden"></div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="fixed inset-0 z-50 hidden bg-black/90 flex items-center justify-center p-4" onclick="if(event.target===this)closeModal()">
+        <div class="bg-white w-full max-w-4xl brutal max-h-[90vh] overflow-y-auto">
+            <div class="border-b-4 border-black p-4 flex justify-between items-center bg-yellow-300">
+                <h3 id="modalTitle" class="font-black text-xl uppercase truncate pr-4">STREAM</h3>
+                <button onclick="closeModal()" class="brutal bg-black text-white w-10 h-10 font-bold flex-shrink-0">✕</button>
+            </div>
+            <div class="p-4">
+                <div id="player" class="aspect-video bg-black flex items-center justify-center text-white font-mono mb-4 border-4 border-black">
+                    <div class="text-center p-4">
+                        <div class="text-4xl mb-2">📺</div>
+                        <p>Select source below</p>
+                    </div>
+                </div>
+                <div id="links" class="grid grid-cols-2 md:grid-cols-4 gap-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch from local JSON file (same origin, no CORS issues)
+        const API_URL = 'data/matches.json';
+        
+        let matches = [];
+        let currentCat = 'all';
+
+        async function loadData() {
+            document.getElementById('status').textContent = 'FETCHING';
+            document.getElementById('status').className = 'font-mono text-xs bg-yellow-300 px-2 py-1 border-2 border-black';
+            
+            try {
+                // Add cache-buster to get fresh data
+                const res = await fetch(API_URL + '?t=' + Date.now());
+                const data = await res.json();
+                
+                if (!Array.isArray(data)) throw new Error('Invalid data format');
+                
+                matches = data;
+                render();
+                
+                // Show last update time
+                const now = new Date();
+                document.getElementById('lastUpdate').textContent = now.toLocaleTimeString();
+                document.getElementById('status').textContent = 'LIVE';
+                document.getElementById('status').className = 'font-mono text-xs bg-green-400 px-2 py-1 border-2 border-black';
+                
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('error').classList.add('hidden');
+                document.getElementById('grid').classList.remove('hidden');
+                
+            } catch (e) {
+                document.getElementById('errMsg').textContent = e.message;
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('grid').classList.add('hidden');
+                document.getElementById('error').classList.remove('hidden');
+                document.getElementById('status').textContent = 'ERROR';
+                document.getElementById('status').className = 'font-mono text-xs bg-red-500 text-white px-2 py-1 border-2 border-black';
+            }
+        }
+
+        function filter(cat) {
+            currentCat = cat;
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                if (b.dataset.cat === cat) {
+                    b.classList.add('bg-black', 'text-white');
+                    b.classList.remove('bg-white');
+                } else {
+                    b.classList.remove('bg-black', 'text-white');
+                    b.classList.add('bg-white');
+                }
+            });
+            render();
+        }
+
+        function render() {
+            const grid = document.getElementById('grid');
+            grid.innerHTML = '';
+            
+            const filtered = currentCat === 'all' ? matches : matches.filter(m => m.category === currentCat);
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div class="col-span-full text-center font-mono text-xl py-12 border-4 border-dashed border-black">NO MATCHES FOUND</div>';
+                return;
+            }
+            
+            filtered.forEach(m => {
+                // Check if live (simple check)
+                const isLive = m.date && m.time && new Date() >= new Date(m.date.split('/').reverse().join('-') + 'T' + m.time);
+                const colors = { Football: '#39FF14', Cricket: '#FF006E', Boxing: '#FFFF00', Motorsports: '#00FFFF' };
+                
+                const div = document.createElement('div');
+                div.className = 'card overflow-hidden flex flex-col';
+                div.innerHTML = `
+                    <div class="relative h-40 bg-gray-200 border-b-4 border-black overflow-hidden">
+                        <div class="absolute top-2 left-2 badge px-2 py-1 text-xs" style="background:${colors[m.category]||'#fff'}">${m.category||'SPORT'}</div>
+                        ${isLive ? '<div class="absolute top-2 right-2 bg-red-600 text-white font-mono text-xs px-2 py-1 border-2 border-black live">● LIVE</div>' : ''}
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col">
+                        <h3 class="font-black text-lg mb-2 leading-tight line-clamp-2">${m.eventName}</h3>
+                        <div class="flex justify-between items-center bg-gray-100 p-2 border-2 border-black mb-2 text-sm">
+                            <span class="font-bold truncate flex-1">${m.teamAName}</span>
+                            <span class="font-mono font-bold text-pink-600 mx-2">VS</span>
+                            <span class="font-bold truncate flex-1 text-right">${m.teamBName}</span>
+                        </div>
+                        <div class="font-mono text-xs mb-3 text-gray-600 flex justify-between">
+                            <span>${m.date||'TBA'}</span>
+                            <span>${m.time?.substring(0,5)||'TBA'}</span>
+                            <span class="text-pink-600 font-bold">${m.links?.length||0} sources</span>
+                        </div>
+                        <button onclick="openModal(${m.id})" class="mt-auto brutal bg-black text-white py-2 font-mono font-bold hover:bg-pink-500 transition-colors">WATCH →</button>
+                    </div>
+                `;
+                grid.appendChild(div);
+            });
+        }
+
+        function openModal(id) {
+            const m = matches.find(x => x.id === id);
+            if (!m) return;
+            
+            document.getElementById('modalTitle').textContent = m.eventName;
+            const links = document.getElementById('links');
+            links.innerHTML = '';
+            
+            if (m.links && m.links.length > 0) {
+                m.links.forEach((l, i) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'brutal bg-black text-white py-3 px-2 font-mono text-sm hover:bg-pink-500 transition-colors';
+                    btn.innerHTML = `<div class="flex flex-col items-center"><span class="font-bold">${l.name || `Source ${i+1}`}</span><span class="text-xs opacity-70">${l.link.includes('m3u8')?'HLS':l.link.includes('.mpd')?'DASH':'WEB'}</span></div>`;
+                    btn.onclick = () => loadPlayer(l.link);
+                    links.appendChild(btn);
+                });
+            } else {
+                links.innerHTML = '<div class="col-span-full text-center font-mono text-gray-500 py-4">NO STREAMS AVAILABLE</div>';
+            }
+            
+            document.getElementById('modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function loadPlayer(url) {
+            const p = document.getElementById('player');
+            if (url.includes('.m3u8') || url.includes('.mpd')) {
+                p.innerHTML = `<div class="text-center p-4"><div class="text-3xl mb-2">🔴</div><p class="text-sm mb-3">External stream detected</p><button onclick="window.open('${url}','_blank')" class="brutal bg-pink-500 text-white px-6 py-2 font-mono font-bold hover:bg-yellow-300 hover:text-black">OPEN IN PLAYER</button></div>`;
+            } else if (url.includes('embed') || url.includes('iframe')) {
+                p.innerHTML = `<iframe src="${url}" class="w-full h-full border-0" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>`;
+            } else {
+                p.innerHTML = `<iframe src="${url}" class="w-full h-full border-0" allowfullscreen></iframe>`;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.add('hidden');
+            document.body.style.overflow = '';
+            document.getElementById('player').innerHTML = '<div class="text-center p-4"><div class="text-4xl mb-2">📺</div><p>Select source below</p></div>';
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Load on start
+        loadData();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>
