@@ -66,9 +66,12 @@
             background: white;
             border: 6px solid black;
             width: 100%;
-            max-width: 850px; /* Reduced width to make player smaller */
+            max-width: 900px;
             position: relative;
             box-shadow: 15px 15px 0px var(--electric-pink);
+            max-height: 95vh;
+            display: flex;
+            flex-direction: column;
         }
 
         .close-btn {
@@ -94,6 +97,26 @@
             aspect-ratio: 16 / 9;
             background: #000;
             border-bottom: 4px solid black;
+            flex-shrink: 0;
+        }
+
+        /* SCROLLABLE LINKS SECTION */
+        .links-section {
+            padding: 20px;
+            background: white;
+            overflow-y: auto;
+            max-height: 250px;
+        }
+
+        .links-section::-webkit-scrollbar {
+            width: 8px;
+        }
+        .links-section::-webkit-scrollbar-track {
+            background: #eee;
+            border-left: 2px solid black;
+        }
+        .links-section::-webkit-scrollbar-thumb {
+            background: black;
         }
 
         .feed-btn {
@@ -103,6 +126,7 @@
             text-align: left;
             transition: 0.2s;
             background: white;
+            padding: 12px;
         }
 
         .feed-btn.active-link {
@@ -137,7 +161,7 @@
         <div class="modal-container">
             <button onclick="closeModal()" class="close-btn">✕</button>
             
-            <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black">
+            <div class="bg-black p-3 text-white font-mono text-[10px] flex justify-between items-center border-b-4 border-black flex-shrink-0">
                 <div class="flex items-center gap-4">
                     <span id="modal-title" class="font-bold text-sm italic uppercase tracking-tighter">SIGNAL_LOAD</span>
                     <span id="modal-cat" class="bg-[#FFFF00] text-black px-2 py-0.5 font-black">CAT</span>
@@ -149,7 +173,7 @@
                 <video data-shaka-player id="video" autoplay></video>
             </div>
 
-            <div class="p-6 bg-white">
+            <div class="links-section">
                 <p class="font-black text-xs uppercase mb-4 border-l-4 border-[#FF006E] pl-2">Available Signal Feeds:</p>
                 <div id="source-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     </div>
@@ -239,7 +263,7 @@
             const sourceList = document.getElementById('source-list');
             sourceList.innerHTML = match.channels.map((ch, i) => `
                 <button id="feed-${i}" onclick="playLink('${ch.link}', '${ch.api || ''}', ${i})" 
-                        class="feed-btn p-3 flex flex-col gap-1 border-2 border-black hover:border-[#FF006E]">
+                        class="feed-btn flex flex-col gap-1 border-2 border-black hover:border-[#FF006E]">
                     <span class="font-black text-xs uppercase">${ch.title}</span>
                     <span class="text-[8px] opacity-60">ENCRYPTED_SIGNAL_0${i+1}</span>
                 </button>
@@ -253,7 +277,8 @@
         async function playLink(url, api, index) {
             if (!player) return;
             document.querySelectorAll('.feed-btn').forEach(b => b.classList.remove('active-link'));
-            document.getElementById(`feed-${index}`).classList.add('active-link');
+            const btn = document.getElementById(`feed-${index}`);
+            if (btn) btn.classList.add('active-link');
 
             try {
                 if (api && api.includes(':')) {
