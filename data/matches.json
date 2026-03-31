@@ -931,7 +931,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48081/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/48112/load-playlist?|Referer=https://gooz.aapmains.net/",
           "title": "SportzX NBA",
           "type": "0"
         },
@@ -1031,12 +1031,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "SD SERVER",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48116/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1082,12 +1089,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "SD SERVER",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48117/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edge2caster.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1133,6 +1147,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
@@ -1732,7 +1747,8 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
-        "SporTV BR"
+        "SporTV BR",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1746,6 +1762,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
           "title": "SporTV BR",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4523068.m3u8?txSecret=6b915de4361334151d1d8c752fa48858&txTime=69CC5748|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1768,7 +1790,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1776,6 +1799,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
           "title": "FOX SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4523053.m3u8?txSecret=4d78a1275d2f6b9530598bf92fa871f8&txTime=69CC5748|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1798,12 +1827,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportCZ - AQ",
         "SportzX Live"
       ],
       "channels": [
         {
+          "api": "--key 11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+          "link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+          "title": "SportCZ - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4523067.m3u8?txSecret=6299a7b8e9ce28f7f22f0486ffed3dd9&txTime=69CC5748|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1833,7 +1869,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4523069.m3u8?txSecret=12ce913aa326f823f7cc0e2cbff78602&txTime=69CC5748|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1858,13 +1894,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SporTV BR"
       ],
       "channels": [
         {
           "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
           "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
           "type": "1"
         }
       ]
@@ -1888,13 +1931,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SporTV BR"
       ],
       "channels": [
         {
           "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
           "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
           "type": "1"
         }
       ]
@@ -2256,13 +2306,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Arryadia TV",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4512468.m3u8?txSecret=ad191a0529c9aca2fbcb49bb6dbaa6d0&txTime=69CC4DCF|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/riadia.m3u8",
+          "title": "Arryadia TV",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://93.123.109.249/hls/QFFFQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2316,12 +2380,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SporTV BR",
         "SportzX Live"
       ],
       "channels": [
         {
+          "api": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4512434.m3u8?txSecret=7508ea0cfec7bbc241b5828d13a4c3f8&txTime=69CC5748|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
