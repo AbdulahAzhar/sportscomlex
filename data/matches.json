@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 12,
+  "total_events": 25,
   "results": [
     {
       "id": "312",
@@ -752,20 +752,20 @@
       ]
     },
     {
-      "id": "412",
-      "title": "Arizona Diamondbacks vs Detroit Tigers",
+      "id": "397",
+      "title": "Singapore vs Bangladesh",
       "image": "o",
-      "cat": "MLB",
+      "cat": "AFC Asian Cup Qual.",
       "eventInfo": {
-        "teamA": "Diamondbacks",
-        "teamB": "Tigers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
-        "eventName": "Arizona Diamondbacks vs Detroit Tigers",
+        "teamA": "Singapore",
+        "teamB": "Bangladesh",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4738/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6080/image",
+        "eventName": "Singapore vs Bangladesh",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/03/31 02:10:00 +0000",
-        "endTime": "2026/03/31 04:40:00 +0000"
+        "startTime": "2026/03/31 12:00:00 +0000",
+        "endTime": "2026/03/31 14:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -775,7 +775,410 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "India vs Hong Kong",
+      "image": "o",
+      "cat": "AFC Asian Cup Qual.",
+      "eventInfo": {
+        "teamA": "India",
+        "teamB": "Hong Kong",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4828/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4765/image",
+        "eventName": "India vs Hong Kong",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 13:30:00 +0000",
+        "endTime": "2026/03/31 15:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "Pakistan vs Myanmar",
+      "image": "o",
+      "cat": "AFC Asian Cup Qual.",
+      "eventInfo": {
+        "teamA": "Pakistan",
+        "teamB": "Myanmar",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/23484/image",
+        "eventName": "Pakistan vs Myanmar",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 09:00:00 +0000",
+        "endTime": "2026/03/31 11:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "http://195.178.110.2/hls/ZAAA.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "Bosnia vs Italy",
+      "image": "o",
+      "cat": "WCQ. UEFA",
+      "eventInfo": {
+        "teamA": "BiH",
+        "teamB": "Italy",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4479/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4707/image",
+        "eventName": "Bosnia & Herzegovina vs Italy",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 18:45:00 +0000",
+        "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD",
+        "SporTV BR"
+      ],
+      "channels": [
+        {
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "Kosovo vs Türkiye",
+      "image": "o",
+      "cat": "WCQ. UEFA",
+      "eventInfo": {
+        "teamA": "Kosovo",
+        "teamB": "Türkiye",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/154426/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4700/image",
+        "eventName": "Kosovo vs Türkiye",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 18:45:00 +0000",
+        "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "title": "Sweden vs Poland",
+      "image": "o",
+      "cat": "WCQ. UEFA",
+      "eventInfo": {
+        "teamA": "Sweden",
+        "teamB": "Poland",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4688/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4703/image",
+        "eventName": "Sweden vs Poland",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 18:45:00 +0000",
+        "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Czechia vs Denmark",
+      "image": "o",
+      "cat": "WCQ. UEFA",
+      "eventInfo": {
+        "teamA": "Czechia",
+        "teamB": "Denmark",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4714/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4476/image",
+        "eventName": "Czechia vs Denmark",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 18:45:00 +0000",
+        "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "DR Congo vs Jamaica",
+      "image": "o",
+      "cat": "World Cup Qual.",
+      "eventInfo": {
+        "teamA": "DR Congo",
+        "teamB": "Jamaica",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4823/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4769/image",
+        "eventName": "DR Congo vs Jamaica",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 21:00:00 +0000",
+        "endTime": "2026/03/31 23:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Iraq vs Bolivia",
+      "image": "o",
+      "cat": "World Cup Qual.",
+      "eventInfo": {
+        "teamA": "Iraq",
+        "teamB": "Bolivia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4767/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4746/image",
+        "eventName": "Iraq vs Bolivia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/01 03:00:00 +0000",
+        "endTime": "2026/04/01 05:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Latvia vs Gibraltar",
+      "image": "o",
+      "cat": "UEFA Nations",
+      "eventInfo": {
+        "teamA": "Latvia",
+        "teamB": "Gibraltar",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4706/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/129264/image",
+        "eventName": "Latvia vs Gibraltar",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 16:00:00 +0000",
+        "endTime": "2026/03/31 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Luxembourg vs Malta",
+      "image": "o",
+      "cat": "UEFA Nations",
+      "eventInfo": {
+        "teamA": "Luxembourg",
+        "teamB": "Malta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4478/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4483/image",
+        "eventName": "Luxembourg vs Malta",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 16:00:00 +0000",
+        "endTime": "2026/03/31 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Norway vs Switzerland",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Norway",
+        "teamB": "Switzerland",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4475/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4699/image",
+        "eventName": "Norway vs Switzerland",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 16:00:00 +0000",
+        "endTime": "2026/03/31 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Serbia vs Saudi Arabia",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Serbia",
+        "teamB": "Saudi Arabia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6355/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4834/image",
+        "eventName": "Serbia vs Saudi Arabia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 16:00:00 +0000",
+        "endTime": "2026/03/31 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Australia vs Curaçao",
+      "image": "o",
+      "cat": "Football",
+      "eventInfo": {
+        "teamA": "Australia",
+        "teamB": "Curaçao",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4741/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/55827/image",
+        "eventName": "Australia vs Curaçao",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 09:10:00 +0000",
+        "endTime": "2026/03/31 11:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FIFA+ FHD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48084/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
