@@ -539,8 +539,8 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "CRICBUZZ [ENG]",
-        "CRICBUZZ [HIN]",
+        "Willow [ENG]",
+        "Willow [HIN]",
         "WILLOW - AQ",
         "SKY CRICKET HD",
         "JIO HOTSTAR",
@@ -1741,50 +1741,6 @@
       ]
     },
     {
-      "id": "399",
-      "title": "Pakistan vs Myanmar",
-      "image": "o",
-      "cat": "AFC Asian Cup Qual.",
-      "eventInfo": {
-        "teamA": "Pakistan",
-        "teamB": "Myanmar",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/23484/image",
-        "eventName": "Pakistan vs Myanmar",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/03/31 09:00:00 +0000",
-        "endTime": "2026/03/31 11:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SD SERVER",
-        "LIVE YT"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4251559.m3u8?txSecret=a63ed986c9e80a743230bf598e8e8c5b&txTime=69CBEA56|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.2/hls/KTTTZZZZZ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://www.youtube.com/live/j7tBYRzSPdU",
-          "title": "LIVE YT",
-          "type": "4"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Bosnia vs Italy",
       "image": "o",
@@ -2050,7 +2006,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -2058,6 +2015,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
           "title": "FOX SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4512465.m3u8?txSecret=485b50b09f0493ebd9559efb495f6658&txTime=69CC2A45|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2268,6 +2231,36 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "title": "England vs Japan",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "England",
+        "teamB": "Japan",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4770/image",
+        "eventName": "England vs Japan",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 18:45:00 +0000",
+        "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     }
