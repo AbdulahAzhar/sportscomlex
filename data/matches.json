@@ -1745,9 +1745,9 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4707/image",
         "eventName": "Bosnia & Herzegovina vs Italy",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/03/31 18:45:00 +0000",
-        "endTime": "2026/03/31 20:45:00 +0000"
+        "endTime": "2026/03/31 21:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1796,7 +1796,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4700/image",
         "eventName": "Kosovo vs Türkiye",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/03/31 18:45:00 +0000",
         "endTime": "2026/03/31 20:45:00 +0000"
       },
@@ -1886,7 +1886,7 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/03/31 18:45:00 +0000",
-        "endTime": "2026/03/31 20:45:00 +0000"
+        "endTime": "2026/03/31 21:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2174,36 +2174,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Australia vs Curaçao",
-      "image": "o",
-      "cat": "Football",
-      "eventInfo": {
-        "teamA": "Australia",
-        "teamB": "Curaçao",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4741/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/55827/image",
-        "eventName": "Australia vs Curaçao",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/03/31 09:10:00 +0000",
-        "endTime": "2026/03/31 11:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FIFA+ FHD"
-      ],
-      "channels": [
-        {
-          "api": "41152b485f6d37848083c39a9380ff84:cdf85d088b1297a882822f0ba86c655b",
-          "link": "https://fifa.global.transmit.live/dash/68c40af04301491a9f4cfb58/2026_03_24_14_36_05_aac27405-f709-4313-8c8c-897d4931828c/PROD_CMAF_CENC/index-dash.mpd",
-          "title": "FIFA+ FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Haiti vs Iceland",
       "image": "o",
@@ -2322,50 +2292,6 @@
       ]
     },
     {
-      "id": "414",
-      "title": "Morocco vs Paraguay",
-      "image": "o",
-      "cat": "FIFA Friendlies",
-      "eventInfo": {
-        "teamA": "Morocco",
-        "teamB": "Paraguay",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4778/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4789/image",
-        "eventName": "Morocco vs Paraguay",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/03/31 18:00:00 +0000",
-        "endTime": "2026/03/31 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "Arryadia TV",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4512468.m3u8?txSecret=ad191a0529c9aca2fbcb49bb6dbaa6d0&txTime=69CC4DCF|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a1.kora-plus.dad/watch/riadia.m3u8",
-          "title": "Arryadia TV",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://93.123.109.249/hls/QFFFQQQQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "415",
       "title": "Peru vs Honduras",
       "image": "o",
@@ -2396,20 +2322,57 @@
       ]
     },
     {
-      "id": "416",
-      "title": "England vs Japan",
+      "id": "418",
+      "title": "Wales vs Northern Ireland",
       "image": "o",
       "cat": "FIFA Friendlies",
       "eventInfo": {
-        "teamA": "England",
-        "teamB": "Japan",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4713/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4770/image",
-        "eventName": "England vs Japan",
+        "teamA": "Wales",
+        "teamB": "Northern Ireland",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4702/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4786/image",
+        "eventName": "Wales vs Northern Ireland",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/03/31 18:45:00 +0000",
         "endTime": "2026/03/31 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "VIX ESPANOL - AQ",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "e01538e5e2c9c79b7dc8812826f4328f:03d063b7561e9ff1177a05cc8f4ba772",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nutlk516rg/out/v1/997b1692b472450a9c98b3dae491a686/cenc.mpd",
+          "title": "VIX ESPANOL - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4525139.m3u8?txSecret=b8324cb11fe9e09312fa22bf24634c36&txTime=69CC5748|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "Spain vs Egypt",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Spain",
+        "teamB": "Egypt",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4758/image",
+        "eventName": "Spain vs Egypt",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 19:00:00 +0000",
+        "endTime": "2026/03/31 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2420,22 +2383,52 @@
       ],
       "channels": [
         {
-          "api": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+          "api": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
           "title": "SporTV BR",
           "type": "1"
         },
         {
-          "api": "f877d00866ead4b6c76e604f270b1239:d032d835baa0545949c0b905665a43a4",
-          "link": "https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/9ysvfx2fdg/out/v1/84636269a21f441ab85f05c711253fe4/cenc.mpd",
+          "api": "9fff8bb1ceb283c96469706acd5f7852:a9695bad3ff56a07e8a5396f8ffae8d3",
+          "link": "https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cqvozktxbl/out/v1/5ebb78d6f9b844bba206fbfc8782d9da/cenc.mpd",
           "title": "VIX ESPANOL - AQ",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4512434.m3u8?txSecret=7508ea0cfec7bbc241b5828d13a4c3f8&txTime=69CC5748|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/hd-en-1-4512489.m3u8?txSecret=49dc183b875126b75690eaf2b3dd39bb&txTime=69CC5748|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "USA vs Portugal",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "USA",
+        "teamB": "Portugal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4724/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+        "eventName": "USA vs Portugal",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/03/31 23:00:00 +0000",
+        "endTime": "2026/04/01 01:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS FHD",
+          "type": "1"
         }
       ]
     }
