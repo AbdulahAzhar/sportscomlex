@@ -1665,13 +1665,55 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN SPORTS HD",
+        "SportzX Live",
+        "CBS SPORTS [USE No Audio]",
+        "ESPN DEPORTES",
+        "ESPN NL HD",
+        "beIN ARABIC",
+        "CBS SPORTS SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://cdn-blabla.winner-api.icu/strimcdn/1775148537/lp/tv/beinsports3id/hls/index.m3u8?jwt=OTQuMTkwLjE5NS4yNHwxNzc1MTkxNzM3fC9zdHJpbWNkbi9scC90di9iZWluc3BvcnRzM2lkL2hscy9pbmRleC5tM3U4fDJUaDFXbGtWZzJwUWdWS05ZRE40V28xank0ZmI4eGxuaFdyZ3ZjYzhnVDg",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4501071.m3u8?txSecret=299847b0d860240ee004eaf3554b1a6c&txTime=69CEE52F|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": "e25be8b5bfb8be9f57e4b185ef8b6c75:1e5ed50f75a109654a2353b2f28a0f43",
+          "link": "https://ABC3FQXAAAAAAAAMDIU7YLK4MQHZX.ta.emt-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkNDFkODAwMDQtN2ZkMy00NmU2LTllNTctZWU0OWRhNDI4MTBmWKKmAWpwcmltZXZpZGVvBBpp18yvBhppzpIvA2pjbG91ZGZyb250Ang-cHJzaWQ6bUZfcVF1NHVaQ3padFJ6WFlUNnp5UXo3cXNZeVhid0NTQVFMWjg2c1gyRU9IOEVyT1RiSFh3PT0ZATihBaECeDMvdWN0bWszanl0ZC9vdXQvdjEvYjkzNTY4YWYxNDg5NDcwNmEyNDM4ZjJlYWZkNWJjNDZYIHyOIbo5bZF1QYki44X3bXrlpW6WU12gf9CA46h7tadE/IAD/47838ac8e4924d6587ee09a108831fe8/v1/dash/746463508834/paramount_aha_amzn1_dv_live_csid_7216fdcd-10e4-49d9-9d2f-7cf25a9254bb_us-east-1_iad_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-iad-prod/enc/uctmk3jytd/out/v1/b93568af14894706a2438f2eafd5bc46/8a31d94a-3d3d-45c3-8363-156e413ca99d-cenc.mpd?aws.sessionId=7b9b90f1-6e5c-4748-97b5-57f1e30faf06",
+          "title": "CBS SPORTS [USE No Audio]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
+          "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV1/index.m3u8?st=SportzX|Referer=https://streamfree.click",
+          "title": "ESPN NL HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/b1.m3u8",
+          "title": "beIN ARABIC",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/cbs.m3u8?",
+          "title": "CBS SPORTS SD",
           "type": "0"
         }
       ]
@@ -1963,9 +2005,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48189/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2234,16 +2283,16 @@
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48167/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
+          "title": "MAIN EVENT",
+          "link": "https://daffodil.simplyataide.boutique/main.m3u8",
+          "type": "0",
+          "api": null
         },
         {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
+          "title": "MAIN EVENT (2)",
+          "link": "https://602.premiumjh.shop/test2/video.m3u8",
+          "type": "0",
+          "api": null
         }
       ]
     }
