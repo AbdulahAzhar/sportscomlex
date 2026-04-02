@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 21,
+  "total_events": 35,
   "results": [
     {
       "id": "312",
@@ -546,9 +546,6 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "WILLOW - [ENG]",
-        "WILLOW - [HIN]",
-        "WILLOW - AQ",
         "SKY CRICKET HD",
         "JIO HOTSTAR",
         "SD SERVER",
@@ -734,14 +731,15 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "PSL TV [Urdu]",
+        "WILLOW FHD",
         "PSL TV [ENG]",
         "PTV SPORTS HD",
         "TAMASHA - PK"
       ],
       "channels": [
         {
-          "api": "86d4a4392e6115df1bfa3e6821752df7:460198a34912b18d2e491319906ec967",
-          "link": "https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/mdlltgo13z/out/v1/bc4179a35ed9463caedec5d8a5200417/cenc.mpd",
+          "api": "734044b9d3828b949eee3411fea9d483:8f5f0167ce13ea788cce19f552f812a3",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jmcpnhnqaa/out/v1/245398c496c449eba548bc3176b599eb/cenc.mpd",
           "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
@@ -750,6 +748,12 @@
           "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
           "title": "PSL TV [Urdu]",
           "type": "0"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
         },
         {
           "api": null,
@@ -816,6 +820,748 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "Charlotte Hornets vs Phoenix Suns",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Hornets",
+        "teamB": "Suns",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3430/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3416/image",
+        "eventName": "Charlotte Hornets vs Phoenix Suns",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/cbf3PwTr7B1A/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Pistons vs Minnesota Timberwolves",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Pistons",
+        "teamB": "Timberwolves",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3426/image",
+        "eventName": "Detroit Pistons vs Minnesota Timberwolves",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48171/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/z1Lb4SbqsIWU/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "Thunder vs Los Angeles Lakers",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Thunder",
+        "teamB": "Lakers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3418/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3427/image",
+        "eventName": "Oklahoma City Thunder vs Los Angeles Lakers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 01:30:00 +0000",
+        "endTime": "2026/04/03 04:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48156/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/Niyvk3zRJJmP/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "title": "Warriors vs Cleveland Cavaliers",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Warriors",
+        "teamB": "Cavaliers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3428/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3432/image",
+        "eventName": "Golden State Warriors vs Cleveland Cavaliers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 02:00:00 +0000",
+        "endTime": "2026/04/03 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48174/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA6/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DfF4IkIqKvOP/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Hurricanes vs Blue Jackets",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Hurricanes",
+        "teamB": "Blue Jackets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3683/image",
+        "eventName": "Carolina Hurricanes vs Columbus Blue Jackets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/84.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/88.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Florida Panthers vs Boston Bruins",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Panthers",
+        "teamB": "Bruins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3687/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3677/image",
+        "eventName": "Florida Panthers vs Boston Bruins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/95.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/86.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "title": "Rangers vs Canadiens",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Rangers",
+        "teamB": "Canadiens",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3701/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3690/image",
+        "eventName": "New York Rangers vs Montréal Canadiens",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48160/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/103.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/93.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "389",
+      "title": "Ottawa Senators vs Buffalo Sabres",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Senators",
+        "teamB": "Sabres",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3700/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3678/image",
+        "eventName": "Ottawa Senators vs Buffalo Sabres",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL5/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/175.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/174.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "390",
+      "title": "Flyers vs Red Wings",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Flyers",
+        "teamB": "Red Wings",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3699/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3685/image",
+        "eventName": "Philadelphia Flyers vs Detroit Red Wings",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/sdezqfza55.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL6/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/99.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/178.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "391",
+      "title": "Lightning vs Pittsburgh Penguins",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Lightning",
+        "teamB": "Penguins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3694/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3697/image",
+        "eventName": "Tampa Bay Lightning vs Pittsburgh Penguins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 23:00:00 +0000",
+        "endTime": "2026/04/03 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/171.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/87.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "392",
+      "title": "Sharks vs Maple Leafs",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Sharks",
+        "teamB": "Maple Leafs",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3696/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3693/image",
+        "eventName": "San Jose Sharks vs Toronto Maple Leafs",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 02:00:00 +0000",
+        "endTime": "2026/04/03 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/poiryezafv56.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL7/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/169.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/173.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "393",
+      "title": "Kraken vs Utah Mammoth",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Kraken",
+        "teamB": "Mammoth",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/381707/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/530472/image",
+        "eventName": "Seattle Kraken vs Utah Mammoth",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 02:00:00 +0000",
+        "endTime": "2026/04/03 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/rzavbdyua57.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL8/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/93.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/92.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "394",
+      "title": "Knights vs Calgary Flames",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Golden Knights",
+        "teamB": "Flames",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/257523/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3679/image",
+        "eventName": "Vegas Golden Knights vs Calgary Flames",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 02:00:00 +0000",
+        "endTime": "2026/04/03 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/earzfddshg58.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL9/index.m3u8?st=SportzX|Referer=https://instreams.click/&Origin=https://instreams.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/85.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/94.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "title": "Kings vs Nashville Predators",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Kings",
+        "teamB": "Predators",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3688/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3705/image",
+        "eventName": "Los Angeles Kings vs Nashville Predators",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 02:30:00 +0000",
+        "endTime": "2026/04/03 05:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnzadfvyt59.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL10/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/98.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/97.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
         }
       ]
     },
