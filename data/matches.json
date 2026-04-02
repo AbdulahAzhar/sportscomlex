@@ -2006,6 +2006,7 @@
       "publish": "1",
       "formats": [
         "SportzX MLB",
+        "MLB LIVE - AQ",
         "SportzX Live"
       ],
       "channels": [
@@ -2013,6 +2014,12 @@
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/48189/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://nyachamselizabeth.s3.us-east-1.amazonaws.com/braves.m3u8",
+          "title": "MLB LIVE - AQ",
           "type": "0"
         },
         {
