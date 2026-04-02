@@ -1737,13 +1737,34 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "ESPN DEPORTES",
+        "CBS SPORTS SD",
+        "beIN ARABIC HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/sd-1-4517915.m3u8?txSecret=34d59fdd6c107f13afbadb49da44f80a&txTime=69CF038E|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
+          "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/cbs.m3u8",
+          "title": "CBS SPORTS SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/b2.m3u8",
+          "title": "beIN ARABIC HD",
           "type": "0"
         }
       ]
