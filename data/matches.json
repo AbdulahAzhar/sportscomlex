@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 32,
   "results": [
     {
       "id": "312",
@@ -487,8 +487,7 @@
         "teamBFlag": "https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png",
         "eventName": "AEW Dynamite",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/02 01:00:00 +0000",
+        "startTime": "2026/04/02 00:00:00 +0000",
         "endTime": "2026/04/02 02:30:00 +0000"
       },
       "adsLimit": "0",
@@ -514,13 +513,13 @@
         },
         {
           "api": null,
-          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108087_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
           "title": "BACKUP HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_SD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
           "title": "BACKUP SD",
           "type": "0"
         }
@@ -532,15 +531,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "LSG",
-        "teamB": "DC",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/410010/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
-        "eventName": "Lucknow Super Giants vs Delhi Capitals",
+        "teamA": "KKR",
+        "teamB": "SRH",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187775/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187844/image",
+        "eventName": "Kolkata Knight Riders vs Sunrisers Hyderabad",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/01 14:00:00 +0000",
-        "endTime": "2026/04/01 17:45:00 +0000"
+        "startTime": "2026/04/02 14:00:00 +0000",
+        "endTime": "2026/04/02 17:45:00 +0000"
       },
       "adsLimit": "17",
       "publish": "1",
@@ -651,15 +650,15 @@
       "image": "o",
       "cat": "PSL",
       "eventInfo": {
-        "teamA": "MUL",
-        "teamB": "HYK",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/273650/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
-        "eventName": "Multan Sultans vs Hyderabad Kingsmen",
+        "teamA": "ISL",
+        "teamB": "QUE",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212416/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/212417/image",
+        "eventName": "Islamabad United vs Quetta Gladiators",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/01 14:00:00 +0000",
-        "endTime": "2026/04/01 17:45:00 +0000"
+        "startTime": "2026/04/02 09:30:00 +0000",
+        "endTime": "2026/04/02 13:15:00 +0000"
       },
       "adsLimit": "1",
       "publish": "1",
@@ -709,6 +708,64 @@
           "api": null,
           "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
           "title": "FANCODE (IND)",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "title": "PSL 02",
+      "image": "o",
+      "cat": "PSL",
+      "eventInfo": {
+        "teamA": "RAP",
+        "teamB": "KAR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1178236/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/212418/image",
+        "eventName": "Rawalpindiz vs Karachi Kings",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/02 14:00:00 +0000",
+        "endTime": "2026/04/02 17:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "WILLOW [Ad-Free]",
+        "PSL TV [Urdu]",
+        "PSL TV [ENG]",
+        "PTV SPORTS HD",
+        "TAMASHA - PK"
+      ],
+      "channels": [
+        {
+          "api": "86d4a4392e6115df1bfa3e6821752df7:460198a34912b18d2e491319906ec967",
+          "link": "https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/mdlltgo13z/out/v1/bc4179a35ed9463caedec5d8a5200417/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+          "title": "PSL TV [Urdu]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://psl.bigbaat.app/out/v1/f342445c31dd475bbf30c7304dbad14f/index.m3u8",
+          "title": "PSL TV [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.incableinternet.com/v/kooker_ptvsportshd/kooker_ptvsportshd.m3u8",
+          "title": "PTV SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://tencentcdn7.tamashaweb.com/v1/019beffa3f101567ee93346674d021/019bff96b0e415fc600b1b67f81951/TMSH_APP2_DIRTY.m3u8",
+          "title": "TAMASHA - PK",
           "type": "0"
         }
       ]
@@ -831,12 +888,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "SD SERVER",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48171/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -940,12 +1004,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "SD SERVER",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48174/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1107,12 +1178,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "SD SERVER",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48176/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/zeafwqvhfe69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1409,122 +1487,6 @@
       ]
     },
     {
-      "id": "398",
-      "title": "Bayern W vs Manchester W",
-      "image": "o",
-      "cat": "UCL Womens",
-      "eventInfo": {
-        "teamA": "Bayern",
-        "teamB": "Man Utd",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5543/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
-        "eventName": "Bayern München W vs Manchester United W",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 16:45:00 +0000",
-        "endTime": "2026/04/01 18:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FANCODE FHD",
-        "beIN ARABIC HD",
-        "ESPN DEPORTES",
-        "PARAMOUNT+ SD",
-        "AMAZON PRIME"
-      ],
-      "channels": [
-        {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://a4.kora-plus.dad/watch/b2.m3u8|Referer=https://vsys.kora-top.zip/",
-          "title": "beIN ARABIC HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a2.kora-plus.dad/watch/b1eng.m3u8|Referer=https://vsys.kora-top.zip/",
-          "title": "PARAMOUNT+ SD",
-          "type": "0"
-        },
-        {
-          "api": "cd7afdf7c936e1b87f62b072b266b40d:496deb7d5bbb256a79f5e7c8706ce007",
-          "link": "https://live-emt-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkMTk1NDFjNGMtMDk1Ni00YTQ1LTk0YzgtNzI1NzUwZjI4M2Y2WJ6mAWpwcmltZXZpZGVvBBpp1nsNBhppzUCNA2ZmYXN0bHkCeD5wcnNpZDo4cnplNXNZem1kVE5UUTRoQjFtUFZLc2hmUVlaNm1sMWloR2VudEpHTm80U2tlbjQwRjdWdXc9PRkBOKEFoQJ4My9sY252aTBwdmo0L291dC92MS84ZTZlOWE3N2ZhMWM0N2Y3YjA3ZjY5YjJiODI0ZWNhNlggk2hNXsYxeAGB6_XIpIzJOi7Aiihi7V4-Orl0GqnvLPc/IAD/ceedb7c8699344e98f1b234a258bfa0d/v1/dash/746463508834/paramount_aha_amzn1_dv_live_csid_401a7b48-7fbc-425e-ad16-9f7eec4f8d40_us-east-1_iad_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-iad-prod/enc/lcnvi0pvj4/out/v1/8e6e9a77fa1c47f7b07f69b2b824eca6/c585b053-951e-426f-b208-97f5bde38a46-cenc.mpd?aws.sessionId=76c3a4a8-37d6-4716-a464-34144bff9081|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-          "title": "AMAZON PRIME",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "399",
-      "title": "Chelsea W vs Arsenal W",
-      "image": "o",
-      "cat": "UCL Womens",
-      "eventInfo": {
-        "teamA": "Chelsea",
-        "teamB": "Arsenal",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/66768/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/26243/image",
-        "eventName": "Chelsea W vs Arsenal W",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 19:00:00 +0000",
-        "endTime": "2026/04/01 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FANCODE FHD",
-        "BBC TWO UK",
-        "SportzX Live",
-        "beIN ARABIC",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8",
-          "title": "BBC TWO UK",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4501107.m3u8?txSecret=0b405c55c286ef3e30e1137a2c88896e&txTime=69CDADC0|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a1.kora-plus.dad/watch/b1.m3u8|Referer=https://vsys.kora-top.zip/",
-          "title": "beIN ARABIC",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Internacional vs São Paulo",
       "image": "o",
@@ -1707,388 +1669,46 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "PRIME VIDEO FHD",
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "7daa94378ef6b4da0dde4e5e40a83360:cf780489726c04879889b97270cbf31a",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/uq2koin2rk/out/v1/178bde30fb5a49209e3d41f17da49bfe/cenc.mpd",
+          "title": "PRIME VIDEO FHD",
+          "type": "1"
+        },
         {
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "406",
-      "title": "Andorra vs Málaga",
-      "image": "o",
-      "cat": "LaLiga 2",
-      "eventInfo": {
-        "teamA": "FC Andorra",
-        "teamB": "Málaga",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2830/image",
-        "eventName": "FC Andorra vs Málaga",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:00:00 +0000",
-        "endTime": "2026/04/01 19:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga Hypermotion ES"
-      ],
-      "channels": [
-        {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "407",
-      "title": "R. Racing Club vs Sporting Gijón",
-      "image": "o",
-      "cat": "LaLiga 2",
-      "eventInfo": {
-        "teamA": "R. Racing Club",
-        "teamB": "Sporting",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2835/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2852/image",
-        "eventName": "R. Racing Club vs Sporting Gijón",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 19:30:00 +0000",
-        "endTime": "2026/04/01 21:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga Hypermotion ES"
-      ],
-      "channels": [
-        {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "408",
-      "title": "Thailand U20 vs Bangladesh U20",
-      "image": "o",
-      "cat": "Football",
-      "eventInfo": {
-        "teamA": "Thailand U20",
-        "teamB": "Bangladesh U20",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1150504/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1106610/image",
-        "eventName": "Thailand U20 vs Bangladesh U20",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 13:00:00 +0000",
-        "endTime": "2026/04/01 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4452297.m3u8?txSecret=68544a041c56b168a78cff1924f32831&txTime=69CD67C2|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
         },
         {
           "api": null,
-          "link": "http://195.178.110.2/hls/JBBBQQQQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "409",
-      "title": "Atlanta Braves vs Athletics",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Braves",
-        "teamB": "Athletics",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3656/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3645/image",
-        "eventName": "Atlanta Braves vs Athletics",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 16:15:00 +0000",
-        "endTime": "2026/04/01 18:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48161/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://live.uu6611.com/live/sd-1-4465653.m3u8?txSecret=492d554030254c1a05727d75bb511bdb&txTime=69CDFF14|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
       ]
     },
     {
-      "id": "410",
-      "title": "Baltimore Orioles vs Texas Rangers",
+      "id": "422",
+      "title": "Kansas City Royals vs Minnesota Twins",
       "image": "o",
       "cat": "MLB",
       "eventInfo": {
-        "teamA": "Orioles",
-        "teamB": "Rangers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3652/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3647/image",
-        "eventName": "Baltimore Orioles vs Texas Rangers",
+        "teamA": "Royals",
+        "teamB": "Twins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3651/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3649/image",
+        "eventName": "Kansas City Royals vs Minnesota Twins",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/01 16:35:00 +0000",
-        "endTime": "2026/04/01 19:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48150/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "411",
-      "title": "Cincinnati Reds vs Pittsburgh Pirates",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Reds",
-        "teamB": "Pirates",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3633/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3637/image",
-        "eventName": "Cincinnati Reds vs Pittsburgh Pirates",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 16:40:00 +0000",
-        "endTime": "2026/04/01 19:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48162/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "412",
-      "title": "Phillies vs Washington Nationals",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Phillies",
-        "teamB": "Nationals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5930/image",
-        "eventName": "Philadelphia Phillies vs Washington Nationals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:05:00 +0000",
-        "endTime": "2026/04/01 19:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48163/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Blue Jays vs Colorado Rockies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Blue Jays",
-        "teamB": "Rockies",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3642/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "eventName": "Toronto Blue Jays vs Colorado Rockies",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:07:00 +0000",
-        "endTime": "2026/04/01 19:47:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48166/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "414",
-      "title": "Miami Marlins vs White Sox",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Marlins",
-        "teamB": "White Sox",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3639/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3644/image",
-        "eventName": "Miami Marlins vs Chicago White Sox",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:10:00 +0000",
-        "endTime": "2026/04/01 19:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48167/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "415",
-      "title": "Cardinals vs New York Mets",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cardinals",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3632/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "St. Louis Cardinals vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:15:00 +0000",
-        "endTime": "2026/04/01 19:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48151/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "416",
-      "title": "Brewers vs Tampa Bay Rays",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Brewers",
-        "teamB": "Rays",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3630/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3653/image",
-        "eventName": "Milwaukee Brewers vs Tampa Bay Rays",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 17:40:00 +0000",
-        "endTime": "2026/04/01 20:20:00 +0000"
+        "startTime": "2026/04/01 23:40:00 +0000",
+        "endTime": "2026/04/02 02:20:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2100,218 +1720,63 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48168/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/48173/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX MLB",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://d4.tbfiles.cfd/live/milwauki/stream.m3u8",
+          "link": "https://602.premiumjh.shop/mlb14.m3u8",
           "title": "FHD SERVER",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
       ]
     },
     {
-      "id": "417",
-      "title": "Houston Astros vs Boston Red Sox",
+      "id": "423",
+      "title": "Dodgers vs Cleveland Guardians",
       "image": "o",
       "cat": "MLB",
       "eventInfo": {
-        "teamA": "Astros",
-        "teamB": "Red Sox",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3655/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3646/image",
-        "eventName": "Houston Astros vs Boston Red Sox",
+        "teamA": "Dodgers",
+        "teamB": "Guardians",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3638/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "eventName": "Los Angeles Dodgers vs Cleveland Guardians",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/01 18:10:00 +0000",
-        "endTime": "2026/04/01 20:50:00 +0000"
+        "startTime": "2026/04/02 00:20:00 +0000",
+        "endTime": "2026/04/02 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX MLB",
+        "SportzX NBA",
         "FHD SERVER",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48152/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
+          "link": "https://chatgpt.hereisman.net/playlist/48159/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://d5.tbfiles.cfd/live/redsox/stream.m3u8",
+          "link": "https://602.premiumjh.shop/mlb15.m3u8",
           "title": "FHD SERVER",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "418",
-      "title": "Chicago Cubs vs Angels",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cubs",
-        "teamB": "Angels",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5929/image",
-        "eventName": "Chicago Cubs vs Los Angeles Angels",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 18:20:00 +0000",
-        "endTime": "2026/04/01 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "FHD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48153/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://d5.tbfiles.cfd/live/angel/stream.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "419",
-      "title": "Diamondbacks vs Detroit Tigers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Diamondbacks",
-        "teamB": "Tigers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
-        "eventName": "Arizona Diamondbacks vs Detroit Tigers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 19:40:00 +0000",
-        "endTime": "2026/04/01 22:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FHD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://d6.tbfiles.cfd/live/backs/stream.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "420",
-      "title": "Padres vs San Francisco Giants",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Padres",
-        "teamB": "Giants",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3636/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3634/image",
-        "eventName": "San Diego Padres vs San Francisco Giants",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 20:10:00 +0000",
-        "endTime": "2026/04/01 22:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FHD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://d6.tbfiles.cfd/live/diego/stream.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "421",
-      "title": "Mariners vs New York Yankees",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Mariners",
-        "teamB": "Yankees",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3641/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3654/image",
-        "eventName": "Seattle Mariners vs New York Yankees",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/01 20:10:00 +0000",
-        "endTime": "2026/04/01 22:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FHD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn3.tbfiles.cfd/live/seatlle/stream.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
