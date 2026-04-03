@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 38,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -707,6 +707,91 @@
           "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
           "title": "FANCODE (IND)",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "ISL VS ISL",
+      "image": "o",
+      "cat": "ISL",
+      "eventInfo": {
+        "teamA": "ISL",
+        "teamB": "ISL",
+        "teamAFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "eventName": "ISL vs ISL",
+        "eventType": "null",
+        "startTime": "2026/04/03 14:00:00 +0000",
+        "endTime": "2026/04/03 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "FANCODE [ENG]",
+        "FANCODE [HIN]",
+        "FANCODE [MAL]",
+        "FANCODE [BAN]",
+        "FANCODE [TAM]",
+        "FANCODE [BD]",
+        "FANCODE FHD",
+        "FANCODE - SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4496364.m3u8?txSecret=65cee2ab03d168dd77cad8443175bdd6&txTime=69C01A35|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": "650476241412483fab01c00d14b0bc5f:269b321843f4d7eab4045efc72b5547e",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140471_english_dash_48239_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "b9f9ff45969744efae3871ee0462d6c7:7cfd50382249cd229b99237f2a433f0a",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140471_hindi_dash_38780_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "a9431d57310448dc849cb60c905c82c4:7ad20eeda501ffe6d27f6040a3e1625e",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140471_malayalam_dash_58315_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [MAL]",
+          "type": "1"
+        },
+        {
+          "api": "49d7897b91e940b3a7470a13c90fc5fd:dcfa7dcfac86b46d56b1792b133ccd67",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140471_bengali_dash_82998_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BAN]",
+          "type": "1"
+        },
+        {
+          "api": "ac218ff41bb44bc58a3083bebab216e1:dd2daf66c01b01b2823a014bcadeae99",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140471_tamil_dash_89312_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [TAM]",
+          "type": "0"
+        },
+        {
+          "api": "2ca31de9dc504028934bf90511d4bb7c:ddd51dd37459c2954be0abb7d6d95911",
+          "link": "https://bd-mc-flive.fancode.com/delhi/140471_english_dash_49424_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BD]",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+          "title": "FANCODE - SD",
+          "type": "1"
         }
       ]
     },
@@ -1711,6 +1796,246 @@
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Nationals vs Dodgers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Nationals",
+        "teamB": "Dodgers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5930/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3638/image",
+        "eventName": "Nationals vs Dodgers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 17:05:00 +0000",
+        "endTime": "2026/04/03 19:55:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "Tigers vs St. Louis Cardinals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Tigers",
+        "teamB": "Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "Detroit Tigers vs St. Louis Cardinals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 17:10:00 +0000",
+        "endTime": "2026/04/03 19:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Yankees vs Miami Marlins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Yankees",
+        "teamB": "Marlins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3654/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3639/image",
+        "eventName": "New York Yankees vs Miami Marlins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 17:35:00 +0000",
+        "endTime": "2026/04/03 19:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Red Sox vs San Diego Padres",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Red Sox",
+        "teamB": "Padres",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3636/image",
+        "eventName": "Boston Red Sox vs San Diego Padres",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 18:10:00 +0000",
+        "endTime": "2026/04/03 20:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "White Sox vs Blue Jays",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "White Sox",
+        "teamB": "Blue Jays",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3644/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3642/image",
+        "eventName": "Chicago White Sox vs Toronto Blue Jays",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 18:10:00 +0000",
+        "endTime": "2026/04/03 20:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Texas Rangers vs Cincinnati Reds",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Rangers",
+        "teamB": "Reds",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3647/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3633/image",
+        "eventName": "Texas Rangers vs Cincinnati Reds",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 20:05:00 +0000",
+        "endTime": "2026/04/03 22:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Cleveland Guardians vs Chicago Cubs",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Guardians",
+        "teamB": "Cubs",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3627/image",
+        "eventName": "Cleveland Guardians vs Chicago Cubs",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 20:10:00 +0000",
+        "endTime": "2026/04/03 22:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Rockies vs Philadelphia Phillies",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Rockies",
+        "teamB": "Phillies",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "eventName": "Colorado Rockies vs Philadelphia Phillies",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/03 20:10:00 +0000",
+        "endTime": "2026/04/03 22:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
           "type": "0"
         }
       ]
