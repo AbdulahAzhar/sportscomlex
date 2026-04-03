@@ -546,8 +546,11 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
+        "WILLOW HINDI",
+        "WILLOW ENG",
         "SKY CRICKET HD",
-        "JIO HOTSTAR",
+        "FOX CRICKET FHD",
+        "HINDI HD",
         "SD SERVER",
         "STAR IN [ENG]",
         "STAR IN [HIN]",
@@ -728,69 +731,48 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
+        "FANCODE FHD",
         "FANCODE [ENG]",
         "FANCODE [HIN]",
         "FANCODE [MAL]",
         "FANCODE [BAN]",
-        "FANCODE [TAM]",
-        "FANCODE [BD]",
-        "FANCODE FHD",
-        "FANCODE - SD"
+        "FANCODE [BD]"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4496364.m3u8?txSecret=65cee2ab03d168dd77cad8443175bdd6&txTime=69C01A35|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": "650476241412483fab01c00d14b0bc5f:269b321843f4d7eab4045efc72b5547e",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140471_english_dash_48239_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [ENG]",
-          "type": "1"
-        },
-        {
-          "api": "b9f9ff45969744efae3871ee0462d6c7:7cfd50382249cd229b99237f2a433f0a",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140471_hindi_dash_38780_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [HIN]",
-          "type": "1"
-        },
-        {
-          "api": "a9431d57310448dc849cb60c905c82c4:7ad20eeda501ffe6d27f6040a3e1625e",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140471_malayalam_dash_58315_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [MAL]",
-          "type": "1"
-        },
-        {
-          "api": "49d7897b91e940b3a7470a13c90fc5fd:dcfa7dcfac86b46d56b1792b133ccd67",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140471_bengali_dash_82998_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [BAN]",
-          "type": "1"
-        },
-        {
-          "api": "ac218ff41bb44bc58a3083bebab216e1:dd2daf66c01b01b2823a014bcadeae99",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140471_tamil_dash_89312_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [TAM]",
-          "type": "0"
-        },
-        {
-          "api": "2ca31de9dc504028934bf90511d4bb7c:ddd51dd37459c2954be0abb7d6d95911",
-          "link": "https://bd-mc-flive.fancode.com/delhi/140471_english_dash_49424_1drmta-di_h264/index.mpd",
-          "title": "FANCODE [BD]",
-          "type": "1"
-        },
-        {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
           "title": "FANCODE FHD",
           "type": "1"
         },
         {
-          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-          "title": "FANCODE - SD",
+          "api": "8c2671e605814910ae0089dc3a760453:b010a6e86f3e710ece7e2eaf299128d5",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140473_english_dash_16599_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "c8bb56bf0c1340ed89453cdbb0f614a2:5a8aeeee6bae662aa6c935f44de7dcd7",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140473_hindi_dash_17875_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "021009d964764be3bb62bcba18ded5f3:01b29fe614be5c67f499c3838f821d71",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140473_malayalam_dash_66876_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [MAL]",
+          "type": "1"
+        },
+        {
+          "api": "b360485b61c94a81a38b18e31e281100:55523ee2d816cade3f168e8f944dff9d",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140473_bengali_dash_23503_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BAN]",
+          "type": "1"
+        },
+        {
+          "api": "cc12b95883ae4583945dbd146ed4f055:4d9152ef14d38075064d02f7d899452c",
+          "link": "https://bd-mc-flive.fancode.com/delhi/140473_english_dash_65243_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BD]",
           "type": "1"
         }
       ]
