@@ -1391,14 +1391,49 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX DEPORTES"
+        "FANCODE FHD",
+        "FOX DEPORTES",
+        "Sportdigital FUSSBALL",
+        "SportzX Live",
+        "Thmanyah Sports",
+        "Alwan Sports SD"
       ],
       "channels": [
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
         {
           "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "Sportdigital FUSSBALL",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347930.m3u8?txSecret=d575865292650baa9e7e79a2f2e60434&txTime=69D04875|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://66.hls-syria.live/live/ssc1",
+          "title": "Thmanyah Sports",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/alwan4.m3u8",
+          "title": "Alwan Sports SD",
+          "type": "0"
         }
       ]
     },
@@ -1487,25 +1522,25 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "HD SERVER",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/newz/170.m3u8?|Referer=https://slapstreams.com/",
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/90.m3u8?|Referer=https://slapstreams.com/",
           "title": "HOME CAM.",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/newz/168.m3u8?|Referer=https://slapstreams.com/",
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/86.m3u8?|Referer=https://slapstreams.com/",
           "title": "AWAY CAM.",
           "type": "0"
         }
@@ -2081,7 +2116,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347930.m3u8?txSecret=d575865292650baa9e7e79a2f2e60434&txTime=69D04875|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
