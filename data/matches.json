@@ -1664,6 +1664,7 @@
       "formats": [
         "Laliga TV FHD",
         "beIN ENGLISH",
+        "FANCODE FHD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1677,6 +1678,12 @@
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -2111,13 +2118,34 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN Sports ES",
+        "SportzX Live",
+        "beIN Sports USA",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48237/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "beIN Sports ES",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4347930.m3u8?txSecret=d575865292650baa9e7e79a2f2e60434&txTime=69D04875|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://eyk4pqe8.04334746.net:8443/hls/twqw57dijwx1t.m3u8?s=UNiWcJMCUb_KUx3bny1xiQ&e=1775261237|Referer=https://fisherman.click/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "title": "beIN Sports USA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/bus.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
