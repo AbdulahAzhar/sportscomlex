@@ -2265,6 +2265,7 @@
       "formats": [
         "beIN ENGLISH",
         "CBS NETWORK",
+        "SKY FOOTBALL",
         "MAIN EVENT SD"
       ],
       "channels": [
@@ -2279,6 +2280,18 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
           "title": "CBS NETWORK",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://v.antsports.tv/live/22/index.m3u8",
+          "title": "SKY FOOTBALL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/main.m3u8",
+          "title": "MAIN EVENT SD",
+          "type": "0"
         }
       ]
     },
