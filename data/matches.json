@@ -650,7 +650,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
         "eventName": "Gujarat Titans vs Rajasthan Royals",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/04 14:00:00 +0000",
         "endTime": "2026/04/04 17:45:00 +0000"
       },
@@ -1020,7 +1020,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48217/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/48271/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
@@ -1128,7 +1128,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1136,6 +1137,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
           "title": "FOX SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4404627.m3u8?txSecret=2e6c2fd954aef11592a6a64ff1c19630&txTime=69D1987A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2213,13 +2220,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347924.m3u8?txSecret=3074181d4c639f4acee452252aa5c64e&txTime=69D19976|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/Mdplz23MNkdi/index.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2239,73 +2253,6 @@
         "isHot": "0",
         "startTime": "2026/04/04 19:05:00 +0000",
         "endTime": "2026/04/04 21:05:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "416",
-      "title": "CD Nacional vs CF Estrela Amadora",
-      "image": "o",
-      "cat": "Liga Portugal",
-      "eventInfo": {
-        "teamA": "Nacional",
-        "teamB": "Estrela Amadora",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3013/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
-        "eventName": "CD Nacional vs CF Estrela Amadora",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 14:30:00 +0000",
-        "endTime": "2026/04/04 16:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Sport TV HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://instreams.live/EU/HDTV31/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "Sport TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4369035.m3u8?txSecret=7a3e66e0dcc892ae19a7ff7fb8aee02c&txTime=69D16D85|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "417",
-      "title": "Moreirense vs Sporting Braga",
-      "image": "o",
-      "cat": "Liga Portugal",
-      "eventInfo": {
-        "teamA": "Moreirense",
-        "teamB": "Braga",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3014/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
-        "eventName": "Moreirense vs Sporting Braga",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 17:00:00 +0000",
-        "endTime": "2026/04/04 19:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2370,43 +2317,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ZIGGO SPORT"
       ],
       "channels": [
         {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369032.m3u8?txSecret=33e9d7e7ccee416527719e7ee1526f54&txTime=69D199A0|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
           "api": "4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548",
           "link": "https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?accountinfo=~~V2.0~yVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4~2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f:UTC,",
           "title": "ZIGGO SPORT",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "420",
-      "title": "PSV Eindhoven vs Utrecht",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "PSV",
-        "teamB": "Utrecht",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2952/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2948/image",
-        "eventName": "PSV Eindhoven vs FC Utrecht",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 14:30:00 +0000",
-        "endTime": "2026/04/04 16:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball"
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
@@ -2438,6 +2362,103 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Telstar vs FC Groningen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Telstar",
+        "teamB": "Groningen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2972/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "eventName": "SC Telstar vs FC Groningen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 16:45:00 +0000",
+        "endTime": "2026/04/04 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "AFC Ajax vs FC Twente",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Ajax",
+        "teamB": "Twente",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "eventName": "AFC Ajax vs FC Twente",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Excelsior vs NEC Nijmegen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Excelsior",
+        "teamB": "NEC",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+        "eventName": "Excelsior vs NEC Nijmegen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
         }
       ]
     }
