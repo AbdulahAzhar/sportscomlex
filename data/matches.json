@@ -1671,7 +1671,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/44/image",
         "eventName": "Manchester City vs Liverpool",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/04 11:45:00 +0000",
         "endTime": "2026/04/04 13:45:00 +0000"
       },
@@ -1799,57 +1799,6 @@
       ]
     },
     {
-      "id": "401",
-      "title": "Rayo Vallecano vs Elche",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Rayo Vallecano",
-        "teamB": "Elche",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2818/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2846/image",
-        "eventName": "Rayo Vallecano vs Elche",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/03 19:00:00 +0000",
-        "endTime": "2026/04/03 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga TV FHD",
-        "beIN ENGLISH",
-        "FANCODE FHD",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
-        },
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "402",
       "title": "Real Sociedad vs Levante UD",
       "image": "o",
@@ -1912,7 +1861,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
         "eventName": "Mallorca vs Real Madrid",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/04 14:15:00 +0000",
         "endTime": "2026/04/04 16:15:00 +0000"
       },
@@ -1922,7 +1871,11 @@
         "Laliga TV FHD",
         "beIN ENGLISH",
         "FANCODE FHD",
-        "ESPN DEPORTES"
+        "SPX - HD SERVER",
+        "ESPN DEPORTES",
+        "NOW SPORTS SD",
+        "SportzX Live",
+        "SPX - FAST STREAM"
       ],
       "channels": [
         {
@@ -1945,8 +1898,26 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48261/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/now2.m3u8",
+          "title": "NOW SPORTS SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4358883.m3u8?txSecret=c778a140b60d6430f31c44796fa9a1da&txTime=69D15EF8|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2190,20 +2161,62 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
         "eventName": "Freiburg vs Bayern München",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/04 13:30:00 +0000",
         "endTime": "2026/04/04 15:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Sky Bundesliga SD"
+        "SporTV BR - AQ",
+        "SPX - HD SERVER",
+        "ONE SPORTS HD",
+        "Sky Bundesliga HD",
+        "SportzX Live",
+        "Sky Bundesliga SD",
+        "SonyLiv [ENG]"
       ],
       "channels": [
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48277/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.premiumjh.shop/one.m3u8",
+          "title": "ONE SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV11/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347661.m3u8?txSecret=670d1884de1d586bd942f2b36f31d367&txTime=69D15903|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
           "title": "Sky Bundesliga SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/20000299/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775352322~acl=/*~id=80794018838624142680586512519178~hmac=7bb83f0535e1691ff6c3d434e242425e3c50b1300754d25c1c3e9448972f1ea9|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "title": "SonyLiv [ENG]",
           "type": "0"
         }
       ]
@@ -2227,13 +2240,41 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Sky Bundesliga SD"
+        "SPX - HD SERVER",
+        "Sky Bundesliga HD",
+        "SportzX Live",
+        "Sky Bundesliga SD",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48278/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV12/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347610.m3u8?txSecret=536f65525e4fe3650ec31dc5fa2cbdc2&txTime=69D15903|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
           "title": "Sky Bundesliga SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/20000292/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775352322~acl=/*~id=80794018838624142680586512519178~hmac=7bb83f0535e1691ff6c3d434e242425e3c50b1300754d25c1c3e9448972f1ea9|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "title": "SonyLiv [ENG]",
           "type": "0"
         }
       ]
@@ -2257,9 +2298,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SporTV BR",
         "Sky Bundesliga SD"
       ],
       "channels": [
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
@@ -2364,6 +2412,36 @@
         "isHot": "0",
         "startTime": "2026/04/04 17:00:00 +0000",
         "endTime": "2026/04/04 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "Lille vs RC Lens",
+      "image": "o",
+      "cat": "Ligue 1 🇫🇷",
+      "eventInfo": {
+        "teamA": "Lille",
+        "teamB": "Lens",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+        "eventName": "Lille vs RC Lens",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 19:05:00 +0000",
+        "endTime": "2026/04/04 21:05:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
