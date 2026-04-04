@@ -334,7 +334,6 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX WWE",
         "SportzX HD",
         "Backup SD",
         "Tap Sport LQ"
@@ -342,13 +341,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48097/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX WWE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
           "title": "SportzX HD",
           "type": "0"
         },
@@ -395,19 +388,19 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/47109/load-playlist|Referer=https://gooz.aapmains.net/",
+          "link": "https://chatgpt.hereisman.net/playlist/47109/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX WWE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108084_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
           "title": "Backup HD",
           "type": "0"
         },
@@ -419,7 +412,7 @@
         },
         {
           "api": null,
-          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/108084_HD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108084_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
           "title": "USA TV HD",
           "type": "0"
         },
@@ -532,31 +525,22 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "CSK",
-        "teamB": "PBKS",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187777/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187776/image",
-        "eventName": "Chennai Super Kings vs Punjab Kings",
+        "teamA": "DC",
+        "teamB": "MI",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187841/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187780/image",
+        "eventName": "Delhi Capitals vs Mumbai Indians",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/03 14:00:00 +0000",
-        "endTime": "2026/04/03 17:45:00 +0000"
+        "startTime": "2026/04/04 10:00:00 +0000",
+        "endTime": "2026/04/04 13:45:00 +0000"
       },
       "adsLimit": "17",
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "WILLOW HINDI",
-        "WILLOW ENG",
         "SKY CRICKET HD",
-        "FOX CRICKET FHD",
-        "HINDI HD",
-        "SD SERVER",
-        "STAR IN [ENG]",
-        "STAR IN [HIN]",
-        "STAR IN [TAM]",
-        "STAR IN [TEL]",
-        "STAR IN [KAN]"
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -646,6 +630,36 @@
       ]
     },
     {
+      "id": "367",
+      "title": "IPL - 02",
+      "image": "o",
+      "cat": "Indian Premier League",
+      "eventInfo": {
+        "teamA": "GT",
+        "teamB": "RR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/216006/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
+        "eventName": "Gujarat Titans vs Rajasthan Royals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 14:00:00 +0000",
+        "endTime": "2026/04/04 17:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SKY CRICKET"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "title": "SKY CRICKET",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "368",
       "title": "PSL 01",
       "image": "o",
@@ -725,8 +739,8 @@
         "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
         "eventName": "ISL vs ISL",
         "eventType": "null",
-        "startTime": "2026/04/03 14:00:00 +0000",
-        "endTime": "2026/04/03 16:00:00 +0000"
+        "startTime": "2026/04/04 11:30:00 +0000",
+        "endTime": "2026/04/04 16:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1314,19 +1328,19 @@
     },
     {
       "id": "383",
-      "title": "Al-Kholood vs Al-Khaleej",
+      "title": "Al-Ahli vs Damac FC",
       "image": "o",
       "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Al-Kholood",
-        "teamB": "Al-Khaleej",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/269199/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/167228/image",
-        "eventName": "Al-Kholood vs Al-Khaleej",
+        "teamA": "Al-Ahli",
+        "teamB": "Damac",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/204126/image",
+        "eventName": "Al-Ahli vs Damac FC",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/03 16:00:00 +0000",
-        "endTime": "2026/04/03 18:00:00 +0000"
+        "startTime": "2026/04/04 16:15:00 +0000",
+        "endTime": "2026/04/04 18:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1336,7 +1350,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404693.m3u8?txSecret=3c9e2a032eb616dca9fa3ac8b469aa5b&txTime=69D02853|Referer=https://player.up909.com/",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1344,19 +1358,19 @@
     },
     {
       "id": "384",
-      "title": "Al-Ittihad vs Al-Hazem",
+      "title": "Neom SC vs Al-Fayha",
       "image": "o",
       "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Al-Ittihad",
-        "teamB": "Al-Hazem",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/34315/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/168086/image",
-        "eventName": "Al-Ittihad vs Al-Hazem",
+        "teamA": "Neom SC",
+        "teamB": "Al-Fayha",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/530631/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/168094/image",
+        "eventName": "Neom SC vs Al-Fayha",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/03 16:15:00 +0000",
-        "endTime": "2026/04/03 18:15:00 +0000"
+        "startTime": "2026/04/04 16:30:00 +0000",
+        "endTime": "2026/04/04 18:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1366,7 +1380,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404669.m3u8?txSecret=158421abb21b05e0a8cef1ddbbae567f&txTime=69D02853|Referer=https://player.up909.com/",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1374,66 +1388,31 @@
     },
     {
       "id": "385",
-      "title": "Al-Nassr vs Al-Najma SC",
+      "title": "Al-Hilal vs Al-Taawoun",
       "image": "o",
       "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Al-Nassr",
-        "teamB": "Al-Najma",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/23400/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/395831/image",
-        "eventName": "Al-Nassr vs Al-Najma SC",
+        "teamA": "Al-Hilal",
+        "teamB": "Al-Taawoun",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56021/image",
+        "eventName": "Al-Hilal vs Al-Taawoun",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/03 18:00:00 +0000",
-        "endTime": "2026/04/03 20:00:00 +0000"
+        "startTime": "2026/04/04 18:00:00 +0000",
+        "endTime": "2026/04/04 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FANCODE FHD",
-        "FOX DEPORTES",
-        "Sportdigital FUSSBALL",
-        "SportzX Live",
-        "Thmanyah Sports",
-        "Alwan Sports SD"
+        "FOX SPORTS FHD"
       ],
       "channels": [
         {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "title": "FANCODE FHD",
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "Sportdigital FUSSBALL",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347930.m3u8?txSecret=d575865292650baa9e7e79a2f2e60434&txTime=69D04875|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://66.hls-syria.live/live/ssc1",
-          "title": "Thmanyah Sports",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a4.kora-plus.dad/watch/alwan4.m3u8",
-          "title": "Alwan Sports SD",
-          "type": "0"
         }
       ]
     },
@@ -1542,6 +1521,50 @@
           "api": null,
           "link": "https://webcast-cdn.b-cdn.net/newz/newz/86.m3u8?|Referer=https://slapstreams.com/",
           "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "396",
+      "title": "Giants vs New York Mets",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Giants",
+        "teamB": "Mets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3634/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
+        "eventName": "San Francisco Giants vs New York Mets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 02:15:00 +0000",
+        "endTime": "2026/04/04 05:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "MLB LIVE - AQ",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48244/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/redsox.m3u8",
+          "title": "MLB LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2242,119 +2265,31 @@
     },
     {
       "id": "416",
-      "title": "Middlesbrough vs Millwall",
+      "title": "CD Nacional vs CF Estrela Amadora",
       "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "cat": "Liga Portugal",
       "eventInfo": {
-        "teamA": "Middlesbrough",
-        "teamB": "Millwall",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/36/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/25/image",
-        "eventName": "Middlesbrough vs Millwall",
+        "teamA": "Nacional",
+        "teamB": "Estrela Amadora",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+        "eventName": "CD Nacional vs CF Estrela Amadora",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/03 11:30:00 +0000",
-        "endTime": "2026/04/03 13:30:00 +0000"
+        "startTime": "2026/04/04 14:30:00 +0000",
+        "endTime": "2026/04/04 16:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH",
-        "CBS NETWORK",
-        "SKY FOOTBALL",
-        "MAIN EVENT SD"
+        "SportzX Live"
       ],
       "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        },
         {
           "api": null,
-          "link": "https://v.antsports.tv/live/22/index.m3u8",
-          "title": "SKY FOOTBALL",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
           "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a1.kora-plus.dad/watch/main.m3u8",
-          "title": "MAIN EVENT SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "417",
-      "title": "Leicester vs Preston NE",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Leicester",
-        "teamB": "Preston",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/31/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/21/image",
-        "eventName": "Leicester vs Preston NE",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/03 14:00:00 +0000",
-        "endTime": "2026/04/03 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "CBS NETWORK"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "418",
-      "title": "Oxford United vs Hull City",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Oxford Utd",
-        "teamB": "Hull",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/95/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/96/image",
-        "eventName": "Oxford United vs Hull City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/03 14:00:00 +0000",
-        "endTime": "2026/04/03 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
         }
       ]
     }
