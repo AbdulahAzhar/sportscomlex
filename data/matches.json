@@ -1168,7 +1168,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48215/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/47793/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NHL",
           "type": "0"
         },
@@ -1186,13 +1186,13 @@
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/newz/172.m3u8?|Referer=https://slapstreams.com/",
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/175.m3u8?|Referer=https://slapstreams.com/",
           "title": "HOME CAM.",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/newz/173.m3u8?|Referer=https://slapstreams.com/",
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/178.m3u8?|Referer=https://slapstreams.com/",
           "title": "AWAY CAM.",
           "type": "0"
         }
@@ -1268,6 +1268,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
@@ -1276,13 +1277,19 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://chatgpt.hereisman.net/playlist/47792/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "HD SERVER",
           "type": "0"
         },
@@ -1799,7 +1806,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD"
+        "TNT SPORTS FHD",
+        "TNT SPORTS HD"
       ],
       "channels": [
         {
@@ -1807,6 +1815,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48284/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS HD",
+          "type": "0"
         }
       ]
     },
@@ -2216,7 +2230,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
         "eventName": "Freiburg vs Bayern München",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/04 13:30:00 +0000",
         "endTime": "2026/04/04 15:30:00 +0000"
       },
@@ -2277,64 +2291,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Bayer Leverkusen vs Wolfsburg",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Leverkusen",
-        "teamB": "Wolfsburg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-        "eventName": "Bayer Leverkusen vs Wolfsburg",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 13:30:00 +0000",
-        "endTime": "2026/04/04 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SPX - HD SERVER",
-        "Sky Bundesliga HD",
-        "SportzX Live",
-        "Sky Bundesliga SD",
-        "SonyLiv [ENG]"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48278/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SPX - HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/EU/HDTV12/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "Sky Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347610.m3u8?txSecret=536f65525e4fe3650ec31dc5fa2cbdc2&txTime=69D15903|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
-          "title": "Sky Bundesliga SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sonydaimenew.akamaized.net/hls/live/20000292/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775352322~acl=/*~id=80794018838624142680586512519178~hmac=7bb83f0535e1691ff6c3d434e242425e3c50b1300754d25c1c3e9448972f1ea9|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
-          "title": "SonyLiv [ENG]",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Stuttgart vs Borussia Dortmund",
       "image": "o",
@@ -2354,6 +2310,7 @@
       "publish": "1",
       "formats": [
         "SporTV BR",
+        "SPX - HD SERVER",
         "Sky Bundesliga SD"
       ],
       "channels": [
@@ -2362,6 +2319,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
           "title": "SporTV BR",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48285/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SPX - HD SERVER",
+          "type": "0"
         },
         {
           "api": null,
@@ -2528,6 +2491,43 @@
         {
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "title": "CD Nacional vs CF Estrela Amadora",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Nacional",
+        "teamB": "Estrela Amadora",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+        "eventName": "CD Nacional vs CF Estrela Amadora",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 14:30:00 +0000",
+        "endTime": "2026/04/04 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sport TV HD",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV31/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sport TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369035.m3u8?txSecret=7a3e66e0dcc892ae19a7ff7fb8aee02c&txTime=69D16D85|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
