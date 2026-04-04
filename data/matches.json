@@ -2441,13 +2441,34 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN SPORTS ES",
+        "SportzX Live",
+        "beIN USA SD",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://daffodil.premiumjh.shop/beines.m3u8",
+          "title": "beIN SPORTS ES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347931.m3u8?txSecret=f067f4e2e3de4d6d484fa811c3c7d984&txTime=69D16D49|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/bus.m3u8",
+          "title": "beIN USA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/Mdplz23MNkdi/index.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
