@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 44,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -373,7 +373,7 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/04/11 00:00:00 +0000",
-        "endTime": "2026/04/04 02:45:00 +0000"
+        "endTime": "2026/04/11 02:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -993,6 +993,7 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "NOVA SPORTS",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1000,6 +1001,12 @@
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+          "link": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+          "title": "NOVA SPORTS",
           "type": "1"
         },
         {
@@ -1455,13 +1462,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "Sky Bundesliga SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+          "title": "Sky Bundesliga SD",
           "type": "0"
         }
       ]
@@ -1485,13 +1492,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "Sky Bundesliga SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
+          "title": "Sky Bundesliga SD",
           "type": "0"
         }
       ]
@@ -1515,13 +1522,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "Sky Bundesliga SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+          "title": "Sky Bundesliga SD",
           "type": "0"
         }
       ]
@@ -1848,133 +1855,188 @@
       ]
     },
     {
-      "id": "433",
-      "title": "Angels vs Seattle Mariners",
+      "id": "422",
+      "title": "Telstar vs FC Groningen",
       "image": "o",
-      "cat": "MLB",
+      "cat": "Eredivisie",
       "eventInfo": {
-        "teamA": "Angels",
-        "teamB": "Mariners",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5929/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3641/image",
-        "eventName": "Los Angeles Angels vs Seattle Mariners",
+        "teamA": "Telstar",
+        "teamB": "Groningen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2972/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "eventName": "SC Telstar vs FC Groningen",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/04 01:38:00 +0000",
-        "endTime": "2026/04/04 04:28:00 +0000"
+        "startTime": "2026/04/04 16:45:00 +0000",
+        "endTime": "2026/04/04 18:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX MLB",
-        "MLB LIVE - AQ",
-        "SportzX LIVE"
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48259/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/tigers.m3u8",
-          "title": "MLB LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
     },
     {
-      "id": "434",
-      "title": "Athletics vs Houston Astros",
+      "id": "423",
+      "title": "AFC Ajax vs FC Twente",
       "image": "o",
-      "cat": "MLB",
+      "cat": "Eredivisie",
       "eventInfo": {
-        "teamA": "Athletics",
-        "teamB": "Astros",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3645/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3655/image",
-        "eventName": "Athletics vs Houston Astros",
+        "teamA": "Ajax",
+        "teamB": "Twente",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "eventName": "AFC Ajax vs FC Twente",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/04 01:40:00 +0000",
-        "endTime": "2026/04/04 04:30:00 +0000"
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX MLB",
-        "MLB LIVE - AQ",
-        "SportzX LIVE"
+        "SportDigital Fussball",
+        "ESPN NL"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48260/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/yankees.m3u8",
-          "title": "MLB LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL",
           "type": "0"
         }
       ]
     },
     {
-      "id": "435",
-      "title": "Diamondbacks vs Atlanta Braves",
+      "id": "424",
+      "title": "Excelsior vs NEC Nijmegen",
       "image": "o",
-      "cat": "MLB",
+      "cat": "Eredivisie",
       "eventInfo": {
-        "teamA": "Diamondbacks",
-        "teamB": "Braves",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3656/image",
-        "eventName": "Arizona Diamondbacks vs Atlanta Braves",
+        "teamA": "Excelsior",
+        "teamB": "NEC",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+        "eventName": "Excelsior vs NEC Nijmegen",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/04 01:45:00 +0000",
-        "endTime": "2026/04/04 04:35:00 +0000"
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX MLB",
-        "MLB LIVE - AQ",
-        "SportzX LIVE"
+        "ESPN NL"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48257/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL",
           "type": "0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Kasımpaşa vs Kayserispor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Kasımpaşa",
+        "teamB": "Kayserispor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6063/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+        "eventName": "Kasımpaşa vs Kayserispor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 11:30:00 +0000",
+        "endTime": "2026/04/04 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
         {
           "api": null,
-          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/dodgers.m3u8",
-          "title": "MLB LIVE - AQ",
+          "link": "https://smarthard.click/hls/SoaJ1GdNv8qL/index.m3u8",
+          "title": "beIN SPORTS SD",
           "type": "0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Gençlerbirliği vs Göztepe",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Gençlerbirliği",
+        "teamB": "Göztepe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3054/image",
+        "eventName": "Gençlerbirliği vs Göztepe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 11:30:00 +0000",
+        "endTime": "2026/04/04 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
+          "link": "https://smarthard.click/hls/DcTxPWHOB5aM/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Trabzonspor vs Galatasaray",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Trabzonspor",
+        "teamB": "Galatasaray",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+        "eventName": "Trabzonspor vs Galatasaray",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 17:00:00 +0000",
+        "endTime": "2026/04/04 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
