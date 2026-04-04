@@ -763,8 +763,8 @@
       ],
       "channels": [
         {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
           "title": "FANCODE FHD",
           "type": "1"
         },
@@ -845,6 +845,166 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "Denver Nuggets vs Spurs",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Nuggets",
+        "teamB": "Spurs",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3417/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3429/image",
+        "eventName": "Denver Nuggets vs San Antonio Spurs",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/147.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/156.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Miami Heat vs Wizards",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Heat",
+        "teamB": "Wizards",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3435/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3431/image",
+        "eventName": "Miami Heat vs Washington Wizards",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 19:00:00 +0000",
+        "endTime": "2026/04/04 21:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/137.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/164.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "76ers vs Detroit Pistons",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "76ers",
+        "teamB": "Pistons",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3420/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "eventName": "Philadelphia 76ers vs Detroit Pistons",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 23:00:00 +0000",
+        "endTime": "2026/04/05 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48217/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/154.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/145.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
         }
       ]
     },
@@ -1520,8 +1680,11 @@
       "formats": [
         "TNT SPORTS FHD",
         "NOVA SPORTS",
+        "SportzX Live - AQ",
         "ESPN DEPORTES",
-        "SportzX Live"
+        "SportzX Live",
+        "TNT SPORTS HD",
+        "beIN Sports SD"
       ],
       "channels": [
         {
@@ -1538,6 +1701,12 @@
         },
         {
           "api": null,
+          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/hornets.m3u8",
+          "title": "SportzX Live - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
           "type": "0"
@@ -1546,6 +1715,18 @@
           "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4512595.m3u8?txSecret=b4615ac9c545f1f38ab65b241359a11c&txTime=69D135FA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NFLHD1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/b1.m3u8",
+          "title": "beIN Sports SD",
           "type": "0"
         }
       ]
@@ -1682,6 +1863,7 @@
       "formats": [
         "Laliga TV FHD",
         "beIN ENGLISH",
+        "FANCODE FHD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1695,6 +1877,12 @@
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -1726,6 +1914,7 @@
       "formats": [
         "Laliga TV FHD",
         "beIN ENGLISH",
+        "FANCODE FHD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1739,6 +1928,12 @@
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -2158,96 +2353,6 @@
         "teamAFlag": "https://img.sofascore.com/api/v1/team/1715/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/1658/image",
         "eventName": "Stade Brestois vs Stade Rennais",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 17:00:00 +0000",
-        "endTime": "2026/04/04 19:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "415",
-      "title": "Lille vs RC Lens",
-      "image": "o",
-      "cat": "Ligue 1 🇫🇷",
-      "eventInfo": {
-        "teamA": "Lille",
-        "teamB": "Lens",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
-        "eventName": "Lille vs RC Lens",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 19:05:00 +0000",
-        "endTime": "2026/04/04 21:05:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "416",
-      "title": "CD Nacional vs CF Estrela Amadora",
-      "image": "o",
-      "cat": "Liga Portugal",
-      "eventInfo": {
-        "teamA": "Nacional",
-        "teamB": "Estrela Amadora",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3013/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
-        "eventName": "CD Nacional vs CF Estrela Amadora",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 14:30:00 +0000",
-        "endTime": "2026/04/04 16:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "417",
-      "title": "Moreirense vs Sporting Braga",
-      "image": "o",
-      "cat": "Liga Portugal",
-      "eventInfo": {
-        "teamA": "Moreirense",
-        "teamB": "Braga",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3014/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
-        "eventName": "Moreirense vs Sporting Braga",
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/04/04 17:00:00 +0000",
