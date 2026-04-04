@@ -1806,6 +1806,7 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "SportzX Live - AQ",
         "TNT SPORTS HD",
         "NOVA SPORTS",
         "SportzX Live",
@@ -1818,6 +1819,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://darmasaki888.s3.us-east-1.amazonaws.com/hornets.m3u8",
+          "title": "SportzX Live - AQ",
+          "type": "0"
         },
         {
           "api": null,
@@ -1839,13 +1846,13 @@
         },
         {
           "api": null,
-          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/ChelseaV0404/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775362139~acl=/*~id=59593105635970148954643410239678~hmac=920fbdf16c179375d3c9998a64a0a116f9f344c46e5bbc9a82a45b47c67f04d6|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/ChelseaV0404/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775362139~acl=/*~id=59593105635970148954643410239678~hmac=920fbdf16c179375d3c9998a64a0a116f9f344c46e5bbc9a82a45b47c67f04d6|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [HIN]",
           "type": "0"
         }
@@ -1902,8 +1909,8 @@
       "formats": [
         "Laliga TV FHD",
         "beIN ENGLISH",
-        "ESPN DEPORTES",
-        "FANCODE FHD"
+        "FANCODE FHD",
+        "ESPN DEPORTES"
       ],
       "channels": [
         {
@@ -1916,6 +1923,12 @@
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -1974,50 +1987,6 @@
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "406",
-      "title": "Sassuolo vs Cagliari",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Sassuolo",
-        "teamB": "Cagliari",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2793/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-        "eventName": "Sassuolo vs Cagliari",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 13:00:00 +0000",
-        "endTime": "2026/04/04 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH FHD",
-        "CBS NETWORK",
-        "FOX DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
         }
       ]
     },
@@ -2110,78 +2079,6 @@
       ]
     },
     {
-      "id": "409",
-      "title": "Freiburg vs Bayern München",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Freiburg",
-        "teamB": "Bayern",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2538/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-        "eventName": "Freiburg vs Bayern München",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/04 13:30:00 +0000",
-        "endTime": "2026/04/04 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SporTV BR - AQ",
-        "SPX - HD SERVER",
-        "ONE SPORTS HD",
-        "Sky Bundesliga HD",
-        "SportzX Live",
-        "Sky Bundesliga SD",
-        "SonyLiv [ENG]"
-      ],
-      "channels": [
-        {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-          "title": "SporTV BR - AQ",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48277/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SPX - HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.premiumjh.shop/one.m3u8",
-          "title": "ONE SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/EU/HDTV11/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "Sky Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347661.m3u8?txSecret=670d1884de1d586bd942f2b36f31d367&txTime=69D15903|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
-          "title": "Sky Bundesliga SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sonydaimenew.akamaized.net/hls/live/20000299/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775352322~acl=/*~id=80794018838624142680586512519178~hmac=7bb83f0535e1691ff6c3d434e242425e3c50b1300754d25c1c3e9448972f1ea9|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
-          "title": "SonyLiv [ENG]",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Stuttgart vs Borussia Dortmund",
       "image": "o",
@@ -2204,7 +2101,8 @@
         "SPX - HD SERVER",
         "Sky Bundesliga HD",
         "SportzX Live",
-        "Sky Bundesliga SD"
+        "Sky Bundesliga SD",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
@@ -2235,6 +2133,12 @@
           "api": null,
           "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
           "title": "Sky Bundesliga SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/20000295/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775362139~acl=/*~id=59593105635970148954643410239678~hmac=920fbdf16c179375d3c9998a64a0a116f9f344c46e5bbc9a82a45b47c67f04d6|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
           "type": "0"
         }
       ]
@@ -2473,6 +2377,66 @@
           "api": "4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548",
           "link": "https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?accountinfo=~~V2.0~yVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4~2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f:UTC,",
           "title": "ZIGGO SPORT",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "PSV Eindhoven vs Utrecht",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "PSV",
+        "teamB": "Utrecht",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2948/image",
+        "eventName": "PSV Eindhoven vs FC Utrecht",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 14:30:00 +0000",
+        "endTime": "2026/04/04 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "AZ Alkmaar vs Fortuna Sittard",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "AZ",
+        "teamB": "Fortuna",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2957/image",
+        "eventName": "AZ Alkmaar vs Fortuna Sittard",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/04 16:45:00 +0000",
+        "endTime": "2026/04/04 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
