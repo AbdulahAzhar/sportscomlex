@@ -810,32 +810,32 @@
           "type": "1"
         },
         {
-          "api": "a7ffe6ad5a0e4f3c9d353c851729f367:fb64947f811de380e4ecba49bbe8c6ac",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140475_english_dash_70203_1drmta-di_h264/index.mpd",
+          "api": "8bd09dab8fe54c75883aa3b8e9e90813:655d0ead111fdeb199656fd24ae90909",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140476_english_dash_78073_1drmta-di_h264/index.mpd",
           "title": "FANCODE [ENG]",
           "type": "1"
         },
         {
-          "api": "7c67d54acfd247bca64dec6ab988161d:bb98935753225d228635bad7d9249237",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140475_hindi_dash_33166_1drmta-di_h264/index.mpd",
+          "api": "b71da6bfed9849fb96617e51e65ce204:a4556e0569bfe36e26e3f70db2d12fa6",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140476_hindi_dash_65338_1drmta-di_h264/index.mpd",
           "title": "FANCODE [HIN]",
           "type": "1"
         },
         {
-          "api": "b3a47117698d4fc292c3e782bf93f978:c1a8611bca4ba85795f1f7a4db65174b",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140475_malayalam_dash_4229_1drmta-di_h264/index.mpd",
+          "api": "a0aee25bec2242f78fe1b042b8456139:39160f231b70cb9d0c9da55ae8a4e192",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140476_malayalam_dash_63950_1drmta-di_h264/index.mpd",
           "title": "FANCODE [MAL]",
           "type": "1"
         },
         {
-          "api": "7fe00d36d16b475694fd4fcbd8e14e3e:d69855c07e153e16d468cc33351d6198",
-          "link": "https://in-mc-flive.fancode.com/mumbai/140475_bengali_dash_35466_1drmta-di_h264/index.mpd",
+          "api": "4fdb84aeb016415697dbe46d88fae37b:292ff1e861137572923e7cc0bae539c4",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140476_bengali_dash_72476_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BAN]",
           "type": "1"
         },
         {
-          "api": "5e01e80192ba4c28b2455856261e4a8d:c1ebac7aa3c69f8c80d0b606d95dc0eb",
-          "link": "https://bd-mc-flive.fancode.com/delhi/140475_english_dash_11849_1drmta-di_h264/index.mpd",
+          "api": "0199f1c8cc074bdc8e9f92cbf6b69d08:f53e2956f747d6fe080fb6a3594f788c",
+          "link": "https://bd-mc-flive.fancode.com/delhi/140476_english_dash_67597_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BD]",
           "type": "1"
         }
@@ -1754,9 +1754,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366149.m3u8?txSecret=22f460b4f13db31d68b91446a0667023&txTime=69D28FDD|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/DcTxPWHOB5aM/index.m3u8",
@@ -1784,13 +1791,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "beIN SPORTS HD",
+        "beIN SPORTS SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/sd-1-4366182.m3u8?txSecret=957d5bc75abfcb1be78fa2ad6d6c5acc&txTime=69D28FDD|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV34/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
@@ -1881,9 +1902,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Sky Bundesliga HD",
+        "SportzX Live",
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV16/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355803.m3u8?txSecret=cec2d77f3b89d7f575686e829c5cba5a&txTime=69D28D2A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8",
@@ -1911,9 +1946,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Sky Bundesliga HD",
+        "SportzX Live",
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV17/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355809.m3u8?txSecret=62eb117dc00ef966f3b8e89fe7b70cea&txTime=69D28D2A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
@@ -1941,9 +1990,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Sky Bundesliga HD",
+        "SportzX Live",
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV13/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355805.m3u8?txSecret=e0cf1c860677cbcc4ea79c8902746c5f&txTime=69D28D2A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8",
@@ -1971,9 +2034,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Sky Bundesliga HD",
+        "SportzX Live",
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355806.m3u8?txSecret=223cb81fdcce9053ca3293f170d31644&txTime=69D28D2A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/6v8yVbveVz4/index.m3u8",
@@ -2001,9 +2072,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Sky Bundesliga HD",
+        "SportzX Live",
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV14/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355804.m3u8?txSecret=126bade299d86eeede4fa25ee858a94f&txTime=69D28D2A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/BAbvNltVM7Xc/index.m3u8",
