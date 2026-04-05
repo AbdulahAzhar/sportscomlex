@@ -715,6 +715,12 @@
           "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1775298824~exp=1775320424~acl=/*~hmac=797238bcea2f8463ac803734a474acadbf350532ebabe151f2a9c179628036c5|cookie=__hdnea__=st=1775310318~exp=1775331918~acl=/*~hmac=a5d9ed33de41288c7f2eb12676871bdba802abfd852baf3c565fa28496875389&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
           "title": "STAR IN [TEL]",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.25/hls/KIKIKIQQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -2011,6 +2017,7 @@
       "formats": [
         "Laliga TV FHD",
         "PREMIER SPORTS",
+        "FANCODE FHD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -2024,6 +2031,12 @@
           "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
           "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -2398,13 +2411,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Ligue1+ HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347925.m3u8?txSecret=62deb389615711c2588ca43978c7e5e3&txTime=69D2BDE8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://py3hsjj2.04334746.net:8443/hls/qjkjv39pieows.m3u8?s=lvBiI6l86TT7JPaw4wf4yQ&e=1775421957|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "title": "Ligue1+ HD",
           "type": "0"
         }
       ]
@@ -2428,12 +2448,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Ligue1+ HD",
+        "Ligue1+ SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347927.m3u8?txSecret=23cab639258af83311aee3ac5bd20152&txTime=69D2BDE8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2463,7 +2485,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347928.m3u8?txSecret=0f660390d6e170e64a4a6b72f993e4fb&txTime=69D2BDE8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
