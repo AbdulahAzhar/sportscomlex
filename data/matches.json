@@ -2323,7 +2323,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SporTV BR"
+        "SporTV BR",
+        "DAZN SPORTS HD",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -2331,6 +2334,24 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
           "title": "SporTV BR",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV18/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347645.m3u8?txSecret=1c71860b28d1cbc2fe2a17fb79e18153&txTime=69D2BDE8|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/2MKw3OQni0WR/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -2458,6 +2479,18 @@
           "link": "https://live.uu6611.com/live/hd-en-1-4347927.m3u8?txSecret=23cab639258af83311aee3ac5bd20152&txTime=69D2BDE8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://py3hsjj2.04334746.net:8443/hls/itptkyh7zc03l.m3u8?s=NDmpz-NJ6Fya1x0zWGKvWw&e=1775422046|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "title": "Ligue1+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/4VrctMT0fxYg/index.m3u8",
+          "title": "Ligue1+ SD",
+          "type": "0"
         }
       ]
     },
@@ -2480,13 +2513,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Ligue1+ HD",
+        "Ligue1+ SD"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4347928.m3u8?txSecret=0f660390d6e170e64a4a6b72f993e4fb&txTime=69D2BDE8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://py3hsjj2.04334746.net:8443/hls/2vxvol7d9dsht.m3u8?s=rTGGlYUpBs6StDL9XW3OoA&e=1775422096|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "title": "Ligue1+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/A5K9d628j5Ec/index.m3u8",
+          "title": "Ligue1+ SD",
           "type": "0"
         }
       ]
