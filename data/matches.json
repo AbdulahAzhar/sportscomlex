@@ -540,7 +540,7 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "WILLOW HINDI",
+        "CRICBUZZ ENG - AQ",
         "WILLOW ENG",
         "SKY CRICKET HD",
         "SD SERVER",
@@ -548,7 +548,8 @@
         "STAR IN [HIN]",
         "STAR IN [TAM]",
         "STAR IN [TEL]",
-        "STAR IN [KAN]"
+        "STAR IN [KAN]",
+        "CRICBUZZ HIN - AQ"
       ],
       "channels": [
         {
@@ -1196,7 +1197,8 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "CBS NETWORK"
+        "CBS NETWORK",
+        "DAZN IT HD"
       ],
       "channels": [
         {
@@ -1210,6 +1212,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
           "title": "CBS NETWORK",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "DAZN IT HD",
+          "type": "0"
         }
       ]
     },
@@ -1325,7 +1333,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347607.m3u8?txSecret=4452edf40525c7fbf046fd3d5dd57401&txTime=69D2A3B8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1380,13 +1388,41 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Ligue1+ HD",
+        "SKY SPORTS IT",
+        "Sport TV SD",
+        "Ligue1+ SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347923.m3u8?txSecret=b99acee19fdfbb89df9fbdd54e2be078&txTime=69D2A1F7|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://py3hsjj2.04334746.net:8443/hls/h3nks9hpg.m3u8?s=YMXbatJSUkjIHzhV0Ai4Bw&e=1775415350|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+          "title": "Ligue1+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NFLHD4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "SKY SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/tv3.m3u8",
+          "title": "Sport TV SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/ZWevymm11TKF/index.m3u8",
+          "title": "Ligue1+ SD",
           "type": "0"
         }
       ]
@@ -1530,13 +1566,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/sd-1-4353520.m3u8?txSecret=ec0acdc5c6ed4a927a7ef01fd3ace31c&txTime=69D2A1F7|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.37/hls/UUUUQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1842,9 +1885,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366188.m3u8?txSecret=47c9c341741ad75d35641307587d5428&txTime=69D2A3B8|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
