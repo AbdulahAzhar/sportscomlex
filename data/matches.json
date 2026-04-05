@@ -1134,19 +1134,12 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48219/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/zeafwqvhfe69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1345,19 +1338,12 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48243/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1412,7 +1398,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/47963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/48354/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
@@ -1466,7 +1452,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404621.m3u8?txSecret=190617356e8602740a6d8384955ff7ff&txTime=69D17BFC|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/sd-1-4404615.m3u8?txSecret=89c41d73149c24ab00fac565d5cbc796&txTime=69D2E0B4|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1503,7 +1489,7 @@
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404627.m3u8?txSecret=2e6c2fd954aef11592a6a64ff1c19630&txTime=69D1987A|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/sd-1-4404692.m3u8?txSecret=deafb9d7eaf11ca609df83f44109292a&txTime=69D2E0B4|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2041,50 +2027,6 @@
       ]
     },
     {
-      "id": "402",
-      "title": "Cremonese vs Bologna",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Cremonese",
-        "teamB": "Bologna",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2761/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2685/image",
-        "eventName": "Cremonese vs Bologna",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/05 13:00:00 +0000",
-        "endTime": "2026/04/05 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "CBS NETWORK",
-        "DAZN IT HD"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "DAZN IT HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "403",
       "title": "Pisa vs Torino",
       "image": "o",
@@ -2149,7 +2091,8 @@
       "formats": [
         "TNT SPORTS",
         "beIN ENGLISH",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -2169,6 +2112,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4339782.m3u8?txSecret=7e05559b999ab6de3914ebb702d2439e&txTime=69D2E54C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2219,43 +2168,6 @@
           "api": null,
           "link": "https://smarthard.click/hls/2MKw3OQni0WR/index.m3u8",
           "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "408",
-      "title": "Le Havre vs Auxerre",
-      "image": "o",
-      "cat": "Ligue 1 🇫🇷",
-      "eventInfo": {
-        "teamA": "Le Havre",
-        "teamB": "Auxerre",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1662/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1646/image",
-        "eventName": "Le Havre vs Auxerre",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/05 15:15:00 +0000",
-        "endTime": "2026/04/05 17:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "Ligue1+ HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347925.m3u8?txSecret=62deb389615711c2588ca43978c7e5e3&txTime=69D2BDE8|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://py3hsjj2.04334746.net:8443/hls/qjkjv39pieows.m3u8?s=lvBiI6l86TT7JPaw4wf4yQ&e=1775421957|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-          "title": "Ligue1+ HD",
           "type": "0"
         }
       ]
@@ -2367,13 +2279,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SKY SPORT IT"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347929.m3u8?txSecret=a2cdfb1e21ebd0547f8770fcd54d451f&txTime=69D2E54C|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NFLHD4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "SKY SPORT IT",
           "type": "0"
         }
       ]
@@ -2518,39 +2437,99 @@
       ]
     },
     {
-      "id": "421",
-      "title": "Antalyaspor vs Eyüpspor",
+      "id": "422",
+      "title": "Fenerbahçe vs Beşiktaş JK",
       "image": "o",
       "cat": "Super Lig",
       "eventInfo": {
-        "teamA": "Antalyaspor",
-        "teamB": "Eyüpspor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3056/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
-        "eventName": "Antalyaspor vs Eyüpspor",
+        "teamA": "Fenerbahçe",
+        "teamB": "Beşiktaş",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "eventName": "Fenerbahçe vs Beşiktaş JK",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/05 14:00:00 +0000",
-        "endTime": "2026/04/05 16:00:00 +0000"
+        "startTime": "2026/04/05 17:00:00 +0000",
+        "endTime": "2026/04/05 19:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
-        "beIN SPORTS SD"
+        "beIN SPORTS SD",
+        "beIN SPORTS US"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4366188.m3u8?txSecret=47c9c341741ad75d35641307587d5428&txTime=69D2A3B8|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
           "title": "beIN SPORTS SD",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/bus.m3u8",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Andorra vs R. Racing Club",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "FC Andorra",
+        "teamB": "R. Racing Club",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2835/image",
+        "eventName": "Andorra vs R. Racing Club",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 14:15:00 +0000",
+        "endTime": "2026/04/05 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Las Palmas vs Huesca",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Las Palmas",
+        "teamB": "Huesca",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6577/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/24265/image",
+        "eventName": "Las Palmas vs Huesca",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 16:30:00 +0000",
+        "endTime": "2026/04/05 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
