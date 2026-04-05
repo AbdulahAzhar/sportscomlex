@@ -1867,7 +1867,10 @@
         "TNT SPORTS",
         "beIN ENGLISH",
         "FOX DEPORTES",
-        "SportzX Live"
+        "DAZN SPORTS IT",
+        "SportzX Live",
+        "STARZ PLAY SD",
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -1890,8 +1893,26 @@
         },
         {
           "api": null,
+          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4339782.m3u8?txSecret=7e05559b999ab6de3914ebb702d2439e&txTime=69D2E54C|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/ad1.m3u8",
+          "title": "STARZ PLAY SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1961,7 +1982,9 @@
       "formats": [
         "SportzX Live",
         "Ligue1+ HD",
-        "SKY SPORT IT"
+        "SKY SPORT IT",
+        "Sport TV SD",
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -1980,6 +2003,18 @@
           "api": null,
           "link": "https://instreams.live/US/NFLHD4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "SKY SPORT IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/tv3.m3u8",
+          "title": "Sport TV SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/ZWevymm11TKF/index.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2044,50 +2079,6 @@
           "api": null,
           "link": "https://py3hsjj2.04334746.net:8443/hls/yx3xnxj4x9ngn.m3u8?s=4ahJmNWoCWJx5oOuAbH9uw&e=1775422192|Referer=https://d58qd4v2cj1ljg.dynamicsecular.net/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
           "title": "SPANISH HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "418",
-      "title": "Breda vs Sparta Rotterdam",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "NAC Breda",
-        "teamB": "Sparta",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2947/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
-        "eventName": "NAC Breda vs Sparta Rotterdam",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/05 14:45:00 +0000",
-        "endTime": "2026/04/05 16:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "ESPN NL HD",
-        "SportzX Live",
-        "ESPN NL"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://instreams.live/EU/HDTV2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "ESPN NL HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4344786.m3u8?txSecret=9cb61516926064af09ed48fd2791d543&txTime=69D2BD7F|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
-          "title": "ESPN NL",
           "type": "0"
         }
       ]
@@ -2408,6 +2399,36 @@
         {
           "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "title": "Grêmio vs Remo",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Grêmio",
+        "teamB": "Remo",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5926/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2012/image",
+        "eventName": "Grêmio vs Remo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 23:30:00 +0000",
+        "endTime": "2026/04/06 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR"
+      ],
+      "channels": [
+        {
+          "api": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
           "title": "PREMIERER BR",
           "type": "1"
         }
