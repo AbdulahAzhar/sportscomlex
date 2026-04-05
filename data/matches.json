@@ -1620,10 +1620,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "ESPN NL HD",
         "ESPN NL",
         "SD SERVER"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "ESPN NL HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
@@ -2039,6 +2046,12 @@
         "Sky Bundesliga"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV12/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "Sky Bundesliga HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://live.uu6611.com/live/sd-1-4355806.m3u8?txSecret=223cb81fdcce9053ca3293f170d31644&txTime=69D28D2A|Referer=https://player.up909.com/",
