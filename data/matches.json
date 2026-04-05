@@ -1443,36 +1443,6 @@
       ]
     },
     {
-      "id": "383",
-      "title": "Al-Okhdood vs Al-Fateh",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Okhdood",
-        "teamB": "Al-Fateh",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/336456/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/56023/image",
-        "eventName": "Al-Okhdood vs Al-Fateh",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/05 15:55:00 +0000",
-        "endTime": "2026/04/05 17:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404631.m3u8?txSecret=70ce1bc799c3bc81bc2c61f5fb385455&txTime=69D17BBB|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "384",
       "title": "Al-Riyadh vs Al-Shabab",
       "image": "o",
@@ -2543,6 +2513,43 @@
           "api": null,
           "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
           "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "Antalyaspor vs Eyüpspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Antalyaspor",
+        "teamB": "Eyüpspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3056/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
+        "eventName": "Antalyaspor vs Eyüpspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 14:00:00 +0000",
+        "endTime": "2026/04/05 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366188.m3u8?txSecret=47c9c341741ad75d35641307587d5428&txTime=69D2A3B8|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
