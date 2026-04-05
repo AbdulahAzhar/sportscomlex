@@ -789,8 +789,8 @@
         "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
         "eventName": "ISL vs ISL",
         "eventType": "null",
-        "startTime": "2026/04/04 11:30:00 +0000",
-        "endTime": "2026/04/04 16:00:00 +0000"
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 16:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1620,13 +1620,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "ESPN NL"
+        "ESPN NL",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
           "title": "ESPN NL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.2/hls/KIKIKIQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
