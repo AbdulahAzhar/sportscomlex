@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 30,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -201,14 +201,15 @@
       "image": "o",
       "cat": "UFC",
       "eventInfo": {
-        "teamA": "R. Moicano",
-        "teamB": "C. Duncan",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/461712/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/466914/image",
-        "eventName": "UFC Fight Night: Moicano vs Duncan",
+        "teamA": "J. Procházka",
+        "teamB": "C. Ulberg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/467400/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/461375/image",
+        "eventName": "UFC 327: Procházka vs Ulberg",
         "eventType": "null",
+        "isHot": "0",
         "startTime": "2026/04/11 22:00:00 +0000",
-        "endTime": "2026/04/12 04:00:00 +0000"
+        "endTime": "2026/04/12 03:45:00 +0000"
       },
       "adsLimit": "13",
       "publish": "1",
@@ -891,6 +892,103 @@
       ]
     },
     {
+      "id": "383",
+      "title": "Al-Okhdood vs Al-Fateh",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Okhdood",
+        "teamB": "Al-Fateh",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/336456/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56023/image",
+        "eventName": "Al-Okhdood vs Al-Fateh",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 15:55:00 +0000",
+        "endTime": "2026/04/05 17:55:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4404631.m3u8?txSecret=70ce1bc799c3bc81bc2c61f5fb385455&txTime=69D17BBB|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "Al-Riyadh vs Al-Shabab",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Riyadh",
+        "teamB": "Al-Shabab",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/168088/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34313/image",
+        "eventName": "Al-Riyadh vs Al-Shabab",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 18:00:00 +0000",
+        "endTime": "2026/04/05 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4404621.m3u8?txSecret=190617356e8602740a6d8384955ff7ff&txTime=69D17BFC|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "title": "Al-Ettifaq vs Al-Qadsiah",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Ettifaq",
+        "teamB": "Al-Qadsiah",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34318/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56027/image",
+        "eventName": "Al-Ettifaq vs Al-Qadsiah",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 18:00:00 +0000",
+        "endTime": "2026/04/05 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4404627.m3u8?txSecret=2e6c2fd954aef11592a6a64ff1c19630&txTime=69D1987A|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "398",
       "title": "Getafe vs Athletic Club",
       "image": "o",
@@ -1501,6 +1599,440 @@
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "GA Eagles vs PEC Zwolle",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "GA Eagles",
+        "teamB": "Zwolle",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+        "eventName": "GA Eagles vs PEC Zwolle",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 10:15:00 +0000",
+        "endTime": "2026/04/05 12:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "title": "Volendam vs Feyenoord",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Volendam",
+        "teamB": "Feyenoord",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2968/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+        "eventName": "Volendam vs Feyenoord",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 12:30:00 +0000",
+        "endTime": "2026/04/05 14:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "title": "Heerenveen vs Heracles Almelo",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Heerenveen",
+        "teamB": "Heracles",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2977/image",
+        "eventName": "Heerenveen vs Heracles Almelo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 12:30:00 +0000",
+        "endTime": "2026/04/05 14:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "title": "Breda vs Sparta Rotterdam",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "NAC Breda",
+        "teamB": "Sparta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2947/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+        "eventName": "NAC Breda vs Sparta Rotterdam",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 14:45:00 +0000",
+        "endTime": "2026/04/05 16:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "Karagümrük vs Rizespor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Karagümrük",
+        "teamB": "Rizespor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4954/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3064/image",
+        "eventName": "Karagümrük vs Rizespor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DcTxPWHOB5aM/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "Samsunspor vs Konyaspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Samsunspor",
+        "teamB": "Konyaspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3053/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "eventName": "Samsunspor vs Konyaspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "Antalyaspor vs Eyüpspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Antalyaspor",
+        "teamB": "Eyüpspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3056/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
+        "eventName": "Antalyaspor vs Eyüpspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 14:00:00 +0000",
+        "endTime": "2026/04/05 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Fenerbahçe vs Beşiktaş JK",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Fenerbahçe",
+        "teamB": "Beşiktaş",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "eventName": "Fenerbahçe vs Beşiktaş JK",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 17:00:00 +0000",
+        "endTime": "2026/04/05 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD",
+        "beIN SPORTS US"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a1.kora-plus.dad/watch/bus.m3u8",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "Eintracht Braunschweig vs Nürnberg",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Braunschweig",
+        "teamB": "Nürnberg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2557/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2523/image",
+        "eventName": "Eintracht Braunschweig vs Nürnberg",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sky Bundesliga"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8",
+          "title": "Sky Bundesliga",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Schalke 04 vs Karlsruher SC",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Schalke",
+        "teamB": "Karlsruhe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2553/image",
+        "eventName": "Schalke 04 vs Karlsruher SC",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sky Bundesliga"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
+          "title": "Sky Bundesliga",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Hannover 96 vs Elversberg",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Hannover",
+        "teamB": "Elversberg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2541/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2598/image",
+        "eventName": "Hannover 96 vs Elversberg",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sky Bundesliga"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8",
+          "title": "Sky Bundesliga",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Holstein Kiel vs Preußen Münster",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Kiel",
+        "teamB": "Münster",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2573/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2590/image",
+        "eventName": "Holstein Kiel vs Preußen Münster",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sky Bundesliga"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/6v8yVbveVz4/index.m3u8",
+          "title": "Sky Bundesliga",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Greuther Fürth vs Paderborn",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Fürth",
+        "teamB": "Paderborn",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2551/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2561/image",
+        "eventName": "Greuther Fürth vs Paderborn",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 11:30:00 +0000",
+        "endTime": "2026/04/05 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sky Bundesliga"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/BAbvNltVM7Xc/index.m3u8",
+          "title": "Sky Bundesliga",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Eibar vs AD Ceuta",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Eibar",
+        "teamB": "Ceuta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2839/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2869/image",
+        "eventName": "Eibar vs AD Ceuta",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/05 12:00:00 +0000",
+        "endTime": "2026/04/05 14:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
           "type": "1"
         }
       ]
