@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -1292,43 +1292,6 @@
       ]
     },
     {
-      "id": "399",
-      "title": "Udinese vs Como",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Udinese",
-        "teamB": "Como",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2704/image",
-        "eventName": "Udinese vs Como",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 10:30:00 +0000",
-        "endTime": "2026/04/06 12:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "DAZN ITALI HD"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://instreams.click/&Origin=https://instreams.click",
-          "title": "DAZN ITALI HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Lecce vs Atalanta",
       "image": "o",
@@ -1422,7 +1385,8 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS",
-        "beIN ENGLISH"
+        "beIN ENGLISH",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1436,71 +1400,10 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "403",
-      "title": "Portsmouth vs Oxford United",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Portsmouth",
-        "teamB": "Oxford Utd",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/95/image",
-        "eventName": "Portsmouth vs Oxford United",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 11:30:00 +0000",
-        "endTime": "2026/04/06 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "404",
-      "title": "Ipswich Town vs Birmingham",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Ipswich",
-        "teamB": "Birmingham",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/32/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
-        "eventName": "Ipswich Town vs Birmingham",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 14:00:00 +0000",
-        "endTime": "2026/04/06 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4351681.m3u8?txSecret=7b2302b50fb81af06133ce9e9889e3fc&txTime=69D3F8EE|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/hd-en-1-4339790.m3u8?txSecret=c80765663d1242553df9b614b6d2eb96&txTime=69D435D1|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1556,7 +1459,8 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "CBS NETWORK"
+        "CBS NETWORK",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1570,6 +1474,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
           "title": "CBS NETWORK",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4351679.m3u8?txSecret=b8dd5a0824d6f24fd0727f3b957a7a42&txTime=69D435D1|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1592,9 +1502,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "Sport TV SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369030.m3u8?txSecret=ae9c3326d0cc650e47562ee56911b755&txTime=69D435D1|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://a4.kora-plus.dad/watch/tv2.m3u8",
@@ -1622,7 +1539,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1630,6 +1548,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369031.m3u8?txSecret=d99fc10b2344eb1ed36c72f31b5132fc&txTime=69D435D1|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2083,66 +2007,6 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "423",
-      "title": "Sheffield Wed vs Leicester City",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Sheffield Wednesday",
-        "teamB": "Leicester City",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/12/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/31/image",
-        "eventName": "Sheffield Wednesday vs Leicester City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 14:00:00 +0000",
-        "endTime": "2026/04/06 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4351689.m3u8?txSecret=62802f3bd2453b89785ee5ff8fd726dc&txTime=69D3F8EE|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "424",
-      "title": "Preston NE vs Queens Park Rangers",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Preston",
-        "teamB": "QPR",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1/image",
-        "eventName": "Preston NE vs QPR",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 14:00:00 +0000",
-        "endTime": "2026/04/06 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4351687.m3u8?txSecret=216b94be6d62a183487b9622a29961ac&txTime=69D3F8EE|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
