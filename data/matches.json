@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 42,
+  "total_events": 40,
   "results": [
     {
       "id": "312",
@@ -1268,6 +1268,7 @@
       "formats": [
         "Laliga TV FHD",
         "PREMIER SPORTS",
+        "ESPN DEPORTES HD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1285,45 +1286,14 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
+          "link": "https://chatgpt.hereisman.net/playlist/48401/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "ESPN DEPORTES HD",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "400",
-      "title": "Lecce vs Atalanta",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Lecce",
-        "teamB": "Atalanta",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2689/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
-        "eventName": "Lecce vs Atalanta",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 13:00:00 +0000",
-        "endTime": "2026/04/06 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "DAZN ITALI HD"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
-          "title": "DAZN ITALI HD",
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
+          "title": "ESPN DEPORTES",
           "type": "0"
         }
       ]
@@ -1386,7 +1356,11 @@
       "formats": [
         "TNT SPORTS",
         "beIN ENGLISH",
-        "SportzX Live"
+        "TNT SPORTS SD",
+        "DAZN IT HD",
+        "SportzX Live",
+        "DAZN IT SD",
+        "STARZPLAY SD"
       ],
       "channels": [
         {
@@ -1403,39 +1377,33 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48406/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NFLHD3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
+          "title": "DAZN IT HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4339790.m3u8?txSecret=c80765663d1242553df9b614b6d2eb96&txTime=69D435D1|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Swansea City vs Middlesbrough",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Swansea",
-        "teamB": "Middlesbrough",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/74/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/36/image",
-        "eventName": "Swansea City vs Middlesbrough",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/06 16:30:00 +0000",
-        "endTime": "2026/04/06 18:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH"
-      ],
-      "channels": [
+        },
         {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
+          "title": "DAZN IT SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://a4.kora-plus.dad/watch/ad1.m3u8",
+          "title": "STARZPLAY SD",
+          "type": "0"
         }
       ]
     },
@@ -1460,6 +1428,7 @@
       "formats": [
         "beIN ENGLISH",
         "CBS NETWORK",
+        "HD SERVER",
         "SportzX Live"
       ],
       "channels": [
@@ -1474,6 +1443,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
           "title": "CBS NETWORK",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48391/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
         },
         {
           "api": null,
@@ -1540,7 +1515,9 @@
       "publish": "1",
       "formats": [
         "SportDigital Fussball",
-        "SportzX Live"
+        "SPX - HD SERVER",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -1551,8 +1528,20 @@
         },
         {
           "api": null,
+          "link": "https://instreams.live/EU/HDTV31/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://live.uu6611.com/live/sd-1-4369031.m3u8?txSecret=d99fc10b2344eb1ed36c72f31b5132fc&txTime=69D435D1|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/krqMWsx7RoKw/index.m3u8",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
