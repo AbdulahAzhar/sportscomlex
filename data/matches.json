@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 22,
+  "total_events": 21,
   "results": [
     {
       "id": "312",
@@ -772,64 +772,6 @@
           "link": "https://bd-mc-flive.fancode.com/delhi/140477_english_dash_5167_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BD]",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "389",
-      "title": "Kings vs Nashville Predators",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Kings",
-        "teamB": "Predators",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3688/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3705/image",
-        "eventName": "Los Angeles Kings vs Nashville Predators",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/07 02:30:00 +0000",
-        "endTime": "2026/04/07 05:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "SportzX Live",
-        "HD SERVER",
-        "HOME CAM.",
-        "AWAY CAM."
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48414/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/95.m3u8",
-          "title": "HOME CAM.",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/100.m3u8",
-          "title": "AWAY CAM.",
-          "type": "0"
         }
       ]
     },
