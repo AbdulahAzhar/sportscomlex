@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 21,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -547,13 +547,8 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "WILLOW HINDI",
-        "WILLOW ENG",
         "SKY CRICKET HD",
-        "SD SERVER",
-        "STAR IN [ENG]",
-        "STAR IN [HIN]",
-        "STAR IN [TAM]"
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -772,6 +767,1082 @@
           "link": "https://bd-mc-flive.fancode.com/delhi/140477_english_dash_5167_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BD]",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "Pacers vs Timberwolves",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Pacers",
+        "teamB": "Timberwolves",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3419/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3426/image",
+        "eventName": "Indiana Pacers vs Minnesota Timberwolves",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48409/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/147.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/156.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Wizards vs Chicago Bulls",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Wizards",
+        "teamB": "Bulls",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3431/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3409/image",
+        "eventName": "Washington Wizards vs Chicago Bulls",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/137.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/164.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "title": "Brooklyn Nets vs Bucks",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Nets",
+        "teamB": "Bucks",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3436/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3410/image",
+        "eventName": "Brooklyn Nets vs Milwaukee Bucks",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:30:00 +0000",
+        "endTime": "2026/04/08 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/154.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/145.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "title": "Raptors vs Miami Heat",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Raptors",
+        "teamB": "Heat",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3433/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3435/image",
+        "eventName": "Toronto Raptors vs Miami Heat",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:30:00 +0000",
+        "endTime": "2026/04/08 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/zayrtezafgvdv68.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/150.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/140.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "title": "Boston Celtics vs Hornets",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Celtics",
+        "teamB": "Hornets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3422/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3430/image",
+        "eventName": "Boston Celtics vs Charlotte Hornets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 00:00:00 +0000",
+        "endTime": "2026/04/08 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48427/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/zeafwqvhfe69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA5/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/155.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/138.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "378",
+      "title": "Pelicans vs Utah Jazz",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Pelicans",
+        "teamB": "Jazz",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5539/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3434/image",
+        "eventName": "New Orleans Pelicans vs Utah Jazz",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 00:00:00 +0000",
+        "endTime": "2026/04/08 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA6/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/144.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/159.m3u8",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "title": "Warriors vs Kings",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Warriors",
+        "teamB": "Kings",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3428/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3413/image",
+        "eventName": "Golden State Warriors vs Sacramento Kings",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 02:00:00 +0000",
+        "endTime": "2026/04/08 04:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA7/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/139.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/142.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "380",
+      "title": "Clippers vs Dallas Mavericks",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Clippers",
+        "teamB": "Mavericks",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3425/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3411/image",
+        "eventName": "Los Angeles Clippers vs Dallas Mavericks",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 02:30:00 +0000",
+        "endTime": "2026/04/08 05:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA8/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/153.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/152.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "381",
+      "title": "Lakers vs Thunder",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Lakers",
+        "teamB": "Thunder",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3427/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3418/image",
+        "eventName": "Los Angeles Lakers vs Oklahoma City Thunder",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 02:30:00 +0000",
+        "endTime": "2026/04/08 05:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA9/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/149.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pro.packcast.top/newz/newz/157.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "382",
+      "title": "Suns vs Houston Rockets",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Suns",
+        "teamB": "Rockets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3416/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3412/image",
+        "eventName": "Phoenix Suns vs Houston Rockets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 03:00:00 +0000",
+        "endTime": "2026/04/08 05:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER",
+        "SPX CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48354/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/yjtzafghvjza74.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA10/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/cbf3PwTr7B1A/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/yjtzafghvjza74.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SPX CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Red Wings vs Blue Jackets",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Red Wings",
+        "teamB": "Blue Jackets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3685/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3683/image",
+        "eventName": "Detroit Red Wings vs Columbus Blue Jackets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48410/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/101.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/171.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Canadiens vs Florida Panthers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Canadiens",
+        "teamB": "Panthers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3690/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3687/image",
+        "eventName": "Montréal Canadiens vs Florida Panthers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/94.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/97.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "title": "Devils vs Philadelphia Flyers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Devils",
+        "teamB": "Flyers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3704/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3699/image",
+        "eventName": "New Jersey Devils vs Philadelphia Flyers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48430/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/103.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/85.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "389",
+      "title": "Senators vs Lightning",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Senators",
+        "teamB": "Lightning",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3700/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3694/image",
+        "eventName": "Ottawa Senators vs Tampa Bay Lightning",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48414/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/95.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/100.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "390",
+      "title": "Dallas Stars vs Calgary Flames",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Stars",
+        "teamB": "Flames",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3684/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3679/image",
+        "eventName": "Dallas Stars vs Calgary Flames",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 00:00:00 +0000",
+        "endTime": "2026/04/08 02:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL5/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/87.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/174.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "391",
+      "title": "Minnesota Wild vs Seattle Kraken",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Wild",
+        "teamB": "Kraken",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3689/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/381707/image",
+        "eventName": "Minnesota Wild vs Seattle Kraken",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 00:00:00 +0000",
+        "endTime": "2026/04/08 02:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48352/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/sdezqfza55.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL6/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/175.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/169.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "392",
+      "title": "Blues vs Colorado Avalanche",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Blues",
+        "teamB": "Avalanche",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3695/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
+        "eventName": "St. Louis Blues vs Colorado Avalanche",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 00:00:00 +0000",
+        "endTime": "2026/04/08 02:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48356/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/poiryezafv56.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL7/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/84.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/86.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "393",
+      "title": "Mammoth vs Edmonton Oilers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Mammoth",
+        "teamB": "Oilers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/530472/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3686/image",
+        "eventName": "Utah Mammoth vs Edmonton Oilers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 01:30:00 +0000",
+        "endTime": "2026/04/08 04:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/gfhfgsqda61.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL12/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/97.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/89.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "394",
+      "title": "Anaheim Ducks vs Predators",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Ducks",
+        "teamB": "Predators",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3675/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3705/image",
+        "eventName": "Anaheim Ducks vs Nashville Predators",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 02:00:00 +0000",
+        "endTime": "2026/04/08 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wxcgfaiiog63.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL14/index.m3u8?st=SportzX|Referer=https://instreams.click/&Origin=https://instreams.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/96.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/91.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "title": "Canucks vs Golden Knights",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Canucks",
+        "teamB": "Golden Knights",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3692/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/257523/image",
+        "eventName": "Vancouver Canucks vs Vegas Golden Knights",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/08 02:00:00 +0000",
+        "endTime": "2026/04/08 04:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/gfsqdqsjhdaiu64.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL15/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/95.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/newz/100.m3u8?|Referer=https://slapstreams.com/",
+          "title": "AWAY CAM.",
+          "type": "0"
         }
       ]
     },
@@ -1086,6 +2157,37 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Hurricanes vs Boston Bruins",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Hurricanes",
+        "teamB": "Bruins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3677/image",
+        "eventName": "Hurricanes vs Boston Bruins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/07 23:00:00 +0000",
+        "endTime": "2026/04/08 01:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
         }
       ]
     }
