@@ -1852,6 +1852,8 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS - AQ",
+        "TNT BRASIL - AQ",
+        "VIX SPANISH - AQ",
         "PARAMOUNT+ HD",
         "TNT SPORTS FHD",
         "TNT SPORTS HD",
@@ -1868,6 +1870,18 @@
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS - AQ",
+          "type": "1"
+        },
+        {
+          "api": "73307447c35177a8acc3e8a42aa2516d:63a3ec36d4bdb812e41e74f132c5ff2f",
+          "link": "https://abgqhfdaaaaaaaameyaqykf5zy3tq.ta.bia-cf.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/qxprlxa3hc/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+          "title": "TNT BRASIL - AQ",
+          "type": "1"
+        },
+        {
+          "api": "35824ddca17120c692a500c2a763eeb6:eb732828f2c7939e430402e7660f7b8c",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lelx703nzk/out/v1/84636269a21f441ab85f05c711253fe4/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
           "type": "1"
         },
         {
@@ -1923,6 +1937,12 @@
           "link": "https://sonydaimenew.akamaized.net/hls/live/2094588/RealMadr0704/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775630049~acl=/*~id=08036162248904015257988331196663~hmac=e4993e08b18a6cc2093384cee7b07d16d7838190465b0712e65db139eff2f6dd|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
           "title": "SonyLiv [ENG]",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2094588/RealMadr0704/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775630049~acl=/*~id=08036162248904015257988331196663~hmac=e4993e08b18a6cc2093384cee7b07d16d7838190465b0712e65db139eff2f6dd|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "title": "SonyLiv [HIN]",
+          "type": "0"
         }
       ]
     },
@@ -1945,15 +1965,38 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TNT BRASIL - AQ",
+        "VIX SPANISH - AQ",
+        "PREMIER SPORTS FHD",
         "PREMIER SPORTS HD",
         "PARAMOUNT+ HD",
         "PREMIER SPORTS SD",
         "beIN ARABIC FHD",
         "beIN SPORTS SD",
         "SportzX Live",
-        "ZIGGO SPORTS"
+        "ZIGGO SPORTS",
+        "SonyLiv [ENG]",
+        "SonyLiv [HIN]"
       ],
       "channels": [
+        {
+          "api": "36e8cbbdffc40708f01095591b7c53a6:078d543be20fe4769221f5afb3ecf195",
+          "link": "https://abgqhfdaaaaaaaammgbgkps323cuq.ta.bia-cf.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/tr85qesyaa/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
+          "title": "TNT BRASIL - AQ",
+          "type": "1"
+        },
+        {
+          "api": "6ea0a1636cbc92fb324f74adeefdcdce:6fe9913a6c33d92a658fd3a33413bf75",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/kzfvkfonrc/out/v1/3d2994f3d9c64fe5bb68338a540af489/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://sarajane589.s3.us-east-1.amazonaws.com/gunners.m3u8",
+          "title": "PREMIER SPORTS FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/48451/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -1995,6 +2038,18 @@
           "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?accountinfo=~~V2.0~OhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8~1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc:UTC,",
           "title": "ZIGGO SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/Sporting0704/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775630049~acl=/*~id=08036162248904015257988331196663~hmac=e4993e08b18a6cc2093384cee7b07d16d7838190465b0712e65db139eff2f6dd|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/Sporting0704/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775630049~acl=/*~id=08036162248904015257988331196663~hmac=e4993e08b18a6cc2093384cee7b07d16d7838190465b0712e65db139eff2f6dd|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "title": "SonyLiv [HIN]",
+          "type": "0"
         }
       ]
     },
