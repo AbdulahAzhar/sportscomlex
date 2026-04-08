@@ -1208,7 +1208,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404615.m3u8?txSecret=89c41d73149c24ab00fac565d5cbc796&txTime=69D2E0B4|Referer=https://player.up909.com/",
+          "link": "https://play.ltwxsc.com/live/sd-6MvXc76Anpx6XwHDvv.m3u8?txSecret=0ddabdf54e29ffab44b3571081389b9f&txTime=69D6C607",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1234,7 +1234,8 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1248,6 +1249,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48501/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1416,7 +1423,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
         "eventName": "Barcelona vs Atlético Madrid",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/08 19:00:00 +0000",
         "endTime": "2026/04/08 21:00:00 +0000"
       },
@@ -1424,6 +1431,11 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS - AQ",
+        "TNT BRASIL - AQ",
+        "VIX SPANISH - AQ",
+        "PARAMOUNT+ HD",
+        "SportzX LIVE - AQ",
+        "SportzX Live",
         "SonyLiv [ENG]",
         "SonyLiv [HIN]"
       ],
@@ -1435,14 +1447,44 @@
           "type": "1"
         },
         {
+          "api": "99fc44aa47210c6c3b0c1a199492b070:0c13d95fdabafa0efc1e5627937e9989",
+          "link": "https://abkv2pxaaaaaaaamlfvqlljfjz5f7.ta.bia-cf.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/7bssxijr6b/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+          "title": "TNT BRASIL - AQ",
+          "type": "1"
+        },
+        {
+          "api": "3c09b47d1fc6f8a1911dfc6016d27445:c14b2606515a6f300aafb6a03459358a",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5hqgfribrb/out/v1/84636269a21f441ab85f05c711253fe4/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "link": "https://chatgpt.hereisman.net/playlist/48515/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sarajane589.s3.us-east-1.amazonaws.com/real.m3u8",
+          "title": "SportzX LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4517579.m3u8?txSecret=78f0da52ab2790f06cfc132a8afed750&txTime=69D6E673|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2018457/Barcelon0804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
           "title": "SonyLiv [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2018457/Barcelon0804/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
           "title": "SonyLiv [HIN]",
           "type": "0"
         }
@@ -1460,14 +1502,19 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/44/image",
         "eventName": "PSG vs Liverpool",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/08 19:00:00 +0000",
         "endTime": "2026/04/08 21:00:00 +0000"
       },
-      "adsLimit": "0",
+      "adsLimit": "1",
       "publish": "1",
       "formats": [
         "TNT SPORTS - AQ",
+        "TNT BRASIL - AQ",
+        "VIX SPANISH - AQ",
+        "TNT SPORTS HD",
+        "SportzX LIVE - AQ",
+        "SportzX Live",
         "SonyLiv [ENG]",
         "SonyLiv [HIN]"
       ],
@@ -1479,14 +1526,44 @@
           "type": "1"
         },
         {
+          "api": "19ddf4e42f18bfc3c71c57af73949b17:e8f8f994d08cadb95fe1e29027214d21",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ebyufuwrml/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
+          "title": "TNT BRASIL - AQ",
+          "type": "1"
+        },
+        {
+          "api": "6c962c64abaf676810401b19a0c5cfd0:516eb7efea20dcb819ce3d9b1d227418",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/67tnkd7hwi/out/v1/5ffdefde68be4b0cba143306037bbdf3/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "link": "https://chatgpt.hereisman.net/playlist/48503/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sarajane589.s3.us-east-1.amazonaws.com/arsenal.m3u8",
+          "title": "SportzX LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4517580.m3u8?txSecret=440255911d190ee7c912cf462af61b4b&txTime=69D6E673|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/PSG_vs_L0804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
           "title": "SonyLiv [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/PSG_vs_L0804/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
           "title": "SonyLiv [HIN]",
           "type": "0"
         }
@@ -1800,9 +1877,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48510/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1830,9 +1914,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48511/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1860,9 +1951,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48513/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1890,9 +1988,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48516/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1920,9 +2025,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48519/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
