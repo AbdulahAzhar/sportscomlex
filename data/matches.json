@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 44,
   "results": [
     {
       "id": "312",
@@ -1141,124 +1141,6 @@
       ]
     },
     {
-      "id": "383",
-      "title": "Al-Fayha vs Al-Ahli",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Fayha",
-        "teamB": "Al-Ahli",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/168094/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-        "eventName": "Al-Fayha vs Al-Ahli",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/08 15:55:00 +0000",
-        "endTime": "2026/04/08 17:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "ALWAN TV SD",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/sd-6MvXc76A7ZtGruPo26.m3u8?txSecret=5e3ef151f8d39172db94a1baa5a03dae&txTime=69D6A536",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://a3.kora-plus.dad/watch/alwan4.m3u8",
-          "title": "ALWAN TV SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.2/hls/SSSQQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "384",
-      "title": "Al-Ittihad vs Neom SC",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Ittihad",
-        "teamB": "Neom SC",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/34315/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/530631/image",
-        "eventName": "Al-Ittihad vs Neom SC",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/08 18:00:00 +0000",
-        "endTime": "2026/04/08 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/sd-6MvXc76Anpx6XwHDvv.m3u8?txSecret=0ddabdf54e29ffab44b3571081389b9f&txTime=69D6C607",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "385",
-      "title": "Al-Hilal vs Al-Kholood",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Hilal",
-        "teamB": "Al-Kholood",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/269199/image",
-        "eventName": "Al-Hilal vs Al-Kholood",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/08 18:00:00 +0000",
-        "endTime": "2026/04/08 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FOX SPORTS FHD",
-        "FOX DEPORTES",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48501/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "386",
       "title": "Rangers vs Buffalo Sabres",
       "image": "o",
@@ -1423,7 +1305,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
         "eventName": "Barcelona vs Atlético Madrid",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/08 19:00:00 +0000",
         "endTime": "2026/04/08 21:00:00 +0000"
       },
@@ -1509,7 +1391,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/44/image",
         "eventName": "PSG vs Liverpool",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/08 19:00:00 +0000",
         "endTime": "2026/04/08 21:00:00 +0000"
       },
@@ -1522,6 +1404,7 @@
         "TNT SPORTS HD",
         "SportzX LIVE - AQ",
         "SportzX Live",
+        "beIN ARABIC",
         "SonyLiv [ENG]",
         "SonyLiv [HIN]"
       ],
