@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 33,
+  "total_events": 32,
   "results": [
     {
       "id": "312",
@@ -547,8 +547,14 @@
       "publish": "1",
       "formats": [
         "WILLOW ENG - AQ",
+        "WILLOW HINDI",
         "SKY CRICKET HD",
-        "SD SERVER"
+        "SD SERVER",
+        "STAR ENG - IN",
+        "STAR HIN - IN",
+        "STAR TAM - IN",
+        "STAR TEL - IN",
+        "STAR KAN - IN"
       ],
       "channels": [
         {
@@ -1649,50 +1655,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "407",
-      "title": "Gamba Osaka vs Bangkok United",
-      "image": "o",
-      "cat": "AFC Champions Two",
-      "eventInfo": {
-        "teamA": "Gamba Osaka",
-        "teamB": "Bangkok Utd",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3138/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/85741/image",
-        "eventName": "Gamba Osaka vs Bangkok United",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/08 10:00:00 +0000",
-        "endTime": "2026/04/08 12:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball",
-        "SportzX Live",
-        "ESPN NL SD"
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/hd-en-6MwcqG8Z49fPsnm1kS.m3u8?txSecret=a327194b6194da2c0e95033cb0bbfc76&txTime=69D651C6",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
-          "title": "ESPN NL SD",
-          "type": "0"
         }
       ]
     }
