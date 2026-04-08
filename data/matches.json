@@ -547,15 +547,8 @@
       "publish": "1",
       "formats": [
         "WILLOW ENG - AQ",
-        "CRICBUZZ HIN - AQ",
-        "CRICBUZZ ENG - AQ",
         "SKY CRICKET HD",
-        "SD SERVER",
-        "STAR ENG - IN",
-        "STAR HIN - IN",
-        "STAR TAM - IN",
-        "STAR TEL - IN",
-        "STAR KAN - IN"
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -1679,14 +1672,27 @@
       "publish": "1",
       "formats": [
         "SportDigital Fussball",
+        "SportzX Live",
         "ESPN NL SD"
       ],
       "channels": [
         {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/hd-en-6MwcqG8Z49fPsnm1kS.m3u8?txSecret=a327194b6194da2c0e95033cb0bbfc76&txTime=69D651C6",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
         }
       ]
     }
