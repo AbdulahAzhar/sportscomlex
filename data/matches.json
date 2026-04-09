@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 13,
+  "total_events": 12,
   "results": [
     {
       "id": "312",
@@ -838,79 +838,6 @@
           "link": "https://bd-mc-flive.fancode.com/delhi/140477_english_dash_5167_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BD]",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "400",
-      "title": "CD Toluca vs LA Galaxy",
-      "image": "o",
-      "cat": "CONCACAF Cup 🇺🇸",
-      "eventInfo": {
-        "teamA": "Toluca",
-        "teamB": "LA Galaxy",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2513/image",
-        "eventName": "CD Toluca vs LA Galaxy",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/09 03:00:00 +0000",
-        "endTime": "2026/04/09 05:00:00 +0000"
-      },
-      "adsLimit": "1",
-      "publish": "1",
-      "formats": [
-        "FOX SPORTS FHD",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT SPORTS - AQ",
-          "type": "1"
-        },
-        {
-          "api": "19ddf4e42f18bfc3c71c57af73949b17:e8f8f994d08cadb95fe1e29027214d21",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ebyufuwrml/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd",
-          "title": "TNT BRASIL - AQ",
-          "type": "1"
-        },
-        {
-          "api": "6c962c64abaf676810401b19a0c5cfd0:516eb7efea20dcb819ce3d9b1d227418",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/67tnkd7hwi/out/v1/5ffdefde68be4b0cba143306037bbdf3/cenc.mpd",
-          "title": "VIX SPANISH - AQ",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48503/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "TNT SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sarajane589.s3.us-east-1.amazonaws.com/arsenal.m3u8",
-          "title": "SportzX LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4517580.m3u8?txSecret=440255911d190ee7c912cf462af61b4b&txTime=69D6E673|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/PSG_vs_L0804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
-          "title": "SonyLiv [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/PSG_vs_L0804/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775715507~acl=/*~id=71072633869108980149817182469581~hmac=f5f6cc65b6f1dcd273dffa43a993a057df937b41953312c0ba1572d251ac4c2d|User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; SmartTV 4K FFM; Build/RTT2.220118.001)",
-          "title": "SonyLiv [HIN]",
-          "type": "0"
         }
       ]
     }
