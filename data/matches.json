@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 12,
+  "total_events": 22,
   "results": [
     {
       "id": "312",
@@ -788,9 +788,8 @@
         "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
         "eventName": "ISL vs ISL",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/07 14:00:00 +0000",
-        "endTime": "2026/04/07 16:00:00 +0000"
+        "startTime": "2026/04/09 14:00:00 +0000",
+        "endTime": "2026/04/09 16:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -838,6 +837,320 @@
           "link": "https://bd-mc-flive.fancode.com/delhi/140477_english_dash_5167_1drmta-di_h264/index.mpd",
           "title": "FANCODE [BD]",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "Damac FC vs Al-Qadsiah",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Damac",
+        "teamB": "Al-Qadsiah",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/204126/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56027/image",
+        "eventName": "Damac FC vs Al-Qadsiah",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 16:00:00 +0000",
+        "endTime": "2026/04/09 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "Al-Ettifaq vs Al-Riyadh",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Ettifaq",
+        "teamB": "Al-Riyadh",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34318/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/168088/image",
+        "eventName": "Al-Ettifaq vs Al-Riyadh",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 18:00:00 +0000",
+        "endTime": "2026/04/09 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/sd-6MvXc76Anpx6XwHDvv.m3u8?txSecret=0ddabdf54e29ffab44b3571081389b9f&txTime=69D6C607",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "Bologna vs Aston Villa",
+      "image": "o",
+      "cat": "UEFA Europa",
+      "eventInfo": {
+        "teamA": "Bologna",
+        "teamB": "Aston Villa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2685/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+        "eventName": "Bologna vs Aston Villa",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD",
+        "ZIGGO SPORTS"
+      ],
+      "channels": [
+        {
+          "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0",
+          "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?accountinfo=~~V2.0~OhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8~1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc:UTC,",
+          "title": "ZIGGO SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "title": "Porto vs Nottingham Forest",
+      "image": "o",
+      "cat": "UEFA Europa",
+      "eventInfo": {
+        "teamA": "Porto",
+        "teamB": "Forest",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/14/image",
+        "eventName": "Porto vs Nottingham Forest",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD",
+        "ZIGGO SPORTS"
+      ],
+      "channels": [
+        {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548",
+          "link": "https://mag02.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?accountinfo=~~V2.0~yVi0dMX4icO5Ka9e92EQfg8812e1c1044f7d357066472e3ee99ef4~2dRB9E-vDtoAbYl169LbcJpxUgWVJtbeU_PlhGfNUflphvljOb5VaEhxruETYG9qcccaf5c5b655bf7504ed7ec5a1dd798f:UTC,",
+          "title": "ZIGGO SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "SC Freiburg vs Celta Vigo",
+      "image": "o",
+      "cat": "UEFA Europa",
+      "eventInfo": {
+        "teamA": "Freiburg",
+        "teamB": "Celta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2538/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2821/image",
+        "eventName": "SC Freiburg vs Celta Vigo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "title": "Rayo Vallecano vs AEK Athens",
+      "image": "o",
+      "cat": "UEFA Conference",
+      "eventInfo": {
+        "teamA": "Rayo Vallecano",
+        "teamB": "AEK",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2818/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3250/image",
+        "eventName": "Rayo Vallecano vs AEK Athens",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 16:45:00 +0000",
+        "endTime": "2026/04/09 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Crystal Palace vs Fiorentina",
+      "image": "o",
+      "cat": "UEFA Conference",
+      "eventInfo": {
+        "teamA": "Crystal Palace",
+        "teamB": "Fiorentina",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/7/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2693/image",
+        "eventName": "Crystal Palace vs Fiorentina",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD"
+      ],
+      "channels": [
+        {
+          "api": "1d96ab366bbe6451edf7407b58e2fa16:0116201f4a63ac5bf5787d2c610c41a7",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5sxuux529k/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Mainz 05 vs RC Strasbourg",
+      "image": "o",
+      "cat": "UEFA Conference",
+      "eventInfo": {
+        "teamA": "Mainz 05",
+        "teamB": "Strasbourg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2556/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1659/image",
+        "eventName": "Mainz 05 vs RC Strasbourg",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Shakhtar Donetsk vs AZ Alkmaar",
+      "image": "o",
+      "cat": "UEFA Conference",
+      "eventInfo": {
+        "teamA": "Shakhtar",
+        "teamB": "AZ",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3313/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "eventName": "Shakhtar Donetsk vs AZ Alkmaar",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 19:00:00 +0000",
+        "endTime": "2026/04/09 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Rizespor vs Samsunspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Rizespor",
+        "teamB": "Samsunspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3064/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3053/image",
+        "eventName": "Rizespor vs Samsunspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/09 17:00:00 +0000",
+        "endTime": "2026/04/09 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     }
