@@ -1359,13 +1359,41 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL"
+        "FUBO SPORTS - AQ",
+        "NOW SPORTS PL",
+        "USA TV - AQ",
+        "USA TV HD",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "title": "FUBO SPORTS - AQ",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sarajane589.s3.us-east-1.amazonaws.com/arsenal.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48614/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343367.m3u8?txSecret=8c79af3577708c48e9a54a4d066f5d4e&txTime=69D98F46|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1512,7 +1540,9 @@
         "Laliga TV FHD",
         "beIN ENGLISH",
         "FANCODE FHD",
-        "ESPN DEPORTES"
+        "HD SERVER",
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1535,8 +1565,20 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48615/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4358866.m3u8?txSecret=d933c399fe45b454c7526349c7314c18&txTime=69D98F46|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1955,7 +1997,7 @@
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4344739.m3u8?txSecret=f6fe8c445104fd8b3723b4a658276839&txTime=69D981C0|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347653.m3u8?txSecret=1d86a7f22cf6fdfe532b4372ce4b398e&txTime=69D981C0|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         },
@@ -2083,13 +2125,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN ESPANOL HD",
+        "SportzX Live",
+        "Ligue1+ SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://daffodil.833577.xyz/beines.m3u8",
+          "title": "beIN ESPANOL HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347936.m3u8?txSecret=1d4ce9db39ec6cd7bc8afa8f44bad852&txTime=69D98F46|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/ZWevymm11TKF/index.m3u8",
+          "title": "Ligue1+ SD",
           "type": "0"
         }
       ]
@@ -2282,7 +2338,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "link": "https://live.uu6611.com/live/sd-1-4344739.m3u8?txSecret=f6fe8c445104fd8b3723b4a658276839&txTime=69D981C0|Referer=https://player.up909.com/",
           "title": "ESPN NL",
           "type": "0"
         }
