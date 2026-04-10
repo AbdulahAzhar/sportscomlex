@@ -531,9 +531,8 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187843/image",
         "eventName": "Rajasthan Royals vs Royal Challengers Bengaluru",
         "eventType": "null",
-        "isHot": "0",
         "startTime": "2026/04/10 14:30:00 +0000",
-        "endTime": "2026/04/10 17:45:00 +0000"
+        "endTime": "2026/04/10 18:35:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -1759,7 +1758,9 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "HD SERVER",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1773,6 +1774,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48613/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4339763.m3u8?txSecret=17582fe323b41f76fa92382f3030bce9&txTime=69D981C0|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1929,9 +1942,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "HD SERVER",
+        "SportzX Live",
         "SKY Bundesliga SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48612/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4344739.m3u8?txSecret=f6fe8c445104fd8b3723b4a658276839&txTime=69D981C0|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
