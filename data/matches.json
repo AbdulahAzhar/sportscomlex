@@ -1342,57 +1342,6 @@
       ]
     },
     {
-      "id": "391",
-      "title": "Senators vs Florida Panthers",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Senators",
-        "teamB": "Panthers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3700/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3687/image",
-        "eventName": "Ottawa Senators vs Florida Panthers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/09 23:00:00 +0000",
-        "endTime": "2026/04/10 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER",
-        "HOME CAM.",
-        "AWAY CAM."
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/97.m3u8",
-          "title": "HOME CAM.",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/169.m3u8",
-          "title": "AWAY CAM.",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "399",
       "title": "West Ham vs Wolverhampton",
       "image": "o",
@@ -2257,6 +2206,36 @@
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "FC Twente vs FC Volendam",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Twente",
+        "teamB": "Volendam",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2968/image",
+        "eventName": "FC Twente vs FC Volendam",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/10 18:00:00 +0000",
+        "endTime": "2026/04/10 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL",
           "type": "0"
         }
       ]
