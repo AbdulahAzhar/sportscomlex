@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 39,
+  "total_events": 40,
   "results": [
     {
       "id": "312",
@@ -1438,13 +1438,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SKY Bundesliga SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+          "title": "SKY Bundesliga SD",
           "type": "0"
         }
       ]
@@ -1468,13 +1468,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SKY Bundesliga SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
+          "title": "SKY Bundesliga SD",
           "type": "0"
         }
       ]
@@ -1743,8 +1743,44 @@
       ],
       "channels": [
         {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "AD Ceuta vs Real Sociedad II",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Ceuta",
+        "teamB": "Real Sociedad B U21",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2869/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
+        "eventName": "AD Ceuta vs Real Sociedad II",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/10 18:30:00 +0000",
+        "endTime": "2026/04/10 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4351677.m3u8?txSecret=6c3a6d718d577ab72b1703564221aa60&txTime=69D3F8EE|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/sd-1-4351674.m3u8?txSecret=7ca9a4274430cbc988659e74c333a806&txTime=69D3F8EE|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
