@@ -2019,13 +2019,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "Ligue1+ SD"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4347938.m3u8?txSecret=170aa2699c31a66b3b5479b78186d53e&txTime=69D96AAC|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/ZWevymm11TKF/index.m3u8",
+          "title": "Ligue1+ SD",
           "type": "0"
         }
       ]
@@ -2144,7 +2151,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
           "title": "SportzX Live",
           "type": "0"
         }
