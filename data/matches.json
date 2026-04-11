@@ -1463,7 +1463,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD"
+        "TNT SPORTS FHD",
+        "NOW SPORTS PL",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1471,6 +1473,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
+          "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343350.m3u8?txSecret=f5d481500a97e0876e69e762c73e462e&txTime=69DA7203|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
