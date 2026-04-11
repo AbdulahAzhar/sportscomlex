@@ -648,7 +648,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
         "eventName": "Chennai Super Kings vs Delhi Capitals",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/11 14:00:00 +0000",
         "endTime": "2026/04/11 17:45:00 +0000"
       },
@@ -951,13 +951,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "FOX SOCCER+",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://live.uu6611.com/live/sd-1-4404683.m3u8?txSecret=bb728d3578537d14a4c6928283066e28&txTime=69DAC7EF|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://yesllahq.28585519.net:8443/hls/03m3urdwsuwu5.m3u8?s=GlPQuPJOZVWCSvwZKcymYg&e=1775952264|Referer=https://fisherman.click&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "title": "FOX SOCCER+",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.25/hls/JVVVAQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1602,6 +1616,8 @@
       "publish": "1",
       "formats": [
         "SportzX - PPV",
+        "SportzX Live - AQ",
+        "SportzX - PPV 02",
         "HD SERVER",
         "SportzX Live",
         "SD SERVER",
@@ -1612,6 +1628,18 @@
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/48710/load-playlist?|Referer=https://gooz.aapmains.net/",
           "title": "SportzX - PPV",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/boxing.m3u8",
+          "title": "SportzX Live - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48724/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "SportzX - PPV 02",
           "type": "0"
         },
         {
@@ -1739,7 +1767,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/43/image",
         "eventName": "Liverpool vs Fulham",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/11 16:30:00 +0000",
         "endTime": "2026/04/11 18:30:00 +0000"
       },
@@ -1800,50 +1828,6 @@
       ]
     },
     {
-      "id": "406",
-      "title": "Elche vs Valencia",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Elche",
-        "teamB": "Valencia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2846/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2828/image",
-        "eventName": "Elche vs Valencia",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 14:15:00 +0000",
-        "endTime": "2026/04/11 16:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga TV FHD",
-        "FANCODE FHD",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
-        },
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "407",
       "title": "Barcelona vs Espanyol",
       "image": "o",
@@ -1855,7 +1839,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2814/image",
         "eventName": "Barcelona vs Espanyol",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/11 16:30:00 +0000",
         "endTime": "2026/04/11 18:30:00 +0000"
       },
@@ -2418,20 +2402,20 @@
       ]
     },
     {
-      "id": "430",
-      "title": "Alanyaspor vs Trabzonspor",
+      "id": "431",
+      "title": "Kayserispor vs Fenerbahçe",
       "image": "o",
       "cat": "Super Lig",
       "eventInfo": {
-        "teamA": "Alanyaspor",
-        "teamB": "Trabzonspor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/6362/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3051/image",
-        "eventName": "Alanyaspor vs Trabzonspor",
+        "teamA": "Kayserispor",
+        "teamB": "Fenerbahçe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "eventName": "Kayserispor vs Fenerbahçe",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/11 14:00:00 +0000",
-        "endTime": "2026/04/11 16:00:00 +0000"
+        "startTime": "2026/04/11 17:00:00 +0000",
+        "endTime": "2026/04/11 19:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2442,7 +2426,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4366108.m3u8?txSecret=375acf729895bb8fc300ed7452c6898f&txTime=69DA96C8|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/hd-en-1-4366150.m3u8?txSecret=16e2f6c1d668984d32d615e07d6f3b80&txTime=69DAC1B8|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         },
@@ -2450,6 +2434,43 @@
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
           "title": "beIN SPORTS",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "title": "Darmstadt 98 vs Hannover 96",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Darmstadt",
+        "teamB": "Hannover",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2576/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2541/image",
+        "eventName": "Darmstadt 98 vs Hannover 96",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 18:30:00 +0000",
+        "endTime": "2026/04/11 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "Sky Bundesliga SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4355812.m3u8?txSecret=e1d3fecfaa28df5a9051f187cbceaa79&txTime=69DAC8A2|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8",
+          "title": "Sky Bundesliga SD",
           "type": "0"
         }
       ]
