@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 36,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -919,6 +919,57 @@
       ]
     },
     {
+      "id": "386",
+      "title": "Boston Bruins vs Lightning",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Bruins",
+        "teamB": "Lightning",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3677/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3694/image",
+        "eventName": "Boston Bruins vs Tampa Bay Lightning",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 16:30:00 +0000",
+        "endTime": "2026/04/11 19:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "HOME CAM.",
+        "AWAY CAM."
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/175.m3u8",
+          "title": "HOME CAM.",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/101.m3u8",
+          "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "399",
       "title": "West Ham vs Wolverhampton",
       "image": "o",
@@ -1814,6 +1865,306 @@
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "AVS vs Vitória SC",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "AVS",
+        "teamB": "Vitória",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/483088/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+        "eventName": "AVS vs Vitória SC",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 14:30:00 +0000",
+        "endTime": "2026/04/11 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "Santa Clara vs Rio Ave",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Santa Clara",
+        "teamB": "Rio Ave",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3011/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+        "eventName": "Santa Clara vs Rio Ave",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 17:00:00 +0000",
+        "endTime": "2026/04/11 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Estrela Amadora vs Sporting",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Estrela Amadora",
+        "teamB": "Sporting",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+        "eventName": "Estrela Amadora vs Sporting",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 19:30:00 +0000",
+        "endTime": "2026/04/11 21:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Utrecht vs SC Telstar",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Utrecht",
+        "teamB": "Telstar",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2948/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2972/image",
+        "eventName": "Utrecht vs SC Telstar",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 14:30:00 +0000",
+        "endTime": "2026/04/11 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Sparta vs PSV",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Sparta",
+        "teamB": "PSV",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+        "eventName": "Sparta Rotterdam vs PSV Eindhoven",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 16:45:00 +0000",
+        "endTime": "2026/04/11 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Groningen vs GA Eagles",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Groningen",
+        "teamB": "GA Eagles",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+        "eventName": "Groningen vs GA Eagles",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 18:00:00 +0000",
+        "endTime": "2026/04/11 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Heracles Almelo vs AFC Ajax",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Heracles",
+        "teamB": "Ajax",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2977/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "eventName": "Heracles Almelo vs AFC Ajax",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 19:00:00 +0000",
+        "endTime": "2026/04/11 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Başakşehir FK vs Gençlerbirliği",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Başakşehir",
+        "teamB": "Gençlerbirliği",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3086/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+        "eventName": "Başakşehir FK vs Gençlerbirliği",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 11:30:00 +0000",
+        "endTime": "2026/04/11 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Alanyaspor vs Trabzonspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Alanyaspor",
+        "teamB": "Trabzonspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6362/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "eventName": "Alanyaspor vs Trabzonspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 14:00:00 +0000",
+        "endTime": "2026/04/11 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Kayserispor vs Fenerbahçe",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Kayserispor",
+        "teamB": "Fenerbahçe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "eventName": "Kayserispor vs Fenerbahçe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 17:00:00 +0000",
+        "endTime": "2026/04/11 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS",
           "type": "0"
         }
       ]
