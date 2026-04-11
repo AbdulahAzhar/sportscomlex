@@ -1481,113 +1481,77 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX - PPV"
+        "SportzX - PPV",
+        "HD SERVER",
+        "SportzX Live",
+        "SD SERVER",
+        "HD SERVER - 2"
       ],
       "channels": [
         {
-          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT SPORTS FHD",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
-          "title": "NBC UNIVERSO",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/prime.m3u8",
-          "title": "USA TV - AQ",
+          "link": "https://chatgpt.hereisman.net/playlist/48710/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "SportzX - PPV",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48689/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "USA TV HD",
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108089_HD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "title": "HD SERVER",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1033.m3u8",
-          "title": "TNT SPORTS FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4343350.m3u8?txSecret=f5d481500a97e0876e69e762c73e462e&txTime=69DA7203|Referer=https://player.up909.com/",
+          "link": "https://mainstreams.pro/hls/hbfhzbfzak46.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
-          "title": "beIN ARABIC - AQ",
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108089_LQ/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/108090_HD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "title": "HD SERVER - 2",
           "type": "0"
         }
       ]
     },
     {
       "id": "401",
-      "title": "Brentford vs Everton",
+      "title": "TNA",
       "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "cat": "WWE",
       "eventInfo": {
-        "teamA": "Brentford",
-        "teamB": "Everton",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/50/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/48/image",
-        "eventName": "Brentford vs Everton",
+        "teamA": "TNA",
+        "teamB": "TNA",
+        "teamAFlag": "https://upload.wikimedia.org/wikipedia/en/c/c2/Impact_Wrestling_Rebellion.png",
+        "teamBFlag": "https://upload.wikimedia.org/wikipedia/en/c/c2/Impact_Wrestling_Rebellion.png",
+        "eventName": "TNA Rebellion",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 14:00:00 +0000",
-        "endTime": "2026/04/11 16:00:00 +0000"
+        "startTime": "2026/04/11 23:00:00 +0000",
+        "endTime": "2026/04/12 02:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL",
-        "NBC UNIVERSO",
-        "USA TV - AQ",
-        "USA TV HD",
-        "SportzX Live"
+        "HD SERVER",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
-          "title": "NBC UNIVERSO",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/ESPN.m3u8",
-          "title": "USA TV - AQ",
+          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108086_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
+          "title": "HD SERVER",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48704/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "USA TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4343353.m3u8?txSecret=f5568196a61af41e7928aaeb69090558&txTime=69DA96C8|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108086_LQ/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1663,7 +1627,11 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
-        "NBC UNIVERSO"
+        "NBC UNIVERSO",
+        "USA TV - AQ",
+        "HD SERVER",
+        "SKY SPORTS PL",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1677,6 +1645,30 @@
           "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
           "title": "NBC UNIVERSO",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/ESPN.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48719/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://6mda1225.edgemaxcdn.org/live/uk_ssepl.flv",
+          "title": "SKY SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343360.m3u8?txSecret=24ace7c46f837a3cd2f61f47d677a6bd&txTime=69DABE6C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1798,7 +1790,9 @@
         "beIN ENGLISH",
         "Laliga TV FHD",
         "FANCODE FHD",
-        "ESPN DEPORTES"
+        "HD SERVER",
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1827,8 +1821,20 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48714/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4358837.m3u8?txSecret=6abff61f34d4d3e46f36f7a1a3bcea72&txTime=69DABE6C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1880,94 +1886,6 @@
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "409",
-      "title": "Roma vs Pisa",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Roma",
-        "teamB": "Pisa",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2702/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2737/image",
-        "eventName": "Roma vs Pisa",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/10 18:45:00 +0000",
-        "endTime": "2026/04/10 20:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "FOX DEPORTES",
-        "HD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48613/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4339763.m3u8?txSecret=17582fe323b41f76fa92382f3030bce9&txTime=69D981C0|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "410",
-      "title": "Cagliari vs Cremonese",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Cagliari",
-        "teamB": "Cremonese",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2761/image",
-        "eventName": "Cagliari vs Cremonese",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 13:00:00 +0000",
-        "endTime": "2026/04/11 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PARAMOUNT+ HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48697/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4339770.m3u8?txSecret=7b407b4409bacd5fdf08fdb73248ad37&txTime=69DA92AE|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2188,9 +2106,31 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Bundesliga HD [EN]",
+        "One Sports HD",
+        "SonyLiv [ENG]",
+        "SportzX Live",
         "SKY Bundesliga SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48716/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "Bundesliga HD [EN]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2022315/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775967621~acl=/*~id=52021997859040647404279936353358~hmac=08bb83f2536b7af7a449ecaecea187bbafbcc14bf6fb9f0110e9d4121cfea3af|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347655.m3u8?txSecret=10971d9c79cc4193d7d727e1a751286e&txTime=69DABE6C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
@@ -2472,6 +2412,80 @@
           "api": null,
           "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
           "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Başakşehir FK vs Gençlerbirliği",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Başakşehir",
+        "teamB": "Gençlerbirliği",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3086/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+        "eventName": "Başakşehir FK vs Gençlerbirliği",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 11:30:00 +0000",
+        "endTime": "2026/04/11 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "beIN SPORTS"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366141.m3u8?txSecret=308aed34387c1cc32dae37fa5abeb9ee&txTime=69DA7320|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Alanyaspor vs Trabzonspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Alanyaspor",
+        "teamB": "Trabzonspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6362/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "eventName": "Alanyaspor vs Trabzonspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 14:00:00 +0000",
+        "endTime": "2026/04/11 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "beIN SPORTS"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366108.m3u8?txSecret=375acf729895bb8fc300ed7452c6898f&txTime=69DA96C8|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS",
           "type": "0"
         }
       ]
