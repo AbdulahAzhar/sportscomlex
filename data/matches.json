@@ -951,12 +951,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48717/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1458,31 +1465,23 @@
     },
     {
       "id": "400",
-      "title": "Arsenal vs Bournemouth",
+      "title": "Tyson Fury vs Makhmudov",
       "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "cat": "Boxing",
       "eventInfo": {
-        "teamA": "Arsenal",
-        "teamB": "Bournemouth",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/42/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/60/image",
-        "eventName": "Arsenal vs Bournemouth",
+        "teamA": "Tyson Fury",
+        "teamB": "Makhmudov",
+        "teamAFlag": "https://cdn.prod.website-files.com/6654c88f22981ae93116a799/665714e2f0ae080c7d57edcf_Tyson%20Fury%20.jpg",
+        "teamBFlag": "https://cdn.prod.website-files.com/6654c88f22981ae93116a799/697a1a511bc25f657337afec_Arslanbek%20Makhmudov.jpeg",
+        "eventName": "Tyson Fury vs Arslanbek Makhmudov",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 11:30:00 +0000",
-        "endTime": "2026/04/11 13:30:00 +0000"
+        "startTime": "2026/04/11 18:00:00 +0000",
+        "endTime": "2026/04/11 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD",
-        "NOW SPORTS PL",
-        "NBC UNIVERSO",
-        "USA TV - AQ",
-        "USA TV HD",
-        "TNT SPORTS FHD",
-        "SportzX Live",
-        "beIN ARABIC - AQ"
+        "SportzX - PPV"
       ],
       "channels": [
         {
@@ -2044,7 +2043,10 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "HD SERVER",
+        "SportzX Live",
+        "DAZN SPORTS SD"
       ],
       "channels": [
         {
@@ -2058,6 +2060,24 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48713/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4339761.m3u8?txSecret=6f3f33398c4374f4616af978c8ec8eba&txTime=69DAB4A1|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8",
+          "title": "DAZN SPORTS SD",
+          "type": "0"
         }
       ]
     },
@@ -2103,7 +2123,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
         "eventName": "Borussia Dortmund vs Bayer Leverkusen",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/11 13:30:00 +0000",
         "endTime": "2026/04/11 15:30:00 +0000"
       },
@@ -2180,94 +2200,6 @@
       ]
     },
     {
-      "id": "417",
-      "title": "Heidenheim vs Union Berlin",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Heidenheim",
-        "teamB": "Union Berlin",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2547/image",
-        "eventName": "Heidenheim vs Union Berlin",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 13:30:00 +0000",
-        "endTime": "2026/04/11 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [EN]",
-        "SportzX Live",
-        "Sky Bundesliga SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48702/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD [EN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347651.m3u8?txSecret=4456edfd2633cb97e226520cb3d9f62b&txTime=69DA955A|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8",
-          "title": "Sky Bundesliga SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "418",
-      "title": "RB Leipzig vs Borussia M'gladbach",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Leipzig",
-        "teamB": "M'gladbach",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2527/image",
-        "eventName": "RB Leipzig vs Borussia M'gladbach",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 13:30:00 +0000",
-        "endTime": "2026/04/11 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [EN]",
-        "SportzX Live",
-        "Sky Bundesliga SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48698/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD [EN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347616.m3u8?txSecret=ac320dba8dbc98ea8cb737ed67467358&txTime=69DA955A|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8",
-          "title": "Sky Bundesliga SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "419",
       "title": "Auxerre vs Nantes",
       "image": "o",
@@ -2323,50 +2255,6 @@
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "421",
-      "title": "Wolfsburg vs Eintracht Frankfurt",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Wolfsburg",
-        "teamB": "Frankfurt",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2674/image",
-        "eventName": "Wolfsburg vs Eintracht Frankfurt",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 13:30:00 +0000",
-        "endTime": "2026/04/11 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [EN]",
-        "SportzX Live",
-        "Sky Bundesliga SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48699/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD [EN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347627.m3u8?txSecret=f1007170e2642448cfa415d15a66c5bf&txTime=69DA955A|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8",
-          "title": "Sky Bundesliga SD",
           "type": "0"
         }
       ]
@@ -2494,6 +2382,96 @@
           "api": null,
           "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
           "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Sparta vs PSV",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Sparta",
+        "teamB": "PSV",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+        "eventName": "Sparta Rotterdam vs PSV Eindhoven",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 16:45:00 +0000",
+        "endTime": "2026/04/11 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Groningen vs GA Eagles",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Groningen",
+        "teamB": "GA Eagles",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+        "eventName": "Groningen vs GA Eagles",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 18:00:00 +0000",
+        "endTime": "2026/04/11 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Heracles Almelo vs AFC Ajax",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Heracles",
+        "teamB": "Ajax",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2977/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "eventName": "Heracles Almelo vs AFC Ajax",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/11 19:00:00 +0000",
+        "endTime": "2026/04/11 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL SD",
           "type": "0"
         }
       ]
