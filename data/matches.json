@@ -1478,6 +1478,7 @@
       "formats": [
         "TNT SPORTS FHD",
         "NOW SPORTS PL",
+        "NBC UNIVERSO",
         "USA TV - AQ",
         "USA TV HD",
         "TNT SPORTS FHD",
@@ -1496,6 +1497,12 @@
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
           "type": "0"
+        },
+        {
+          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
+          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
+          "title": "NBC UNIVERSO",
+          "type": "1"
         },
         {
           "api": null,
@@ -1548,14 +1555,21 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "NOW SPORTS PL",
+        "NBC UNIVERSO"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
+          "title": "NOW SPORTS PL",
           "type": "0"
+        },
+        {
+          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
+          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
+          "title": "NBC UNIVERSO",
+          "type": "1"
         }
       ]
     },
@@ -1608,14 +1622,21 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "NOW SPORTS PL",
+        "NBC UNIVERSO"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
+          "title": "NOW SPORTS PL",
           "type": "0"
+        },
+        {
+          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
+          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
+          "title": "NBC UNIVERSO",
+          "type": "1"
         }
       ]
     },
@@ -1640,7 +1661,8 @@
       "formats": [
         "Laliga TV FHD",
         "FANCODE FHD",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1659,6 +1681,12 @@
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4358854.m3u8?txSecret=36be8cd9de92f8ec6d60b927c946122f&txTime=69DA7CAD|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
