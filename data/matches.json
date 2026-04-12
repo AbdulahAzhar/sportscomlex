@@ -889,7 +889,6 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
@@ -1450,7 +1449,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
         "eventName": "Chelsea vs Manchester City",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/12 15:30:00 +0000",
         "endTime": "2026/04/12 17:30:00 +0000"
       },
@@ -1458,183 +1457,24 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
-        "SKY PL FHD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
-          "title": "SKY PL FHD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "403",
-      "title": "Crystal Palace vs Newcastle United",
-      "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Crystal Palace",
-        "teamB": "Newcastle",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/7/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/39/image",
-        "eventName": "Crystal Palace vs Newcastle United",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 13:00:00 +0000",
-        "endTime": "2026/04/12 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "NOW SPORTS PL",
-        "FUBO SPORTS - AQ",
-        "PEACOCK HD+",
-        "PEACOCK HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH623/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/prime.m3u8",
-          "title": "FUBO SPORTS - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48807/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "PEACOCK HD+",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/607/index.m3u8",
-          "title": "PEACOCK HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4343358.m3u8?txSecret=9a56df5758fcbc7cf1164911cc21bb94&txTime=69DBE513|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "404",
-      "title": "Nottingham Forest vs Aston Villa",
-      "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Forest",
-        "teamB": "Aston Villa",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/14/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
-        "eventName": "Nottingham Forest vs Aston Villa",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 13:00:00 +0000",
-        "endTime": "2026/04/12 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "NOW SPORTS PL",
-        "FUBO SPORTS - AQ",
-        "HD SERVER",
-        "PEACOCK HD",
-        "SKY PL FHD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/mma.m3u8",
-          "title": "FUBO SPORTS - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48806/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/608/index.m3u8",
-          "title": "PEACOCK HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
-          "title": "SKY PL FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4343364.m3u8?txSecret=3d8a80cce599a29d890d048145f58fda&txTime=69DBE513|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Sunderland vs Tottenham",
-      "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Sunderland",
-        "teamB": "Tottenham",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/41/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
-        "eventName": "Sunderland vs Tottenham Hotspur",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/12 13:00:00 +0000",
-        "endTime": "2026/04/12 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FUBO SPORTS",
-        "NOW SPORTS PL",
-        "USA TV - AQ",
         "USA TV HD",
+        "USA TV - AQ",
         "SKY MAIN EVENT",
-        "SportzX Live"
+        "SKY PL FHD",
+        "SportzX Live",
+        "beIN ARABIC - AQ"
       ],
       "channels": [
-        {
-          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
-          "title": "FUBO SPORTS",
-          "type": "1"
-        },
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48810/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
           "type": "0"
         },
         {
@@ -1645,78 +1485,26 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48804/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "USA TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/609/index.m3u8",
+          "link": "https://602.vizoflixx.site/main.m3u8",
           "title": "SKY MAIN EVENT",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4343365.m3u8?txSecret=3da218ef797dc9aacd679efb07745a5c&txTime=69DBE513|Referer=https://player.up909.com/",
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
+          "title": "SKY PL FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343355.m3u8?txSecret=a8e9be7c7a43bf9a71b353b190c17c40&txTime=69DBFDCA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "406",
-      "title": "Osasuna vs Real Betis",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Osasuna",
-        "teamB": "Real Betis",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2820/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
-        "eventName": "Osasuna vs Real Betis",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 12:00:00 +0000",
-        "endTime": "2026/04/12 14:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga TV FHD",
-        "PREMIER SPORTS",
-        "FANCODE FHD",
-        "HD SERVER",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
-        },
-        {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48802/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
+          "link": "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
+          "title": "beIN ARABIC - AQ",
           "type": "0"
         }
       ]
@@ -2083,12 +1871,26 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "ONE SPORTS HD",
+        "Bundesliga HD",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://daffodil.premiumjh.shop/one.m3u8",
+          "title": "ONE SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48812/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347641.m3u8?txSecret=5700055e7aab58f5cfac969dc6397f47&txTime=69DBFDCA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2143,13 +1945,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN XTRA",
+        "SportzX Live",
+        "beIN ARABIC"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://602.vizoflixx.site/xtra.m3u8",
+          "title": "beIN XTRA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347937.m3u8?txSecret=779569719d92a81d797a7016c0e454ec&txTime=69DBFDCA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://1syrialive.s3.us-east-2.amazonaws.com/bein3/master.m3u8",
+          "title": "beIN ARABIC",
           "type": "0"
         }
       ]
@@ -2173,13 +1989,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN ESPANYOL",
+        "SportzX Live",
+        "beIN ARABIC"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://602.premiumjh.shop/beines.m3u8",
+          "title": "beIN ESPANYOL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4347940.m3u8?txSecret=d7b194a306199c2bb7bb5bf928c9d2c0&txTime=69DBFDCA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://1syrialive.s3.us-east-2.amazonaws.com/bein2/master.m3u8",
+          "title": "beIN ARABIC",
           "type": "0"
         }
       ]
@@ -2442,6 +2272,140 @@
           "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
           "title": "ESPN NL SD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Göztepe vs Kasımpaşa",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Göztepe",
+        "teamB": "Kasımpaşa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3054/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6063/image",
+        "eventName": "Göztepe vs Kasımpaşa",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:00:00 +0000",
+        "endTime": "2026/04/12 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366181.m3u8?txSecret=489d57644a5baab784e04ce2b57ad54a&txTime=69DBEC20|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Galatasaray vs Kocaelispor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Galatasaray",
+        "teamB": "Kocaelispor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3065/image",
+        "eventName": "Galatasaray vs Kocaelispor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:00:00 +0000",
+        "endTime": "2026/04/12 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "title": "Birmingham City vs Wrexham",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Birmingham",
+        "teamB": "Wrexham",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/9/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/64/image",
+        "eventName": "Birmingham City vs Wrexham",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 11:00:00 +0000",
+        "endTime": "2026/04/12 13:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD",
+        "SKY FOOTBALL FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1025.m3u8",
+          "title": "SKY FOOTBALL FHD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "title": "Granada vs Cultural Leonesa",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Granada",
+        "teamB": "Cultural Leonesa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2868/image",
+        "eventName": "Granada vs Cultural Leonesa",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 12:00:00 +0000",
+        "endTime": "2026/04/12 14:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
