@@ -470,57 +470,6 @@
       ]
     },
     {
-      "id": "354",
-      "title": "WWE",
-      "image": "o",
-      "cat": "WWE",
-      "eventInfo": {
-        "teamA": "AEW",
-        "teamB": "AEW",
-        "teamAFlag": "https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png",
-        "teamBFlag": "https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png",
-        "eventName": "AEW Dynamite",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/16 00:00:00 +0000",
-        "endTime": "2026/04/16 02:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS",
-        "Fox Sports Premium",
-        "BACKUP HD",
-        "BACKUP SD"
-      ],
-      "channels": [
-        {
-          "api": "daa8ea92553fd16cd6bfae2b8c582715:4042e041b5639b79b69ae07a872eef9b",
-          "link": "https://qw.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-          "title": "TSN SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
-          "title": "Fox Sports Premium",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108087_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
-          "title": "BACKUP HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
-          "title": "BACKUP SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "366",
       "title": "IPL - 01",
       "image": "o",
@@ -905,12 +854,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48884/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -956,12 +912,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48880/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/fdgsqdfawa73.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1007,12 +970,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48890/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bvsdgayiqf78.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1058,12 +1028,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "SPX CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48887/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/rteztryzathc77.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1109,12 +1086,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48886/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/yjtzafghvjza74.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1160,12 +1144,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48889/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/sqhdghzavbxu75.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1211,12 +1202,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48885/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/omljkhqsdag79.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1262,12 +1260,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
         "AWAY CAM."
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48882/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/xcsfadafgzfg76.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1626,6 +1631,49 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "TNA",
+      "image": "o",
+      "cat": "WWE",
+      "eventInfo": {
+        "teamA": "AEW",
+        "teamB": "AEW",
+        "teamAFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0UXqOEBvYUYqj-NXWLvy2nuMedwxcX5Hv0tg1gMBosjF3GtIXvuSPIHPJa4bBvffaTnuGV-U5UXk8utb5_DnorXCXoTq4tW6VCJfZNW0rsVdMbT7HhWiNIRHkaotdUTbvpLM0nICH4RitFtOOuqztMCSh7HNr_SfPvsgR9iLwzGugouUPblO7svWiB-E/s1317/AEW-Dynasty-Logo-Reconstruct-SmarkOutMoment.png",
+        "teamBFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0UXqOEBvYUYqj-NXWLvy2nuMedwxcX5Hv0tg1gMBosjF3GtIXvuSPIHPJa4bBvffaTnuGV-U5UXk8utb5_DnorXCXoTq4tW6VCJfZNW0rsVdMbT7HhWiNIRHkaotdUTbvpLM0nICH4RitFtOOuqztMCSh7HNr_SfPvsgR9iLwzGugouUPblO7svWiB-E/s1317/AEW-Dynasty-Logo-Reconstruct-SmarkOutMoment.png",
+        "eventName": "AEW : Dynasty",
+        "eventType": "null",
+        "startTime": "2026/04/13 00:00:00 +0000",
+        "endTime": "2026/04/13 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX AEW",
+        "HD SERVER",
+        "SD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48877/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX AEW",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://28ugbcsxrxra.windows-devs.top/AccessLog2/108086_HD/apache.m3u8|Referer=https://28ugbcsxrxra.windows-devs.top/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108086_LQ/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
