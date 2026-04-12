@@ -521,278 +521,6 @@
       ]
     },
     {
-      "id": "366",
-      "title": "IPL - 01",
-      "image": "o",
-      "cat": "Indian Premier League",
-      "eventInfo": {
-        "teamA": "LSG",
-        "teamB": "GT",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/410010/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/216006/image",
-        "eventName": "Lucknow Super Giants vs Gujarat Titans",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 10:00:00 +0000",
-        "endTime": "2026/04/12 13:45:00 +0000"
-      },
-      "adsLimit": "8",
-      "publish": "1",
-      "formats": [
-        "WILLOW - AQ",
-        "CRICBUZZ ENG",
-        "CRICBUZZ HIN",
-        "SKY SPORTS NZ",
-        "SKY CRICKET HD",
-        "JIO HOTSTAR HINDI",
-        "SD SERVER",
-        "STAR ENGLISH [IN]",
-        "STAR HINDI [IN]",
-        "STAR TAMIL [IN]",
-        "STAR TELUGU [IN]"
-      ],
-      "channels": [
-        {
-          "api": "470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd",
-          "title": "PRIME VIDEO",
-          "type": "1"
-        },
-        {
-          "api": "2d0646dd8a8c511de3b2485071705038:1ddbda2f121875fd43dcd758497cbf82",
-          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/7j8yftutgs/out/v1/8a40608178f045839a1c0c0a055d6a90/cenc.mpd",
-          "title": "WILLOW [Ad Free]",
-          "type": "1"
-        },
-        {
-          "api": "9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab",
-          "link": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd",
-          "title": "PRIME HINDI",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
-          "title": "SKY SPORTS - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/57c9fd581995339676bb330a024502e2/manifest/stream_t9e72c8d63ef150818cea65aca509f8bd_r1479738631.m3u8?llhlsHBs=0.9",
-          "title": "PTV Sports",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sfsfs.valverdeae7.workers.dev/live.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://matcheslinkz.pages.dev/&origin=https://matcheslinkz.pages.dev",
-          "title": "S©portzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live-pull.aisports.mobi/moviebox/device01/playlist.m3u8|Referer=https://sportslivenow.top/",
-          "title": "JIO HOTSTAR",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://103.229.254.25:7001/play/a0a0/index.m3u8",
-          "title": "Star Sports [HIN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR ENG - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR HIN - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TAM - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TEL - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR KAN - IN",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "367",
-      "title": "IPL - 02",
-      "image": "o",
-      "cat": "Indian Premier League",
-      "eventInfo": {
-        "teamA": "MI",
-        "teamB": "RCB",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187780/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187843/image",
-        "eventName": "Mumbai Indians vs Royal Challengers Bengaluru",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/12 14:00:00 +0000",
-        "endTime": "2026/04/12 17:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "WILLOW ENG - AQ",
-        "CRICBUZZ ENG",
-        "CRICBUZZ HIN - AQ",
-        "SKY CRICKET",
-        "STAR IN [ENG]",
-        "STAR IN [HIN]",
-        "STAR IN [TAM]",
-        "STAR IN [TEL]",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "ec31e8a0ed9597f6e7f9732ce4e7c88c:169e244c2c08a4de6e274a5c8ea9f619",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nze1joywnu/out/v1/d626ba5f1a07483b8c6d10372911dd19/cenc.mpd",
-          "title": "WILLOW ENG - AQ",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
-          "title": "CRICBUZZ ENG",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123519/WCB-CA-HINDI/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
-          "title": "CRICBUZZ HIN - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-          "title": "SKY CRICKET",
-          "type": "0"
-        },
-        {
-          "api": "965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [ENG]",
-          "type": "1"
-        },
-        {
-          "api": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [HIN]",
-          "type": "1"
-        },
-        {
-          "api": "2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [TAM]",
-          "type": "1"
-        },
-        {
-          "api": "49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [TEL]",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://z.zakfpozakfe.shop/hls/JRRR.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "368",
-      "title": "PSL 01",
-      "image": "o",
-      "cat": "PSL",
-      "eventInfo": {
-        "teamA": "HYK",
-        "teamB": "ISL",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/212416/image",
-        "eventName": "Hyderabad Kingsmen vs Islamabad United",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 14:00:00 +0000",
-        "endTime": "2026/04/12 17:45:00 +0000"
-      },
-      "adsLimit": "9",
-      "publish": "1",
-      "formats": [
-        "WILLOW [Ad-Free]",
-        "PSL TV [Urdu]",
-        "WILLOW FHD",
-        "PSL TV [ENG]",
-        "PTV SPORTS HD",
-        "TAMASHA - PK",
-        "TSports HD",
-        "PTV SPORTS - AQ",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "1fc04170e5671d37c8286afcfeb505f7:9751880fa496d361d780019bdcd91d8a",
-          "link": "https://otte.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kq9asei23n/out/v1/12e4e39869014ef19f3c30f0d598191b/cenc.mpd",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "title": "Fancode FHD",
-          "type": "1"
-        },
-        {
-          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
-          "link": "https://a166aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-          "title": "FANCODE SD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://stream.snexus.co/live/SN_WILDLIFE/main_stream.m3u8",
-          "title": "Solhsports HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://bd-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
-          "title": "FANCODE (BD)",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
-          "title": "FANCODE (IND)",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "371",
       "title": "ISL VS ISL",
       "image": "o",
@@ -1911,7 +1639,8 @@
       "formats": [
         "TNT SPORTS FHD",
         "beIN ENGLISH",
-        "Ziggo Sports"
+        "Ziggo Sports",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1931,48 +1660,10 @@
           "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621|User-Agent=Mozila",
           "title": "Ziggo Sports",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "415",
-      "title": "Stuttgart vs Hamburger",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Stuttgart",
-        "teamB": "HSV",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2677/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2676/image",
-        "eventName": "Stuttgart vs Hamburger",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 15:30:00 +0000",
-        "endTime": "2026/04/12 17:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "ONE SPORTS HD",
-        "Bundesliga HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://daffodil.premiumjh.shop/one.m3u8",
-          "title": "ONE SPORTS HD",
-          "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48812/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347641.m3u8?txSecret=5700055e7aab58f5cfac969dc6397f47&txTime=69DBFDCA|Referer=https://player.up909.com/",
+          "link": "https://live.uu6611.com/live/hd-en-1-4339772.m3u8?txSecret=dbe418b6e95f311a1900b5a181efc896&txTime=69DC2A22|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2134,7 +1825,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347935.m3u8?txSecret=1bf573204e47316c7d1565b965a29acc&txTime=69DC2A22|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2234,50 +1925,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "427",
-      "title": "AZ Alkmaar vs SC Heerenveen",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "AZ",
-        "teamB": "Heerenveen",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
-        "eventName": "AZ Alkmaar vs SC Heerenveen",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 14:45:00 +0000",
-        "endTime": "2026/04/12 16:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball",
-        "SportzX Live",
-        "ESPN NL SD"
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4369040.m3u8?txSecret=36491d672da1ca0c2eb320514087f181&txTime=69DBF5B8|Referer=https://player.up909.com/|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
-          "title": "ESPN NL SD",
-          "type": "0"
         }
       ]
     },
@@ -2448,6 +2095,205 @@
           "api": null,
           "link": "https://instreams.live/US/NBA4/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "443",
+      "title": "Knicks vs Charlotte Hornets",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Knicks",
+        "teamB": "Hornets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3421/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3430/image",
+        "eventName": "Knicks vs Charlotte Hornets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 22:00:00 +0000",
+        "endTime": "2026/04/13 00:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/zeafwqvhfe69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA5/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "title": "Philadelphia 76ers vs Milwaukee Bucks",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "76ers",
+        "teamB": "Bucks",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3420/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3410/image",
+        "eventName": "Philadelphia 76ers vs Milwaukee Bucks",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 22:00:00 +0000",
+        "endTime": "2026/04/13 00:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA6/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "445",
+      "title": "Toronto Raptors vs Brooklyn Nets",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Raptors",
+        "teamB": "Nets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3433/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3436/image",
+        "eventName": "Toronto Raptors vs Brooklyn Nets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 22:00:00 +0000",
+        "endTime": "2026/04/13 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NBA7/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "446",
+      "title": "Baltimore Orioles vs Giants",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Orioles",
+        "teamB": "Giants",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3652/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3634/image",
+        "eventName": "Baltimore Orioles vs San Francisco Giants",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:35:00 +0000",
+        "endTime": "2026/04/12 20:25:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "MLB LIVE - AQ",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48821/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/orioles.m3u8",
+          "title": "MLB LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "447",
+      "title": "Phillies vs Arizona Diamondbacks",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Phillies",
+        "teamB": "Diamondbacks",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3640/image",
+        "eventName": "Philadelphia Phillies vs Arizona Diamondbacks",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:35:00 +0000",
+        "endTime": "2026/04/12 20:25:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "MLB LIVE - AQ",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48823/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/phillies.m3u8",
+          "title": "MLB LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
