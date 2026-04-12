@@ -650,7 +650,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187843/image",
         "eventName": "Mumbai Indians vs Royal Challengers Bengaluru",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/12 14:00:00 +0000",
         "endTime": "2026/04/12 17:45:00 +0000"
       },
@@ -658,7 +658,7 @@
       "publish": "1",
       "formats": [
         "WILLOW ENG - AQ",
-        "CRICBUZZ ENG - AQ",
+        "CRICBUZZ ENG",
         "CRICBUZZ HIN - AQ",
         "SKY CRICKET",
         "STAR IN [ENG]",
@@ -669,20 +669,20 @@
       ],
       "channels": [
         {
-          "api": "a8a4acb421aa98dcb5748cd92a8dcb39:c226dc3bde109562804e214bf89d0d7f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/eajgowpkve/out/v1/1e448b3f09884547b77af6c9056b404d/cenc.mpd",
+          "api": "ec31e8a0ed9597f6e7f9732ce4e7c88c:169e244c2c08a4de6e274a5c8ea9f619",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nze1joywnu/out/v1/d626ba5f1a07483b8c6d10372911dd19/cenc.mpd",
           "title": "WILLOW ENG - AQ",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/149790/master.m3u8|cookie=hdntl=exp=1775986490~acl=%2f*~id=5f6820fc-0a2a-46b3-9a40-911744cf338e~data=hdntl~hmac=fdc7793a857e0e0a75d3260e1069c14d45683c3758346e3bc2de92b26ea6899d&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
-          "title": "CRICBUZZ ENG - AQ",
+          "link": "https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
+          "title": "CRICBUZZ ENG",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123519/WCB-CA-HINDI/9241/149790/master.m3u8|cookie=hdntl=exp=1775986490~acl=%2f*~id=5f6820fc-0a2a-46b3-9a40-911744cf338e~data=hdntl~hmac=fdc7793a857e0e0a75d3260e1069c14d45683c3758346e3bc2de92b26ea6899d&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
+          "link": "https://livevideos.cricbuzz.com/hls/live/2123519/WCB-CA-HINDI/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
           "title": "CRICBUZZ HIN - AQ",
           "type": "0"
         },
@@ -718,7 +718,7 @@
         },
         {
           "api": null,
-          "link": "http://195.178.110.25/hls/KIKIKIQQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "link": "https://z.zakfpozakfe.shop/hls/JRRR.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SD SERVER",
           "type": "0"
         }
@@ -1744,6 +1744,7 @@
         "beIN ENGLISH FHD",
         "PREMIER SPORTS",
         "FANCODE FHD",
+        "ESPN DEPORTES HD",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1770,6 +1771,12 @@
           "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
           "title": "FANCODE FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48808/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "ESPN DEPORTES HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -2048,6 +2055,12 @@
           "link": "https://live.uu6611.com/live/hd-en-1-4347643.m3u8?txSecret=490744cc9fa716b599b502d7875d57fc&txTime=69DBE4DA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Bundesli1204/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
         }
       ]
     },
@@ -2322,43 +2335,6 @@
       ]
     },
     {
-      "id": "424",
-      "title": "Fortuna Sittard vs NAC Breda",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "Fortuna",
-        "teamB": "NAC Breda",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2957/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2947/image",
-        "eventName": "Fortuna Sittard vs NAC Breda",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 10:15:00 +0000",
-        "endTime": "2026/04/12 12:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "ESPN NL SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4344727.m3u8?txSecret=6b82b3ba9a6a35bf73c78c47d1c90b12&txTime=69DBB260|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
-          "title": "ESPN NL SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "425",
       "title": "NEC Nijmegen vs Feyenoord",
       "image": "o",
@@ -2417,6 +2393,43 @@
         "ESPN NL SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "AZ Alkmaar vs SC Heerenveen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "AZ",
+        "teamB": "Heerenveen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "eventName": "AZ Alkmaar vs SC Heerenveen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:45:00 +0000",
+        "endTime": "2026/04/12 16:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
