@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 30,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -791,71 +791,6 @@
       ]
     },
     {
-      "id": "370",
-      "title": "PSL 02",
-      "image": "o",
-      "cat": "PSL",
-      "eventInfo": {
-        "teamA": "KAR",
-        "teamB": "HYK",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/212418/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
-        "eventName": "Karachi Kings vs Hyderabad Kingsmen",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/11 14:00:00 +0000",
-        "endTime": "2026/04/11 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "WILLOW - AQ",
-        "PSL TV [Urdu]",
-        "WILLOW FHD",
-        "PSL TV [ENG]",
-        "PTV SPORTS HD",
-        "TAMASHA - PK"
-      ],
-      "channels": [
-        {
-          "api": "8494e1b33bc32413ccf06da43dab1e18:cc4c3280bbfaf97da35004ed296f1699",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jbksiyyogj/out/v1/091cc2a45cba4dfe8c16d1842ec4019e/cenc.mpd",
-          "title": "WILLOW - AQ",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
-          "title": "PSL TV [Urdu]",
-          "type": "0"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://psl.bigbaat.app/out/v1/f342445c31dd475bbf30c7304dbad14f/index.m3u8",
-          "title": "PSL TV [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.incableinternet.com/v/kooker_ptvsportshd/kooker_ptvsportshd.m3u8",
-          "title": "PTV SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://tencentcdn7.tamashaweb.com/v1/019beffa3f101567ee93346674d021/019bff96b0e415fc600b1b67f81951/TMSH_APP2_DIRTY.m3u8",
-          "title": "TAMASHA - PK",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "371",
       "title": "ISL VS ISL",
       "image": "o",
@@ -867,8 +802,9 @@
         "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
         "eventName": "ISL vs ISL",
         "eventType": "null",
-        "startTime": "2026/04/11 11:30:00 +0000",
-        "endTime": "2026/04/11 16:00:00 +0000"
+        "isHot": "0",
+        "startTime": "2026/04/12 11:30:00 +0000",
+        "endTime": "2026/04/12 16:00:00 +0000"
       },
       "adsLimit": "13",
       "publish": "1",
@@ -1039,13 +975,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL"
+        "NOW SPORTS PL",
+        "SKY PL FHD"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
+          "title": "SKY PL FHD",
           "type": "0"
         }
       ]
@@ -1099,13 +1042,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL"
+        "NOW SPORTS PL",
+        "SKY PL FHD"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
+          "title": "SKY PL FHD",
           "type": "0"
         }
       ]
@@ -1604,39 +1554,577 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48716/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD [EN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-18379-1/53b749fb0478/1025.m3u8",
-          "title": "SKY SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.premiumjh.shop/one.m3u8",
-          "title": "One Sports HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sonydaimenew.akamaized.net/hls/live/2022315/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775967621~acl=/*~id=52021997859040647404279936353358~hmac=08bb83f2536b7af7a449ecaecea187bbafbcc14bf6fb9f0110e9d4121cfea3af|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
-          "title": "SonyLiv [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4347655.m3u8?txSecret=10971d9c79cc4193d7d727e1a751286e&txTime=69DABE6C|Referer=https://player.up909.com/",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "title": "Nice vs Le Havre",
+      "image": "o",
+      "cat": "Ligue 1 🇫🇷",
+      "eventInfo": {
+        "teamA": "Nice",
+        "teamB": "Le Havre",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1662/image",
+        "eventName": "Nice vs Le Havre",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 15:15:00 +0000",
+        "endTime": "2026/04/12 17:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "title": "Toulouse vs Lille",
+      "image": "o",
+      "cat": "Ligue 1 🇫🇷",
+      "eventInfo": {
+        "teamA": "Toulouse",
+        "teamB": "Lille",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1681/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+        "eventName": "Toulouse vs Lille",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 15:15:00 +0000",
+        "endTime": "2026/04/12 17:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "Olympique Lyonnais vs Lorient",
+      "image": "o",
+      "cat": "Ligue 1 🇫🇷",
+      "eventInfo": {
+        "teamA": "Lyon",
+        "teamB": "Lorient",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1649/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1656/image",
+        "eventName": "Olympique Lyonnais vs Lorient",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 18:45:00 +0000",
+        "endTime": "2026/04/12 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "Alverca vs Casa Pia",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Alverca",
+        "teamB": "Casa Pia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/190328/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/36365/image",
+        "eventName": "Alverca vs Casa Pia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:30:00 +0000",
+        "endTime": "2026/04/12 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "Benfica vs CD Nacional",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Benfica",
+        "teamB": "Nacional",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+        "eventName": "Benfica vs CD Nacional",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:00:00 +0000",
+        "endTime": "2026/04/12 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Sporting Braga vs FC Arouca",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Braga",
+        "teamB": "Arouca",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2999/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/25777/image",
+        "eventName": "Sporting Braga vs FC Arouca",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:00:00 +0000",
+        "endTime": "2026/04/12 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "Estoril Praia vs FC Porto",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Estoril",
+        "teamB": "Porto",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4500/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+        "eventName": "Estoril Praia vs FC Porto",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 19:30:00 +0000",
+        "endTime": "2026/04/12 21:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Fortuna Sittard vs NAC Breda",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Fortuna",
+        "teamB": "NAC Breda",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2957/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2947/image",
+        "eventName": "Fortuna Sittard vs NAC Breda",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 10:15:00 +0000",
+        "endTime": "2026/04/12 12:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "NEC Nijmegen vs Feyenoord",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "NEC",
+        "teamB": "Feyenoord",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+        "eventName": "NEC Nijmegen vs Feyenoord",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 12:30:00 +0000",
+        "endTime": "2026/04/12 14:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8",
-          "title": "SKY Bundesliga SD",
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL SD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "PEC Zwolle vs Excelsior",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Zwolle",
+        "teamB": "Excelsior",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+        "eventName": "PEC Zwolle vs Excelsior",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 12:30:00 +0000",
+        "endTime": "2026/04/12 14:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "AZ Alkmaar vs SC Heerenveen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "AZ",
+        "teamB": "Heerenveen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "eventName": "AZ Alkmaar vs SC Heerenveen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:45:00 +0000",
+        "endTime": "2026/04/12 16:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Konyaspor vs Karagümrük",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Konyaspor",
+        "teamB": "Karagümrük",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4954/image",
+        "eventName": "Konyaspor vs Karagümrük",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 11:30:00 +0000",
+        "endTime": "2026/04/12 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Göztepe vs Kasımpaşa",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Göztepe",
+        "teamB": "Kasımpaşa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3054/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6063/image",
+        "eventName": "Göztepe vs Kasımpaşa",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:00:00 +0000",
+        "endTime": "2026/04/12 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Galatasaray vs Kocaelispor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Galatasaray",
+        "teamB": "Kocaelispor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3065/image",
+        "eventName": "Galatasaray vs Kocaelispor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 17:00:00 +0000",
+        "endTime": "2026/04/12 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Falkirk FC vs Rangers",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "Falkirk",
+        "teamB": "Rangers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2363/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2351/image",
+        "eventName": "Falkirk FC vs Rangers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 11:00:00 +0000",
+        "endTime": "2026/04/12 13:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "CBS NETWORK",
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "title": "Birmingham City vs Wrexham",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Birmingham",
+        "teamB": "Wrexham",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/9/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/64/image",
+        "eventName": "Birmingham City vs Wrexham",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 11:00:00 +0000",
+        "endTime": "2026/04/12 13:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD",
+        "SKY FOOTBALL FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1025.m3u8",
+          "title": "SKY FOOTBALL FHD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "title": "Granada vs Cultural Leonesa",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Granada",
+        "teamB": "Cultural Leonesa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2868/image",
+        "eventName": "Granada vs Cultural Leonesa",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 12:00:00 +0000",
+        "endTime": "2026/04/12 14:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "title": "Huesca vs Deportivo",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Huesca",
+        "teamB": "Deportivo",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/24265/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2832/image",
+        "eventName": "Huesca vs Deportivo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 14:15:00 +0000",
+        "endTime": "2026/04/12 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
