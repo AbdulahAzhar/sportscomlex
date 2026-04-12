@@ -521,6 +521,192 @@
       ]
     },
     {
+      "id": "366",
+      "title": "IPL - 01",
+      "image": "o",
+      "cat": "Indian Premier League",
+      "eventInfo": {
+        "teamA": "SRH",
+        "teamB": "RR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187844/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
+        "eventName": "Sunrisers Hyderabad vs Rajasthan Royals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/13 14:00:00 +0000",
+        "endTime": "2026/04/13 17:45:00 +0000"
+      },
+      "adsLimit": "8",
+      "publish": "1",
+      "formats": [
+        "WILLOW - AQ",
+        "CRICBUZZ ENG",
+        "CRICBUZZ HIN",
+        "SKY SPORTS NZ",
+        "SKY CRICKET HD",
+        "JIO HOTSTAR HINDI",
+        "SD SERVER",
+        "STAR ENGLISH [IN]",
+        "STAR HINDI [IN]",
+        "STAR TAMIL [IN]",
+        "STAR TELUGU [IN]"
+      ],
+      "channels": [
+        {
+          "api": "470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd",
+          "title": "PRIME VIDEO",
+          "type": "1"
+        },
+        {
+          "api": "2d0646dd8a8c511de3b2485071705038:1ddbda2f121875fd43dcd758497cbf82",
+          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/7j8yftutgs/out/v1/8a40608178f045839a1c0c0a055d6a90/cenc.mpd",
+          "title": "WILLOW [Ad Free]",
+          "type": "1"
+        },
+        {
+          "api": "9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab",
+          "link": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd",
+          "title": "PRIME HINDI",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
+          "title": "SKY SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/57c9fd581995339676bb330a024502e2/manifest/stream_t9e72c8d63ef150818cea65aca509f8bd_r1479738631.m3u8?llhlsHBs=0.9",
+          "title": "PTV Sports",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sfsfs.valverdeae7.workers.dev/live.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://matcheslinkz.pages.dev/&origin=https://matcheslinkz.pages.dev",
+          "title": "S©portzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live-pull.aisports.mobi/moviebox/device01/playlist.m3u8|Referer=https://sportslivenow.top/",
+          "title": "JIO HOTSTAR",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
+          "title": "WILLOW HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://103.229.254.25:7001/play/a0a0/index.m3u8",
+          "title": "Star Sports [HIN]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
+          "title": "STAR ENG - IN",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
+          "title": "STAR HIN - IN",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
+          "title": "STAR TAM - IN",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
+          "title": "STAR TEL - IN",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
+          "title": "STAR KAN - IN",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "368",
+      "title": "PSL 01",
+      "image": "o",
+      "cat": "PSL",
+      "eventInfo": {
+        "teamA": "PES",
+        "teamB": "MUL",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212420/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/273650/image",
+        "eventName": "Peshawar Zalmi vs Multan Sultans",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/13 14:00:00 +0000",
+        "endTime": "2026/04/13 17:45:00 +0000"
+      },
+      "adsLimit": "9",
+      "publish": "1",
+      "formats": [
+        "WILLOW [Ad-Free]",
+        "PSL TV [Urdu]",
+        "WILLOW FHD",
+        "PSL TV [ENG]",
+        "PTV SPORTS HD",
+        "TAMASHA - PK",
+        "TSports HD",
+        "PTV SPORTS - AQ",
+        "SD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "1fc04170e5671d37c8286afcfeb505f7:9751880fa496d361d780019bdcd91d8a",
+          "link": "https://otte.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kq9asei23n/out/v1/12e4e39869014ef19f3c30f0d598191b/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "Fancode FHD",
+          "type": "1"
+        },
+        {
+          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
+          "link": "https://a166aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+          "title": "FANCODE SD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://stream.snexus.co/live/SN_WILDLIFE/main_stream.m3u8",
+          "title": "Solhsports HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://bd-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
+          "title": "FANCODE (BD)",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
+          "title": "FANCODE (IND)",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "371",
       "title": "ISL VS ISL",
       "image": "o",
@@ -1136,7 +1322,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48717/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "link": "https://chatgpt.hereisman.net/playlist/48846/load-playlist?|Referer=https://gooz.aapmains.net/",
           "title": "SportzX NHL",
           "type": "0"
         },
@@ -1154,13 +1340,13 @@
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/175.m3u8",
+          "link": "https://webcast-origin.b-cdn.net/bcdn_token=42pMm6OMRUdWSchwuE_NhmFTvQXhI7gxwJXSDxH_Yas&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFGpu-9Sam2jQ9k5hPDLsw9%2F&expires=1776034200/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFGpu-9Sam2jQ9k5hPDLsw9/169.m3u8",
           "title": "HOME CAM.",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/5xyJcnUCNM3JjTT2/101.m3u8",
+          "link": "https://webcast-origin.b-cdn.net/bcdn_token=IAQkCD4UGTUsqmw0i3HJPbe3xFHeAETIMWRW2hQicmc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhG0FFZbz0ur9jCT7HGsSmfs%2F&expires=1776034223/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhG0FFZbz0ur9jCT7HGsSmfs/99.m3u8",
           "title": "AWAY CAM.",
           "type": "0"
         }
@@ -1445,20 +1631,20 @@
       ]
     },
     {
-      "id": "408",
-      "title": "Celta Vigo vs Real Oviedo",
+      "id": "409",
+      "title": "Athletic Club vs Villarreal",
       "image": "o",
       "cat": "LaLiga 🇪🇸",
       "eventInfo": {
-        "teamA": "Celta",
-        "teamB": "Real Oviedo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2821/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2851/image",
-        "eventName": "Celta Vigo vs Real Oviedo",
+        "teamA": "Athletic Club",
+        "teamB": "Villarreal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+        "eventName": "Athletic Club vs Villarreal",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/12 16:30:00 +0000",
-        "endTime": "2026/04/12 18:30:00 +0000"
+        "startTime": "2026/04/12 19:00:00 +0000",
+        "endTime": "2026/04/12 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1467,7 +1653,8 @@
         "beIN ENGLISH FHD",
         "PREMIER SPORTS",
         "FANCODE FHD",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1499,63 +1686,11 @@
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
           "title": "ESPN DEPORTES",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "409",
-      "title": "Athletic Club vs Villarreal",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Athletic Club",
-        "teamB": "Villarreal",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
-        "eventName": "Athletic Club vs Villarreal",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 19:00:00 +0000",
-        "endTime": "2026/04/12 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga TV FHD",
-        "beIN ENGLISH FHD",
-        "PREMIER SPORTS",
-        "FANCODE FHD",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
-        },
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
-        },
-        {
-          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
-          "title": "ESPN DEPORTES",
+          "link": "https://live.uu6611.com/live/hd-en-1-4358829.m3u8?txSecret=9e75c315c22ec1ca1223dfa7409af235&txTime=69DC3192|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1638,7 +1773,9 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "FUBO SPORTS FHD",
         "beIN ENGLISH",
+        "HD SERVER",
         "Ziggo Sports",
         "SportzX Live"
       ],
@@ -1650,10 +1787,22 @@
           "type": "1"
         },
         {
+          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "title": "FUBO SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48815/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
         },
         {
           "api": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
@@ -1820,13 +1969,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN ESPANYOL",
+        "SportzX Live",
+        "beIN SPORTS US"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://602.vizoflix.online/beines.m3u8",
+          "title": "beIN ESPANYOL",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://live.uu6611.com/live/hd-en-1-4347935.m3u8?txSecret=1bf573204e47316c7d1565b965a29acc&txTime=69DC2A22|Referer=https://player.up909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/614/index.m3u8",
+          "title": "beIN SPORTS US",
           "type": "0"
         }
       ]
@@ -1917,7 +2080,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1925,6 +2089,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369043.m3u8?txSecret=8a6d89507e4752b4a4acd0de4ac61274&txTime=69DC3177|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2249,50 +2419,6 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "447",
-      "title": "Phillies vs Arizona Diamondbacks",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Phillies",
-        "teamB": "Diamondbacks",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "eventName": "Philadelphia Phillies vs Arizona Diamondbacks",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 17:35:00 +0000",
-        "endTime": "2026/04/12 20:25:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "MLB LIVE - AQ",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48823/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/phillies.m3u8",
-          "title": "MLB LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
