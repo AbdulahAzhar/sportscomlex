@@ -1494,13 +1494,41 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL"
+        "NOW SPORTS PL",
+        "FUBO SPORTS - AQ",
+        "PEACOCK HD+",
+        "PEACOCK HD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH623/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/prime.m3u8",
+          "title": "FUBO SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48807/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PEACOCK HD+",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/607/index.m3u8",
+          "title": "PEACOCK HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343358.m3u8?txSecret=9a56df5758fcbc7cf1164911cc21bb94&txTime=69DBE513|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1525,7 +1553,11 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
-        "SKY PL FHD"
+        "FUBO SPORTS - AQ",
+        "HD SERVER",
+        "PEACOCK HD",
+        "SKY PL FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1536,8 +1568,32 @@
         },
         {
           "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/mma.m3u8",
+          "title": "FUBO SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48806/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/608/index.m3u8",
+          "title": "PEACOCK HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1028.m3u8",
           "title": "SKY PL FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343364.m3u8?txSecret=3d8a80cce599a29d890d048145f58fda&txTime=69DBE513|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1554,20 +1610,55 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
         "eventName": "Sunderland vs Tottenham Hotspur",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/12 13:00:00 +0000",
         "endTime": "2026/04/12 15:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "NOW SPORTS PL"
+        "FUBO SPORTS",
+        "NOW SPORTS PL",
+        "USA TV - AQ",
+        "USA TV HD",
+        "SKY MAIN EVENT",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "title": "FUBO SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/ESPN.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48804/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/609/index.m3u8",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343365.m3u8?txSecret=3da218ef797dc9aacd679efb07745a5c&txTime=69DBE513|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1805,64 +1896,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Genoa vs Sassuolo",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Genoa",
-        "teamB": "Sassuolo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2713/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2793/image",
-        "eventName": "Genoa vs Sassuolo",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/12 10:30:00 +0000",
-        "endTime": "2026/04/12 12:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "FOX DEPORTES",
-        "PARAMOUNT+ HD",
-        "DAZN IT HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/628/index.m3u8",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://yesllahq.28585519.net:8443/hls/w0j0s7ntj70zf.m3u8?s=gnWGNcAle2hcPaJO3n889w&e=1776014857|Referer=https://fisherman.click&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
-          "title": "DAZN IT HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4339775.m3u8?txSecret=5d225c7709fcb78676f502f3837805ce&txTime=69DBB260|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Parma vs Napoli",
       "image": "o",
@@ -1883,7 +1916,8 @@
       "formats": [
         "TNT SPORTS FHD",
         "beIN ENGLISH",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "TNT SPORTS HD"
       ],
       "channels": [
         {
@@ -1903,6 +1937,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/632/index.m3u8",
+          "title": "TNT SPORTS HD",
+          "type": "0"
         }
       ]
     },
@@ -1999,12 +2039,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.uu6611.com/live/hd-en-1-4347643.m3u8?txSecret=490744cc9fa716b599b502d7875d57fc&txTime=69DBE4DA|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2349,6 +2390,36 @@
         {
           "api": null,
           "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "PEC Zwolle vs Excelsior",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Zwolle",
+        "teamB": "Excelsior",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+        "eventName": "PEC Zwolle vs Excelsior",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/12 12:30:00 +0000",
+        "endTime": "2026/04/12 14:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
           "title": "ESPN NL SD",
           "type": "0"
         }
