@@ -1329,7 +1329,12 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
-        "NBC UNIVERSO"
+        "NOW SPORTS PL",
+        "NBC UNIVERSO",
+        "USA TV - AQ",
+        "USA TV HD",
+        "beIN ARABIC",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1339,9 +1344,39 @@
           "type": "1"
         },
         {
+          "api": null,
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
+          "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
           "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
           "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
           "title": "NBC UNIVERSO",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/ESPN.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48898/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://1syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
+          "title": "beIN ARABIC",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4343362.m3u8?txSecret=462f5d7880216b0c4c082f9e42eb9eff&txTime=69DD820C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1391,7 +1426,7 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8",
+          "link": "https://chatgpt.hereisman.net/playlist/48896/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "ESPN DEPORTES",
           "type": "0"
         }
@@ -1416,7 +1451,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "beIN ENGLISH FHD",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1424,6 +1461,18 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48895/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/hd-en-1-4339774.m3u8?txSecret=101876551543a2306816debff666b529&txTime=69DD820C|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1541,7 +1590,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/hd-en-1-4520555.m3u8?txSecret=865666656a32e542202b9b51e0bb4971&txTime=69DD5BC1|Referer=https://player.up909.com/",
+          "link": "https://b.zfezhtr.shop/hls/HHHHRQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SportzX Live",
           "type": "0"
         }
