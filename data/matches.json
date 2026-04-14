@@ -750,9 +750,7 @@
       "publish": "1",
       "formats": [
         "SportzX Live",
-        "HD SERVER",
-        "HOME CAM.",
-        "AWAY CAM."
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -763,20 +761,8 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/159.m3u8",
-          "title": "HOME CAM.",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/146.m3u8",
-          "title": "AWAY CAM.",
           "type": "0"
         }
       ]
@@ -801,9 +787,7 @@
       "publish": "1",
       "formats": [
         "SportzX Live",
-        "HD SERVER",
-        "HOME CAM.",
-        "AWAY CAM."
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -814,20 +798,8 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/166.m3u8",
-          "title": "HOME CAM.",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/140.m3u8",
-          "title": "AWAY CAM.",
           "type": "0"
         }
       ]
@@ -851,7 +823,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "FOX SPORTS FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -859,6 +832,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
           "title": "FOX SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404671.m3u8?txSecret=f20186adb65cd6a99d11246b0a82988a&txTime=69DEC34D|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -887,13 +866,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -924,13 +903,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -961,13 +940,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
+          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://streamfree.click/&Origin=https://streamfree.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -998,13 +977,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1035,13 +1014,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/sdezqfza55.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL6/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL5/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1072,13 +1051,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://mainstreams.pro/hls/poiryezafv56.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL5/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL7/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1109,13 +1088,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/poiryezafv56.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/sdezqfza55.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL7/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL6/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1498,9 +1477,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ESPN NL"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4520558.m3u8?txSecret=4aa8840752c98a0933c65c8a01310b05&txTime=69DEC34D|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8|Referer=https://hardsmart.click/",
