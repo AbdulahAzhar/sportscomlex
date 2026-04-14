@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 28,
+  "total_events": 23,
   "results": [
     {
       "id": "312",
@@ -330,8 +330,8 @@
         "eventName": "🥊 WWE Monday Night RAW",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/14 00:00:00 +0000",
-        "endTime": "2026/04/14 02:30:00 +0000"
+        "startTime": "2026/04/21 00:00:00 +0000",
+        "endTime": "2026/04/21 02:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -764,228 +764,6 @@
       ]
     },
     {
-      "id": "392",
-      "title": "Blackhawks vs Buffalo Sabres",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Blackhawks",
-        "teamB": "Sabres",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3681/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3678/image",
-        "eventName": "Chicago Blackhawks vs Buffalo Sabres",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 00:30:00 +0000",
-        "endTime": "2026/04/14 03:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/poiryezafv56.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL7/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "393",
-      "title": "Edmonton Oilers vs Avalanche",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Oilers",
-        "teamB": "Avalanche",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3686/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
-        "eventName": "Edmonton Oilers vs Colorado Avalanche",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 01:30:00 +0000",
-        "endTime": "2026/04/14 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/rzavbdyua57.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL8/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "394",
-      "title": "Seattle Kraken vs Kings",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Kraken",
-        "teamB": "Kings",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/381707/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3688/image",
-        "eventName": "Seattle Kraken vs Los Angeles Kings",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 01:30:00 +0000",
-        "endTime": "2026/04/14 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/earzfddshg58.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL9/index.m3u8?st=SportzX|Referer=https://instreams.click/&Origin=https://instreams.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "395",
-      "title": "Knights vs Winnipeg Jets",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Golden Knights",
-        "teamB": "Jets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/257523/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3676/image",
-        "eventName": "Vegas Golden Knights vs Winnipeg Jets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 02:00:00 +0000",
-        "endTime": "2026/04/14 04:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/bvnzadfvyt59.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL15/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "397",
-      "title": "Athletics vs Texas Rangers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Athletics",
-        "teamB": "Rangers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3645/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3647/image",
-        "eventName": "Athletics vs Texas Rangers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 01:40:00 +0000",
-        "endTime": "2026/04/14 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48935/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "398",
-      "title": "Dodgers vs Mets",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Dodgers",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3638/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "Los Angeles Dodgers vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/14 02:10:00 +0000",
-        "endTime": "2026/04/14 05:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48938/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Atlético Madrid vs Barcelona",
       "image": "o",
@@ -1322,16 +1100,40 @@
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4366190.m3u8?txSecret=888bb915c2b7c76bdccbbc9a0515bf35&txTime=69DD5BC1|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "Club América vs Nashville",
+      "image": "o",
+      "cat": "CONCACAF Cup 🇺🇸",
+      "eventInfo": {
+        "teamA": "América",
+        "teamB": "Nashville",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1939/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/337612/image",
+        "eventName": "Club América vs Nashville SC",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/15 03:30:00 +0000",
+        "endTime": "2026/04/15 05:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD"
+      ],
+      "channels": [
         {
-          "api": null,
-          "link": "https://smarthard.click/hls/DcTxPWHOB5aM/index.m3u8|Referer=https://gigstream.click/",
-          "title": "beIN SPORTS SD",
-          "type": "0"
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
         }
       ]
     }
