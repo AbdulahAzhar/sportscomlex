@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 15,
+  "total_events": 21,
   "results": [
     {
       "id": "312",
@@ -731,38 +731,52 @@
       ]
     },
     {
-      "id": "394",
-      "title": "Vancouver Canucks vs Kings",
+      "id": "385",
+      "title": "Al-Nassr vs Al-Ettifaq",
       "image": "o",
-      "cat": "NHL",
+      "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Canucks",
-        "teamB": "Kings",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3692/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3688/image",
-        "eventName": "Vancouver Canucks vs Los Angeles Kings",
+        "teamA": "Al-Nassr",
+        "teamB": "Al-Ettifaq",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/23400/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34318/image",
+        "eventName": "Al-Nassr vs Al-Ettifaq",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/15 02:00:00 +0000",
-        "endTime": "2026/04/15 04:50:00 +0000"
+        "startTime": "2026/04/15 18:00:00 +0000",
+        "endTime": "2026/04/15 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
-        "HD SERVER"
+        "FOX SPORTS FHD",
+        "FOX DEPORTES",
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/earzfddshg58.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/NHL9/index.m3u8?st=SportzX|Referer=https://instreams.click/&Origin=https://instreams.click",
-          "title": "HD SERVER",
+          "link": "https://live.vivo200.com/live/sd-1-4404671.m3u8?txSecret=f20186adb65cd6a99d11246b0a82988a&txTime=69DEC34D|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -886,31 +900,211 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Cruz Azul vs Los Angeles",
+      "id": "403",
+      "title": "Racing Club vs Botafogo",
       "image": "o",
-      "cat": "CONCACAF Cup 🇺🇸",
+      "cat": "Copa Sudamericana",
       "eventInfo": {
-        "teamA": "Cruz Azul",
-        "teamB": "Los Angeles",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1947/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/274650/image",
-        "eventName": "Cruz Azul vs Los Angeles FC",
+        "teamA": "Racing",
+        "teamB": "Botafogo",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3215/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1958/image",
+        "eventName": "Racing Club vs Botafogo",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/15 01:00:00 +0000",
-        "endTime": "2026/04/15 03:00:00 +0000"
+        "startTime": "2026/04/15 22:00:00 +0000",
+        "endTime": "2026/04/16 00:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD"
+        "beIN ENGLISH FHD"
       ],
       "channels": [
         {
-          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-          "title": "FOX SPORTS FHD",
+          "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "River Plate vs Carabobo",
+      "image": "o",
+      "cat": "Copa Sudamericana",
+      "eventInfo": {
+        "teamA": "River Plate",
+        "teamB": "Carabobo",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3211/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6229/image",
+        "eventName": "River Plate vs Carabobo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 00:30:00 +0000",
+        "endTime": "2026/04/16 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Libertad vs Rosario Central",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Libertad",
+        "teamB": "Rosario Central",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5996/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3217/image",
+        "eventName": "Libertad vs Rosario Central",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/15 22:00:00 +0000",
+        "endTime": "2026/04/16 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Corinthians vs Santa Fe",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Corinthians",
+        "teamB": "Santa Fe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1957/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6116/image",
+        "eventName": "Corinthians vs Independiente Santa Fe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 00:30:00 +0000",
+        "endTime": "2026/04/16 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Cruzeiro vs Universidad",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Cruzeiro",
+        "teamB": "Universidad Católica",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1954/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3151/image",
+        "eventName": "Cruzeiro vs Universidad Católica",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/15 22:00:00 +0000",
+        "endTime": "2026/04/16 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Fluminense vs Ind. Rivadavia",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Fluminense",
+        "teamB": "Ind. Rivadavia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1961/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/36842/image",
+        "eventName": "Fluminense vs Ind. Rivadavia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 00:30:00 +0000",
+        "endTime": "2026/04/16 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Bangkok United vs Gamba Osaka",
+      "image": "o",
+      "cat": "AFC Champions Two",
+      "eventInfo": {
+        "teamA": "Bangkok Utd",
+        "teamB": "Gamba Osaka",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/85741/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
+        "eventName": "Bangkok United vs Gamba Osaka",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/15 12:15:00 +0000",
+        "endTime": "2026/04/15 14:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
