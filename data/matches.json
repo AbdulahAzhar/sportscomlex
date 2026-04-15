@@ -838,7 +838,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/34318/image",
         "eventName": "Al-Nassr vs Al-Ettifaq",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/15 18:00:00 +0000",
         "endTime": "2026/04/15 20:00:00 +0000"
       },
@@ -846,6 +846,7 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
+        "FANCODE FHD",
         "FOX DEPORTES",
         "SportDigital Fussball",
         "SportzX Live"
@@ -855,6 +856,12 @@
           "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
           "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -871,7 +878,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404671.m3u8?txSecret=f20186adb65cd6a99d11246b0a82988a&txTime=69DEC34D|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404696.m3u8?txSecret=49b3c189823b10516ccc05e8913599ea&txTime=69E018EC|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1201,7 +1208,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
         "eventName": "Bayern München vs Real Madrid",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/15 19:00:00 +0000",
         "endTime": "2026/04/15 21:05:00 +0000"
       },
@@ -1209,8 +1216,20 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "TNT BRASIL FHD",
+        "VIX SPANISH FHD",
+        "TNT SPORTS - AQ",
+        "TNT SPORTS HD",
+        "PARAMOUNT+ HD",
+        "TUDN USA HD",
+        "SPX - AQ LIVE",
+        "UNIVERSO FHD",
         "SonyLiv [ENG]",
-        "SonyLiv [HIN]"
+        "SonyLiv [HIN]",
+        "Ziggo Sports",
+        "SportzX Live",
+        "beIN SPORTS AR",
+        "TNT SPORTS SD"
       ],
       "channels": [
         {
@@ -1220,15 +1239,87 @@
           "type": "1"
         },
         {
+          "api": "e97f48bffb38c1b2453d5ff7a919759f:8e1381edeed7829031963ac576700747",
+          "link": "https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/mjl28zz5rj/out/v1/8e4dbe981d574983a5a0c96b874cc5b9/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "title": "TNT BRASIL FHD",
+          "type": "1"
+        },
+        {
+          "api": "868f5c91cb11396c64bdaca4118f6b60:7a5317e82291250f16830fd6bb5f329a",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/l1v1uhsjan/out/v1/84636269a21f441ab85f05c711253fe4/cenc.mpd",
+          "title": "VIX SPANISH FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/realmadrid.m3u8",
+          "title": "TNT SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49003/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49004/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.underupturnip.net/tudn.m3u8",
+          "title": "TUDN USA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/888440f832c675999cba4d810e1462cf/manifest/video.m3u8",
+          "title": "SPX - AQ LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/568.m3u8",
+          "title": "UNIVERSO FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/UCL_Baye1504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/UCL_Baye1504/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [HIN]",
+          "type": "0"
+        },
+        {
+          "api": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621|User-Agent=Mozila",
+          "title": "Ziggo Sports",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4517581.m3u8?txSecret=b58ebc74886bd3bc7a1932d2c26400a5&txTime=69E021E0|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://3syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
+          "title": "beIN SPORTS AR",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1644.m3u8",
+          "title": "TNT SPORTS SD",
           "type": "0"
         }
       ]
@@ -1245,7 +1336,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
         "eventName": "Arsenal vs Sporting CP",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/15 19:00:00 +0000",
         "endTime": "2026/04/15 21:05:00 +0000"
       },
@@ -1253,8 +1344,16 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "TNT BRASIL FHD",
+        "VIX SPANISH FHD",
+        "TNT SPORTS - AQ",
+        "TNT SPORTS HD",
+        "SPX - AQ LIVE",
         "SonyLiv [ENG]",
-        "SonyLiv [HIN]"
+        "SonyLiv [HIN]",
+        "SportzX Live",
+        "beIN SPORTS AR",
+        "TNT SPORTS SD"
       ],
       "channels": [
         {
@@ -1264,15 +1363,63 @@
           "type": "1"
         },
         {
+          "api": "906598ffdf64ee6229ac985666cc6dba:d2e8ca676c843293a7549f7847ed5a07",
+          "link": "https://a171live-pv-ta-amazon.akamaized.net/gru-nitro/live/clients/dash/enc/zmt594oedm/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+          "title": "TNT BRASIL FHD",
+          "type": "1"
+        },
+        {
+          "api": "22623713b4de38982ef2e97da5679a92:4c10eefd607703e17b5d0a756227c16c",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/as34khfhws/out/v1/3d2994f3d9c64fe5bb68338a540af489/cenc.mpd",
+          "title": "VIX SPANISH FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/arsenal.m3u8",
+          "title": "TNT SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49006/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/f6f236cb01bdb58bbb446d70f9b9c759/manifest/video.m3u8",
+          "title": "SPX - AQ LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Arsenal_1504/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/Arsenal_1504/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [HIN]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4517188.m3u8?txSecret=feb18d37f9e5f4d6a3c17e90a5c57d98&txTime=69E021E0|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://3syrialive.s3.us-east-2.amazonaws.com/bein2/master.m3u8",
+          "title": "beIN SPORTS AR",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1608.m3u8",
+          "title": "TNT SPORTS SD",
           "type": "0"
         }
       ]
