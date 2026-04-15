@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -752,7 +752,6 @@
       "formats": [
         "TSN SPORTS FHD",
         "TSN SPORTS - AQ",
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -768,12 +767,6 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
           "title": "TSN SPORTS - AQ",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48971/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
         },
         {
           "api": null,
@@ -888,13 +881,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edgestreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -962,13 +955,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edgestreams.pro/hls/rtzaeyvhb53.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -999,7 +992,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edge2caster.pro/hls/bnvcxwhfg54.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
         },
@@ -1030,19 +1023,26 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PREMIER SPORTS",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://mainstreams.pro/hls/bvnzadfvyt59.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edge2caster.pro/hls/sdezqfza55.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL15/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.live/US/NHL6/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1140,44 +1140,30 @@
     },
     {
       "id": "400",
-      "title": "Bayern München vs Real Madrid",
+      "title": "Seattle Sounders vs Tigres UANL",
       "image": "o",
-      "cat": "UCL",
+      "cat": "CONCACAF Cup 🇺🇸",
       "eventInfo": {
-        "teamA": "Bayern",
-        "teamB": "Real Madrid",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-        "eventName": "Bayern München vs Real Madrid",
+        "teamA": "Seattle",
+        "teamB": "Tigres",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/22009/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1940/image",
+        "eventName": "Seattle Sounders FC vs Tigres UANL",
         "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/15 19:00:00 +0000",
-        "endTime": "2026/04/15 21:05:00 +0000"
+        "isHot": "0",
+        "startTime": "2026/04/16 03:30:00 +0000",
+        "endTime": "2026/04/16 05:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD",
-        "TNT BRASIL FHD",
-        "VIX SPANISH FHD",
-        "TNT SPORTS - AQ",
-        "TNT SPORTS HD",
-        "PARAMOUNT+ HD",
-        "TUDN USA HD",
-        "SPX - AQ LIVE",
-        "UNIVERSO FHD",
-        "SonyLiv [ENG]",
-        "SonyLiv [HIN]",
-        "Ziggo Sports",
-        "SportzX Live",
-        "beIN SPORTS AR",
-        "TNT SPORTS SD"
+        "FOX SPORTS FHD"
       ],
       "channels": [
         {
-          "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-          "title": "TNT SPORTS FHD",
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS 1",
           "type": "1"
         },
         {
@@ -1368,19 +1354,19 @@
     },
     {
       "id": "402",
-      "title": "Club América vs Nashville SC",
+      "title": "LA Galaxy vs CD Toluca",
       "image": "o",
       "cat": "CONCACAF Cup 🇺🇸",
       "eventInfo": {
-        "teamA": "América",
-        "teamB": "Nashville",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1939/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/337612/image",
-        "eventName": "Club América vs Nashville SC",
+        "teamA": "LA Galaxy",
+        "teamB": "Toluca",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2513/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
+        "eventName": "LA Galaxy vs CD Toluca",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/15 03:30:00 +0000",
-        "endTime": "2026/04/15 05:30:00 +0000"
+        "startTime": "2026/04/16 01:00:00 +0000",
+        "endTime": "2026/04/16 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1565,7 +1551,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "beIN ENGLISH FHD",
+        "GLOBO SP HD"
       ],
       "channels": [
         {
@@ -1573,6 +1560,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://xn---22--11--33--88--75---------b25zjfpkmbt1n9g9zza94e.xn----------------g34l3fkcn6n2hmd3acobj33ac2a7a8lufomma7cf2b1sh.xn---1l1--5o4dxb.xn--pck.xn--zck.xn--0ck.xn--pck.xn--yck.xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b/docs/boborj/__index.m3u8?cc=y&sv=193&nu3zAQc9HC3GbwJq=1776286870-l55Hy%2BFqkDsE%2BmNpKxaWQhA6kzRx3TCPB2EsHapuJnI%3D|Referer=https://streamrdc.xyz/",
+          "title": "GLOBO SP HD",
+          "type": "0"
         }
       ]
     },
@@ -1603,57 +1596,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "410",
-      "title": "Orioles vs Arizona Diamondbacks",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Orioles",
-        "teamB": "Diamondbacks",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3652/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "eventName": "Baltimore Orioles vs Arizona Diamondbacks",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/15 16:35:00 +0000",
-        "endTime": "2026/04/15 19:25:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "MLB LIVE - AQ",
-        "MASN SPORTS",
-        "SportzX LIVE"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48997/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-2.amazonaws.com/myrilla.nymatpiya/orioles.m3u8",
-          "title": "MLB LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/647.m3u8",
-          "title": "MASN SPORTS",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
-          "type": "0"
         }
       ]
     },
