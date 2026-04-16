@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 36,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -1145,14 +1145,35 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT Sports 2"
+        "TNT SSPORTS FHD",
+        "VIX SPANISH - AQ",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
-          "title": "TNT Sports 2",
+          "title": "TNT SSPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": "2dac79c5227875978e6427483a10c586:e4d04fbcc52f07c284fa72fb040a92bd",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/arckfneasx/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49065/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4517883.m3u8?txSecret=7141895c018ddc5f88605b87f0a45b82&txTime=69E1797A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1175,7 +1196,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD"
+        "TNT SPORTS FHD",
+        "VIX SPANISH - AQ",
+        "TNT SPORTS HD",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
@@ -1183,6 +1207,24 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
           "title": "TNT SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": "f3a2716ad01f32df047b58d1884e5236:d70f0bdb5df9a32f7f9342ed5094d027",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7rhulohbhs/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49068/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022318/Nottingh1604/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
         }
       ]
     },
@@ -1205,14 +1247,35 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "ZIGGO SPORTS"
+        "PARAMOUNT+ HD",
+        "ZIGGO SPORTS",
+        "SportzX Live",
+        "SonyLiv [ENG]"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49069/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
         {
           "api": "3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02",
           "link": "https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd?accountinfo=~~V2.0~LNS2PBO5tyhp5z1Pe6ObBA6cd7a4ec35c4492167b9376e6dff2932~BZw2dESHw-I1PQCFh9gGxCMvrIIzgMdYAe900qj8l6aoXUX9ahyR6I9EUIu7nDR4f4887615c83ea7a8cee6dd33137c4ebe:UTC,",
           "title": "ZIGGO SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4517870.m3u8?txSecret=1d4271ab8614b2f6db65c2b4512ff8bc&txTime=69E1797A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Real_Bet1604/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
         }
       ]
     },
@@ -1235,7 +1298,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS FHD"
+        "TNT SPORTS FHD",
+        "PARAMOUNT+ HD",
+        "VIX SPANISH - AQ",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1265,12 +1331,26 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "VIX SPANISH - AQ",
+        "STAN SPORTS HD",
         "SportzX Live"
       ],
       "channels": [
         {
+          "api": "cd56264bc2244d9d4685047661fac903:8d4d5536718d5e4eabe9df7b1ae69af8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/qpbqgbvppg/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/49049/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "STAN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4517878.m3u8?txSecret=343c95e5e4fa7288ebbc3256d901ba34&txTime=69E1797A|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1295,13 +1375,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "VIX SPANISH - AQ",
+        "PARAMOUNT+ HD",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://chatgpt.hereisman.net/playlist/49048/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
           "type": "0"
         }
       ]
@@ -1517,9 +1599,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49057/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1547,9 +1636,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49059/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1577,9 +1673,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49062/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1607,9 +1710,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49067/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1675,6 +1785,186 @@
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX LIVE",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "title": "Atlético Mineiro vs Juventud de",
+      "image": "o",
+      "cat": "Copa Sudamericana",
+      "eventInfo": {
+        "teamA": "Atlético-MG",
+        "teamB": "Juventud",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1977/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3224/image",
+        "eventName": "Atlético Mineiro vs Juventud de",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 22:00:00 +0000",
+        "endTime": "2026/04/17 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "title": "San Lorenzo vs Deportivo Cuenca",
+      "image": "o",
+      "cat": "Copa Sudamericana",
+      "eventInfo": {
+        "teamA": "San Lorenzo",
+        "teamB": "Cuenca",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3201/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5251/image",
+        "eventName": "San Lorenzo vs Deportivo Cuenca",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 00:30:00 +0000",
+        "endTime": "2026/04/17 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "Lanús vs Club Always Ready",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Lanús",
+        "teamB": "Always Ready",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3218/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/268083/image",
+        "eventName": "CA Lanús vs Club Always Ready",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 22:00:00 +0000",
+        "endTime": "2026/04/17 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "title": "Peñarol vs Platense",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Peñarol",
+        "teamB": "Platense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3227/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/36837/image",
+        "eventName": "Peñarol vs Platense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 00:30:00 +0000",
+        "endTime": "2026/04/17 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "Palmeiras vs Sporting Cristal",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Palmeiras",
+        "teamB": "Sporting Cristal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2302/image",
+        "eventName": "Palmeiras vs Club Sporting Cristal",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/16 22:00:00 +0000",
+        "endTime": "2026/04/17 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Flamengo vs Independiente Medellín",
+      "image": "o",
+      "cat": "Copa Libertadores",
+      "eventInfo": {
+        "teamA": "Flamengo",
+        "teamB": "Ind. Medellín",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6115/image",
+        "eventName": "Flamengo vs Independiente Medellín",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 00:30:00 +0000",
+        "endTime": "2026/04/17 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH FHD"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
         }
       ]
     }
