@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 40,
+  "total_events": 41,
   "results": [
     {
       "id": "312",
@@ -471,6 +471,56 @@
       ]
     },
     {
+      "id": "354",
+      "title": "WWE",
+      "image": "o",
+      "cat": "WWE",
+      "eventInfo": {
+        "teamA": "AEW",
+        "teamB": "AEW",
+        "teamAFlag": "https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png",
+        "teamBFlag": "https://static.wixstatic.com/media/815952_5964d86934774f97a1a12b104c8b0a7a~mv2.png/v1/fill/w_146,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/aewlogo24b.png",
+        "eventName": "AEW Dynamite",
+        "eventType": "null",
+        "startTime": "2026/04/16 00:00:00 +0000",
+        "endTime": "2026/04/16 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS",
+        "Fox Sports Premium",
+        "BACKUP HD",
+        "BACKUP SD"
+      ],
+      "channels": [
+        {
+          "api": "daa8ea92553fd16cd6bfae2b8c582715:4042e041b5639b79b69ae07a872eef9b",
+          "link": "https://qw.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+          "title": "TSN SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+          "title": "Fox Sports Premium",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "title": "BACKUP HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/108087_HD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "title": "BACKUP SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "366",
       "title": "IPL - 01",
       "image": "o",
@@ -816,6 +866,7 @@
       "publish": "1",
       "formats": [
         "SportzX Live",
+        "SPORTSNET 360",
         "HD SERVER"
       ],
       "channels": [
@@ -823,6 +874,12 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1303.m3u8",
+          "title": "SPORTSNET 360",
           "type": "0"
         },
         {
@@ -1521,7 +1578,7 @@
         },
         {
           "api": null,
-          "link": "https://xn---22--11--33--88--75---------b25zjfpkmbt1n9g9zza94e.xn----------------g34l3fkcn6n2hmd3acobj33ac2a7a8lufomma7cf2b1sh.xn---1l1--5o4dxb.xn--pck.xn--zck.xn--0ck.xn--pck.xn--yck.xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b/docs/boborj/__index.m3u8?cc=y&sv=193&nu3zAQc9HC3GbwJq=1776286870-l55Hy%2BFqkDsE%2BmNpKxaWQhA6kzRx3TCPB2EsHapuJnI%3D|Referer=https://streamrdc.xyz/",
+          "link": "https://xn---22--11--33--88--75---------b25zjfpkmbt1n9g9zza94e.xn----------------g34l3fkcn6n2hmd3acobj33ac2a7a8lufomma7cf2b1sh.xn---1l1--5o4dxb.xn--pck.xn--zck.xn--0ck.xn--pck.xn--yck.xn-----0b4asja8cbew2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e7qri.xn--1ck2e1b/docs/boborj/__index.m3u8?cc=y&sv=113&nu3zAQc9HC3GbwJq=1776298657-2DLlEpYxpreLxO3nUTWX8SObx%2FVpsdGA6k%2FHxAeggok%3D|Referer=https://streamrdc.xyz/",
           "title": "GLOBO SP HD",
           "type": "0"
         }
