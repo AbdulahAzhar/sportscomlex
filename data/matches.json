@@ -1130,7 +1130,7 @@
       "id": "400",
       "title": "Aston Villa vs Bologna",
       "image": "o",
-      "cat": "UCL",
+      "cat": "UEFA Europa",
       "eventInfo": {
         "teamA": "Aston Villa",
         "teamB": "Bologna",
@@ -1325,13 +1325,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "VIX SPANISH - AQ",
+        "PARAMOUNT+ HD",
+        "DAZN ENG HD"
       ],
       "channels": [
         {
+          "api": "2ea01fe782efc6a0ab3428d1e81f3199:34af7901799ab41bb998e1ed505da2c8",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/8ugrrdcgqf/out/v1/4f29bcaaff6a4c62be1905aaae630303/cenc-sd.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://chatgpt.hereisman.net/playlist/49061/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/729/index.m3u8",
+          "title": "DAZN ENG HD",
           "type": "0"
         }
       ]
@@ -1355,13 +1369,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "VIX SPANISH - AQ",
+        "DAZN ENG HD"
       ],
       "channels": [
         {
+          "api": "2375b852aab667961d31965de2183e60:a752d9dee1bbc685aef539d4e6a100a6",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/ef41pkhdzz/out/v1/aed6fe8fa7304ec082fb4635b877e09d/cenc-sd.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://soccer.250909.cc/event/728/index.m3u8",
+          "title": "DAZN ENG HD",
           "type": "0"
         }
       ]
@@ -1428,6 +1449,12 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49053/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX LIVE",
           "type": "0"
@@ -1453,9 +1480,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49055/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
