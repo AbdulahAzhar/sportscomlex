@@ -618,7 +618,7 @@
       "adsLimit": "8",
       "publish": "1",
       "formats": [
-        "WILLOW - AQ",
+        "WILLOW [Ad-Free]",
         "FOX CRICKET",
         "SKY CRICKET HD",
         "SKY SPORTS",
@@ -1079,7 +1079,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "beIN ENGLISH FHD",
+        "DAZN ITALY HD"
       ],
       "channels": [
         {
@@ -1087,6 +1088,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=sassuolo-vs-como-football-1378191&streamNo=1",
+          "title": "DAZN ITALY HD",
+          "type": "0"
         }
       ]
     },
@@ -1719,13 +1726,14 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/04/17 12:30:00 +0000",
-        "endTime": "2026/04/17 14:30:00 +0000"
+        "endTime": "2026/04/17 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
         "PPV HD STREAM",
         "PPV SD STREAM",
+        "SD SERVER",
         "SKY SPORTS HD"
       ],
       "channels": [
@@ -1739,6 +1747,18 @@
           "api": null,
           "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=admin&id=ppv-european-darts-grand-prix-day-1-afternoon-session&streamNo=3",
           "title": "PPV SD STREAM",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.40/hls/hcccQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250808.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1039.m3u8",
+          "title": "SKY SPORTS HD",
           "type": "0"
         }
       ]
