@@ -1814,7 +1814,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "beIN SPORTS SD"
       ],
       "channels": [
         {
@@ -1844,7 +1845,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "beIN SPORTS SD"
       ],
       "channels": [
         {
@@ -1882,19 +1884,18 @@
         "PPV HD STREAM",
         "PPV SD STREAM",
         "SD SERVER",
-        "SPORTS 1 DE",
         "SKY SPORTS HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=european-darts-grand-prix-darts-1&streamNo=1",
+          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
           "title": "PPV HD STREAM",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=admin&id=ppv-european-darts-grand-prix-day-1-afternoon-session&streamNo=3",
+          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
           "title": "PPV SD STREAM",
           "type": "0"
         },
@@ -1902,12 +1903,6 @@
           "api": null,
           "link": "http://195.178.110.40/hls/hcccQ.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/stream/Sport%201",
-          "title": "SPORTS 1 DE",
           "type": "0"
         },
         {
@@ -1937,14 +1932,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "MLB NETWORK HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
+          "link": "https://chatgpt.hereisman.net/playlist/49094/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1205.m3u8",
+          "title": "MLB NETWORK HD",
           "type": "0"
         }
       ]
