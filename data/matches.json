@@ -1238,7 +1238,11 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "beIN ENGLISH FHD",
+        "FUBO SPORTS",
+        "PARAMOUNT+ HD",
+        "HD SERVER",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1246,6 +1250,30 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "title": "FUBO SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49095/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/754/index.m3u8",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339746.m3u8?txSecret=997f34d53844b3f23ed14e574e3f5fd5&txTime=69E2C4C9|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1643,12 +1671,33 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "beIN SPORTS US",
+        "HD SERVER",
+        "beIN SPORTS ES",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://edge.cdnlivetv.ru/secure/api/v1/us-bein-sports/playlist.m3u8?token=444c96c504cf154ba59b826c93f0592667d9546b34a5c78d624b0393ebd95fa5.1776450579.dd528c89bbe900aedfab6605bc752c35.fd88f5fa2612d69dc585611688de58ba.482eaa63888b71a15aa8c05079b09b49&signature=5b01858889833d189df8f95f56607e720cca220c65fbf32c8d061b1605654aa0|Referer=https://cdnlivetv.tv/",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/753/index.m3u8",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_usa_bein_sport_espanol/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "beIN SPORTS ES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347944.m3u8?txSecret=fc0c8230abf78186676e98ea852e91f3&txTime=69E2C4C9|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1673,32 +1722,53 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY BUNDESLIGA HD",
+        "SKY TOP EVENT",
+        "SportzX Live",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
         {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://edge.cdnlivetv.ru/secure/api/v1/de-sky-sport-bundesliga-1/playlist.m3u8?token=42ea29d442371b0dd03aaac66d0bf43ee1edc2ef881c2dcce5f1603e862a1ab3.1776450288.2493de1a43874879157db33e5093fded.f00cfc48198247de00bc27de10a4e7ab.861d4608b8ebe9faecee904dbb1c20be&signature=4ec1b3412a3e252d55262aa439a6f675a4d0d7b8d5477f2f216fa1878f197155|Referer=https://cdnlivetv.tv/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/LIVE_DE_SKY_Sport_TOP_Event_HD/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY TOP EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347629.m3u8?txSecret=a783c61f5126ffcfd542489d3bf49c54&txTime=69E2C1E0|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
         }
       ]
     },
     {
       "id": "420",
-      "title": "Al-Ahli vs Johor Darul Ta'zim",
+      "title": "Machida Zelvia vs Al-Ittihad",
       "image": "o",
       "cat": "AFC Champions Elite",
       "eventInfo": {
-        "teamA": "Al-Ahli",
-        "teamB": "JDT",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3327/image",
-        "eventName": "Al-Ahli vs Johor Darul Ta'zim",
+        "teamA": "Machida Z",
+        "teamB": "Al-Ittihad",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/44409/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34315/image",
+        "eventName": "Machida Zelvia vs Al-Ittihad",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/17 14:45:00 +0000",
-        "endTime": "2026/04/17 16:45:00 +0000"
+        "startTime": "2026/04/17 18:00:00 +0000",
+        "endTime": "2026/04/17 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1709,7 +1779,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4531040.m3u8?txSecret=5ca87150f90ab2effc19f7c07e10eb1d&txTime=69E28CE4|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/hd-en-1-4531043.m3u8?txSecret=37ac5c3d866580691a6eb05c546faedf&txTime=69E2C2C1|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         },
@@ -1859,56 +1929,6 @@
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8|Referer=https://hardsmart.click/",
           "title": "beIN SPORTS SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "425",
-      "title": "DARTS",
-      "image": "o",
-      "cat": "Darts",
-      "eventInfo": {
-        "teamA": "PDC DARTS",
-        "teamB": "PDC DARTS",
-        "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/11104/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/11104/image",
-        "eventName": "PDC: European Darts GP",
-        "eventType": "null",
-        "startTime": "2026/04/17 17:00:00 +0000",
-        "endTime": "2026/04/17 20:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PPV HD STREAM",
-        "PPV SD STREAM",
-        "SD SERVER",
-        "SKY SPORTS HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
-          "title": "PPV HD STREAM",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
-          "title": "PPV SD STREAM",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.40/hls/hcccQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250808.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1039.m3u8",
-          "title": "SKY SPORTS HD",
           "type": "0"
         }
       ]
@@ -2188,6 +2208,36 @@
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1025.m3u8",
           "title": "SKY FOOTBALL FHD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "title": "Boston Red Sox vs Detroit Tigers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Red Sox",
+        "teamB": "Tigers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "eventName": "Boston Red Sox vs Detroit Tigers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 23:15:00 +0000",
+        "endTime": "2026/04/18 02:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
