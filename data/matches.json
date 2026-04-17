@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 38,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -621,7 +621,7 @@
         "WILLOW [Ad-Free]",
         "FOX CRICKET",
         "SKY CRICKET HD",
-        "SKY SPORTS",
+        "HOTSTAR HIN",
         "SD SERVER",
         "STAR ENGLISH [IN]",
         "STAR HINDI [IN]",
@@ -1581,14 +1581,21 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SPORT CLUB HD"
       ],
       "channels": [
         {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4531040.m3u8?txSecret=5ca87150f90ab2effc19f7c07e10eb1d&txTime=69E28CE4|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.pro/stream/Sport%20Klub%201",
+          "title": "SPORT CLUB HD",
+          "type": "0"
         }
       ]
     },
@@ -1734,6 +1741,7 @@
         "PPV HD STREAM",
         "PPV SD STREAM",
         "SD SERVER",
+        "SPORTS 1 DE",
         "SKY SPORTS HD"
       ],
       "channels": [
@@ -1757,9 +1765,339 @@
         },
         {
           "api": null,
+          "link": "https://cdn.damitv.pro/stream/Sport%201",
+          "title": "SPORTS 1 DE",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://xstm.250808.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1039.m3u8",
           "title": "SKY SPORTS HD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Chicago Cubs vs New York Mets",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Cubs",
+        "teamB": "Mets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
+        "eventName": "Chicago Cubs vs New York Mets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 18:20:00 +0000",
+        "endTime": "2026/04/17 21:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Cleveland Guardians vs Baltimore Orioles",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Guardians",
+        "teamB": "Orioles",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3652/image",
+        "eventName": "Cleveland Guardians vs Baltimore Orioles",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 22:10:00 +0000",
+        "endTime": "2026/04/18 01:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4369040.m3u8?txSecret=36491d672da1ca0c2eb320514087f181&txTime=69DBF5B8|Referer=https://player.up909.com/|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Philadelphia Phillies vs Atlanta Braves",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Phillies",
+        "teamB": "Braves",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3656/image",
+        "eventName": "Philadelphia Phillies vs Atlanta Braves",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 22:40:00 +0000",
+        "endTime": "2026/04/18 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://yesllahq.28585519.net:8443/hls/ul8ltj4sg7qqi.m3u8?s=tZeRzCmoUjX2dJKi490F8Q&e=1776014929|Referer=https://fisherman.click&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Pittsburgh Pirates vs Tampa Bay Rays",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Pirates",
+        "teamB": "Rays",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3637/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3653/image",
+        "eventName": "Pittsburgh Pirates vs Tampa Bay Rays",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 22:45:00 +0000",
+        "endTime": "2026/04/18 01:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Washington Nationals vs Giants",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Nationals",
+        "teamB": "Giants",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5930/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3634/image",
+        "eventName": "Washington Nationals vs Giants",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 22:45:00 +0000",
+        "endTime": "2026/04/18 01:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4366111.m3u8?txSecret=fe1658ec0509544942e94e4eb570f51f&txTime=69DC1605|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Yankees vs Kansas City Royals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Yankees",
+        "teamB": "Royals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3654/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3651/image",
+        "eventName": "Yankees vs Kansas City Royals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 23:05:00 +0000",
+        "endTime": "2026/04/18 01:55:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/48797/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "RANGERS TV HD",
+          "type": "0"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/690/index.m3u8",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4353527.m3u8?txSecret=c1baef27544efab0b61d59be25aeab77&txTime=69DBBF15|Referer=https://player.up909.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "title": "Miami Marlins vs Milwaukee Brewers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Marlins",
+        "teamB": "Brewers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3639/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3630/image",
+        "eventName": "Miami Marlins vs Milwaukee Brewers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 23:10:00 +0000",
+        "endTime": "2026/04/18 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1025.m3u8",
+          "title": "SKY FOOTBALL FHD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "title": "Boston Red Sox vs Detroit Tigers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Red Sox",
+        "teamB": "Tigers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "eventName": "Boston Red Sox vs Detroit Tigers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/17 23:15:00 +0000",
+        "endTime": "2026/04/18 02:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "title": "Houston Astros vs Cardinals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Astros",
+        "teamB": "Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3655/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "Houston Astros vs Cardinals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 00:10:00 +0000",
+        "endTime": "2026/04/18 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
