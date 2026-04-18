@@ -952,9 +952,6 @@
       "formats": [
         "SportzX NBA",
         "NBA LIVE - AQ",
-        "FHD SERVER",
-        "SportsNET HD",
-        "DELTA STREAM",
         "SportzX Live",
         "HD SERVER",
         "SPX CAM."
@@ -962,7 +959,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49097/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49159/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
@@ -970,24 +967,6 @@
           "api": null,
           "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8",
           "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.underupturnip.net/nba.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1395.m3u8",
-          "title": "SportsNET HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=delta&id=live_nba_magic-hornets-live-streaming-1271952774&streamNo=1",
-          "title": "DELTA STREAM",
           "type": "0"
         },
         {
@@ -1594,7 +1573,9 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
-        "SKY SPORTS PL"
+        "NBC SPORTS - AQ",
+        "SKY SPORTS PL",
+        "NBC SPORTS"
       ],
       "channels": [
         {
@@ -1613,6 +1594,12 @@
           "api": null,
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1028.m3u8",
           "title": "SKY SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/363.m3u8",
+          "title": "NBC SPORTS",
           "type": "0"
         }
       ]
@@ -1705,64 +1692,6 @@
       ]
     },
     {
-      "id": "407",
-      "title": "Udinese vs Parma",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Udinese",
-        "teamB": "Parma",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2690/image",
-        "eventName": "Udinese vs Parma",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 13:00:00 +0000",
-        "endTime": "2026/04/18 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH FHD",
-        "FOX DEPORTES",
-        "DAZN IT HD",
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/763/index.m3u8",
-          "title": "DAZN IT HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4339757.m3u8?txSecret=51f1a24276bb53e3c647a01e953ebd31&txTime=69E3C48E|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1632.m3u8",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "408",
       "title": "Napoli vs Lazio",
       "image": "o",
@@ -1784,6 +1713,7 @@
         "TNT SPORTS FHD",
         "beIN ENGLISH FHD",
         "FOX DEPORTES",
+        "DAZN IT HD",
         "SportzX Live"
       ],
       "channels": [
@@ -1804,6 +1734,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/778/index.m3u8",
+          "title": "DAZN IT HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339752.m3u8?txSecret=0c42071c28947cb2a2184ce9f398320d&txTime=69E3EF50|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1838,217 +1780,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Bayer Leverkusen vs Augsburg",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Leverkusen",
-        "teamB": "Augsburg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2600/image",
-        "eventName": "Bayer Leverkusen vs Augsburg",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 13:30:00 +0000",
-        "endTime": "2026/04/18 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [ENG]",
-        "SportzX Live",
-        "SKY BUNDESLIGA HD",
-        "SKY BUNDESLIGA SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49149/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Bundesliga HD [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347623.m3u8?txSecret=f9c24aba93921a6a26b965d32d65a1b9&txTime=69E3CAF1|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=bayer-leverkusen-vs-fc-augsburg-football-1388569&streamNo=1",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "411",
-      "title": "Union Berlin vs Wolfsburg",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Union Berlin",
-        "teamB": "Wolfsburg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2547/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-        "eventName": "Union Berlin vs Wolfsburg",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 13:30:00 +0000",
-        "endTime": "2026/04/18 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [ENG]",
-        "SportzX Live",
-        "SKY BUNDESLIGA HD",
-        "SKY BUNDESLIGA SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49145/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Bundesliga HD [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347630.m3u8?txSecret=5a4cf21d316fbbbe349083ba72d2e134&txTime=69E3CAF1|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=union-berlin-vs-vfl-wolfsburg-football-1388576&streamNo=1",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/9gSZoyFska/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "412",
-      "title": "Werder Bremen vs Hamburger SV",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Bremen",
-        "teamB": "HSV",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2534/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2676/image",
-        "eventName": "Werder Bremen vs Hamburger SV",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 13:30:00 +0000",
-        "endTime": "2026/04/18 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [ENG]",
-        "SportzX Live",
-        "SKY BUNDESLIGA HD",
-        "SKY BUNDESLIGA SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49146/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Bundesliga HD [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347608.m3u8?txSecret=25be3c295a2332de426e9598def127e1&txTime=69E3CAF1|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=werder-bremen-vs-hamburger-sv-football-1388577&streamNo=1",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/8r59wy2BRApK/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Hoffenheim vs Borussia Dortmund",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Hoffenheim",
-        "teamB": "Dortmund",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2569/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
-        "eventName": "Hoffenheim vs Borussia Dortmund",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 13:30:00 +0000",
-        "endTime": "2026/04/18 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD [ENG]",
-        "ESPN HD",
-        "SKY BUNDESLIGA SD",
-        "SKY BUNDESLIGA HD",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49147/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Bundesliga HD [ENG]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/765/index.m3u8",
-          "title": "ESPN HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=1899-hoffenheim-vs-borussia-dortmund-football-1388574&streamNo=1",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "414",
       "title": "Eintracht Frankfurt vs RB Leipzig",
       "image": "o",
@@ -2068,6 +1799,7 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
+        "SKY SPORTS",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
@@ -2076,6 +1808,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1025.m3u8",
+          "title": "SKY SPORTS",
+          "type": "0"
         },
         {
           "api": null,
@@ -2410,6 +2148,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ESPN NL SD"
       ],
       "channels": [
@@ -2466,6 +2205,156 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
           "title": "Laliga Hypermotion ES",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Castellón vs Burgos",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Castellón",
+        "teamB": "Burgos",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5067/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2854/image",
+        "eventName": "Castellón vs Burgos",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 16:30:00 +0000",
+        "endTime": "2026/04/18 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "title": "Watford vs Sheffield United",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Watford",
+        "teamB": "Sheffield Utd",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/15/image",
+        "eventName": "Watford vs Sheffield United",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 14:00:00 +0000",
+        "endTime": "2026/04/18 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4351740.m3u8?txSecret=5f4176274630e51bc2145b9aac44ca65&txTime=69E3D1C8|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "437",
+      "title": "Swansea City vs Southampton",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Swansea",
+        "teamB": "Southampton",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/74/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/45/image",
+        "eventName": "Swansea City vs Southampton",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 14:00:00 +0000",
+        "endTime": "2026/04/18 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4351742.m3u8?txSecret=f415c6872ac09a40a414d39a2768e328&txTime=69E3D1C8|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "title": "Sheffield Wednesday vs Charlton",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Sheffield Wed",
+        "teamB": "Charlton",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/12/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/47/image",
+        "eventName": "Sheffield Wednesday vs Charlton Athletic",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 14:00:00 +0000",
+        "endTime": "2026/04/18 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4351738.m3u8?txSecret=11d4c687f122d5ff1a583680d61566ef&txTime=69E3D1C8|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "439",
+      "title": "Yankees vs Kansas City Royals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Yankees",
+        "teamB": "Royals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3654/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3651/image",
+        "eventName": "New York Yankees vs Kansas City Royals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 17:35:00 +0000",
+        "endTime": "2026/04/18 20:25:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
         }
       ]
     }
