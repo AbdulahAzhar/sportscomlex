@@ -733,16 +733,17 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187777/image",
         "eventName": "Sunrisers Hyderabad vs Chennai Super Kings",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/18 14:00:00 +0000",
         "endTime": "2026/04/18 17:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW ENG - AQ",
-        "CRICBUZZ ENG",
-        "CRICBUZZ HIN - AQ",
+        "WILLOW [Ad-Free]",
+        "WILLOW - FHD",
+        "SKY SPORTS NZ",
+        "FOX CRICKET HD",
         "SKY CRICKET",
         "STAR IN [ENG]",
         "STAR IN [HIN]",
@@ -752,21 +753,27 @@
       ],
       "channels": [
         {
-          "api": "ec31e8a0ed9597f6e7f9732ce4e7c88c:169e244c2c08a4de6e274a5c8ea9f619",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nze1joywnu/out/v1/d626ba5f1a07483b8c6d10372911dd19/cenc.mpd",
-          "title": "WILLOW ENG - AQ",
+          "api": "44bf026ee69d3feb4ea63001fdc1472b:697b3102583203f9f3e053754f4e2829",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ke59mrh50f/out/v1/599ab0fe67fb4b9fb895b33b07b69d1e/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
+        {
+          "api": "44bf026ee69d3feb4ea63001fdc1472b:697b3102583203f9f3e053754f4e2829",
+          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/ke59mrh50f/out/v1/599ab0fe67fb4b9fb895b33b07b69d1e/cenc.mpd",
+          "title": "WILLOW - FHD",
+          "type": "1"
+        },
+        {
+          "api": "2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1776580323~acl=%2F*~id=c3306428-dcb4-4a74-a24a-d10f3725b3bc~data=hdntl,aXA9MzguMTM3LjIwLjQ1JmV4cD0xNzc2NDkzOTUyJmVpZD04Mzc5MTcmb2lkPTIyJnR5cGU9Vk9EJnVpZD1udWxsJmNpZD1udWxsJnB0PW51bGw~hmac=2693665239735aa8fa728925ce4cee35dcc6f06599c7fcd5068d359e1a9f97ed/dash/live/2093734/219028-313801/manifest-d.mpd",
+          "title": "SKY SPORTS NZ",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
-          "title": "CRICBUZZ ENG",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livevideos.cricbuzz.com/hls/live/2123519/WCB-CA-HINDI/9241/149812/master.m3u8|cookie=hdntl=exp=1776070320~acl=%2f*~id=5ff9c0a2-5fa1-43f2-aa74-47026a8103a4~data=hdntl~hmac=128f183c74e63e39498a689799333d833b28abfcee7ffffd4a479df52f23cc52&User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/146.0.0.0%20Safari/537.36&X-Forwarded-For=100.42.240.25",
-          "title": "CRICBUZZ HIN - AQ",
+          "link": "https://vsd233.okcdn.ru/cmaf/15099590085375/sig/8qcBlQYA0Ak/expires/1776590764841/srcIp/152.58.159.241/urls/185.226.55.70/clientType/36/srcAg/CHROME/mid/13909091895295/get/hls_13909091895295.tu-BEHp8Bko.m3u8",
+          "title": "FOX CRICKET HD",
           "type": "0"
         },
         {
@@ -801,7 +808,7 @@
         },
         {
           "api": null,
-          "link": "https://z.zakfpozakfe.shop/hls/JRRR.m3u8|Referer=http://www.fawanews.sc/",
+          "link": "https://z.ukurvf.shop/hls/YIIIQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SD SERVER",
           "type": "0"
         }
@@ -872,6 +879,54 @@
           "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
           "title": "FANCODE (IND)",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "title": "WrestleMania",
+      "image": "o",
+      "cat": "WWE",
+      "eventInfo": {
+        "teamA": "WrestleMania",
+        "teamB": "WrestleMania",
+        "teamAFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
+        "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
+        "eventName": "WrestleMania 42 Day 1",
+        "eventType": "null",
+        "startTime": "2026/04/18 22:00:00 +0000",
+        "endTime": "2026/04/19 03:30:00 +0000"
+      },
+      "adsLimit": "9",
+      "publish": "1",
+      "formats": [
+        "ESPN HD",
+        "ESPN DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+          "title": "TNT Sports 4",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
+          "title": "WILLOW (Ad Free)",
+          "type": "0"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
+          "title": "WILLOW SD",
+          "type": "2"
         }
       ]
     },
@@ -1243,19 +1298,33 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
-        "HD SERVER"
+        "PEACOCK HD",
+        "PEACOCK TV - AQ",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
           "title": "NOW SPORTS PL",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49155/load-playlist|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
+          "title": "PEACOCK HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/arsenal.m3u8",
+          "title": "PEACOCK TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343387.m3u8?txSecret=c388044e37592f13ae48d7f8d00b8a00&txTime=69E3D2D0|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1281,12 +1350,15 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
-        "USA TV HD"
+        "FHD SERVER",
+        "USA TV - AQ",
+        "USA TV HD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
           "type": "0"
         },
@@ -1298,8 +1370,26 @@
         },
         {
           "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/f6f236cb01bdb58bbb446d70f9b9c759/manifest/video.m3u8",
+          "title": "FHD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49152/load-playlist|Referer=https://gooz.aapmains.net",
           "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343393.m3u8?txSecret=497bf8c6ee1de5acb2cb7b722fa0c97b&txTime=69E3D365|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1924,9 +2014,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SPORT TV HD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369054.m3u8?txSecret=a73dd007619cd2e5bc7c9efd6890f3b8&txTime=69E3DC82|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.pro/stream/Sport%20TV%201",
@@ -2051,19 +2148,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4355822.m3u8?txSecret=6d317783a2daf4d9f3b5d7ad7c37a4c0&txTime=69E2A36E|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4366139.m3u8?txSecret=7fd2ba7b8a8251311136cbe98be2441d&txTime=69E3D4C8|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "SKY BUNDESLIGA SD",
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
@@ -2208,43 +2306,6 @@
       ]
     },
     {
-      "id": "431",
-      "title": "Portsmouth vs Leicester",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Portsmouth",
-        "teamB": "Leicester",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/31/image",
-        "eventName": "Portsmouth vs Leicester City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 11:30:00 +0000",
-        "endTime": "2026/04/18 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "CBS NETWORK"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "432",
       "title": "Hull City vs Birmingham City",
       "image": "o",
@@ -2278,36 +2339,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
           "title": "CBS NETWORK",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "433",
-      "title": "Millwall vs QPR",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Millwall",
-        "teamB": "QPR",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/25/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1/image",
-        "eventName": "Millwall vs QPR",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 11:30:00 +0000",
-        "endTime": "2026/04/18 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351732.m3u8?txSecret=3fb723966a85c42998d91a6b5c65c9f9&txTime=69E3B04A|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
         }
       ]
     },
@@ -2366,6 +2397,36 @@
         {
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4351744.m3u8?txSecret=14962b6fc96130ab0116ed09fc5104de&txTime=69E3D1C8|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "title": "Watford vs Sheffield United",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Watford",
+        "teamB": "Sheffield Utd",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/15/image",
+        "eventName": "Watford vs Sheffield United",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 14:00:00 +0000",
+        "endTime": "2026/04/18 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4351740.m3u8?txSecret=5f4176274630e51bc2145b9aac44ca65&txTime=69E3D1C8|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
