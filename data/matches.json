@@ -381,6 +381,7 @@
       "publish": "1",
       "formats": [
         "SportzX WWE",
+        "USA TV HD",
         "SportzX Live",
         "Backup HD",
         "Backup SD",
@@ -390,13 +391,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48635/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49099/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX WWE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
           "title": "SportzX Live",
           "type": "0"
         },
@@ -605,15 +606,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "GT",
-        "teamB": "KKR",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/216006/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187775/image",
-        "eventName": "Gujarat Titans vs Kolkata Knight Riders",
+        "teamA": "RCB",
+        "teamB": "DC",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187843/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
+        "eventName": "Royal Challengers Bengaluru vs Delhi Capitals",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/17 14:00:00 +0000",
-        "endTime": "2026/04/17 17:45:00 +0000"
+        "startTime": "2026/04/18 10:00:00 +0000",
+        "endTime": "2026/04/18 12:00:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -880,29 +881,44 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS FHD",
         "SportzX NBA",
+        "NBA LIVE - AQ",
+        "FHD SERVER",
+        "SportsNET HD",
+        "DELTA STREAM",
         "SportzX Live",
         "HD SERVER",
         "SPX CAM."
       ],
       "channels": [
         {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "title": "TSN SPORTS - AQ",
-          "type": "1"
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49097/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49031/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.underupturnip.net/nba.m3u8",
+          "title": "FHD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1395.m3u8",
+          "title": "SportsNET HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=delta&id=live_nba_magic-hornets-live-streaming-1271952774&streamNo=1",
+          "title": "DELTA STREAM",
           "type": "0"
         },
         {
@@ -919,7 +935,7 @@
         },
         {
           "api": null,
-          "link": "https://webcast-origin.b-cdn.net/bcdn_token=tqFX4fS6WiasX9M1YIx6UiykDVXt7pa1oqYAqsIhafk&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGKsR9jvcYVmEEJ3kl-zFws%2F&expires=1776310374/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGKsR9jvcYVmEEJ3kl-zFws/137.m3u8",
+          "link": "https://webcast-origin.b-cdn.net/bcdn_token=Ox7O3rEfHClC-eg-6xSE2QCXA2Oqr2BTCR6ajKVDnYc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh%2F&expires=1776483822/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh/152.m3u8",
           "title": "SPX CAM.",
           "type": "0"
         }
@@ -1934,50 +1950,6 @@
       ]
     },
     {
-      "id": "426",
-      "title": "Chicago Cubs vs New York Mets",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cubs",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "Chicago Cubs vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/17 18:20:00 +0000",
-        "endTime": "2026/04/17 21:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live",
-        "MLB NETWORK HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49094/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1205.m3u8",
-          "title": "MLB NETWORK HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "427",
       "title": "Cleveland Guardians vs Baltimore Orioles",
       "image": "o",
@@ -2104,19 +2076,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4366111.m3u8?txSecret=fe1658ec0509544942e94e4eb570f51f&txTime=69DC1605|Referer=https://player.up909.com/",
-          "title": "SportzX Live",
+          "link": "https://chatgpt.hereisman.net/playlist/49106/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8",
-          "title": "beIN SPORTS SD",
+          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2140,36 +2113,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48797/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "RANGERS TV HD",
-          "type": "0"
-        },
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://soccer.250909.cc/event/690/index.m3u8",
-          "title": "HD SERVER",
+          "link": "https://chatgpt.hereisman.net/playlist/49110/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4353527.m3u8?txSecret=c1baef27544efab0b61d59be25aeab77&txTime=69DBBF15|Referer=https://player.up909.com/",
+          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2194,19 +2150,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49111/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
         },
         {
           "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-10065-1/a01f4324d192/1025.m3u8",
-          "title": "SKY FOOTBALL FHD",
+          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2230,14 +2187,58 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49113/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "title": "Houston Astros vs Cardinals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Astros",
+        "teamB": "Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3655/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "Houston Astros vs Cardinals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 00:10:00 +0000",
+        "endTime": "2026/04/18 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49128/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     }
