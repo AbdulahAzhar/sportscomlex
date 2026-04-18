@@ -214,7 +214,7 @@
       "adsLimit": "13",
       "publish": "1",
       "formats": [
-        "TNT SPORTS - AQ",
+        "TNT SPORTS FHD",
         "SportzX+ UFC",
         "SportzX Live - AQ",
         "UFC+ HD",
@@ -965,7 +965,7 @@
         },
         {
           "api": null,
-          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8",
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/prime.m3u8",
           "title": "NBA LIVE - AQ",
           "type": "0"
         },
@@ -1009,11 +1009,8 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS",
-        "NBA LIVE FHD",
         "SportzX NBA",
         "NBA LIVE - AQ",
-        "DELTA STREAM",
-        "SD SERVER",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1032,14 +1029,8 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=delta&id=live_nba_suns-warriors-live-streaming-1271953773&streamNo=1",
-          "title": "DELTA STREAM",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1675.m3u8",
-          "title": "SD SERVER",
+          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/arsenal.m3u8",
+          "title": "NBA LIVE - AQ",
           "type": "0"
         },
         {
@@ -1075,24 +1066,29 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS HD",
+        "TSN SPORTS",
         "SportzX NBA",
-        "NBA LIVE - AQ",
         "SportzX Live",
-        "HD SERVER",
-        "HOME CAM.",
-        "AWAY CAM."
+        "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "title": "TSN SPORTS HD",
+          "type": "1"
+        },
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/48884/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/bulls.m3u8",
-          "title": "NBA LIVE - AQ",
           "type": "0"
         },
         {
@@ -1105,18 +1101,6 @@
           "api": null,
           "link": "https://instreams.live/US/NBA8/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-cdn.b-cdn.net/newz/newz/154.m3u8",
-          "title": "HOME CAM.",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/156.m3u8",
-          "title": "AWAY CAM.",
           "type": "0"
         }
       ]
@@ -1140,8 +1124,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS",
         "SportzX NBA",
-        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER",
         "HOME CAM.",
@@ -1149,15 +1133,15 @@
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/48880/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://s3.us-east-1.amazonaws.com/emre.gundap/bulls.m3u8",
-          "title": "NBA LIVE - AQ",
+          "link": "https://chatgpt.hereisman.net/playlist/48880/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
           "type": "0"
         },
         {
@@ -1225,6 +1209,57 @@
         {
           "api": null,
           "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Dallas Stars vs Minnesota Wild",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Stars",
+        "teamB": "Wild",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3684/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3689/image",
+        "eventName": "Dallas Stars vs Minnesota Wild",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 21:30:00 +0000",
+        "endTime": "2026/04/19 00:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Premier Sports",
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "Premier Sports",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49020/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edgestreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1488,29 +1523,31 @@
       ]
     },
     {
-      "id": "402",
-      "title": "Newcastle United vs Bournemouth",
+      "id": "403",
+      "title": "Tottenham Hotspur vs Brighton",
       "image": "o",
       "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "eventInfo": {
-        "teamA": "Newcastle",
-        "teamB": "Bournemouth",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/39/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/60/image",
-        "eventName": "Newcastle United vs Bournemouth",
+        "teamA": "Tottenham",
+        "teamB": "Brighton",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/33/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/30/image",
+        "eventName": "Tottenham Hotspur vs Brighton",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 14:00:00 +0000",
-        "endTime": "2026/04/18 16:00:00 +0000"
+        "isHot": "1",
+        "startTime": "2026/04/18 16:30:00 +0000",
+        "endTime": "2026/04/18 18:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
-        "FHD SERVER",
-        "USA TV - AQ",
-        "USA TV HD",
+        "NBC SPORTS - AQ",
+        "SKY MAIN EVENT",
+        "PEACOCK TV HD",
+        "SKY SPORTS PL",
+        "NBC SPORTS",
         "SportzX Live"
       ],
       "channels": [
@@ -1528,67 +1565,21 @@
         },
         {
           "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/f6f236cb01bdb58bbb446d70f9b9c759/manifest/video.m3u8",
-          "title": "FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
           "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8",
-          "title": "USA TV - AQ",
+          "title": "NBC SPORTS - AQ",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49152/load-playlist|Referer=https://gooz.aapmains.net",
-          "title": "USA TV HD",
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/f6f236cb01bdb58bbb446d70f9b9c759/manifest/video.m3u8",
+          "title": "SKY MAIN EVENT",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343393.m3u8?txSecret=497bf8c6ee1de5acb2cb7b722fa0c97b&txTime=69E3D365|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
+          "link": "https://soccer.250909.cc/event/780/index.m3u8",
+          "title": "PEACOCK TV HD",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "403",
-      "title": "Tottenham Hotspur vs Brighton",
-      "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Tottenham",
-        "teamB": "Brighton",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/33/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/30/image",
-        "eventName": "Tottenham Hotspur vs Brighton",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 16:30:00 +0000",
-        "endTime": "2026/04/18 18:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "NOW SPORTS PL",
-        "NBC UNIVERSO",
-        "NBC SPORTS - AQ",
-        "SKY SPORTS PL",
-        "NBC SPORTS"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
-        },
-        {
-          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
-          "title": "NBC UNIVERSO",
-          "type": "1"
         },
         {
           "api": null,
@@ -1600,6 +1591,12 @@
           "api": null,
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/363.m3u8",
           "title": "NBC SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343397.m3u8?txSecret=15828555e51086210362b6798416c87b&txTime=69E3F9F7|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1799,7 +1796,9 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
+        "DAZN ENGLISH HD",
         "SKY SPORTS",
+        "SportzX Live",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
@@ -1811,8 +1810,20 @@
         },
         {
           "api": null,
+          "link": "https://soccer.250909.cc/event/779/index.m3u8",
+          "title": "DAZN ENGLISH HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1025.m3u8",
           "title": "SKY SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347633.m3u8?txSecret=e104f73c59e56cadd2a04fe731d36f8f&txTime=69E3F9F7|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
@@ -1886,13 +1897,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "beIN SPORTS US",
+        "beIN SPORTS ES"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/hd-en-1-4347943.m3u8?txSecret=11be8d2ba195065513d5a1ee1ca9cfb0&txTime=69E3FE2B|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_usa_bein_sport_espanol/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "beIN SPORTS ES",
           "type": "0"
         }
       ]
@@ -1983,9 +2008,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SPORT TV HD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369050.m3u8?txSecret=f8f873f27a53dff24045b0fd9c26d92f&txTime=69E3FE2B|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.pro/stream/Sport%20TV%201",
@@ -2154,26 +2186,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
-          "title": "PPV HD STREAM",
+          "link": "https://live.vivo200.com/live/hd-en-1-4531044.m3u8?txSecret=f9a351d74ca70193f4a10827dcae2b62&txTime=69E3EFA7|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://playlist.cfbu247.sbs/?url=aHR0cHMlM0ElMkYlMkZjaGV2eS5zb3lzcGFjZS5jeW91JTJGcHJveHklMkZ3aW5kJTJGcHJlbWl1bTQzJTJGbW9uby5tM3U4JTI2ZGF0YSUzRFQzSnBaMmx1UFdoMGRIQnpPaTh2WlhCcFkzQnNZWGx3YkdGNUxtTm1aQSUzRCUzRA&headers=eyJSZWZlcmVyIjoiaHR0cHM6Ly9lcGljcGxheXBsYXkuY2ZkLyJ9",
-          "title": "PPV SD STREAM",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.40/hls/hcccQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250808.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1039.m3u8",
-          "title": "SKY SPORTS HD",
+          "link": "https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "ESPN NL SD",
           "type": "0"
         }
       ]
