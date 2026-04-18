@@ -900,6 +900,7 @@
       "adsLimit": "9",
       "publish": "1",
       "formats": [
+        "SportzX WWE",
         "ESPN HD",
         "ESPN DEPORTES"
       ],
@@ -1202,6 +1203,184 @@
           "api": null,
           "link": "https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/142.m3u8",
           "title": "AWAY CAM.",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Hurricanes vs Ottawa Senators",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Hurricanes",
+        "teamB": "Senators",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3700/image",
+        "eventName": "Carolina Hurricanes vs Ottawa Senators",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 19:00:00 +0000",
+        "endTime": "2026/04/18 21:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49023/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "title": "Pittsburgh Penguins vs Flyers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Penguins",
+        "teamB": "Flyers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3697/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3699/image",
+        "eventName": "Pittsburgh Penguins vs Philadelphia Flyers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 00:00:00 +0000",
+        "endTime": "2026/04/19 02:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49021/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "title": "Diamondbacks vs Blue Jays",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Diamondbacks",
+        "teamB": "Blue Jays",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3642/image",
+        "eventName": "Arizona Diamondbacks vs Toronto Blue Jays",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 00:10:00 +0000",
+        "endTime": "2026/04/19 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "Colorado Rockies",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Rockies",
+        "teamB": "Dodgers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3638/image",
+        "eventName": "Colorado Rockies vs Los Angeles Dodgers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 00:10:00 +0000",
+        "endTime": "2026/04/19 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "Diego Padres",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Angels",
+        "teamB": "Padres",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5929/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3636/image",
+        "eventName": "Los Angeles Angels vs San Diego Padres",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 01:38:00 +0000",
+        "endTime": "2026/04/19 04:28:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1924,13 +2103,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN SPORTS US",
+        "SportzX Live",
+        "beIN SPORTS ES"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://mainstreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347946.m3u8?txSecret=346594712c930ec7a96c24c41b5111fb&txTime=69E3DC82|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_usa_bein_sport_espanol/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "beIN SPORTS ES",
           "type": "0"
         }
       ]
@@ -2272,163 +2465,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
           "title": "Laliga Hypermotion ES",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "427",
-      "title": "Castellón vs Burgos",
-      "image": "o",
-      "cat": "LaLiga 2",
-      "eventInfo": {
-        "teamA": "Castellón",
-        "teamB": "Burgos",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5067/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2854/image",
-        "eventName": "Castellón vs Burgos",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 16:30:00 +0000",
-        "endTime": "2026/04/18 18:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga Hypermotion ES"
-      ],
-      "channels": [
-        {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "432",
-      "title": "Hull City vs Birmingham City",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Hull",
-        "teamB": "Birmingham",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/96/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
-        "eventName": "Hull City vs Birmingham City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 14:00:00 +0000",
-        "endTime": "2026/04/18 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "CBS NETWORK"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "title": "CBS NETWORK",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "434",
-      "title": "Bristol City vs Norwich City",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Bristol City",
-        "teamB": "Norwich",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/58/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/263/image",
-        "eventName": "Bristol City vs Norwich City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 14:00:00 +0000",
-        "endTime": "2026/04/18 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351724.m3u8?txSecret=b135cc2ee8bcf23c3a5f961ee2fe3fcc&txTime=69E3D1C8|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "435",
-      "title": "Wrexham vs Stoke City",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Wrexham",
-        "teamB": "Stoke",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/64/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/29/image",
-        "eventName": "Wrexham vs Stoke City",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 14:00:00 +0000",
-        "endTime": "2026/04/18 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351744.m3u8?txSecret=14962b6fc96130ab0116ed09fc5104de&txTime=69E3D1C8|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "436",
-      "title": "Watford vs Sheffield United",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Watford",
-        "teamB": "Sheffield Utd",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/15/image",
-        "eventName": "Watford vs Sheffield United",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 14:00:00 +0000",
-        "endTime": "2026/04/18 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351740.m3u8?txSecret=5f4176274630e51bc2145b9aac44ca65&txTime=69E3D1C8|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
         }
       ]
     }
