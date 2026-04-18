@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 46,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -1024,25 +1024,25 @@
     },
     {
       "id": "397",
-      "title": "Gold Coast Suns vs Essendon Bombers",
+      "title": "Adelaide Crows vs St Kilda Saints",
       "image": "o",
       "cat": "AFL",
       "eventInfo": {
-        "teamA": "Gold Coast",
-        "teamB": "Essendon",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/47506/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4450/image",
-        "eventName": "Gold Coast Suns vs Essendon Bombers",
+        "teamA": "Adelaide",
+        "teamB": "St Kilda",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4442/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4453/image",
+        "eventName": "Adelaide Crows vs St Kilda Saints",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/18 03:15:00 +0000",
-        "endTime": "2026/04/18 05:15:00 +0000"
+        "startTime": "2026/04/18 09:35:00 +0000",
+        "endTime": "2026/04/18 11:35:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS",
-        "TSN SPORTS"
+        "TNT Sports 2",
+        "FOX SPORTS 2"
       ],
       "channels": [
         {
@@ -2161,15 +2161,46 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49106/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
+          "link": "https://smarthard.click/hls/Mhe8gotoGQlu/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Portsmouth vs Leicester",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Portsmouth",
+        "teamB": "Leicester",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/31/image",
+        "eventName": "Portsmouth vs Leicester City",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 11:30:00 +0000",
+        "endTime": "2026/04/18 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "CBS NETWORK"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
         },
         {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
         }
       ]
     }
