@@ -207,7 +207,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/464691/image",
         "eventName": "UFC Fight Night: Burns vs Malott",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/18 21:00:00 +0000",
         "endTime": "2026/04/19 05:00:00 +0000"
       },
@@ -894,6 +894,7 @@
         "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
         "eventName": "WrestleMania 42 Day 1",
         "eventType": "null",
+        "isHot": "1",
         "startTime": "2026/04/18 22:00:00 +0000",
         "endTime": "2026/04/19 03:30:00 +0000"
       },
@@ -901,6 +902,8 @@
       "publish": "1",
       "formats": [
         "SportzX WWE",
+        "FHD SERVER",
+        "SportzX Live",
         "ESPN HD",
         "ESPN DEPORTES"
       ],
@@ -928,64 +931,6 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
-        }
-      ]
-    },
-    {
-      "id": "373",
-      "title": "Cavaliers vs Toronto Raptors",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Cavaliers",
-        "teamB": "Raptors",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3432/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3433/image",
-        "eventName": "Cleveland Cavaliers vs Toronto Raptors",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 17:00:00 +0000",
-        "endTime": "2026/04/18 19:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "SportzX Live",
-        "HD SERVER",
-        "SPX CAM."
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49159/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://oshanrd4.s3.us-east-1.amazonaws.com/prime.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-origin.b-cdn.net/bcdn_token=Ox7O3rEfHClC-eg-6xSE2QCXA2Oqr2BTCR6ajKVDnYc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh%2F&expires=1776483822/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh/152.m3u8",
-          "title": "SPX CAM.",
-          "type": "0"
         }
       ]
     },
@@ -2155,36 +2100,6 @@
       ]
     },
     {
-      "id": "441",
-      "title": "Chicago Cubs vs New York Mets",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cubs",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "Chicago Cubs vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/18 18:20:00 +0000",
-        "endTime": "2026/04/18 21:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX LIVE"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "442",
       "title": "Athletics vs Chicago White Sox",
       "image": "o",
@@ -2359,6 +2274,66 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "448",
+      "title": "Houston Astros vs Cardinals",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Astros",
+        "teamB": "Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3655/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "Houston Astros vs Cardinals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 23:10:00 +0000",
+        "endTime": "2026/04/19 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "449",
+      "title": "Philadelphia Phillies vs Atlanta Braves",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Phillies",
+        "teamB": "Braves",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3656/image",
+        "eventName": "Philadelphia Phillies vs Atlanta Braves",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/18 23:15:00 +0000",
+        "endTime": "2026/04/19 01:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX LIVE",
           "type": "0"
         }
