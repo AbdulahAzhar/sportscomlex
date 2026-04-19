@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 37,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -627,6 +627,7 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
+        "CRICBUZZ ENG - AQ",
         "SKY CRICKET HD",
         "SD SERVER",
         "STAR ENGLISH [IN]",
@@ -1304,15 +1305,10 @@
       "formats": [
         "FUBO SPORTS",
         "beIN ENGLISH FHD",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "PARAMOUNT+ HD"
       ],
       "channels": [
-        {
-          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT SPORTS FHD",
-          "type": "1"
-        },
         {
           "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
@@ -1320,21 +1316,21 @@
           "type": "1"
         },
         {
-          "api": null,
-          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
-          "title": "NOW SPORTS PL",
-          "type": "0"
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
         },
         {
-          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
-          "title": "NBC UNIVERSO",
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/f6f236cb01bdb58bbb446d70f9b9c759/manifest/video.m3u8",
-          "title": "TNT SPORTS HD",
+          "link": "https://soccer.250909.cc/event/954/index.m3u8",
+          "title": "PARAMOUNT+ HD",
           "type": "0"
         }
       ]
@@ -1917,6 +1913,346 @@
           "link": "https://cdn.damitv.pro/stream/Sport%20TV%201",
           "title": "SPORT TV HD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "title": "Eintracht Braunschweig vs Hertha BSC",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Braunschweig",
+        "teamB": "Hertha",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2557/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2528/image",
+        "eventName": "Eintracht Braunschweig vs Hertha BSC",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 11:30:00 +0000",
+        "endTime": "2026/04/19 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "SKY BUNDESLIGA HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4355821.m3u8?txSecret=7ffcb2722e6879c13a17443dedc226f3&txTime=69E50477|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_5/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "title": "Schalke 04 vs Preußen Münster",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Schalke",
+        "teamB": "Münster",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2590/image",
+        "eventName": "Schalke 04 vs Preußen Münster",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 11:30:00 +0000",
+        "endTime": "2026/04/19 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "SKY BUNDESLIGA HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4355827.m3u8?txSecret=6435983b83cf376553de863293e3ed30&txTime=69E50477|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_3/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "SpVgg Greuther Fürth vs Darmstadt",
+      "image": "o",
+      "cat": "2. Bundesliga",
+      "eventInfo": {
+        "teamA": "Fürth",
+        "teamB": "Darmstadt",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2551/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2576/image",
+        "eventName": "SpVgg Greuther Fürth vs Darmstadt",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 11:30:00 +0000",
+        "endTime": "2026/04/19 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "SKY BUNDESLIGA HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4355823.m3u8?txSecret=408b954e1646eb9da7d24d861578cb39&txTime=69E50477|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_4/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Kasımpaşa vs Alanyaspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Kasımpaşa",
+        "teamB": "Alanyaspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6063/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6362/image",
+        "eventName": "Kasımpaşa vs Alanyaspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 11:30:00 +0000",
+        "endTime": "2026/04/19 13:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "beIN SPORTS HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4366159.m3u8?txSecret=8d1dfd822ffdd7c52e65230ae0ccad35&txTime=69E50477|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=echo&id=kasimpasa-vs-alanyaspor-football-1394699&streamNo=1",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Samsunspor vs Beşiktaş",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Samsunspor",
+        "teamB": "Beşiktaş",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3053/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "eventName": "Samsunspor vs Beşiktaş JK",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 14:00:00 +0000",
+        "endTime": "2026/04/19 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Trabzonspor vs Başakşehir",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Trabzonspor",
+        "teamB": "Başakşehir",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3086/image",
+        "eventName": "Trabzonspor vs Başakşehir FK",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 17:00:00 +0000",
+        "endTime": "2026/04/19 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Andorra vs Real Valladolid",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "FC Andorra",
+        "teamB": "Real Valladolid",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2831/image",
+        "eventName": "FC Andorra vs Real Valladolid",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 12:00:00 +0000",
+        "endTime": "2026/04/19 14:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Sporting Gijón vs Cádiz",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Sporting",
+        "teamB": "Cádiz",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2852/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4488/image",
+        "eventName": "Sporting Gijón vs Cádiz",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 14:15:00 +0000",
+        "endTime": "2026/04/19 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_4/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Albacete Balompié vs Granada",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Albacete",
+        "teamB": "Granada",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2848/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "eventName": "Albacete Balompié vs Granada",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 16:30:00 +0000",
+        "endTime": "2026/04/19 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_3/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/6v8yVbveVz4/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Almería vs Málaga",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Almería",
+        "teamB": "Málaga",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2858/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2830/image",
+        "eventName": "Almería vs Málaga CF",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 19:00:00 +0000",
+        "endTime": "2026/04/19 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
