@@ -734,16 +734,15 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/410010/image",
         "eventName": "Punjab Kings vs Lucknow Super Giants",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/19 14:00:00 +0000",
         "endTime": "2026/04/19 17:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW [Ad-Free]",
-        "WILLOW - FHD",
-        "SKY SPORTS NZ",
+        "WILLOW ENG - AQ",
+        "CRICBUZZ ENG",
         "FOX CRICKET HD",
         "SKY CRICKET",
         "STAR IN [ENG]",
@@ -754,26 +753,20 @@
       ],
       "channels": [
         {
-          "api": "44bf026ee69d3feb4ea63001fdc1472b:697b3102583203f9f3e053754f4e2829",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ke59mrh50f/out/v1/599ab0fe67fb4b9fb895b33b07b69d1e/cenc.mpd",
-          "title": "WILLOW [Ad-Free]",
-          "type": "1"
-        },
-        {
-          "api": "44bf026ee69d3feb4ea63001fdc1472b:697b3102583203f9f3e053754f4e2829",
-          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/ke59mrh50f/out/v1/599ab0fe67fb4b9fb895b33b07b69d1e/cenc.mpd",
-          "title": "WILLOW - FHD",
-          "type": "1"
-        },
-        {
-          "api": "2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1776580323~acl=%2F*~id=c3306428-dcb4-4a74-a24a-d10f3725b3bc~data=hdntl,aXA9MzguMTM3LjIwLjQ1JmV4cD0xNzc2NDkzOTUyJmVpZD04Mzc5MTcmb2lkPTIyJnR5cGU9Vk9EJnVpZD1udWxsJmNpZD1udWxsJnB0PW51bGw~hmac=2693665239735aa8fa728925ce4cee35dcc6f06599c7fcd5068d359e1a9f97ed/dash/live/2093734/219028-313801/manifest-d.mpd",
-          "title": "SKY SPORTS NZ",
+          "api": "660b12ab9ff8f5d7a9c9e87d2cd0ac3a:562d1d0574a3d3ea6a85e2500867d4dd",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqeiuwqk87/out/v1/4aacfa3131784ba886ebb2d520581f01/cenc.mpd",
+          "title": "WILLOW ENG - AQ",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://vsd233.okcdn.ru/cmaf/15099590085375/sig/8qcBlQYA0Ak/expires/1776590764841/srcIp/152.58.159.241/urls/185.226.55.70/clientType/36/srcAg/CHROME/mid/13909091895295/get/hls_13909091895295.tu-BEHp8Bko.m3u8",
+          "link": "https://iplstream.noon.com/hls/live/2098770/NOON/9241/151840/master.m3u8?|user-agent=Cricbuzz/7.00.01 (Linux;Android 13) AndroidXMedia3/1.5.1&X-Forwarded-For=1.178.20.23&cookie=hdntl=exp=1776679696~acl=%2f*~id=0f315406-f1c9-43f7-a925-01554eb0416f~data=hdntl~hmac=1640614048e473889bc238f24c637743843b589052be065453ebaf61b8838b93",
+          "title": "CRICBUZZ ENG",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lchd-314.zenostreams-cdn-001.com/fox501.m3u8",
           "title": "FOX CRICKET HD",
           "type": "0"
         },
@@ -902,7 +895,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW - AQ",
+        "WILLOW [Ad-Free]",
         "PSL Urdu - PK",
         "WILLOW FHD",
         "PSL ENG - PK",
@@ -911,9 +904,9 @@
       ],
       "channels": [
         {
-          "api": "7ad536ee5e2852047335bc34078f5adc:0a772085604f9126c1e14c4d6f94370f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/uf6q4ol38t/out/v1/7a4c44e6855443efa0c96d0cbb35d6f5/cenc.mpd",
-          "title": "WILLOW - AQ",
+          "api": "660b12ab9ff8f5d7a9c9e87d2cd0ac3a:562d1d0574a3d3ea6a85e2500867d4dd",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqeiuwqk87/out/v1/4aacfa3131784ba886ebb2d520581f01/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
         {
@@ -2099,9 +2092,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SPORT TV",
+        "SportzX Live",
         "SPORT TV HD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://livecdn-bp-dara-iptv.maypn.stream/live_abr/161358_hd/index.m3u8?is_vip=true&token=dara-26s1504m&x-sign=234600ce1b20d882e64ee6160d99a4ae&x-time=1776607800",
+          "title": "SPORT TV",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369048.m3u8?txSecret=bcb9619292edc91dcc448c473275dea7&txTime=69E52B32|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.pro/stream/Sport%20TV%202",
@@ -2178,147 +2185,6 @@
           "api": null,
           "link": "https://cdn.damitv.pro/stream/Sport%20TV%201",
           "title": "SPORT TV HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "420",
-      "title": "Ipswich Town vs Middlesbrough",
-      "image": "o",
-      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Ipswich",
-        "teamB": "Middlesbrough",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/32/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/36/image",
-        "eventName": "Ipswich Town vs Middlesbrough",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 11:00:00 +0000",
-        "endTime": "2026/04/19 13:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/stream/Sport%20TV%201",
-          "title": "SPORT TV HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "421",
-      "title": "Eintracht Braunschweig vs Hertha BSC",
-      "image": "o",
-      "cat": "2. Bundesliga",
-      "eventInfo": {
-        "teamA": "Braunschweig",
-        "teamB": "Hertha",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2557/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2528/image",
-        "eventName": "Eintracht Braunschweig vs Hertha BSC",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 11:30:00 +0000",
-        "endTime": "2026/04/19 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SKY BUNDESLIGA HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4355821.m3u8?txSecret=7ffcb2722e6879c13a17443dedc226f3&txTime=69E50477|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_5/index.m3u8|Referer=https://kilatlive.net/",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "422",
-      "title": "Schalke 04 vs Preußen Münster",
-      "image": "o",
-      "cat": "2. Bundesliga",
-      "eventInfo": {
-        "teamA": "Schalke",
-        "teamB": "Münster",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2530/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2590/image",
-        "eventName": "Schalke 04 vs Preußen Münster",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 11:30:00 +0000",
-        "endTime": "2026/04/19 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SKY BUNDESLIGA HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4355827.m3u8?txSecret=6435983b83cf376553de863293e3ed30&txTime=69E50477|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_3/index.m3u8|Referer=https://kilatlive.net/",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "423",
-      "title": "SpVgg Greuther Fürth vs Darmstadt",
-      "image": "o",
-      "cat": "2. Bundesliga",
-      "eventInfo": {
-        "teamA": "Fürth",
-        "teamB": "Darmstadt",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2551/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2576/image",
-        "eventName": "SpVgg Greuther Fürth vs Darmstadt",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 11:30:00 +0000",
-        "endTime": "2026/04/19 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SKY BUNDESLIGA HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4355823.m3u8?txSecret=408b954e1646eb9da7d24d861578cb39&txTime=69E50477|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_4/index.m3u8|Referer=https://kilatlive.net/",
-          "title": "SKY BUNDESLIGA HD",
           "type": "0"
         }
       ]
@@ -2453,6 +2319,138 @@
           "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
           "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Sporting Gijón vs Cádiz",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Sporting",
+        "teamB": "Cádiz",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2852/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4488/image",
+        "eventName": "Sporting Gijón vs Cádiz",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 14:15:00 +0000",
+        "endTime": "2026/04/19 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_4/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kjzxkCIqkhtb/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Albacete Balompié vs Granada",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Albacete",
+        "teamB": "Granada",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2848/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "eventName": "Albacete Balompié vs Granada",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 16:30:00 +0000",
+        "endTime": "2026/04/19 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_espn_plus_3/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/6v8yVbveVz4/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Almería vs Málaga",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Almería",
+        "teamB": "Málaga",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2858/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2830/image",
+        "eventName": "Almería vs Málaga CF",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 19:00:00 +0000",
+        "endTime": "2026/04/19 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Al Wasl vs Al-Nassr",
+      "image": "o",
+      "cat": "AFC Champions Two",
+      "eventInfo": {
+        "teamA": "Al-Wasl",
+        "teamB": "Al-Nassr",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/47674/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/23400/image",
+        "eventName": "Al Wasl vs Al-Nassr",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 14:00:00 +0000",
+        "endTime": "2026/04/19 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
