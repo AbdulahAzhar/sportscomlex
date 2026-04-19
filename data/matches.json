@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 36,
+  "total_events": 37,
   "results": [
     {
       "id": "312",
@@ -948,6 +948,84 @@
       ]
     },
     {
+      "id": "371",
+      "title": "ISL VS ISL",
+      "image": "o",
+      "cat": "ISL",
+      "eventInfo": {
+        "teamA": "ISL",
+        "teamB": "ISL",
+        "teamAFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "teamBFlag": "https://images.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "eventName": "ISL vs ISL",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/19 14:00:00 +0000",
+        "endTime": "2026/04/19 16:00:00 +0000"
+      },
+      "adsLimit": "8",
+      "publish": "1",
+      "formats": [
+        "FANCODE FHD",
+        "WORLDWIDE HD",
+        "FANCODE [ENG]",
+        "FANCODE [HIN]",
+        "FANCODE [MAL]",
+        "FANCODE [BAN]",
+        "FANCODE [BD]"
+      ],
+      "channels": [
+        {
+          "api": "dafbae65bdfd4278a4b4b648da79495d:1368492078d17dd0129fa6d674b97f13",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_english_dash_38510_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "8a1ccfbeac9741769289919c0e65b94b:3e6a60425e0465fc4a991c22c65c9b76",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_hindi_dash_54800_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "94e62a2c71f94a0fb4c48834b11cd799:99aef645a00e3dd61588a5173e0c057b",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_tamil_dash_61057_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [TAM]",
+          "type": "1"
+        },
+        {
+          "api": "f4752dd4bc2d4fc98ab23e23f8014ff1:a58c5c58c20e0a5175cecd263c732a81",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_malayalam_dash_60112_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [MAL]",
+          "type": "1"
+        },
+        {
+          "api": "26be5abac415413c81e9105390e3a5dd:2b46ec61a16d79a8efa471f33b6f0ec0",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_bengali_dash_77342_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BAN]",
+          "type": "1"
+        },
+        {
+          "api": "b8b4c7a012eb4daea6b2fafa9d57757d:abf2d7c5859205efca3028f623f75cd8",
+          "link": "https://bd-mc-flive.fancode.com/delhi/140482_english_dash_38610_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BD]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4496375.m3u8?txSecret=73ae3adbee35c33b3195a7da6820e3bb&txTime=69DA76E9|Referer=https://player.up909.com/",
+          "title": "WORLDWIDE HD",
+          "type": "0"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
       "id": "372",
       "title": "WrestleMania",
       "image": "o",
@@ -957,11 +1035,11 @@
         "teamB": "WrestleMania",
         "teamAFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
         "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
-        "eventName": "WrestleMania 42 Day 1",
+        "eventName": "WrestleMania 42 Day 2",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/18 22:00:00 +0000",
-        "endTime": "2026/04/19 03:30:00 +0000"
+        "startTime": "2026/04/19 22:00:00 +0000",
+        "endTime": "2026/04/20 03:30:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
