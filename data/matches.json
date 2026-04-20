@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 16,
+  "total_events": 19,
   "results": [
     {
       "id": "312",
@@ -906,59 +906,6 @@
       ]
     },
     {
-      "id": "372",
-      "title": "WrestleMania",
-      "image": "o",
-      "cat": "WWE",
-      "eventInfo": {
-        "teamA": "WrestleMania",
-        "teamB": "WrestleMania",
-        "teamAFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
-        "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_med/public/all/2025/06/WrestleMania_NEW_42_Logo_2026--9f8b9e2c3405d40fc70dcdce1ba2214c.png",
-        "eventName": "WrestleMania 42 Day 2",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 22:00:00 +0000",
-        "endTime": "2026/04/20 03:30:00 +0000"
-      },
-      "adsLimit": "9",
-      "publish": "1",
-      "formats": [
-        "SportzX WWE",
-        "FHD SERVER",
-        "HD SERVER",
-        "SportzX Live",
-        "ESPN HD",
-        "ESPN DEPORTES"
-      ],
-      "channels": [
-        {
-          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-          "title": "TNT Sports 4",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW (Ad Free)",
-          "type": "0"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
-          "title": "WILLOW SD",
-          "type": "2"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Crystal Palace vs West Ham",
       "image": "o",
@@ -1022,6 +969,181 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "title": "Vissel Kobe vs Al-Ahli",
+      "image": "o",
+      "cat": "AFC Champions Elite",
+      "eventInfo": {
+        "teamA": "Vissel Kobe",
+        "teamB": "Al-Ahli",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3146/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+        "eventName": "Vissel Kobe vs Al-Ahli",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/20 16:15:00 +0000",
+        "endTime": "2026/04/20 18:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
+          "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://s3.us-east-1.amazonaws.com/shelest.stanislav/yankees.m3u8",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49241/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343374.m3u8?txSecret=a4d7b546449a6a660a553766ef0898f4&txTime=69E50A52|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Gaziantep vs Kayserispor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Gaziantep",
+        "teamB": "Kayserispor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5138/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+        "eventName": "Gaziantep vs Kayserispor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/20 17:00:00 +0000",
+        "endTime": "2026/04/20 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Club Brugge U19 vs Real Madrid U19",
+      "image": "o",
+      "cat": "UEFA Youth",
+      "eventInfo": {
+        "teamA": "Club Brugge U19",
+        "teamB": "Real Madrid U19",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/231976/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/120854/image",
+        "eventName": "Club Brugge U19 vs Real Madrid U19",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/20 16:45:00 +0000",
+        "endTime": "2026/04/20 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TNT SPORTS FHD",
+        "Ziggo Sports"
+      ],
+      "channels": [
+        {
+          "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621|User-Agent=Mozila",
+          "title": "Ziggo Sports",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Deportivo vs Mirandés",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Deportivo",
+        "teamB": "Mirandés",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2832/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/35092/image",
+        "eventName": "Deportivo vs Mirandés",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/20 18:30:00 +0000",
+        "endTime": "2026/04/20 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/1019/index.m3u8",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN IT HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49242/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rr4---sn-8pxuuxa-on.googlecdncloudsg.com/live_event_bbc_alba/index.m3u8|Referer=https://kilatlive.net/",
+          "title": "BBC SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-dara.maypn.stream/stream/17/chunks.m3u8?is_vip=true&token=dara-3bpk16wj&x-sign=bbba5ad5ecdabb0297236d92f9fbb12f&x-time=1776605400",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     }
