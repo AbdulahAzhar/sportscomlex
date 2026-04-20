@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 27,
+  "total_events": 20,
   "results": [
     {
       "id": "312",
@@ -374,8 +374,8 @@
         "eventName": "🥊 WWE Friday Night SmackDown",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/18 00:00:00 +0000",
-        "endTime": "2026/04/18 02:45:00 +0000"
+        "startTime": "2026/04/25 00:00:00 +0000",
+        "endTime": "2026/04/25 02:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -549,43 +549,21 @@
       "formats": [
         "TNT SPORTS FHD",
         "FANCODE FHD",
-        "FANCODE [BD]",
-        "SKY SPORTS NZ",
-        "FOX CRICKET",
         "T SPORTS - HD",
-        "FANCODE [NP]",
-        "T SPORTS - SD"
+        "TNT SPORTS SD"
       ],
       "channels": [
         {
-          "api": "1d96ab366bbe6451edf7407b58e2fa16:0116201f4a63ac5bf5787d2c610c41a7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5sxuux529k/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+          "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
           "title": "TNT SPORTS FHD",
           "type": "1"
         },
         {
           "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
           "title": "FANCODE FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://bd-mc-fblive.fancode.com/mumbai/142066_english_hls_7f8785aea031495_1ta-di_h264/index.m3u8",
-          "title": "FANCODE [BD]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/stream/Sky%20Sport%202",
-          "title": "SKY SPORTS NZ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.pro/iptv-proxy/streamed/play?source=admin&id=ppv-gujarat-titans-vs-kolkata-knight-riders&streamNo=2",
-          "title": "FOX CRICKET",
-          "type": "0"
         },
         {
           "api": null,
@@ -595,14 +573,8 @@
         },
         {
           "api": null,
-          "link": "https://np-mc-fblive.fancode.com/mumbai/142066_english_hls_7f8785aea031495_1ta-di_h264/index.m3u8",
-          "title": "FANCODE [NP]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://buy.ottbangla.com/4k/amd/stream.php?id=T-Sports",
-          "title": "T SPORTS - SD",
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1644.m3u8",
+          "title": "TNT SPORTS SD",
           "type": "0"
         }
       ]
@@ -987,64 +959,6 @@
       ]
     },
     {
-      "id": "375",
-      "title": "Detroit Pistons vs Orlando Magic",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Pistons",
-        "teamB": "Magic",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3424/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3437/image",
-        "eventName": "Detroit Pistons vs Orlando Magic",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 22:30:00 +0000",
-        "endTime": "2026/04/20 01:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS HD",
-        "TSN SPORTS",
-        "SportzX NBA",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
-          "title": "TSN SPORTS HD",
-          "type": "1"
-        },
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49287/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NBA3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "376",
       "title": "Spurs vs Trail Blazers",
       "image": "o",
@@ -1064,7 +978,8 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS",
-        "NBA LIVE - AQ",
+        "SportzX NBA",
+        "NBA LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1077,8 +992,14 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49293/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/cf464ac4daf41050862bb378df16822a/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
+          "title": "NBA LIVE",
           "type": "0"
         },
         {
@@ -1089,44 +1010,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NBA4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "387",
-      "title": "Tampa Bay Lightning vs Canadiens",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Lightning",
-        "teamB": "Canadiens",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3694/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3690/image",
-        "eventName": "Tampa Bay Lightning vs Montréal Canadiens",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 21:45:00 +0000",
-        "endTime": "2026/04/20 00:35:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.live/US/NHL2/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NBA4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1177,7 +1061,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL3/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1203,14 +1087,28 @@
       "publish": "1",
       "formats": [
         "SportzX NHL",
+        "ESPN USA HD",
+        "NHL GAMECENTER",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49032/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49294/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/400.m3u8",
+          "title": "ESPN USA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1431.m3u8",
+          "title": "NHL GAMECENTER",
           "type": "0"
         },
         {
@@ -1221,38 +1119,8 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL4/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NHL4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "398",
-      "title": "Santos Laguna vs Atlas",
-      "image": "o",
-      "cat": "Liga MX",
-      "eventInfo": {
-        "teamA": "Santos",
-        "teamB": "Atlas ",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1948/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1949/image",
-        "eventName": "Santos Laguna vs Atlas FC",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 23:00:00 +0000",
-        "endTime": "2026/04/20 01:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4465540.m3u8?txSecret=9df44d23ac1a0a3162b3d92e4675090a&txTime=69E5A807|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1379,133 +1247,6 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "436",
-      "title": "Palmeiras vs Athletico",
-      "image": "o",
-      "cat": "Brasileirão",
-      "eventInfo": {
-        "teamA": "Palmeiras",
-        "teamB": "Athletico",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1963/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1967/image",
-        "eventName": "Palmeiras vs Athletico",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 21:30:00 +0000",
-        "endTime": "2026/04/19 23:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIERER BR",
-        "SporTV BR"
-      ],
-      "channels": [
-        {
-          "api": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-          "title": "PREMIERER BR",
-          "type": "1"
-        },
-        {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-          "title": "SporTV BR",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "437",
-      "title": "RB Bragantino vs Remo",
-      "image": "o",
-      "cat": "Brasileirão",
-      "eventInfo": {
-        "teamA": "RB Bragantino",
-        "teamB": "Remo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1999/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2012/image",
-        "eventName": "RB Bragantino vs Remo",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 21:30:00 +0000",
-        "endTime": "2026/04/19 23:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIERER BR"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351742.m3u8?txSecret=f415c6872ac09a40a414d39a2768e328&txTime=69E3D1C8|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "438",
-      "title": "Flamengo vs Bahia",
-      "image": "o",
-      "cat": "Brasileirão",
-      "eventInfo": {
-        "teamA": "Flamengo",
-        "teamB": "Bahia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1955/image",
-        "eventName": "Flamengo vs Bahia",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 22:30:00 +0000",
-        "endTime": "2026/04/20 00:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIERER BR"
-      ],
-      "channels": [
-        {
-          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "title": "PREMIERER BR",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "452",
-      "title": "Boston Red Sox vs Detroit Tigers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Red Sox",
-        "teamB": "Tigers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
-        "eventName": "Boston Red Sox vs Detroit Tigers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/19 20:35:00 +0000",
-        "endTime": "2026/04/19 23:25:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
         }
       ]
     }
