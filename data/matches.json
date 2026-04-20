@@ -1336,7 +1336,10 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
-        "NOW SPORTS PL"
+        "NOW SPORTS PL",
+        "SKY MAIN EVENT",
+        "USA TV HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1349,6 +1352,18 @@
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/cf464ac4daf41050862bb378df16822a/manifest/video.m3u8",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49300/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
           "type": "0"
         }
       ]
@@ -1372,7 +1387,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "beIN ENGLISH FHD",
+        "beIN SPORTS HD",
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -1380,6 +1397,18 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.underupturnip.net/bein.m3u8",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49299/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
