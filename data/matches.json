@@ -925,23 +925,22 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS",
         "SportzX NBA",
-        "NBA LIVE HD",
         "SportzX Live",
-        "HD SERVER",
-        "SPX CAM."
+        "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49248/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/235.m3u8",
-          "title": "NBA LIVE HD",
           "type": "0"
         },
         {
@@ -952,14 +951,8 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NBA1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://webcast-origin.b-cdn.net/bcdn_token=Ox7O3rEfHClC-eg-6xSE2QCXA2Oqr2BTCR6ajKVDnYc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh%2F&expires=1776483822/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh/152.m3u8",
-          "title": "SPX CAM.",
           "type": "0"
         }
       ]
@@ -995,7 +988,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NBA2/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1021,7 +1014,7 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS HD",
-        "TSN SPORTS",
+        "TSN SPORTS HD",
         "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
@@ -1034,9 +1027,9 @@
           "type": "1"
         },
         {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS",
+          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "title": "TSN SPORTS HD",
           "type": "1"
         },
         {
@@ -1078,16 +1071,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
+        "Premier Sports",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49269/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "Premier Sports",
+          "type": "1"
         },
         {
           "api": null,
@@ -1097,7 +1090,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/US/NHL1/index.m3u8?st=SportzX|Referer=https://instream.click/&Origin=https://instream.click",
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1159,24 +1152,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "PREMIER SPORTS",
-        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49291/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1210,9 +1189,6 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "ESPN USA HD",
-        "NHL GAMECENTER",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1364,6 +1340,12 @@
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49300/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343381.m3u8?txSecret=87689c5ea77f14c2d08f9fb15007a1ad&txTime=69E6C1F1|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
