@@ -930,22 +930,29 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS",
-        "SportzX NBA",
+        "TSN SPORTS - AQ",
+        "TSN SPORTS HD",
+        "SPX NBA LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS",
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "title": "TSN SPORTS - AQ",
+          "type": "1"
+        },
+        {
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "title": "TSN SPORTS HD",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49305/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
+          "link": "https://api.vipstreamed.live/api/stream/basketball/philadelphia-76ers-vs-boston-celtics.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NBA LIVE",
           "type": "0"
         },
         {
@@ -981,22 +988,29 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
+        "TSN SPORTS - AQ",
+        "TSN SPORTS HD",
+        "SPX NBA LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49322/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "SportzX NBA",
-          "type": "0"
+          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "title": "TSN SPORTS - AQ",
+          "type": "1"
+        },
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS HD",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/cf464ac4daf41050862bb378df16822a/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
+          "link": "https://api.vipstreamed.live/api/stream/basketball/portlandtrailblazersvssanantoniospurs.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NBA LIVE",
           "type": "0"
         },
         {
@@ -1032,9 +1046,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS - AQ",
         "TSN SPORTS HD",
-        "TSN SPORTS HD",
-        "SportzX NBA",
+        "SPX NBA LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1042,19 +1056,19 @@
         {
           "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
-          "title": "TSN SPORTS HD",
+          "title": "TSN SPORTS - AQ",
           "type": "1"
         },
         {
-          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS HD",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49326/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
+          "link": "https://api.vipstreamed.live/api/stream/basketball/houstonrocketsatlosangeleslakers.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NBA LIVE",
           "type": "0"
         },
         {
@@ -1090,16 +1104,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Premier Sports",
+        "SPX NHL LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "title": "Premier Sports",
-          "type": "1"
+          "api": null,
+          "link": "https://api.vipstreamed.live/api/stream/hockey/montreal-canadiens-vs-tampa-bay-lightning.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NHL LIVE",
+          "type": "0"
         },
         {
           "api": null,
@@ -1236,22 +1250,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE - FHD",
+        "SPX NHL LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49333/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.appmissao.com.br/nhl2.m3u8",
-          "title": "NHL LIVE - FHD",
+          "link": "https://api.vipstreamed.live/api/stream/hockey/los-angeles-kings-vs-colorado-avalanche.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NHL LIVE",
           "type": "0"
         },
         {
@@ -1444,9 +1451,11 @@
       "formats": [
         "beIN ENGLISH",
         "PREMIER SPORTS",
+        "Laliga TV FHD",
         "SPX - FHD LIVE",
         "ESPN DEPORTES",
-        "SportzX Live"
+        "SportzX Live",
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -1462,6 +1471,12 @@
           "type": "1"
         },
         {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
+        },
+        {
           "api": null,
           "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Flaliga%2F2026-04-21%2Fath-osa",
           "title": "SPX - FHD LIVE",
@@ -1469,7 +1484,7 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|Referer=https://hardsmart.click/",
+          "link": "https://daffodil.intelsystech.com.br/dep.m3u8",
           "title": "ESPN DEPORTES",
           "type": "0"
         },
@@ -1477,6 +1492,12 @@
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4358423.m3u8?txSecret=a8fc549b172c9cbb7d4f99da76c10bc2&txTime=69E7E8F8|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/1034/index.m3u8",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -1501,8 +1522,9 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "Laliga TV FHD",
+        "LALIGA TV FHD",
         "SPX  - FHD LIVE",
+        "DAZN ENGLISH",
         "SportzX Live"
       ],
       "channels": [
@@ -1513,15 +1535,21 @@
           "type": "1"
         },
         {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://api.vipstreamed.live/api/stream/soccer/valencia-vs-mallorca.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "LALIGA TV FHD",
+          "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Flaliga%2F2026-04-21%2Fmll-val",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fembedsports.top%2Fembed%2Fecho%2Fmallorca-vs-valencia-football-1391144%2F1",
           "title": "SPX  - FHD LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fembedsports.top%2Fembed%2Fecho%2Fmallorca-vs-valencia-football-1391144%2F4",
+          "title": "DAZN ENGLISH",
           "type": "0"
         },
         {
@@ -1861,7 +1889,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1869,6 +1898,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4519111.m3u8?txSecret=ee802535a53eb940a8b3e9693a2d081b&txTime=69E7F6B3|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
