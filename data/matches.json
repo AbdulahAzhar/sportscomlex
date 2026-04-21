@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 19,
+  "total_events": 26,
   "results": [
     {
       "id": "312",
@@ -725,11 +725,9 @@
         "WILLOW FHD",
         "PSL Urdu - PK",
         "PSL ENG - PK",
-        "PTV SPORTS HD",
         "TAMASHA - PK",
         "SD SERVER",
-        "TSports HD",
-        "PTV SPORTS - AQ"
+        "TSports HD"
       ],
       "channels": [
         {
@@ -1173,6 +1171,258 @@
           "api": "00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587",
           "link": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest_hr.mpd",
           "title": "Italia 1 IT",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "RC Lens vs Toulouse",
+      "image": "o",
+      "cat": "Coupe de France 🇫🇷",
+      "eventInfo": {
+        "teamA": "Lens",
+        "teamB": "Toulouse",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1681/image",
+        "eventName": "RC Lens vs Toulouse",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 19:10:00 +0000",
+        "endTime": "2026/04/21 21:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD",
+        "FOX DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Leicester City vs Hull City",
+      "image": "o",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Leicester",
+        "teamB": "Hull",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/31/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/96/image",
+        "eventName": "Leicester City vs Hull City",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 18:45:00 +0000",
+        "endTime": "2026/04/21 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Botafogo vs Chapecoense",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Botafogo",
+        "teamB": "Chapecoense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1958/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+        "eventName": "Botafogo vs Chapecoense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 20:00:00 +0000",
+        "endTime": "2026/04/21 22:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR",
+        "SporTV BR"
+      ],
+      "channels": [
+        {
+          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "São Paulo vs Juventude",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "São Paulo",
+        "teamB": "Juventude",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1981/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1980/image",
+        "eventName": "São Paulo vs Juventude",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 22:15:00 +0000",
+        "endTime": "2026/04/22 00:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR",
+        "PREMIER SPORTS",
+        "SporTV BR",
+        "FOX DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        },
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Paysandu SC vs Vasco da Gama",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Paysandu",
+        "teamB": "Vasco",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1997/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+        "eventName": "Paysandu SC vs Vasco da Gama",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 00:30:00 +0000",
+        "endTime": "2026/04/22 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR",
+        "SporTV BR"
+      ],
+      "channels": [
+        {
+          "api": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "Machida Zelvia vs Shabab Al-Ahli",
+      "image": "o",
+      "cat": "AFC Champions Elite",
+      "eventInfo": {
+        "teamA": "Machida Z",
+        "teamB": "Shabab Al-Ahli",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/44409/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/264111/image",
+        "eventName": "Machida Zelvia vs Shabab Al-Ahli",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 16:15:00 +0000",
+        "endTime": "2026/04/21 18:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "Konyaspor vs Fenerbahçe",
+      "image": "o",
+      "cat": "Türkiye Kupası",
+      "eventInfo": {
+        "teamA": "Konyaspor",
+        "teamB": "Fenerbahçe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "eventName": "Konyaspor vs Fenerbahçe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/21 17:30:00 +0000",
+        "endTime": "2026/04/21 19:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
