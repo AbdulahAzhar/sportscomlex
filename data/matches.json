@@ -592,15 +592,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "SRH",
-        "teamB": "DC",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187844/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
-        "eventName": "Sunrisers Hyderabad vs Delhi Capitals",
+        "teamA": "LSG",
+        "teamB": "RR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/410010/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
+        "eventName": "Lucknow Super Giants vs Rajasthan Royals",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/21 14:00:00 +0000",
-        "endTime": "2026/04/21 17:45:00 +0000"
+        "startTime": "2026/04/22 14:00:00 +0000",
+        "endTime": "2026/04/22 17:45:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -707,15 +707,15 @@
       "image": "o",
       "cat": "PSL",
       "eventInfo": {
-        "teamA": "LAH",
-        "teamB": "QUE",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/212419/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/212417/image",
-        "eventName": "Lahore Qalandars vs Quetta Gladiators",
+        "teamA": "KAR",
+        "teamB": "PES",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212418/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/212420/image",
+        "eventName": "Karachi Kings vs Peshawar Zalmi",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/21 09:30:00 +0000",
-        "endTime": "2026/04/21 13:15:00 +0000"
+        "startTime": "2026/04/22 09:30:00 +0000",
+        "endTime": "2026/04/22 13:15:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -773,15 +773,15 @@
       "image": "o",
       "cat": "PSL",
       "eventInfo": {
-        "teamA": "RAP",
+        "teamA": "HYK",
         "teamB": "MUL",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1178236/image",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/273650/image",
-        "eventName": "Rawalpindiz vs Multan Sultans",
+        "eventName": "Hyderabad Kingsmen vs Multan Sultans",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/21 14:00:00 +0000",
-        "endTime": "2026/04/21 17:45:00 +0000"
+        "startTime": "2026/04/22 14:00:00 +0000",
+        "endTime": "2026/04/22 16:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1333,7 +1333,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/38/image",
         "eventName": "Brighton vs Chelsea",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/21 19:00:00 +0000",
         "endTime": "2026/04/21 21:00:00 +0000"
       },
@@ -1412,7 +1412,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2885/image",
         "eventName": "Real Madrid vs Deportivo Alavés",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/21 19:30:00 +0000",
         "endTime": "2026/04/21 21:30:00 +0000"
       },
@@ -1665,7 +1665,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2704/image",
         "eventName": "Inter vs Como",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/21 19:00:00 +0000",
         "endTime": "2026/04/21 21:00:00 +0000"
       },
@@ -2038,9 +2038,30 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE - AQ",
+        "MLB LIVE FHD",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49345/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lobefaqelo649.s3.us-east-1.amazonaws.com/astros.m3u8",
+          "title": "MLB LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_mlb_guardians-astros-live-streaming-1200602196&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
