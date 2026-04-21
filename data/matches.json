@@ -1148,15 +1148,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
+        "SPX NHL LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49314/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "SportzX NHL",
+          "link": "https://api.vipstreamed.live/api/stream/hockey/bostonbruinsvsbuffalosabres.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NHL LIVE",
           "type": "0"
         },
         {
@@ -1192,29 +1192,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL FHD SERVER",
-        "ESPN USA HD",
+        "SPX NHL LIVE",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49328/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.marllonferreira.space/nhl.m3u8",
-          "title": "NHL FHD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/400.m3u8",
-          "title": "ESPN USA HD",
+          "link": "https://api.vipstreamed.live/api/stream/hockey/utahmammothvsvegasgoldenknights.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX NHL LIVE",
           "type": "0"
         },
         {
@@ -1356,6 +1342,7 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
+        "SKY SPORTS PL",
         "SportzX Live"
       ],
       "channels": [
@@ -1373,7 +1360,13 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343381.m3u8?txSecret=87689c5ea77f14c2d08f9fb15007a1ad&txTime=69E6C1F1|Referer=https://player.787200.com/",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fpl%2F2026-04-21%2Fbha-che",
+          "title": "SKY SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343380.m3u8?txSecret=f78ad8dc5e5939110eceedab2678fed4&txTime=69E80CED|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1618,7 +1611,9 @@
       "formats": [
         "PREMIER SPORTS",
         "FUBO SPORTS",
-        "Italia 1 IT"
+        "Italia 1 IT",
+        "SPX LIVE FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1638,6 +1633,18 @@
           "link": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest_hr.mpd",
           "title": "Italia 1 IT",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/proxy?url=https%3A%2F%2Fnetanyahu.modifiles.fans%2Fsecure%2FGeFPXJRhugOanesdFJcZtnLdONmFmYCJ%2F1776787200%2F1776814200%2Fita_int%2Ftracks-v1a1%2Fmono.ts.m3u8",
+          "title": "SPX LIVE FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4496934.m3u8?txSecret=82a287e147ac70eba5e602ec52f0163e&txTime=69E80D1B|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1697,7 +1704,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH"
+        "beIN ENGLISH",
+        "SportzX Live",
+        "SKY SPORTS FHD"
       ],
       "channels": [
         {
@@ -1705,6 +1714,18 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4351766.m3u8?txSecret=9a906b7b1ac590f7279b7c220a1925d7&txTime=69E8084C|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fembedsports.top%2Fembed%2Fecho%2Fleicester-vs-hull-city-football-1387077%2F1",
+          "title": "SKY SPORTS FHD",
+          "type": "0"
         }
       ]
     },
