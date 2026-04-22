@@ -1373,6 +1373,7 @@
         "NOW SPORTS PL",
         "NBC UNIVERSO",
         "HUB PREMIER HD",
+        "SPX HD LIVE",
         "SportzX Live"
       ],
       "channels": [
@@ -1392,6 +1393,12 @@
           "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-1/index.m3u8",
           "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sf-scrapper-hzma.onrender.com/api/stream/soccer/manchester-city-vs-burnley.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX HD LIVE",
           "type": "0"
         },
         {
@@ -1422,6 +1429,7 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
+        "SPX HD LIVE",
         "HUB PREMIER HD"
       ],
       "channels": [
@@ -1429,6 +1437,12 @@
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sf-scrapper-hzma.onrender.com/api/stream/soccer/leeds-united-vs-afc-bournemouth.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "SPX HD LIVE",
           "type": "0"
         },
         {
@@ -1461,7 +1475,8 @@
         "beIN ENGLISH FHD",
         "PREMIER SPORTS",
         "Laliga TV FHD",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1487,6 +1502,12 @@
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|Referer=https://hardsmart.click/",
           "title": "ESPN DEPORTES",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4358429.m3u8?txSecret=e86f762078aabc277c437a97be85e926&txTime=69E93D57|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1509,13 +1530,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "LALIGA TV FHD"
+        "SportzX Live",
+        "LALIGA TV",
+        "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://api.vipstreamed.live/api/stream/soccer/valencia-vs-mallorca.m3u8|Referer=https://livetv.moviebite.cc/",
-          "title": "LALIGA TV FHD",
+          "link": "https://live.vivo200.com/live/hd-en-1-4358445.m3u8?txSecret=8d99be58d5b3b9b9186cf1677d1086ef&txTime=69E95069|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/b0h5fNwDKH.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "LALIGA TV",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=real-sociedad-vs-getafe-football-1391147&streamNo=1",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -1664,14 +1699,34 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "DAZN SPORTS",
-        "beIN SPORTS USA"
+        "beIN SPORTS USA",
+        "SportzX Live",
+        "HD SERVER",
+        "LIGUE1+ FHD"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=paris-saint-germain-vs-nantes-football-1387929&streamNo=1",
+          "title": "beIN SPORTS USA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347911.m3u8?txSecret=3fd02b7a25dd741a37533b21e791f278&txTime=69E93D94|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=paris-saint-germain-vs-nantes-football-1387929&streamNo=2",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fligue1%2F2026-04-22%2Fpsg-nan",
-          "title": "DAZN SPORTS",
+          "title": "LIGUE1+ FHD",
           "type": "0"
         }
       ]
@@ -1799,6 +1854,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ESPN NL"
       ],
       "channels": [
@@ -2000,9 +2056,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49389/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fmlb%2F2026-04-22%2Fhou-cle",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2030,9 +2100,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49392/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fmlb%2F2026-04-22%2Fcin-tb",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
