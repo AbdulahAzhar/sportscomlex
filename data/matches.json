@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 28,
+  "total_events": 33,
   "results": [
     {
       "id": "312",
@@ -1025,57 +1025,6 @@
       ]
     },
     {
-      "id": "388",
-      "title": "Knights vs Utah Mammoth",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Golden Knights",
-        "teamB": "Mammoth",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/257523/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/530472/image",
-        "eventName": "Vegas Golden Knights vs Utah Mammoth",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 01:30:00 +0000",
-        "endTime": "2026/04/22 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "SPX NHL LIVE",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49377/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://streamfree-scrapper.onrender.com/api/stream/hockey/utahmammothvsvegasgoldenknights.m3u8|Referer=https://livetv.moviebite.cc/",
-          "title": "SPX NHL LIVE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "389",
       "title": "Avalanche vs Kings",
       "image": "o",
@@ -1158,43 +1107,6 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "399",
-      "title": "Dodgers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Giants",
-        "teamB": "Dodgers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3634/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3638/image",
-        "eventName": "Giants vs Dodgers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 01:45:00 +0000",
-        "endTime": "2026/04/22 03:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49383/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1547,6 +1459,187 @@
       ],
       "channels": [
         {
+          "api": null,
+          "link": "https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Galatasaray vs Gençlerbirliği",
+      "image": "o",
+      "cat": "Türkiye Kupası",
+      "eventInfo": {
+        "teamA": "Galatasaray",
+        "teamB": "Gençlerbirliği",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+        "eventName": "Galatasaray vs Gençlerbirliği",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 17:30:00 +0000",
+        "endTime": "2026/04/22 19:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Leverkusen vs Bayern München",
+      "image": "o",
+      "cat": "DFB Pokal",
+      "eventInfo": {
+        "teamA": "Leverkusen",
+        "teamB": "Bayern",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+        "eventName": "Bayer Leverkusen vs Bayern München",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 18:45:00 +0000",
+        "endTime": "2026/04/22 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS"
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "Telstar vs Sparta Rotterdam",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Telstar",
+        "teamB": "Sparta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2972/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+        "eventName": "Telstar vs Sparta Rotterdam",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 18:00:00 +0000",
+        "endTime": "2026/04/22 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "FC Porto vs Sporting CP",
+      "image": "o",
+      "cat": "Taça de Portugal",
+      "eventInfo": {
+        "teamA": "Porto",
+        "teamB": "Sporting",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+        "eventName": "FC Porto vs Sporting CP",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 19:45:00 +0000",
+        "endTime": "2026/04/22 21:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "title": "Bahia vs Remo",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Bahia",
+        "teamB": "Remo",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1955/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2012/image",
+        "eventName": "Bahia vs Remo",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 22:00:00 +0000",
+        "endTime": "2026/04/23 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR"
+      ],
+      "channels": [
+        {
+          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "title": "Flamengo vs Vitória",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Flamengo",
+        "teamB": "Vitória",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1962/image",
+        "eventName": "Flamengo vs Vitória",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/23 00:30:00 +0000",
+        "endTime": "2026/04/23 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR",
+        "SporTV BR"
+      ],
+      "channels": [
+        {
           "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
           "title": "PREMIERER BR",
@@ -1557,6 +1650,36 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
           "title": "SporTV BR",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "Santos vs Coritiba",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Santos",
+        "teamB": "Coritiba",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1968/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
+        "eventName": "Santos vs Coritiba",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 22:30:00 +0000",
+        "endTime": "2026/04/23 00:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     }
