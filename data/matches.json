@@ -1026,13 +1026,13 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49363/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49422/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://streamfree-scrapper.onrender.com/api/stream/basketball/philadelphia-76ers-vs-boston-celtics.m3u8|Referer=https://livetv.moviebite.cc/",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nba_pistons-magic-live-streaming-1275276447&streamNo=1",
           "title": "NBA LIVE",
           "type": "0"
         },
@@ -1349,7 +1349,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
         "eventName": "Burnley vs Manchester City",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/22 19:00:00 +0000",
         "endTime": "2026/04/22 21:00:00 +0000"
       },
@@ -1637,7 +1637,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2821/image",
         "eventName": "FC Barcelona vs Celta Vigo",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/22 19:30:00 +0000",
         "endTime": "2026/04/22 21:30:00 +0000"
       },
@@ -1888,64 +1888,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Leverkusen vs Bayern München",
-      "image": "o",
-      "cat": "DFB Pokal",
-      "eventInfo": {
-        "teamA": "Leverkusen",
-        "teamB": "Bayern",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-        "eventName": "Bayer Leverkusen vs Bayern München",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/22 18:45:00 +0000",
-        "endTime": "2026/04/22 20:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIER SPORTS",
-        "ESPN U HD",
-        "DFB POKAL HD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.marllonferreira.space/espnu.m3u8",
-          "title": "ESPN U HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/dfbpokal.m3u8",
-          "title": "DFB POKAL HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4502493.m3u8?txSecret=fa627731522727cd0dd46fbf20a285b3&txTime=69E950EF|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=bayer-leverkusen-vs-bayern-munchen-football-1526336&streamNo=1",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Telstar vs Sparta Rotterdam",
       "image": "o",
@@ -2116,8 +2058,8 @@
       ],
       "channels": [
         {
-          "api": "a7ac7bc5acb5cfcc624185a711db0522:9caf2138e40bc655c6d80f48e33a0d13",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rhslrrr7iv/out/v1/73e024d9565c4618b94e0f5731cf56be/cenc.mpd",
+          "api": "51394da99a5b49d25f253ccc87e0e045:fba4ac0c7199ed634e69820277cb5092",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rqinjldrpp/out/v1/bf6c4f84f1fe4a1b850e19a0c9d16e8f/cenc.mpd",
           "title": "PRIME VIDEO",
           "type": "1"
         }
@@ -2378,9 +2320,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49414/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2408,9 +2357,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49416/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edge2caster.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2438,9 +2394,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49418/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edge2caster.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2468,12 +2431,49 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49425/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://edgestreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Chicago Cubs vs Philadelphia Phillies",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Cubs",
+        "teamB": "Phillies",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "eventName": "Chicago Cubs vs Philadelphia Phillies",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/22 23:40:00 +0000",
+        "endTime": "2026/04/23 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
