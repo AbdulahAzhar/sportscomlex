@@ -607,9 +607,7 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "WILLOW HINDI",
-        "FOX CRICKET - AQ",
         "FOX CRICKET",
-        "SportzX Live",
         "SKY CRICKET HD",
         "SD SERVER",
         "JIO HINDI - AQ"
@@ -787,24 +785,22 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "PSL Urdu - PK",
         "WILLOW FHD",
-        "PSL ENG - PK",
-        "PTV SPORTS HD",
-        "TAMASHA - PK"
+        "TAPMAD ENG",
+        "TAPMAD URDU",
+        "MyCo ENG [PAK]",
+        "MyCo URDU [PAK]",
+        "SD SERVER",
+        "PSL ENG - PAK",
+        "PSL Urdu - PK",
+        "TAMASHA - PAK"
       ],
       "channels": [
         {
-          "api": "e52df5c43f028ac74841d8666dd82957:c0ba26e9891ae381420b7303717f9142",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/50frhikpnl/out/v1/bfde08c2fa824ed389aa58bec2c698a2/cenc.mpd",
+          "api": "f90b2f4017e35819c63e97d8fdd05343:baeaff287a35b0d6e416953ce9867beb",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nrhkiq5acs/out/v1/9b863371be154ad98aa614926b7aa588/cenc.mpd",
           "title": "WILLOW [Ad-Free]",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
-          "title": "PSL Urdu - PK",
-          "type": "0"
         },
         {
           "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
@@ -814,20 +810,50 @@
         },
         {
           "api": null,
-          "link": "https://psl.bigbaat.app/out/v1/f342445c31dd475bbf30c7304dbad14f/index.m3u8",
-          "title": "PSL ENG - PK",
+          "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-P2s6L_9a5s8d2f5/master.m3u8",
+          "title": "TAPMAD ENG",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.incableinternet.com/v/kooker_ptvsportshd/kooker_ptvsportshd.m3u8",
-          "title": "PTV SPORTS HD",
+          "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_P2U8B2G5T6/master.m3u8",
+          "title": "TAPMAD URDU",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://ml-pull-rtmp-pk1.myco.io/English/hls/index/clean.m3u8|referer=https://myco.io",
+          "title": "MyCo ENG [PAK]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://ml-pull-rtmp-pk1.myco.io/Urdudirty/hls/index/urdudirty.m3u8|referer=https://myco.io",
+          "title": "MyCo URDU [PAK]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://93.123.109.249/hls/vavavaQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://psl.bigbaat.app/out/v1/f342445c31dd475bbf30c7304dbad14f/index.m3u8",
+          "title": "PSL ENG - PAK",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+          "title": "PSL Urdu - PK",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://tencentcdn7.tamashaweb.com/v1/019beffa3f101567ee93346674d021/019bff96b0e415fc600b1b67f81951/TMSH_APP2_DIRTY.m3u8",
-          "title": "TAMASHA - PK",
+          "title": "TAMASHA - PAK",
           "type": "0"
         }
       ]
