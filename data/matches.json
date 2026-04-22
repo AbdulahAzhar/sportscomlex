@@ -1061,6 +1061,7 @@
       "formats": [
         "TSN SPORTS - AQ",
         "TSN SPORTS HD",
+        "SportzX NBA",
         "SPX NBA LIVE",
         "SportzX Live",
         "HD SERVER"
@@ -1077,6 +1078,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49374/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
         },
         {
           "api": null,
@@ -1212,6 +1219,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
         "SPX NHL LIVE",
         "SportzX Live",
         "HD SERVER"
@@ -1219,7 +1227,13 @@
       "channels": [
         {
           "api": null,
-          "link": "https://api.vipstreamed.live/api/stream/hockey/utahmammothvsvegasgoldenknights.m3u8|Referer=https://livetv.moviebite.cc/",
+          "link": "https://chatgpt.hereisman.net/playlist/49377/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://streamfree-scrapper.onrender.com/api/stream/hockey/utahmammothvsvegasgoldenknights.m3u8|Referer=https://livetv.moviebite.cc/",
           "title": "SPX NHL LIVE",
           "type": "0"
         },
@@ -1263,7 +1277,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://api.vipstreamed.live/api/stream/hockey/los-angeles-kings-vs-colorado-avalanche.m3u8|Referer=https://livetv.moviebite.cc/",
+          "link": "https://streamfree-scrapper.onrender.com/api/stream/hockey/los-angeles-kings-vs-colorado-avalanche.m3u8|Referer=https://livetv.moviebite.cc/",
           "title": "SPX NHL LIVE",
           "type": "0"
         },
@@ -1300,9 +1314,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49381/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2230,9 +2251,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49375/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
