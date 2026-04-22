@@ -1372,9 +1372,12 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
+        "SKY MAIN EVENT",
+        "SAT FEED",
         "HUB PREMIER HD",
         "SPX HD LIVE",
-        "SportzX Live"
+        "SportzX Live",
+        "USA NETWORK"
       ],
       "channels": [
         {
@@ -1391,6 +1394,18 @@
         },
         {
           "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/cf464ac4daf41050862bb378df16822a/manifest/video.m3u8",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://602.intelsystech.com.br/plp.m3u8",
+          "title": "SAT FEED",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-1/index.m3u8",
           "title": "HUB PREMIER HD",
           "type": "0"
@@ -1403,8 +1418,14 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343380.m3u8?txSecret=f78ad8dc5e5939110eceedab2678fed4&txTime=69E80CED|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/hd-en-1-4343383.m3u8?txSecret=aa6babf037888b7fef84fa0fb71b16c3&txTime=69E95F9B|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-21391-1/74fe43073c5f/195.m3u8",
+          "title": "USA NETWORK",
           "type": "0"
         }
       ]
@@ -1530,11 +1551,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "FANCODE FHD",
         "SportzX Live",
         "LALIGA TV",
+        "FHD SERVER",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4358445.m3u8?txSecret=8d99be58d5b3b9b9186cf1677d1086ef&txTime=69E95069|Referer=https://player.787200.com/",
@@ -1545,6 +1574,12 @@
           "api": null,
           "link": "https://edge2caster.pro/hls/b0h5fNwDKH.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "LALIGA TV",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https://pooembed.eu/embed/laliga/2026-04-22/rso-get",
+          "title": "FHD SERVER",
           "type": "0"
         },
         {
@@ -1663,7 +1698,8 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -1677,6 +1713,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.marllonferreira.space/fs2.m3u8",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1824,7 +1866,11 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "PREMIER SPORTS"
+        "PREMIER SPORTS",
+        "ESPN U HD",
+        "DFB POKAL HD",
+        "SportzX Live",
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -1832,6 +1878,30 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
           "title": "PREMIER SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.intelsystech.com.br/espnu.m3u8",
+          "title": "ESPN U HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lchd-314.zenostreams-cdn-001.com/dfbpokal.m3u8",
+          "title": "DFB POKAL HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4502493.m3u8?txSecret=fa627731522727cd0dd46fbf20a285b3&txTime=69E950EF|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=bayer-leverkusen-vs-bayern-munchen-football-1526336&streamNo=1",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1858,6 +1928,12 @@
         "ESPN NL"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4344769.m3u8?txSecret=babe1b78dc2a3457256a3f4a4150e305&txTime=69E950BA|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8|Referer=https://hardsmart.click/",
@@ -2144,9 +2220,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49393/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
