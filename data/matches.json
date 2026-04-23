@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -1002,6 +1002,7 @@
         "TSN SPORTS HD",
         "SportzX NBA",
         "NBA LIVE FHD",
+        "PRO SERVER FHD",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1026,9 +1027,15 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-23%2Fny-atl",
+          "link": "https://sportsembed.su/embed/401869389/atlanta-hawks-new-york-knicks/prime/1",
           "title": "NBA LIVE FHD",
-          "type": "0"
+          "type": "2"
+        },
+        {
+          "api": null,
+          "link": "https://sportsembed.su/embed/401869389/atlanta-hawks-new-york-knicks/pro/1",
+          "title": "PRO SERVER FHD",
+          "type": "2"
         },
         {
           "api": null,
@@ -1071,15 +1078,15 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49447/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49479/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-23%2Fcle-tor",
+          "link": "https://sportsembed.su/embed/401869375/toronto-raptors-cleveland-cavaliers/prime/1",
           "title": "NBA LIVE FHD",
-          "type": "0"
+          "type": "2"
         },
         {
           "api": null,
@@ -1759,43 +1766,6 @@
       ]
     },
     {
-      "id": "408",
-      "title": "Torreense vs AD Fafe",
-      "image": "o",
-      "cat": "Taça de Portugal",
-      "eventInfo": {
-        "teamA": "Torreense",
-        "teamB": "AD Fafe",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/25787/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/45146/image",
-        "eventName": "Torreense vs AD Fafe",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 19:45:00 +0000",
-        "endTime": "2026/04/23 21:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX HD+",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=torreense-vs-fafe-football-1508723&streamNo=1",
-          "title": "SportzX HD+",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4483430.m3u8?txSecret=2b76e5d99a1c9c0ea80e9d353fc2afcf&txTime=69EAB9DB|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "412",
       "title": "Nationals vs Atlanta Braves",
       "image": "o",
@@ -2037,6 +2007,7 @@
       "publish": "1",
       "formats": [
         "SportzX Live",
+        "EASY STREAM HD",
         "SportzX MLB"
       ],
       "channels": [
@@ -2045,6 +2016,12 @@
           "link": "https://chatgpt.hereisman.net/playlist/49470/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX Live",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sportsembed.su/embed/4556140/boston-red-sox-new-york-yankees/easy/1",
+          "title": "EASY STREAM HD",
+          "type": "2"
         },
         {
           "api": null,
@@ -2110,9 +2087,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SportzX MLB"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49480/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
