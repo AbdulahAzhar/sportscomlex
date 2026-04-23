@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 42,
   "results": [
     {
       "id": "312",
@@ -1223,20 +1223,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
-        "SD SERVER"
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.uu6611.com/live/sd-1-4404656.m3u8?txSecret=af57b7b5a3440cec420a1dba1307df49&txTime=69D82807|Referer=https://player.up909.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404633.m3u8?txSecret=a0c91d4328647408baf5620cadfb6fe9&txTime=69EAA42A|Referer=https://player.787200.com/",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.2/hls/LSSSqqQQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1608,14 +1601,35 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Laliga TV HD"
+        "FANCODE FHD",
+        "Laliga TV HD",
+        "SportzX TV+ FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49460/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "Laliga TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Flaliga%2F2026-04-23%2Fray-esp",
+          "title": "SportzX TV+ FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4358440.m3u8?txSecret=af97c2be0680e637f07dd631c08357b5&txTime=69EAA45F|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1747,36 +1761,6 @@
       ]
     },
     {
-      "id": "409",
-      "title": "Al-Hilal vs Al-Kholood",
-      "image": "o",
-      "cat": "Kings Cup",
-      "eventInfo": {
-        "teamA": "Al-Hilal",
-        "teamB": "Al-Kholood",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/269199/image",
-        "eventName": "Al-Hilal vs Al-Kholood",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 18:00:00 +0000",
-        "endTime": "2026/04/23 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "410",
       "title": "Samsunspor vs Trabzonspor",
       "image": "o",
@@ -1839,7 +1823,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "A SPOR TV HD"
       ],
       "channels": [
         {
@@ -1847,6 +1832,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=besiktas-vs-alanyaspor-football-1531968&streamNo=1",
+          "title": "A SPOR TV HD",
+          "type": "0"
         }
       ]
     },
@@ -1943,9 +1934,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SportzX MLB"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49461/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1973,9 +1971,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SportzX MLB"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49463/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
