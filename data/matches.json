@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 42,
+  "total_events": 31,
   "results": [
     {
       "id": "312",
@@ -580,14 +580,8 @@
         },
         {
           "api": null,
-          "link": "http://sm-monirul.top/AyNa/play.php?id=fc95d30e-5323-4c12-bb38-7a1e3f04acc2&e=.m3u8",
-          "title": "T SPORTS - HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1644.m3u8",
-          "title": "TNT SPORTS SD",
+          "link": "https://cdn.damitv.live/stream/Sky%20Sport%201",
+          "title": "SKY SPORTS NZ",
           "type": "0"
         }
       ]
@@ -992,78 +986,6 @@
       ]
     },
     {
-      "id": "373",
-      "title": "Detroit Pistons",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Pistons",
-        "teamB": "Magic",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3424/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3437/image",
-        "eventName": "Detroit Pistons vs Orlando Magic",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 23:00:00 +0000",
-        "endTime": "2026/04/23 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS - AQ",
-        "TSN SPORTS HD",
-        "SportzX NBA",
-        "NBA LIVE FHD",
-        "NBA LIVE HD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "title": "TSN SPORTS - AQ",
-          "type": "1"
-        },
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS HD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49422/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/nba-1.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
-          "title": "NBA LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nba_pistons-magic-live-streaming-1275276447&streamNo=1",
-          "title": "NBA LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "374",
       "title": "Phoenix Suns",
       "image": "o",
@@ -1097,7 +1019,7 @@
         },
         {
           "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/nba-1.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-22%2Fphx-okc",
           "title": "NBA LIVE FHD",
           "type": "0"
         },
@@ -1122,52 +1044,68 @@
       ]
     },
     {
-      "id": "386",
-      "title": "Philadelphia Flyers",
+      "id": "383",
+      "title": "Al-Najma vs Al-Taawoun",
       "image": "o",
-      "cat": "NHL",
+      "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Flyers",
-        "teamB": "Penguins",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3699/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3697/image",
-        "eventName": "Philadelphia Flyers vs Pittsburgh Penguins",
+        "teamA": "Al-Najma",
+        "teamB": "Al-Taawoun",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/395831/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56021/image",
+        "eventName": "Al-Najma vs Al-Taawoun",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 23:00:00 +0000",
-        "endTime": "2026/04/23 01:50:00 +0000"
+        "startTime": "2026/04/23 16:10:00 +0000",
+        "endTime": "2026/04/23 18:10:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
-        "SportzX Live",
-        "HD SERVER"
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49420/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
           "type": "0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "Damac FC vs Al-Okhdood",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Damac",
+        "teamB": "Al-Okhdood",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/204126/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/336456/image",
+        "eventName": "Damac FC vs Al-Okhdood",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/23 18:00:00 +0000",
+        "endTime": "2026/04/23 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "SD SERVER"
+      ],
+      "channels": [
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nhl-playoffs_flyers-penguins-live-streaming-1272322404&streamNo=1",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://live.uu6611.com/live/sd-1-4404656.m3u8?txSecret=af57b7b5a3440cec420a1dba1307df49&txTime=69D82807|Referer=https://player.up909.com/",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
+          "link": "http://195.178.110.2/hls/LSSSqqQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1206,7 +1144,7 @@
         },
         {
           "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/nhl-on-tnt.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "link": "https://cdn.damitv.live/ppv-extract/proxy?url=https%3A%2F%2Fnetanyahu.modifiles.fans%2Fsecure%2FzLpLAUWonbZizpHeeTHpvLhKHXoboRqh%2F1776897000%2F1776925800%2Fminnesotawild%2Ftracks-v1a1%2Fmono.ts.m3u8",
           "title": "NHL LIVE FHD",
           "type": "0"
         },
@@ -1263,7 +1201,7 @@
         },
         {
           "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/aew.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+          "link": "https://cdn.damitv.live/ppv-extract/proxy?url=https%3A%2F%2Fnetanyahu.modifiles.fans%2Fsecure%2FEdvsDlFfGTEvLjTZOUWlQAVwABBCPKpz%2F1776898800%2F1776927600%2Fedmontonoilers%2Ftracks-v1a1%2Fmono.ts.m3u8",
           "title": "NHL LIVE FHD",
           "type": "0"
         },
@@ -1277,43 +1215,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "397",
-      "title": "Colorado Rockies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Rockies",
-        "teamB": "Padres",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3636/image",
-        "eventName": "Colorado Rockies vs San Diego Padres",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 00:40:00 +0000",
-        "endTime": "2026/04/23 03:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49444/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1351,43 +1252,6 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX MLB",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "399",
-      "title": "Dodgers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Giants",
-        "teamB": "Dodgers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3634/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3638/image",
-        "eventName": "San Francisco Giants vs Los Angeles Dodgers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 01:45:00 +0000",
-        "endTime": "2026/04/23 04:35:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49450/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edgestreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1486,335 +1350,288 @@
       ]
     },
     {
-      "id": "401",
-      "title": "Real Salt Lake vs Inter Miami",
-      "image": "o",
-      "cat": "MLS 🇺🇸",
-      "eventInfo": {
-        "teamA": "Salt Lake",
-        "teamB": "Inter Miami",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5133/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/337602/image",
-        "eventName": "Real Salt Lake vs Inter Miami",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 01:30:00 +0000",
-        "endTime": "2026/04/23 03:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "MLS TV HD",
-        "APPLE+ TV",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49441/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "MLS TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_mls_salt-lake-inter-miami-live-streaming-1118068812&streamNo=1",
-          "title": "APPLE+ TV",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343373.m3u8?txSecret=f097074c2a4f6a1189fea3b3e652f418&txTime=69E96195|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "402",
-      "title": "Atlas FC vs Tigres UANL",
+      "title": "Levante UD vs Sevilla",
       "image": "o",
-      "cat": "Liga MX",
+      "cat": "LaLiga 🇪🇸",
       "eventInfo": {
-        "teamA": "Atlas ",
-        "teamB": "Tigres",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1949/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1940/image",
-        "eventName": "Atlas FC vs Tigres UANL",
+        "teamA": "Levante",
+        "teamB": "Sevilla",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2849/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2833/image",
+        "eventName": "Levante UD vs Sevilla",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/23 01:00:00 +0000",
-        "endTime": "2026/04/23 03:00:00 +0000"
+        "startTime": "2026/04/23 17:00:00 +0000",
+        "endTime": "2026/04/23 19:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TUDN USA HD",
-        "SportzX Live"
+        "beIN ENGLISH FHD",
+        "PREMIER SPORTS",
+        "Laliga TV FHD"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://futbol9865.ultratv13.workers.dev/deportivo111/68.m3u8",
-          "title": "TUDN USA HD",
-          "type": "0"
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
         },
         {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4465556.m3u8?txSecret=bdc197d25629dd30c4d5da615b419881&txTime=69E99E78|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
         }
       ]
     },
     {
       "id": "403",
-      "title": "San Luis vs Santos Laguna",
+      "title": "Real Oviedo vs Villarreal",
       "image": "o",
-      "cat": "Liga MX",
+      "cat": "LaLiga 🇪🇸",
       "eventInfo": {
-        "teamA": "San Luis",
-        "teamB": "Santos",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1950/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1948/image",
-        "eventName": "Atlético San Luis vs Santos Laguna",
+        "teamA": "Real Oviedo",
+        "teamB": "Villarreal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2851/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+        "eventName": "Real Oviedo vs Villarreal",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/23 01:00:00 +0000",
-        "endTime": "2026/04/23 03:00:00 +0000"
+        "startTime": "2026/04/23 19:30:00 +0000",
+        "endTime": "2026/04/23 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
-        "ESPN MX HD"
+        "beIN ENGLISH FHD",
+        "PREMIER SPORTS",
+        "Laliga TV FHD"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4465551.m3u8?txSecret=623112a545818979f675eed8421ef59a&txTime=69E99EA2|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
+          "type": "1"
         },
         {
-          "api": null,
-          "link": "https://futbol9865.ultratv13.workers.dev/deportivo111/97.m3u8",
-          "title": "ESPN MX HD",
-          "type": "0"
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
         }
       ]
     },
     {
       "id": "404",
-      "title": "Mazatlan vs Toluca",
+      "title": "Rayo Vallecano vs Espanyol",
       "image": "o",
-      "cat": "Liga MX",
+      "cat": "LaLiga 🇪🇸",
       "eventInfo": {
-        "teamA": "Mazatlán ",
-        "teamB": "Toluca",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1946/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-        "eventName": "Mazatlán FC vs CD Toluca",
+        "teamA": "Rayo Vallecano",
+        "teamB": "Espanyol",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2818/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2814/image",
+        "eventName": "Rayo Vallecano vs Espanyol",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/23 01:00:00 +0000",
-        "endTime": "2026/04/23 03:00:00 +0000"
+        "startTime": "2026/04/23 18:00:00 +0000",
+        "endTime": "2026/04/23 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Azteca 7 MX",
-        "SportzX Live"
+        "Laliga TV FHD"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://futbol9865.ultratv13.workers.dev/deportivo111/108.m3u8",
-          "title": "Azteca 7 MX",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4465564.m3u8?txSecret=25e419d18ade761f5b2897d50c1a3689&txTime=69E99EC8|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
         }
       ]
     },
     {
       "id": "405",
-      "title": "Atalanta vs Lazio",
+      "title": "VfB Stuttgart vs SC Freiburg",
       "image": "o",
-      "cat": "Coppa Italia 🇮🇹",
+      "cat": "DFB Pokal",
       "eventInfo": {
-        "teamA": "Atalanta",
-        "teamB": "Lazio",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2686/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2699/image",
-        "eventName": "Atalanta vs Lazio",
+        "teamA": "Stuttgart",
+        "teamB": "Freiburg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2677/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2538/image",
+        "eventName": "VfB Stuttgart vs SC Freiburg",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 19:00:00 +0000",
-        "endTime": "2026/04/22 21:00:00 +0000"
+        "startTime": "2026/04/23 18:45:00 +0000",
+        "endTime": "2026/04/23 20:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FUBO SPORTS",
-        "PARAMOUNT+ HD",
-        "Italia 1 IT",
-        "SportzX Live",
-        "SPX HD SERVER"
+        "ESPN DEPORTES"
       ],
       "channels": [
         {
-          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
-          "title": "FUBO SPORTS",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49398/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": "00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587",
-          "link": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest_hr.mpd",
-          "title": "Italia 1 IT",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4496936.m3u8?txSecret=e150d99aaf6a3662b30d5109b35dc90a&txTime=69E962C3|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=atalanta-vs-lazio-football-1522480&streamNo=1",
-          "title": "SPX HD SERVER",
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "ESPN DEPORTES",
           "type": "0"
         }
       ]
     },
     {
       "id": "406",
-      "title": "Strasbourg vs Nice",
+      "title": "GA Eagles vs AZ Alkmaar",
       "image": "o",
-      "cat": "Coupe de France 🇫🇷",
+      "cat": "Eredivisie",
       "eventInfo": {
-        "teamA": "Strasbourg",
-        "teamB": "Nice",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1659/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-        "eventName": "RC Strasbourg vs Nice",
+        "teamA": "GA Eagles",
+        "teamB": "AZ",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "eventName": "GA Eagles vs AZ Alkmaar",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 19:00:00 +0000",
-        "endTime": "2026/04/22 21:00:00 +0000"
+        "startTime": "2026/04/23 16:45:00 +0000",
+        "endTime": "2026/04/23 18:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD",
-        "FOX DEPORTES",
-        "HD SERVER",
-        "SportzX Live"
+        "ESPN NL SD"
       ],
       "channels": [
         {
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://daffodil.marllonferreira.space/fs2.m3u8",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4509598.m3u8?txSecret=1b1736f5b533763abaedc3c178db6f6e&txTime=69E96358|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "ESPN NL SD",
           "type": "0"
         }
       ]
     },
     {
       "id": "407",
-      "title": "PSG vs Nantes",
+      "title": "PSV Eindhoven vs PEC Zwolle",
       "image": "o",
-      "cat": "Ligue 1 🇫🇷",
+      "cat": "Eredivisie",
       "eventInfo": {
-        "teamA": "PSG",
-        "teamB": "Nantes",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1644/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1647/image",
-        "eventName": "PSG vs Nantes",
+        "teamA": "PSV",
+        "teamB": "Zwolle",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+        "eventName": "PSV Eindhoven vs PEC Zwolle",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 17:00:00 +0000",
-        "endTime": "2026/04/22 19:00:00 +0000"
+        "startTime": "2026/04/23 19:00:00 +0000",
+        "endTime": "2026/04/23 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN SPORTS USA",
-        "SportzX Live",
-        "HD SERVER",
-        "LIGUE1+ FHD"
+        "PREMIER SPORTS"
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Torreense vs AD Fafe",
+      "image": "o",
+      "cat": "Taça de Portugal",
+      "eventInfo": {
+        "teamA": "Torreense",
+        "teamB": "AD Fafe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/25787/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/45146/image",
+        "eventName": "Torreense vs AD Fafe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/23 19:45:00 +0000",
+        "endTime": "2026/04/23 21:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=paris-saint-germain-vs-nantes-football-1387929&streamNo=1",
-          "title": "beIN SPORTS USA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347911.m3u8?txSecret=3fd02b7a25dd741a37533b21e791f278&txTime=69E93D94|Referer=https://player.787200.com/",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=paris-saint-germain-vs-nantes-football-1387929&streamNo=2",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fligue1%2F2026-04-22%2Fpsg-nan",
-          "title": "LIGUE1+ FHD",
           "type": "0"
         }
       ]
     },
     {
       "id": "409",
-      "title": "Galatasaray vs Gençlerbirliği",
+      "title": "Al-Hilal vs Al-Kholood",
+      "image": "o",
+      "cat": "Kings Cup",
+      "eventInfo": {
+        "teamA": "Al-Hilal",
+        "teamB": "Al-Kholood",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/269199/image",
+        "eventName": "Al-Hilal vs Al-Kholood",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/23 18:00:00 +0000",
+        "endTime": "2026/04/23 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Samsunspor vs Trabzonspor",
       "image": "o",
       "cat": "Türkiye Kupası",
       "eventInfo": {
-        "teamA": "Galatasaray",
-        "teamB": "Gençlerbirliği",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
-        "eventName": "Galatasaray vs Gençlerbirliği",
+        "teamA": "Samsunspor",
+        "teamB": "Trabzonspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3053/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "eventName": "Samsunspor vs Trabzonspor",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 17:30:00 +0000",
-        "endTime": "2026/04/22 19:30:00 +0000"
+        "startTime": "2026/04/23 15:45:00 +0000",
+        "endTime": "2026/04/23 17:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1832,401 +1649,31 @@
     },
     {
       "id": "411",
-      "title": "Telstar vs Sparta Rotterdam",
+      "title": "Beşiktaş JK vs Alanyaspor",
       "image": "o",
-      "cat": "Eredivisie",
+      "cat": "Türkiye Kupası",
       "eventInfo": {
-        "teamA": "Telstar",
-        "teamB": "Sparta",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2972/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
-        "eventName": "Telstar vs Sparta Rotterdam",
+        "teamA": "Beşiktaş",
+        "teamB": "Alanyaspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6362/image",
+        "eventName": "Beşiktaş JK vs Alanyaspor",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/22 18:00:00 +0000",
-        "endTime": "2026/04/22 20:00:00 +0000"
+        "startTime": "2026/04/23 17:45:00 +0000",
+        "endTime": "2026/04/23 19:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
-        "ESPN NL"
+        "SportDigital Fussball"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4344769.m3u8?txSecret=babe1b78dc2a3457256a3f4a4150e305&txTime=69E950BA|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/DzazxOvS3QE1/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "ESPN NL",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "412",
-      "title": "FC Porto vs Sporting CP",
-      "image": "o",
-      "cat": "Taça de Portugal",
-      "eventInfo": {
-        "teamA": "Porto",
-        "teamB": "Sporting",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
-        "eventName": "FC Porto vs Sporting CP",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 19:45:00 +0000",
-        "endTime": "2026/04/22 21:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN SPORTS USA",
-        "Sport TV HD",
-        "N SPORTS"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/beinsports.m3u8",
-          "title": "beIN SPORTS USA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fc-porto-vs-sporting-cp-football-1519499&streamNo=1",
-          "title": "Sport TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=16337",
-          "title": "N SPORTS",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Bahia vs Remo",
-      "image": "o",
-      "cat": "Copa do Brasil",
-      "eventInfo": {
-        "teamA": "Bahia",
-        "teamB": "Remo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1955/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2012/image",
-        "eventName": "Bahia vs Remo",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 22:00:00 +0000",
-        "endTime": "2026/04/23 00:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIERER BR"
-      ],
-      "channels": [
-        {
-          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "title": "PREMIERER BR",
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "414",
-      "title": "Flamengo vs Vitória",
-      "image": "o",
-      "cat": "Copa do Brasil",
-      "eventInfo": {
-        "teamA": "Flamengo",
-        "teamB": "Vitória",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1962/image",
-        "eventName": "Flamengo vs Vitória",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 00:30:00 +0000",
-        "endTime": "2026/04/23 02:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIERER BR",
-        "SporTV BR"
-      ],
-      "channels": [
-        {
-          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "title": "PREMIERER BR",
-          "type": "1"
-        },
-        {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-          "title": "SporTV BR",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "415",
-      "title": "Santos vs Coritiba",
-      "image": "o",
-      "cat": "Copa do Brasil",
-      "eventInfo": {
-        "teamA": "Santos",
-        "teamB": "Coritiba",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1968/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
-        "eventName": "Santos vs Coritiba",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 22:30:00 +0000",
-        "endTime": "2026/04/23 00:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PRIME VIDEO"
-      ],
-      "channels": [
-        {
-          "api": "51394da99a5b49d25f253ccc87e0e045:fba4ac0c7199ed634e69820277cb5092",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rqinjldrpp/out/v1/bf6c4f84f1fe4a1b850e19a0c9d16e8f/cenc.mpd",
-          "title": "PRIME VIDEO",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "422",
-      "title": "Detroit Tigers vs Milwaukee Brewers",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Tigers",
-        "teamB": "Brewers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3648/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3630/image",
-        "eventName": "Detroit Tigers vs Milwaukee Brewers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 22:40:00 +0000",
-        "endTime": "2026/04/23 01:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49414/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "423",
-      "title": "Washington Nationals vs Atlanta Braves",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Nationals",
-        "teamB": "Braves",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5930/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3656/image",
-        "eventName": "Washington Nationals vs Atlanta Braves",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 22:45:00 +0000",
-        "endTime": "2026/04/23 01:35:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49416/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "424",
-      "title": "Red Sox vs New York Yankees",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Red Sox",
-        "teamB": "Yankees",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3654/image",
-        "eventName": "Boston Red Sox vs New York Yankees",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 22:45:00 +0000",
-        "endTime": "2026/04/23 01:35:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49418/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "425",
-      "title": "Mets vs Minnesota Twins",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Mets",
-        "teamB": "Twins",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3649/image",
-        "eventName": "New York Mets vs Minnesota Twins",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 23:10:00 +0000",
-        "endTime": "2026/04/23 02:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49425/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edgestreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "426",
-      "title": "Chicago Cubs vs Philadelphia Phillies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cubs",
-        "teamB": "Phillies",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3635/image",
-        "eventName": "Chicago Cubs vs Philadelphia Phillies",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/22 23:40:00 +0000",
-        "endTime": "2026/04/23 02:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49429/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "427",
-      "title": "Texas Rangers vs Pittsburgh Pirates",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Rangers",
-        "teamB": "Pirates",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3647/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3637/image",
-        "eventName": "Texas Rangers vs Pittsburgh Pirates",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/23 00:05:00 +0000",
-        "endTime": "2026/04/23 02:55:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49435/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
         }
       ]
     }
