@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 45,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -388,7 +388,8 @@
       "publish": "1",
       "formats": [
         "SportzX WWE",
-        "USA TV HD",
+        "WWE LIVE FHD",
+        "WWE LIVE SD",
         "SportzX Live",
         "Backup HD",
         "Backup SD",
@@ -398,14 +399,20 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49099/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49497/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX WWE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://daffodil.underupturnip.net/usa.m3u8",
-          "title": "USA TV HD",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-wwe-friday-night-smackdown&streamNo=1",
+          "title": "WWE LIVE FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-wwe-friday-night-smackdown&streamNo=3",
+          "title": "WWE LIVE SD",
           "type": "0"
         },
         {
@@ -555,8 +562,8 @@
         "eventName": "Bangladesh vs New Zealand",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/23 05:00:00 +0000",
-        "endTime": "2026/04/23 11:55:00 +0000"
+        "startTime": "2026/04/27 08:00:00 +0000",
+        "endTime": "2026/04/27 11:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -587,20 +594,83 @@
       ]
     },
     {
+      "id": "359",
+      "title": "NFL DRAFT",
+      "image": "o",
+      "cat": "NFL",
+      "eventInfo": {
+        "teamA": "NFL",
+        "teamB": "NFL",
+        "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+        "eventName": "NFL DRAFT",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/24 23:00:00 +0000",
+        "endTime": "2026/04/25 03:30:00 +0000"
+      },
+      "adsLimit": "8",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "ESPN HD",
+        "NFL NETWORK",
+        "NFL LIVE FHD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://red9.lumenlyra.space/playlist/38289/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "Redzone Week 15",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://gg.poocloud.in/redzone/tracks-v1a1/mono.ts.m3u8?|Referer=https://ppv.to/&Origin=https://ppv.to",
+          "title": "Sportzx NFL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NFLHD1/index.m3u8?|Referer=https://arizonaplay.club/&Origin=https://arizonaplay.club",
+          "title": "NFL Konferenz",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://loveliness.wnion.co.in/redzone.m3u8",
+          "title": "SportzX TV+",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Low",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.webcastserver.online/newz/newz/196.m3u8?|Referer=https://slapstreams.com/",
+          "title": "HD Server",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "366",
       "title": "IPL - 01",
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "RCB",
-        "teamB": "GT",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187843/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/216006/image",
-        "eventName": "Royal Challengers Bengaluru vs Gujarat Titans",
+        "teamA": "DC",
+        "teamB": "PBKS",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187841/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187776/image",
+        "eventName": "Delhi Capitals vs Punjab Kings",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/24 14:00:00 +0000",
-        "endTime": "2026/04/24 17:45:00 +0000"
+        "startTime": "2026/04/25 10:00:00 +0000",
+        "endTime": "2026/04/25 13:45:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -701,20 +771,106 @@
       ]
     },
     {
+      "id": "367",
+      "title": "IPL - 02",
+      "image": "o",
+      "cat": "Indian Premier League",
+      "eventInfo": {
+        "teamA": "RR",
+        "teamB": "SRH",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187842/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187844/image",
+        "eventName": "Rajasthan Royals vs Sunrisers Hyderabad",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:00:00 +0000",
+        "endTime": "2026/04/25 17:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "WILLOW ENG - AQ",
+        "SKY CRIC HD",
+        "FOX CRICKET HD",
+        "SKY CRICKET",
+        "STAR IN [ENG]",
+        "STAR IN [HIN]",
+        "STAR IN [TAM]",
+        "STAR IN [TEL]",
+        "SD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "660b12ab9ff8f5d7a9c9e87d2cd0ac3a:562d1d0574a3d3ea6a85e2500867d4dd",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqeiuwqk87/out/v1/4aacfa3131784ba886ebb2d520581f01/cenc.mpd",
+          "title": "WILLOW ENG - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://vsd273.okcdn.ru/cmaf/15486383098623/sig/12CtEuwN3v8/expires/1776947340856/srcIp/152.59.145.24/urls/185.226.55.89/clientType/36/srcAg/CHROME/mid/14109681141759/get/hls_14109681141759.wzcVJYGf6DI.m3u8",
+          "title": "SKY CRIC HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lchd-314.zenostreams-cdn-001.com/fox501.m3u8",
+          "title": "FOX CRICKET HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "title": "SKY CRICKET",
+          "type": "0"
+        },
+        {
+          "api": "965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [TAM]",
+          "type": "1"
+        },
+        {
+          "api": "49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [TEL]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://z.ukurvf.shop/hls/YIIIQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "368",
       "title": "PSL 01",
       "image": "o",
       "cat": "PSL",
       "eventInfo": {
-        "teamA": "HYK",
-        "teamB": "ISL",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/212416/image",
-        "eventName": "Hyderabad Kingsmen vs Islamabad United",
+        "teamA": "QUE",
+        "teamB": "KAR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212417/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/212418/image",
+        "eventName": "Quetta Gladiators vs Karachi Kings",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/24 14:00:00 +0000",
-        "endTime": "2026/04/24 17:45:00 +0000"
+        "startTime": "2026/04/25 09:30:00 +0000",
+        "endTime": "2026/04/25 13:15:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -767,6 +923,92 @@
       ]
     },
     {
+      "id": "370",
+      "title": "PSL 02",
+      "image": "o",
+      "cat": "PSL",
+      "eventInfo": {
+        "teamA": "LAH",
+        "teamB": "PES",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212419/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/212420/image",
+        "eventName": "Lahore Qalandars vs Peshawar Zalmi",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:00:00 +0000",
+        "endTime": "2026/04/25 17:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "WILLOW FHD",
+        "TAPMAD ENG",
+        "TAPMAD URDU",
+        "MyCo ENG [PAK]",
+        "MyCo URDU [PAK]",
+        "SD SERVER",
+        "PSL ENG - PAK",
+        "PSL Urdu - PK",
+        "TAMASHA - PAK"
+      ],
+      "channels": [
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-P2s6L_9a5s8d2f5/master.m3u8",
+          "title": "TAPMAD ENG",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_P2U8B2G5T6/master.m3u8",
+          "title": "TAPMAD URDU",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://ml-pull-rtmp-pk1.myco.io/English/hls/index/clean.m3u8|referer=https://myco.io",
+          "title": "MyCo ENG [PAK]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://ml-pull-rtmp-pk1.myco.io/Urdudirty/hls/index/urdudirty.m3u8|referer=https://myco.io",
+          "title": "MyCo URDU [PAK]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://93.123.109.249/hls/vavavaQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://psl.bigbaat.app/out/v1/f342445c31dd475bbf30c7304dbad14f/index.m3u8",
+          "title": "PSL ENG - PAK",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pslurdu.bigbaat.app/out/v1/0ef369b90c7b4025b76621e46ee5fb70/index.m3u8",
+          "title": "PSL Urdu - PK",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://tencentcdn7.tamashaweb.com/v1/019beffa3f101567ee93346674d021/019bff96b0e415fc600b1b67f81951/TMSH_APP2_DIRTY.m3u8",
+          "title": "TAMASHA - PAK",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "372",
       "title": "Bangladesh W vs Sri Lanka W",
       "image": "o",
@@ -776,7 +1018,7 @@
         "teamB": "SL-W",
         "teamAFlag": "https://img.sofascore.com/api/v1/team/187809/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187806/image",
-        "eventName": "Bangladesh Women vs Sri Lanka Women",
+        "eventName": "Bangladesh W vs Sri Lanka W",
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/04/25 03:30:00 +0000",
@@ -838,7 +1080,7 @@
         "TSN SPORTS HD",
         "SportzX NBA",
         "NBA LIVE FHD",
-        "PRO SERVER FHD",
+        "NBA LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -857,21 +1099,21 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49474/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49504/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://sportsembed.su/embed/401869389/atlanta-hawks-new-york-knicks/prime/1",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-boston-celtics-vs-philadelphia-76-ers&streamNo=1",
           "title": "NBA LIVE FHD",
-          "type": "2"
+          "type": "0"
         },
         {
           "api": null,
-          "link": "https://sportsembed.su/embed/401869389/atlanta-hawks-new-york-knicks/pro/1",
-          "title": "PRO SERVER FHD",
-          "type": "2"
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nba_76ers-celtics-live-streaming-1276315407&streamNo=1",
+          "title": "NBA LIVE HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -906,22 +1148,22 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS FHD",
         "SportzX NBA",
-        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49479/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://602.marllonferreira.space/nba2.m3u8",
-          "title": "NBA LIVE FHD",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-los-angeles-lakers-vs-houston-rockets&streamNo=1",
+          "title": "SportzX NBA",
           "type": "0"
         },
         {
@@ -965,20 +1207,20 @@
       ],
       "channels": [
         {
-          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS - AQ",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49482/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-san-antonio-spurs-vs-portland-trail-blazers&streamNo=1",
           "title": "SportzX NBA",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nba_timberwolves-nuggets-live-streaming-1275426297&streamNo=1",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-24%2Fsa-por",
           "title": "SPX NBA LIVE",
           "type": "0"
         },
@@ -992,36 +1234,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "383",
-      "title": "Al-Fateh vs Al-Khaleej",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Fateh",
-        "teamB": "Al-Khaleej",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/56023/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/167228/image",
-        "eventName": "Al-Fateh vs Al-Khaleej",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/24 15:45:00 +0000",
-        "endTime": "2026/04/24 17:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404637.m3u8?txSecret=7e678ee381c8fc4b2c81fd1c0da66d45&txTime=69EBD675|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1077,6 +1289,7 @@
       "formats": [
         "PREMIER SPORTS",
         "SportzX NHL",
+        "NHL LIVE FHD",
         "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
@@ -1090,13 +1303,19 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49472/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49505/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NHL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-23%2Fbuf-bos",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-tampa-bay-lightning-vs-montreal-canadiens&streamNo=1",
+          "title": "NHL LIVE FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nhl-playoffs_canadiens-lightning-live-streaming-1272320406&streamNo=1",
           "title": "NHL LIVE HD",
           "type": "0"
         },
@@ -1134,29 +1353,29 @@
       "publish": "1",
       "formats": [
         "SportzX NHL",
+        "NHL LIVE SD",
         "NHL LIVE HD",
-        "NHL LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49477/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-vegas-golden-knights-vs-utah-mammoth&streamNo=1",
           "title": "SportzX NHL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_nhl-playoffs_senators-hurricanes-live-streaming-1272321405&streamNo=1",
-          "title": "NHL LIVE HD",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-vegas-golden-knights-vs-utah-mammoth&streamNo=3",
+          "title": "NHL LIVE SD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://sportsembed.su/embed/401869783/ottawa-senators-carolina-hurricanes/pro/1",
-          "title": "NHL LIVE FHD",
-          "type": "2"
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-24%2Fvgk-uta",
+          "title": "NHL LIVE HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -1206,13 +1425,13 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49483/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-edmonton-oilers-vs-anaheim-ducks&streamNo=1",
           "title": "SportzX NHL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=los-angeles-kings-vs-colorado-avalanche-hockey-424267&streamNo=1",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-edmonton-oilers-vs-anaheim-ducks&streamNo=2",
           "title": "NHL LIVE FHD",
           "type": "0"
         },
@@ -1255,7 +1474,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49444/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-seattle-mariners-vs-st-louis-cardinals&streamNo=1",
           "title": "SportzX MLB",
           "type": "0"
         },
@@ -1292,7 +1511,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49449/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-miami-marlins-vs-san-francisco-giants&streamNo=1",
           "title": "SportzX MLB",
           "type": "0"
         },
@@ -1329,7 +1548,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49450/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-chicago-cubs-vs-los-angeles-dodgers&streamNo=1",
           "title": "SportzX MLB",
           "type": "0"
         },
@@ -1900,9 +2119,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49502/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-detroit-tigers-vs-cincinnati-reds&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1913,26 +2146,40 @@
     },
     {
       "id": "412",
-      "title": "Cincinnati Reds vs Detroit Tigers",
+      "title": "Baltimore Orioles vs Red Sox",
       "image": "o",
       "cat": "MLB",
       "eventInfo": {
-        "teamA": "Reds",
-        "teamB": "Tigers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3633/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
-        "eventName": "Cincinnati Reds vs Detroit Tigers",
+        "teamA": "Orioles",
+        "teamB": "Red Sox",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3652/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "eventName": "Baltimore Orioles vs Boston Red Sox",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/24 22:40:00 +0000",
-        "endTime": "2026/04/25 01:30:00 +0000"
+        "startTime": "2026/04/24 23:05:00 +0000",
+        "endTime": "2026/04/25 01:55:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49510/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-boston-red-sox-vs-baltimore-orioles&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1960,9 +2207,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49507/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-cleveland-guardians-vs-toronto-blue-jays&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1990,9 +2251,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-colorado-rockies-vs-new-york-mets&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2020,9 +2288,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TNT SPORTS FHD",
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-minnesota-twins-vs-tampa-bay-rays&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2050,9 +2332,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-philadelphia-phillies-vs-atlanta-braves&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2080,9 +2369,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-washington-nationals-vs-chicago-white-sox&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2110,9 +2406,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-los-angeles-angels-vs-kansas-city-royals&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2140,9 +2443,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-pittsburgh-pirates-vs-milwaukee-brewers&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2170,9 +2480,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-athletics-vs-texas-rangers&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2200,9 +2517,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-new-york-yankees-vs-houston-astros&streamNo=1",
+          "title": "MLB LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
