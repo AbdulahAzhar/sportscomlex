@@ -1362,8 +1362,10 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
+        "USA TV HD",
         "HUB PREMIER HD",
-        "SportzX Live"
+        "SportzX Live",
+        "USA NETWORK"
       ],
       "channels": [
         {
@@ -1380,6 +1382,12 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49493/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-1/index.m3u8",
           "title": "HUB PREMIER HD",
           "type": "0"
@@ -1388,6 +1396,12 @@
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4343383.m3u8?txSecret=aa6babf037888b7fef84fa0fb71b16c3&txTime=69E95F9B|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_premier-league_sunderland-forest-live-streaming-1095167736&streamNo=1",
+          "title": "USA NETWORK",
           "type": "0"
         }
       ]
@@ -1413,6 +1427,8 @@
       "formats": [
         "TNT SPORTS FHD",
         "FOX DEPORTES",
+        "PARAMOUNT+ HD",
+        "DAZN IT HD",
         "SportzX Live",
         "TNT SPORTS HD"
       ],
@@ -1428,6 +1444,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49490/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lb2.wfty.wtf/playlist/f87e7075dfb5f7db9bf70a88d1baf49f/easy/napoli-cremonese/2/737116/playlist.m3u8|Referer=https://sportsembed.su/",
+          "title": "DAZN IT HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -1463,6 +1491,7 @@
       "publish": "1",
       "formats": [
         "SKY BUNDESLIGA HD",
+        "Bundesliga HD",
         "SportzX Live",
         "SKY BUNDESLIGA SD"
       ],
@@ -1471,6 +1500,12 @@
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=rb-leipzig-vs-union-berlin-football-1388584&streamNo=1",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49489/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "Bundesliga HD",
           "type": "0"
         },
         {
