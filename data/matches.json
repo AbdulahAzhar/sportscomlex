@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 46,
   "results": [
     {
       "id": "312",
@@ -607,7 +607,7 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/04/24 23:00:00 +0000",
-        "endTime": "2026/04/25 03:30:00 +0000"
+        "endTime": "2026/04/25 03:55:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -615,7 +615,9 @@
         "TSN SPORTS FHD",
         "ESPN HD",
         "NFL NETWORK",
-        "NFL LIVE FHD"
+        "NFL LIVE FHD",
+        "NFL LIVE HD",
+        "ESPN LIVE HD"
       ],
       "channels": [
         {
@@ -1234,36 +1236,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "384",
-      "title": "Al-Hazem vs Al-Riyadh",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Hazem",
-        "teamB": "Al-Riyadh",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/168086/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/168088/image",
-        "eventName": "Al-Hazem vs Al-Riyadh",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/24 16:10:00 +0000",
-        "endTime": "2026/04/24 18:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404662.m3u8?txSecret=65bc677b7b0c18c02315d8e7990523d6&txTime=69EBDB96|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
