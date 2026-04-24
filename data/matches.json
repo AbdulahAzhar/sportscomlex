@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 27,
+  "total_events": 25,
   "results": [
     {
       "id": "312",
@@ -587,71 +587,6 @@
       ]
     },
     {
-      "id": "359",
-      "title": "NFL DRAFT",
-      "image": "o",
-      "cat": "NFL",
-      "eventInfo": {
-        "teamA": "NFL",
-        "teamB": "NFL",
-        "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-        "eventName": "NFL DRAFT",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/24 00:00:00 +0000",
-        "endTime": "2026/04/24 04:00:00 +0000"
-      },
-      "adsLimit": "8",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "2026 NFL Draft on ABC",
-        "ESPN HD",
-        "NFL NETWORK",
-        "TSN SPORTS HD",
-        "DELTA STREAM"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://red9.lumenlyra.space/playlist/38289/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "Redzone Week 15",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://gg.poocloud.in/redzone/tracks-v1a1/mono.ts.m3u8?|Referer=https://ppv.to/&Origin=https://ppv.to",
-          "title": "Sportzx NFL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NFLHD1/index.m3u8?|Referer=https://arizonaplay.club/&Origin=https://arizonaplay.club",
-          "title": "NFL Konferenz",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://loveliness.wnion.co.in/redzone.m3u8",
-          "title": "SportzX TV+",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Low",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.webcastserver.online/newz/newz/196.m3u8?|Referer=https://slapstreams.com/",
-          "title": "HD Server",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "366",
       "title": "IPL - 01",
       "image": "o",
@@ -1014,64 +949,6 @@
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4404633.m3u8?txSecret=a0c91d4328647408baf5620cadfb6fe9&txTime=69EAA42A|Referer=https://player.787200.com/",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "388",
-      "title": "Los Angeles Kings",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Kings",
-        "teamB": "Avalanche",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3688/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
-        "eventName": "Los Angeles Kings vs Colorado Avalanche",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/24 02:00:00 +0000",
-        "endTime": "2026/04/24 04:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIER SPORTS",
-        "SportzX NHL",
-        "NHL LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49483/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=los-angeles-kings-vs-colorado-avalanche-hockey-424267&streamNo=1",
-          "title": "NHL LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
           "type": "0"
         }
       ]
