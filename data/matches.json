@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 44,
+  "total_events": 45,
   "results": [
     {
       "id": "312",
@@ -1402,6 +1402,64 @@
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_premier-league_sunderland-forest-live-streaming-1095167736&streamNo=1",
           "title": "USA NETWORK",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "title": "Real Betis vs Real Madrid",
+      "image": "o",
+      "cat": "LaLiga 🇪🇸",
+      "eventInfo": {
+        "teamA": "Real Betis",
+        "teamB": "Real Madrid",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2816/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+        "eventName": "Real Betis vs Real Madrid",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/24 19:00:00 +0000",
+        "endTime": "2026/04/24 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "Premier Sports",
+        "Laliga TV FHD",
+        "FANCODE FHD",
+        "ESPN DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "Premier Sports",
+          "type": "1"
+        },
+        {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49491/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "ESPN DEPORTES",
           "type": "0"
         }
       ]
