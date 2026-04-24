@@ -1050,7 +1050,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404633.m3u8?txSecret=a0c91d4328647408baf5620cadfb6fe9&txTime=69EAA42A|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404662.m3u8?txSecret=65bc677b7b0c18c02315d8e7990523d6&txTime=69EBDB96|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1448,6 +1448,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY BUNDESLIGA HD",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
@@ -1478,13 +1479,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "beIN SPORTS HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=stade-brestois-29-vs-lens-football-1387969&streamNo=1",
+          "title": "beIN SPORTS HD",
           "type": "0"
         }
       ]
@@ -1568,9 +1569,30 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "beIN SPORTS HD",
+        "SportzX TV+ HD",
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=basaksehir-vs-kasimpasa-football-1394704&streamNo=1",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lb1.wfty.wtf/playlist/ab1da2b45d25773c6007d5d4753a45c6/prime/istanbul-basaksehir-kasimpasa/1/750194/playlist.m3u8|Referer=https://sportsembed.su/",
+          "title": "SportzX TV+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4366097.m3u8?txSecret=aec43e4642624db560a768eaa47937f4&txTime=69EBDF0D|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8|referer=https://hardsmart.click/",
@@ -1598,9 +1620,37 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY BUNDESLIGA",
+        "SKY BUNDESLIGA FHD",
+        "Nova SPORTS HD",
+        "SportzX Live",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=1-fc-kaiserslautern-vs-eintracht-braunschweig-football-1388888&streamNo=1",
+          "title": "SKY BUNDESLIGA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lb3.wfty.wtf/playlist/7b60ce809d585dafe63d332fb096eeac/easy/kaiserslautern-tsv-eintracht-braunschweig/2/747294/playlist.m3u8|Referer=https://sportsembed.su/",
+          "title": "SKY BUNDESLIGA FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lb5.wfty.wtf/playlist/0f8008d24251cedeba21e51795c5da36/prime/kaiserslautern-tsv-eintracht-braunschweig/2/747294/playlist.m3u8|Referer=https://sportsembed.su/",
+          "title": "Nova SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4355833.m3u8?txSecret=51678970006dd4e02a99bf52ddc69fb1&txTime=69EBDE7F|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
@@ -1628,9 +1678,30 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY BUNDESLIGA",
+        "SKY BUNDESLIGA HD",
+        "SportzX Live",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fortuna-dusseldorf-vs-dynamo-dresden-football-1388886&streamNo=1",
+          "title": "SKY BUNDESLIGA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://lb1.wfty.wtf/playlist/1ae1c6b69bf6f39b487ef36c01387657/easy/fortuna-dusseldorf-dynamo-dresden/1/747296/playlist.m3u8|Referer=https://sportsembed.su/",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4355831.m3u8?txSecret=470b5b7506e6d6857452ec0c33c2636e&txTime=69EBDD5A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
