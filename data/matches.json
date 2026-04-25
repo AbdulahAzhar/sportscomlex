@@ -1974,57 +1974,6 @@
       ]
     },
     {
-      "id": "409",
-      "title": "Parma vs Pisa",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Parma",
-        "teamB": "Pisa",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2690/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2737/image",
-        "eventName": "Parma vs Pisa",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:00:00 +0000",
-        "endTime": "2026/04/25 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FOX DEPORTES",
-        "PARAMOUNT+ HD",
-        "HD SERVER",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-parma-vs-pisa&streamNo=1",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49542/load-playlist|Referer=https://gooz.aapmains.net/",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4339732.m3u8?txSecret=53469e543ea3c7a52a28c3f6986665fa&txTime=69ED0186|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "410",
       "title": "Bologna vs Roma",
       "image": "o",
@@ -2043,14 +1992,42 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX TV+ FHD",
+        "beIN SPORTS HD",
+        "PARAMOUNT+ FHD",
+        "HD SERVER",
+        "DAZN SPOTS IT",
+        "SportzX Live",
         "ZIGGO SPORT"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://daffodil.simpleabigal.xyz/bein.m3u8",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-bologna-vs-as-roma&streamNo=1",
-          "title": "SportzX TV+ FHD",
+          "title": "PARAMOUNT+ FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49561/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPOTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339721.m3u8?txSecret=c17274e93200537c2a6c8b21aabe650e&txTime=69ED2C5A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
@@ -2106,282 +2083,6 @@
       ]
     },
     {
-      "id": "412",
-      "title": "Mainz 05 vs Bayern München",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Mainz 05",
-        "teamB": "Bayern",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2556/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-        "eventName": "Mainz 05 vs Bayern München",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:30:00 +0000",
-        "endTime": "2026/04/25 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SporTV BR",
-        "Bundesliga HD",
-        "SportzX TV+ FHD",
-        "SPX - HD SERVER",
-        "SKY BUNDESLIGA SD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-          "title": "SporTV BR",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49545/load-playlist|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-mainz-vs-bayern-munich&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fsv-mainz-05-vs-bayern-munchen-football-1388583&streamNo=1",
-          "title": "SPX - HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347618.m3u8?txSecret=abe09b29c21a6a5fdb8926fbdc7d9c12&txTime=69ED062F|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Köln vs Bayer Leverkusen",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Köln",
-        "teamB": "Leverkusen",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-        "eventName": "Köln vs Bayer Leverkusen",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:30:00 +0000",
-        "endTime": "2026/04/25 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-fc-cologne-vs-bayer-leverkusen&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347656.m3u8?txSecret=7430b99fdf43e0bf16ae1b697430440f&txTime=69ED068F|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "414",
-      "title": "Heidenheim vs St. Pauli",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Heidenheim",
-        "teamB": "St. Pauli",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2526/image",
-        "eventName": "Heidenheim vs St. Pauli",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:30:00 +0000",
-        "endTime": "2026/04/25 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD",
-        "SportzX TV+ FHD",
-        "PREMIER SPORTS HD",
-        "SKY BUNDESLIGA SD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49546/load-playlist|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-1-fc-heidenheim-1846-vs-st-pauli&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_bundesliga_heidenheim-st-pauli-live-streaming-1095170733&streamNo=1",
-          "title": "PREMIER SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347657.m3u8?txSecret=fd7622ca2274682e859ec55585fb7e02&txTime=69ED06B2|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "415",
-      "title": "Wolfsburg vs Borussia M'gladbach",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Wolfsburg",
-        "teamB": "M'gladbach",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2527/image",
-        "eventName": "Wolfsburg vs Borussia M'gladbach",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:30:00 +0000",
-        "endTime": "2026/04/25 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD",
-        "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49543/load-playlist|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-vf-l-wolfsburg-vs-borussia-m-nchengladbach&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347606.m3u8?txSecret=8e6da38858b3960bdb537448eb8c6ff9&txTime=69ED0531|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "416",
-      "title": "Augsburg vs Eintracht Frankfurt",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Augsburg",
-        "teamB": "Frankfurt",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2600/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2674/image",
-        "eventName": "Augsburg vs Eintracht Frankfurt",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:30:00 +0000",
-        "endTime": "2026/04/25 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Bundesliga HD",
-        "SportzX TV+ FHD",
-        "SPX - HD SERVER",
-        "SKY BUNDESLIGA SD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49544/load-playlist|Referer=https://gooz.aapmains.net/",
-          "title": "Bundesliga HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-fc-augsburg-vs-eintracht-frankfurt&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fc-augsburg-vs-eintracht-frankfurt-football-1388578&streamNo=1",
-          "title": "SPX - HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/bundes5/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "SKY BUNDESLIGA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347615.m3u8?txSecret=8dfa25a38580b5700692b40770f0ead0&txTime=69ED0592|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "417",
       "title": "Hamburger SV vs Hoffenheim",
       "image": "o",
@@ -2419,50 +2120,6 @@
       ]
     },
     {
-      "id": "418",
-      "title": "Lyon vs Auxerre",
-      "image": "o",
-      "cat": "Ligue 1 🇫🇷",
-      "eventInfo": {
-        "teamA": "Lyon",
-        "teamB": "Auxerre",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1649/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1646/image",
-        "eventName": "Lyon vs Auxerre",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/25 13:00:00 +0000",
-        "endTime": "2026/04/25 15:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN SPORTS HD",
-        "SportzX TV+ FHD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=lyon-vs-auxerre-football-1387972&streamNo=1",
-          "title": "beIN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-lyon-vs-aj-auxerre&streamNo=1",
-          "title": "SportzX TV+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347956.m3u8?txSecret=709cf57e5b750e6d68538e7ea7e2ed9c&txTime=69ED01C4|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "419",
       "title": "Angers vs Paris SG",
       "image": "o",
@@ -2481,7 +2138,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX TV+ FHD"
+        "SportzX TV+ FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -2541,14 +2199,42 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT SPORTS"
+        "TNT SPORTS FHD",
+        "TNT SPORTS HD",
+        "SportsNET HD",
+        "SportzX TV+ HD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT SPORTS",
+          "title": "TNT SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49558/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://602.simpleabigal.xyz/sn.m3u8",
+          "title": "SportsNET HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-manchester-city-vs-southampton&streamNo=1",
+          "title": "SportzX TV+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4527723.m3u8?txSecret=6247efd52461b2052fdc11d971a938c8&txTime=69ED2CF8|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2645,6 +2331,244 @@
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4529695.m3u8?txSecret=80f47513158377226c909338b246998b&txTime=69ED102C|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Tondela vs CD Nacional",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Tondela",
+        "teamB": "Nacional",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/38396/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+        "eventName": "Tondela vs CD Nacional",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:30:00 +0000",
+        "endTime": "2026/04/25 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sport TV HD",
+        "SportzX Live",
+        "Sport TV HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=tondela-vs-nacional-football-1396514&streamNo=1",
+          "title": "Sport TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369064.m3u8?txSecret=e67f166153167d4b2bdb9e66b4e51bec&txTime=69ED11F4|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/stream/Sport%20TV%201",
+          "title": "Sport TV HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Benfica vs Moreirense",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Benfica",
+        "teamB": "Moreirense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3014/image",
+        "eventName": "Benfica vs Moreirense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 17:00:00 +0000",
+        "endTime": "2026/04/25 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Vitória SC vs Rio Ave",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Vitória",
+        "teamB": "Rio Ave",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+        "eventName": "Vitória SC vs Rio Ave",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 19:30:00 +0000",
+        "endTime": "2026/04/25 21:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sport TV HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/stream/Sport%20TV%201",
+          "title": "Sport TV HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Feyenoord vs Groningen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Feyenoord",
+        "teamB": "Groningen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "eventName": "Feyenoord vs Groningen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:30:00 +0000",
+        "endTime": "2026/04/25 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN SPORTS HD",
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=feyenoord-vs-groningen-football-1381138&streamNo=1",
+          "title": "ESPN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Heerenveen vs Fortuna Sittard",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Heerenveen",
+        "teamB": "Fortuna",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2957/image",
+        "eventName": "Heerenveen vs Fortuna Sittard",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 16:45:00 +0000",
+        "endTime": "2026/04/25 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "NAC Breda vs AFC Ajax",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "NAC Breda",
+        "teamB": "Ajax",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2947/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "eventName": "NAC Breda vs AFC Ajax",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 18:00:00 +0000",
+        "endTime": "2026/04/25 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Twente vs NEC Nijmegen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Twente",
+        "teamB": "NEC",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+        "eventName": "Twente vs NEC Nijmegen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 19:00:00 +0000",
+        "endTime": "2026/04/25 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
           "type": "0"
         }
       ]
