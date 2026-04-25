@@ -784,7 +784,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187844/image",
         "eventName": "Rajasthan Royals vs Sunrisers Hyderabad",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/25 14:00:00 +0000",
         "endTime": "2026/04/25 17:45:00 +0000"
       },
@@ -792,9 +792,8 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "SKY CRIC HD",
         "FOX CRICKET HD",
-        "SKY CRICKET",
+        "WILLOW HINDI",
         "STAR IN [ENG]",
         "STAR IN [HIN]",
         "STAR IN [TAM]",
@@ -810,20 +809,14 @@
         },
         {
           "api": null,
-          "link": "https://vsd273.okcdn.ru/cmaf/15486383098623/sig/12CtEuwN3v8/expires/1776947340856/srcIp/152.59.145.24/urls/185.226.55.89/clientType/36/srcAg/CHROME/mid/14109681141759/get/hls_14109681141759.wzcVJYGf6DI.m3u8",
-          "title": "SKY CRIC HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://lchd-314.zenostreams-cdn-001.com/fox501.m3u8",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-rajasthan-royals-vs-sunrisers-hyderabad&streamNo=1",
           "title": "FOX CRICKET HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-          "title": "SKY CRICKET",
+          "link": "http://datahub11.com:80/live/Jen12345/Jen54321/703300.ts",
+          "title": "WILLOW HINDI",
           "type": "0"
         },
         {
@@ -852,7 +845,7 @@
         },
         {
           "api": null,
-          "link": "https://z.ukurvf.shop/hls/YIIIQQQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "link": "http://195.178.110.76/hls/ZDDDZQQ.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SD SERVER",
           "type": "0"
         }
@@ -943,6 +936,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "WILLOW [Ad-Free]",
         "WILLOW FHD",
         "TAPMAD ENG",
         "TAPMAD URDU",
@@ -954,6 +948,12 @@
         "TAMASHA - PAK"
       ],
       "channels": [
+        {
+          "api": "fdac31d19649487e505bd380dff32f0b:88f5e191762be218b6877e0654504767",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/udk7nhtb0g/out/v1/774ab4e788554098ac88ada82e5e8eb7/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
         {
           "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
@@ -1549,7 +1549,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/7/image",
         "eventName": "Liverpool vs Crystal Palace",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/25 14:00:00 +0000",
         "endTime": "2026/04/25 16:00:00 +0000"
       },
@@ -1559,7 +1559,9 @@
         "NOW SPORTS PL",
         "PEACOCK+ HD",
         "SportzX TV+ FHD",
-        "HUB PREMIER HD"
+        "PREMIER SPORTS",
+        "HUB PREMIER HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1582,8 +1584,20 @@
         },
         {
           "api": null,
+          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/liverpool.m3u8",
+          "title": "PREMIER SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-4/index.m3u8",
           "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343389.m3u8?txSecret=b0e081726188628a7c56ecde937d90ce&txTime=69ED0F1D|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1686,7 +1700,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
         "eventName": "Wolverhampton vs Tottenham Hotspur",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/25 14:00:00 +0000",
         "endTime": "2026/04/25 16:00:00 +0000"
       },
@@ -1697,7 +1711,9 @@
         "NBC UNIVERSO",
         "SKY SPORTS HD",
         "USA TV HD",
-        "HUB PREMIER HD"
+        "USA TV - AQ",
+        "HUB PREMIER HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1726,8 +1742,20 @@
         },
         {
           "api": null,
+          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/sportsnet.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-2/index.m3u8",
           "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343410.m3u8?txSecret=0b9c5a0609bfbb2e4735aaaf5b01007a&txTime=69ED0FEB|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1754,7 +1782,8 @@
         "NOW SPORTS PL",
         "PEACOCK+ HD",
         "SportzX TV+ FHD",
-        "HUB PREMIER HD"
+        "HUB PREMIER HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1779,6 +1808,12 @@
           "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-3/index.m3u8",
           "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343401.m3u8?txSecret=6e1ab896b89db1e47a164019b28b42db&txTime=69ED0FD5|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1853,7 +1888,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2817/image",
         "eventName": "Getafe vs Barcelona",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/25 14:15:00 +0000",
         "endTime": "2026/04/25 16:15:00 +0000"
       },
@@ -1864,7 +1899,9 @@
         "TSN SPORTS",
         "Laliga TV FHD",
         "SportzX TV+ FHD",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live",
+        "LALIGA TV HD"
       ],
       "channels": [
         {
@@ -1893,8 +1930,20 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchtntsportsarg/index.m3u8|referer=https://hardsmart.click/",
+          "link": "https://chatgpt.hereisman.net/playlist/49559/load-playlist?|Referer=https://gooz.aapmains.net/",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4358453.m3u8?txSecret=abcdddfc8258f78c02aaa18991897c27&txTime=69ED1157|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=getafe-vs-barcelona-football-1391133&streamNo=1",
+          "title": "LALIGA TV HD",
           "type": "0"
         }
       ]
@@ -2634,7 +2683,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/sd-1-4529694.m3u8?txSecret=4e8f3553b203ac6d4bacb8d4fcbf2489&txTime=69ED1046|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2664,7 +2713,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/sd-1-4529695.m3u8?txSecret=80f47513158377226c909338b246998b&txTime=69ED102C|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
