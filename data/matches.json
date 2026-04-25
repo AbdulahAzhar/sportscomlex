@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -146,9 +146,9 @@
         "FANCODE FHD",
         "SPO TV - AQ",
         "ZIGGO SPORT - AQ",
-        "ESPN SPORTS",
         "TNT SPORTS SD",
-        "SKY SPORTS DE"
+        "DAZN SPORTS",
+        "CANAL+ HD"
       ],
       "channels": [
         {
@@ -177,21 +177,21 @@
         },
         {
           "api": null,
-          "link": "https://streamtp10.com/global1.php?stream=espn2",
-          "title": "ESPN SPORTS",
-          "type": "2"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/oeenzgezcz47.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://instreams.pro/bil1/motogpen/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "TNT SPORTS SD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/w93sLKtkQf0Y/index.m3u8",
-          "title": "SKY SPORTS DE",
+          "link": "https://instreams.pro/bil1/motogpfr/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "DAZN SPORTS",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV27/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "CANAL+ HD",
+          "type": "2"
         }
       ]
     },
@@ -678,6 +678,7 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "FOX CRICKET",
+        "WILLOW HINDI",
         "Willow HD",
         "SuperSport Cricket",
         "SD SERVER",
@@ -2010,6 +2011,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "beIN ENGLISH",
         "SKY SPORTS HD"
       ],
       "channels": [
@@ -2018,6 +2020,12 @@
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1025.m3u8",
           "title": "SKY SPORTS HD",
           "type": "0"
+        },
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
         }
       ]
     },
@@ -2165,14 +2173,135 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49435/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
+          "link": "https://cdn.damitv.live/stream/Sport%20TV%201",
+          "title": "Sport TV HD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Feyenoord vs Groningen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Feyenoord",
+        "teamB": "Groningen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "eventName": "Feyenoord vs Groningen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:30:00 +0000",
+        "endTime": "2026/04/25 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
         },
         {
           "api": null,
-          "link": "https://edge2caster.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
+          "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Heerenveen vs Fortuna Sittard",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Heerenveen",
+        "teamB": "Fortuna",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2957/image",
+        "eventName": "Heerenveen vs Fortuna Sittard",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 16:45:00 +0000",
+        "endTime": "2026/04/25 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "NAC Breda vs AFC Ajax",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "NAC Breda",
+        "teamB": "Ajax",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2947/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "eventName": "NAC Breda vs AFC Ajax",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 18:00:00 +0000",
+        "endTime": "2026/04/25 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "title": "Twente vs NEC Nijmegen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Twente",
+        "teamB": "NEC",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+        "eventName": "Twente vs NEC Nijmegen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 19:00:00 +0000",
+        "endTime": "2026/04/25 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "ESPN NL SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL SD",
           "type": "0"
         }
       ]
