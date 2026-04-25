@@ -791,7 +791,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW ENG - AQ",
+        "WILLOW [Ad-Free]",
         "SKY CRIC HD",
         "FOX CRICKET HD",
         "SKY CRICKET",
@@ -803,9 +803,9 @@
       ],
       "channels": [
         {
-          "api": "660b12ab9ff8f5d7a9c9e87d2cd0ac3a:562d1d0574a3d3ea6a85e2500867d4dd",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rqeiuwqk87/out/v1/4aacfa3131784ba886ebb2d520581f01/cenc.mpd",
-          "title": "WILLOW ENG - AQ",
+          "api": "dedbf883004d1468d70fb008ff2430d0:ac7928fcd566ddebdf2b63cb4d1daeb6",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fpspuirqoc/out/v1/a047840f50a84f47ba6d765d910ffc5b/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
         {
@@ -1557,6 +1557,7 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
+        "PEACOCK+ HD",
         "SportzX TV+ FHD",
         "HUB PREMIER HD"
       ],
@@ -1565,6 +1566,12 @@
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49556/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "PEACOCK+ HD",
           "type": "0"
         },
         {
@@ -1688,7 +1695,8 @@
       "formats": [
         "NOW SPORTS PL",
         "NBC UNIVERSO",
-        "SportzX TV+ FHD",
+        "SKY SPORTS HD",
+        "USA TV HD",
         "HUB PREMIER HD"
       ],
       "channels": [
@@ -1707,7 +1715,13 @@
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-wolverhampton-wanderers-vs-tottenham-hotspur&streamNo=1",
-          "title": "SportzX TV+ FHD",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49556/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "USA TV HD",
           "type": "0"
         },
         {
@@ -1738,6 +1752,7 @@
       "publish": "1",
       "formats": [
         "NOW SPORTS PL",
+        "PEACOCK+ HD",
         "SportzX TV+ FHD",
         "HUB PREMIER HD"
       ],
@@ -1746,6 +1761,12 @@
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH623/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49554/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "PEACOCK+ HD",
           "type": "0"
         },
         {
@@ -1992,13 +2013,34 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX TV+ FHD"
+        "FOX DEPORTES",
+        "PARAMOUNT+ HD",
+        "HD SERVER",
+        "SportzX Live"
       ],
       "channels": [
         {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        },
+        {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-parma-vs-pisa&streamNo=1",
-          "title": "SportzX TV+ FHD",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49542/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339732.m3u8?txSecret=53469e543ea3c7a52a28c3f6986665fa&txTime=69ED0186|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2104,8 +2146,11 @@
       "publish": "1",
       "formats": [
         "SporTV BR",
+        "Bundesliga HD",
         "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD"
+        "SPX - HD SERVER",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -2116,14 +2161,32 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49545/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "Bundesliga HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-mainz-vs-bayern-munich&streamNo=1",
           "title": "SportzX TV+ FHD",
           "type": "0"
         },
         {
           "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fsv-mainz-05-vs-bayern-munchen-football-1388583&streamNo=1",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347618.m3u8?txSecret=abe09b29c21a6a5fdb8926fbdc7d9c12&txTime=69ED062F|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2148,7 +2211,8 @@
       "publish": "1",
       "formats": [
         "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD"
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -2161,6 +2225,12 @@
           "api": null,
           "link": "https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347656.m3u8?txSecret=7430b99fdf43e0bf16ae1b697430440f&txTime=69ED068F|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2184,10 +2254,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Bundesliga HD",
         "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD"
+        "PREMIER SPORTS HD",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49546/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "Bundesliga HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-1-fc-heidenheim-1846-vs-st-pauli&streamNo=1",
@@ -2196,8 +2275,20 @@
         },
         {
           "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=delta&id=live_bundesliga_heidenheim-st-pauli-live-streaming-1095170733&streamNo=1",
+          "title": "PREMIER SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347657.m3u8?txSecret=fd7622ca2274682e859ec55585fb7e02&txTime=69ED06B2|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2221,10 +2312,18 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Bundesliga HD",
         "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD"
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49543/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "Bundesliga HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-vf-l-wolfsburg-vs-borussia-m-nchengladbach&streamNo=1",
@@ -2235,6 +2334,12 @@
           "api": null,
           "link": "https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347606.m3u8?txSecret=8e6da38858b3960bdb537448eb8c6ff9&txTime=69ED0531|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2258,10 +2363,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Bundesliga HD",
         "SportzX TV+ FHD",
-        "SKY BUNDESLIGA SD"
+        "SPX - HD SERVER",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49544/load-playlist|Referer=https://gooz.aapmains.net/",
+          "title": "Bundesliga HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-fc-augsburg-vs-eintracht-frankfurt&streamNo=1",
@@ -2270,8 +2384,20 @@
         },
         {
           "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=fc-augsburg-vs-eintracht-frankfurt-football-1388578&streamNo=1",
+          "title": "SPX - HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes5/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347615.m3u8?txSecret=8dfa25a38580b5700692b40770f0ead0&txTime=69ED0592|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2332,13 +2458,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX TV+ FHD"
+        "beIN SPORTS HD",
+        "SportzX TV+ FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=lyon-vs-auxerre-football-1387972&streamNo=1",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-lyon-vs-aj-auxerre&streamNo=1",
           "title": "SportzX TV+ FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347956.m3u8?txSecret=709cf57e5b750e6d68538e7ea7e2ed9c&txTime=69ED01C4|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
