@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 40,
+  "total_events": 43,
   "results": [
     {
       "id": "312",
@@ -2076,6 +2076,102 @@
         {
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Tondela vs CD Nacional",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Tondela",
+        "teamB": "Nacional",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/38396/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+        "eventName": "Tondela vs CD Nacional",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 14:30:00 +0000",
+        "endTime": "2026/04/25 16:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sport TV HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/stream/Sport%20TV%201",
+          "title": "Sport TV HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Benfica vs Moreirense",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Benfica",
+        "teamB": "Moreirense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3014/image",
+        "eventName": "Benfica vs Moreirense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 17:00:00 +0000",
+        "endTime": "2026/04/25 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Vitória SC vs Rio Ave",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Vitória",
+        "teamB": "Rio Ave",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+        "eventName": "Vitória SC vs Rio Ave",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/25 19:30:00 +0000",
+        "endTime": "2026/04/25 21:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Sport TV HD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49435/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
