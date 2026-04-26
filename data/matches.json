@@ -681,9 +681,7 @@
         "WILLOW HINDI",
         "Willow HD",
         "SuperSport Cricket",
-        "SD SERVER",
-        "JIO HINDI - AQ",
-        "STAR SPORTS HIN"
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -1146,7 +1144,8 @@
         "Laliga TV FHD",
         "PREMIER SPORTS",
         "SPX - HD LIVE",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "PREMIER SPORTS HD"
       ],
       "channels": [
         {
@@ -1171,6 +1170,12 @@
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=hardsmart.click/",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=rayo-vallecano-vs-real-sociedad-football-1391135&streamNo=1",
+          "title": "PREMIER SPORTS HD",
           "type": "0"
         }
       ]
@@ -1362,7 +1367,7 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "SPX - HD LIVE"
+        "PARAMOUNT+ HD"
       ],
       "channels": [
         {
@@ -1374,7 +1379,7 @@
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-fiorentina-vs-sassuolo&streamNo=1",
-          "title": "SPX - HD LIVE",
+          "title": "PARAMOUNT+ HD",
           "type": "0"
         }
       ]
@@ -1605,7 +1610,8 @@
       "publish": "1",
       "formats": [
         "SPX - HD LIVE",
-        "beIN SPORTS US"
+        "beIN SPORTS US",
+        "HD SERVER"
       ],
       "channels": [
         {
@@ -1618,6 +1624,12 @@
           "api": null,
           "link": "https://edge2caster.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=lorient-vs-strasbourg-football-1387971&streamNo=1",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -1863,10 +1875,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PREMIER SPORTS",
         "CBS NETWORK",
         "SportDigital Fussball"
       ],
       "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
         {
           "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
@@ -2064,9 +2083,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "ESPN NL HD",
         "ESPN NL SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=excelsior-vs-utrecht-football-1381137&streamNo=1",
+          "title": "ESPN NL HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
@@ -2124,9 +2150,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "beIN SPORTS HD",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=genclerbirligi-sk-vs-kocaelispor-football-1394708&streamNo=1",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
