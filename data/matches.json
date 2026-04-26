@@ -1892,8 +1892,10 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
+        "PARAMOUNT+ HD",
         "DAZN SPORTS IT",
-        "SKY CALCIO HD"
+        "SKY CALCIO HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1901,6 +1903,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49639/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -1912,6 +1920,12 @@
           "api": null,
           "link": "https://instreams.pro/EU/HDTV12/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY CALCIO HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339734.m3u8?txSecret=943ac879f468e897a377a88f6a6b4816&txTime=69EE7A38|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1963,50 +1977,6 @@
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-ac-milan-vs-juventus&streamNo=1",
           "title": "SPX - HD LIVE",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "409",
-      "title": "Stuttgart vs Werder Bremen",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Stuttgart",
-        "teamB": "Bremen",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2677/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2534/image",
-        "eventName": "Stuttgart vs Werder Bremen",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 13:30:00 +0000",
-        "endTime": "2026/04/26 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "BUNDESLIGA HD",
-        "SPX - FHD LIVE",
-        "DAZN SPORTS HD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49634/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fbundesliga%2F2026-04-26%2Fvfb-svw",
-          "title": "SPX - FHD LIVE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sf-scrapper-hzma.onrender.com/api/stream/soccer/werder-bremen-vs-vfb-stuttgart.m3u8|Referer=https://livetv.moviebite.cc/",
-          "title": "DAZN SPORTS HD",
           "type": "0"
         }
       ]
@@ -2132,11 +2102,18 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "beIN SPORTS ES",
         "SportzX Live",
         "beIN SPORTS US",
         "CANAL+ SPORTS"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://daffodil.shoncine.com/beines.m3u8",
+          "title": "beIN SPORTS ES",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4347958.m3u8?txSecret=8a654d1a0592775df1b7195712b9b815&txTime=69EE6E51|Referer=https://player.787200.com/",
@@ -2151,7 +2128,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/EU/HDTV23/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/EU/HDTV23/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "CANAL+ SPORTS",
           "type": "0"
         }
@@ -2195,7 +2172,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/EU/HDTV27/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/EU/HDTV27/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "CANAL+ SPORTS",
           "type": "0"
         }
@@ -2239,7 +2216,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/EU/HDTV24/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/EU/HDTV24/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "CANAL+ SPORTS",
           "type": "0"
         }
@@ -2588,6 +2565,36 @@
           "api": null,
           "link": "https://cdn.damitv.live/stream/Sport%20TV%202",
           "title": "SPORT TV HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Galatasaray vs Fenerbahçe",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Galatasaray",
+        "teamB": "Fenerbahçe",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+        "eventName": "Galatasaray vs Fenerbahçe",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/26 17:00:00 +0000",
+        "endTime": "2026/04/26 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
