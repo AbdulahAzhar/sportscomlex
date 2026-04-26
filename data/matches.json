@@ -1741,7 +1741,7 @@
         "beIN ENGLISH",
         "Laliga TV FHD",
         "PREMIER SPORTS",
-        "SPX - HD LIVE",
+        "SportzX Live",
         "ESPN DEPORTES"
       ],
       "channels": [
@@ -1765,8 +1765,8 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-villarreal-vs-celta-vigo&streamNo=1",
-          "title": "SPX - HD LIVE",
+          "link": "https://live.vivo200.com/live/hd-en-1-4358458.m3u8?txSecret=5b6c9c19a348357918aded5f3f74ed2e&txTime=69EE9F61|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
@@ -1857,7 +1857,10 @@
         "TNT SPORTS",
         "beIN ENGLISH",
         "FOX DEPORTES",
-        "SPX - HD LIVE"
+        "PARAMOUNT+ HD",
+        "DAZN SPORTS IT",
+        "SportzX Live",
+        "DAZN SPORTS HD"
       ],
       "channels": [
         {
@@ -1880,8 +1883,26 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-ac-milan-vs-juventus&streamNo=1",
-          "title": "SPX - HD LIVE",
+          "link": "https://chatgpt.hereisman.net/playlist/49668/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339719.m3u8?txSecret=6e4502bdfae381dadd3ecc4a15e391c1&txTime=69EE9EF2|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV11/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "DAZN SPORTS HD",
           "type": "0"
         }
       ]
@@ -1963,20 +1984,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SPX - HD LIVE",
-        "beIN SPORTS US"
+        "beIN SPORTS US",
+        "SportzX Live",
+        "HD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-marseille-vs-nice&streamNo=1",
-          "title": "SPX - HD LIVE",
+          "link": "https://edgestreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "beIN SPORTS US",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://edgestreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "beIN SPORTS US",
+          "link": "https://live.vivo200.com/live/hd-en-1-4347957.m3u8?txSecret=a9da3017458d397ed3d17bd360fa64e2&txTime=69EE9F11|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV22/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -2112,6 +2140,7 @@
       "publish": "1",
       "formats": [
         "SportDigital Fussball",
+        "SportzX Live",
         "SPORT TV HD"
       ],
       "channels": [
@@ -2120,6 +2149,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369057.m3u8?txSecret=d5db549d127181ad29cd77c389ce77b7&txTime=69EE9F39|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         },
         {
           "api": null,
