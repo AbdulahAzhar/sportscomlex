@@ -681,7 +681,8 @@
         "WILLOW HINDI",
         "Willow HD",
         "SuperSport Cricket",
-        "SD SERVER"
+        "SD SERVER",
+        "WILLOW HINDI"
       ],
       "channels": [
         {
@@ -1367,7 +1368,11 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "PARAMOUNT+ HD"
+        "PARAMOUNT+ HD",
+        "HD SERVER",
+        "SportzX Live",
+        "DAZN SPORTS",
+        "DAZN SPORTS IT"
       ],
       "channels": [
         {
@@ -1378,8 +1383,32 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-fiorentina-vs-sassuolo&streamNo=1",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fseriea%2F2026-04-26%2Ffio-sas",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49629/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339725.m3u8?txSecret=bd2df349756f1f4670fc7b9a8948114d&txTime=69EE2EBB|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&fiorentina-vs-sassuolo-football-1378196&streamNo=1",
+          "title": "DAZN SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS IT",
           "type": "0"
         }
       ]
@@ -2083,10 +2112,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ESPN NL HD",
         "ESPN NL SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4344793.m3u8?txSecret=f4a46fa56cb92d045b600537927f8442&txTime=69EE2DFD|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=excelsior-vs-utrecht-football-1381137&streamNo=1",
@@ -2151,6 +2187,7 @@
       "publish": "1",
       "formats": [
         "beIN SPORTS HD",
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
@@ -2158,6 +2195,12 @@
           "api": null,
           "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=genclerbirligi-sk-vs-kocaelispor-football-1394708&streamNo=1",
           "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4366115.m3u8?txSecret=ff3e9d4ab57d3930c64a4aa83ef8b873&txTime=69EE30FD|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
