@@ -1200,10 +1200,31 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
+        "NBA LIVE - AQ",
+        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49689/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/TNT.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-26%2Fbos-phi",
+          "title": "NBA LIVE FHD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1346,36 +1367,22 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "PREMIER SPORTS",
         "SPX - NHL HD",
         "SportzX NHL",
-        "NHL LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49621/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49687/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SPX - NHL HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-pittsburgh-penguins-vs-philadelphia-flyers&streamNo=1",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-26%2Ftb-mtl",
           "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-pittsburgh-penguins-vs-philadelphia-flyers&streamNo=2",
-          "title": "NHL LIVE FHD",
           "type": "0"
         },
         {
@@ -1462,9 +1469,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49683/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/JHDAJBDnjdna30.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
