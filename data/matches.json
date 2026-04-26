@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 44,
   "results": [
     {
       "id": "312",
@@ -791,6 +791,7 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
+        "FOX CRICKET - AQ",
         "FOX CRICKET HD",
         "WILLOW HINDI",
         "STAR IN [ENG]",
@@ -801,14 +802,20 @@
       ],
       "channels": [
         {
-          "api": "dedbf883004d1468d70fb008ff2430d0:ac7928fcd566ddebdf2b63cb4d1daeb6",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fpspuirqoc/out/v1/a047840f50a84f47ba6d765d910ffc5b/cenc.mpd",
+          "api": "7cb361793a6e99ded8ca042a499b7f45:8efbe47bdb7cbea560d3abfe3a933cf8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjnd301okd/out/v1/ea7ec99915184a66bb1e7e49fe14baa7/cenc.mpd",
           "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
         {
+          "api": "6a70902dcc79493f98d00064d93e8460:eb950593a82a15994676e4431113b551",
+          "link": "https://foxteldashmtgmpxlive01.akamaized.net/v1/dash/40a0de4a910d426b321814c25ab1ea7bbc30818d/prod-dash-switch-gambproxy-akamai/live/channel091/channel091_mcs.isml/playlist_high.mpd?hdnts=exp=1777145784~hmac=2ba30b713211ce738273ff2ca7261f5e7d3e58de79e7a5f7a9c3cc7178949fa8",
+          "title": "FOX CRICKET - AQ",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-rajasthan-royals-vs-sunrisers-hyderabad&streamNo=1",
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-lucknow-super-giants-vs-kolkata-knight-riders&streamNo=1",
           "title": "FOX CRICKET HD",
           "type": "0"
         },
@@ -948,8 +955,8 @@
       ],
       "channels": [
         {
-          "api": "fdac31d19649487e505bd380dff32f0b:88f5e191762be218b6877e0654504767",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/udk7nhtb0g/out/v1/774ab4e788554098ac88ada82e5e8eb7/cenc.mpd",
+          "api": "f4150e58250f7043dcaf8bd4cb8ca90e:94455b76b9d769ef1b19d6907e25be84",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/v2jzbc2mx7/out/v1/bebde99776494e7ab8a9346598204be6/cenc.mpd",
           "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
@@ -1203,7 +1210,9 @@
         "beIN ENGLISH",
         "Laliga TV FHD",
         "PREMIER SPORTS",
-        "SPX - HD LIVE"
+        "SPX - HD LIVE",
+        "LA LIGA TV HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1226,8 +1235,20 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-real-oviedo-vs-elche&streamNo=1",
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Flaliga%2F2026-04-26%2Fovi-elc",
           "title": "SPX - HD LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49637/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "LA LIGA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4358455.m3u8?txSecret=5edf457b4d18b383f4a5753315a82012&txTime=69EE6559|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1344,71 +1365,6 @@
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=hardsmart.click/",
           "title": "ESPN DEPORTES",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Fiorentina vs Sassuolo",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Fiorentina",
-        "teamB": "Sassuolo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2693/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2793/image",
-        "eventName": "Fiorentina vs Sassuolo",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 10:30:00 +0000",
-        "endTime": "2026/04/26 12:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "PARAMOUNT+ HD",
-        "HD SERVER",
-        "SportzX Live",
-        "DAZN SPORTS",
-        "DAZN SPORTS IT"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fseriea%2F2026-04-26%2Ffio-sas",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49629/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4339725.m3u8?txSecret=bd2df349756f1f4670fc7b9a8948114d&txTime=69EE2EBB|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&fiorentina-vs-sassuolo-football-1378196&streamNo=1",
-          "title": "DAZN SPORTS",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "DAZN SPORTS IT",
           "type": "0"
         }
       ]
@@ -1564,13 +1520,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SPX - HD LIVE"
+        "BUNDESLIGA HD",
+        "SPX - FHD LIVE",
+        "DAZN SPORTS HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-vf-b-stuttgart-vs-werder-bremen&streamNo=1",
-          "title": "SPX - HD LIVE",
+          "link": "https://chatgpt.hereisman.net/playlist/49634/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fbundesliga%2F2026-04-26%2Fvfb-svw",
+          "title": "SPX - FHD LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sf-scrapper-hzma.onrender.com/api/stream/soccer/werder-bremen-vs-vfb-stuttgart.m3u8|Referer=https://livetv.moviebite.cc/",
+          "title": "DAZN SPORTS HD",
           "type": "0"
         }
       ]
@@ -1831,8 +1801,11 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "ESPN SPORTS HD",
         "SPX - HD LIVE",
-        "HD SERVER"
+        "HD SERVER",
+        "SportzX Live",
+        "SonyLiv [ENG]"
       ],
       "channels": [
         {
@@ -1843,7 +1816,13 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-chelsea-vs-leeds-united&streamNo=1",
+          "link": "https://chatgpt.hereisman.net/playlist/49635/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "ESPN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fenglish-fa-cup%2F2026-04-26%2Fche-lee",
           "title": "SPX - HD LIVE",
           "type": "0"
         },
@@ -1851,6 +1830,18 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4527722.m3u8?txSecret=63ceaaa3ae0c7b18c3d1018482df5a68&txTime=69EE641B|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/FA_CUP_C2604/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
           "type": "0"
         }
       ]
@@ -1879,7 +1870,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/sd-1-4529561.m3u8?txSecret=a44768ff528c4cb4c6360b21c7fd1bdc&txTime=69EE66C9|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1978,9 +1969,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "SPORT TV HD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4369060.m3u8?txSecret=72e2abfea4d2313aa8d56df8d5ce6e7d&txTime=69EE6800|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://cdn.damitv.live/stream/Sport%20TV%202",
@@ -2094,50 +2092,6 @@
       ]
     },
     {
-      "id": "424",
-      "title": "Excelsior vs Utrecht",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "Excelsior",
-        "teamB": "Utrecht",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2967/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2948/image",
-        "eventName": "Excelsior vs Utrecht",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 10:15:00 +0000",
-        "endTime": "2026/04/26 12:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "ESPN NL HD",
-        "ESPN NL SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4344793.m3u8?txSecret=f4a46fa56cb92d045b600537927f8442&txTime=69EE2DFD|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=excelsior-vs-utrecht-football-1381137&streamNo=1",
-          "title": "ESPN NL HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "ESPN NL SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "425",
       "title": "Heracles Almelo vs Volendam",
       "image": "o",
@@ -2163,50 +2117,6 @@
           "api": null,
           "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "ESPN NL SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "426",
-      "title": "Gençlerbirliği vs Kocaelispor",
-      "image": "o",
-      "cat": "Super Lig",
-      "eventInfo": {
-        "teamA": "Gençlerbirliği",
-        "teamB": "Kocaelispor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/7802/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3065/image",
-        "eventName": "Gençlerbirliği vs Kocaelispor",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 11:30:00 +0000",
-        "endTime": "2026/04/26 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN SPORTS HD",
-        "SportzX Live",
-        "beIN SPORTS SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=echo&id=genclerbirligi-sk-vs-kocaelispor-football-1394708&streamNo=1",
-          "title": "beIN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4366115.m3u8?txSecret=ff3e9d4ab57d3930c64a4aa83ef8b873&txTime=69EE30FD|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "beIN SPORTS SD",
           "type": "0"
         }
       ]
