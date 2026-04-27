@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 32,
+  "total_events": 33,
   "results": [
     {
       "id": "312",
@@ -1185,16 +1185,28 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
+        "SKY SPORTS PL",
         "NOW SPORTS PL",
         "NBC UNIVERSO",
+        "USA TV HD",
+        "USA TV - AQ",
+        "SKY MAIN EVENT",
+        "USA NETWORK",
         "HUB PREMIER HD",
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
           "title": "FUBO SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777380085~acl=%2f*~id=75a23de8-e3f0-4658-8530-f4cb62d1a16a~data=hdntl,aXA9MTgwLjE5MS4xMjcuMiZleHA9MTc3NzI5MzcxNSZlaWQ9OTQ0MTg0Jm9pZD0xMDImdHlwZT1WT0QmdWlkPUV6NEFlN3w0ODVmMzZkZi01YzY2LTRiYWQtOGU1OS01Yjg2MzNmMzY0NzkmY2lkPWRjZS5hZGphcmEmcHQ9bnVsbA~hmac=c643e2c6d46c3ffed5413d707714c1e5f088125674727e21471eebe8dca253b3/dash/live/2093753/219035-314047/manifest-d.mpd",
+          "title": "SKY SPORTS PL",
           "type": "1"
         },
         {
@@ -1211,14 +1223,44 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49701/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/btsport.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://datakameha.route64.de/fs/p/skysportsmainevent/index.m3u8",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://datakameha.route64.de/fs/p/USANETEAST/index.m3u8",
+          "title": "USA NETWORK",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://hls.iill.top/api/Hub-Premier-1/index.m3u8",
           "title": "HUB PREMIER HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343376.m3u8?txSecret=8aede2e6c489e767a9f85c7cf18cfd2a&txTime=69ED2E3E|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/hd-en-1-4343392.m3u8?txSecret=433f3995f19cdc905ac92cad4fcd36f5&txTime=69EFF6BD|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4343392.m3u8?txSecret=0231f6d139fc3d2cb4c3251c8fe37683&txTime=69F0FFF2",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1244,7 +1286,8 @@
       "formats": [
         "Laliga TV FHD",
         "PREMIER SPORTS",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1261,8 +1304,14 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=hardsmart.click/",
+          "link": "https://chatgpt.hereisman.net/playlist/49699/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4358452.m3u8?txSecret=e82c2cf452aca5d07937fc44f8e50b15&txTime=69EFF6E6|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1351,7 +1400,11 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH"
+        "beIN ENGLISH",
+        "PARAMOUNT+ HD",
+        "DAZN SPORTS HD",
+        "SKY SPORTS IT",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1359,6 +1412,30 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49698/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV12/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "SKY SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339729.m3u8?txSecret=be7b24d838df1e0ea37e02d1dd7e2eab&txTime=69EFF691|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1650,6 +1727,36 @@
           "link": "https://edge2caster.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "title": "Cádiz vs Las Palmas",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Cádiz",
+        "teamB": "Las Palmas",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4488/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/6577/image",
+        "eventName": "Cádiz vs Las Palmas",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 18:30:00 +0000",
+        "endTime": "2026/04/27 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
