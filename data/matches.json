@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 21,
+  "total_events": 22,
   "results": [
     {
       "id": "312",
@@ -823,129 +823,6 @@
       ]
     },
     {
-      "id": "373",
-      "title": "Toronto Raptors",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Raptors",
-        "teamB": "Cavaliers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3433/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3432/image",
-        "eventName": "Toronto Raptors vs Cleveland Cavaliers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 17:00:00 +0000",
-        "endTime": "2026/04/26 19:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49644/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-26%2Fcle-tor",
-          "title": "NBA LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "375",
-      "title": "Philadelphia 76ers",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "76ers",
-        "teamB": "Celtics",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3420/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3422/image",
-        "eventName": "Philadelphia 76ers vs Boston Celtics",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 23:00:00 +0000",
-        "endTime": "2026/04/27 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49689/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/TNT.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-26%2Fbos-phi",
-          "title": "NBA LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "376",
       "title": "Houston Rockets",
       "image": "o",
@@ -1011,57 +888,6 @@
       ]
     },
     {
-      "id": "388",
-      "title": "Canadien",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Canadiens",
-        "teamB": "Lightning",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3690/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3694/image",
-        "eventName": "Montréal Canadiens vs Tampa Bay Lightning",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 23:00:00 +0000",
-        "endTime": "2026/04/27 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SPX - NHL HD",
-        "SportzX NHL",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49687/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SPX - NHL HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-26%2Ftb-mtl",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/lmdsjkfgv52.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "389",
       "title": "Anaheim Ducks",
       "image": "o",
@@ -1115,43 +941,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NHL4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "397",
-      "title": "Kansas City Royals",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Royals",
-        "teamB": "Angels",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3651/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5929/image",
-        "eventName": "Kansas City Royals vs Los Angeles Angels",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/26 23:20:00 +0000",
-        "endTime": "2026/04/27 02:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49683/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/JHDAJBDnjdna30.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1259,39 +1048,189 @@
       ]
     },
     {
-      "id": "451",
-      "title": "Atlético Mineiro vs Flamengo",
+      "id": "402",
+      "title": "Cagliari vs Atalanta",
       "image": "o",
-      "cat": "Brasileirão",
+      "cat": "Serie A 🇮🇹",
       "eventInfo": {
-        "teamA": "Atlético-MG",
-        "teamB": "Flamengo",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1977/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5981/image",
-        "eventName": "Atlético Mineiro vs Flamengo",
+        "teamA": "Cagliari",
+        "teamB": "Atalanta",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2719/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
+        "eventName": "Cagliari vs Atalanta",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/26 23:30:00 +0000",
-        "endTime": "2026/04/27 01:30:00 +0000"
+        "startTime": "2026/04/27 16:30:00 +0000",
+        "endTime": "2026/04/27 18:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Premiere BR",
-        "SporTV BR"
+        "beIN ENGLISH",
+        "FOX DEPORTES"
       ],
       "channels": [
         {
-          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "title": "Premiere BR",
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
           "type": "1"
         },
         {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
-          "title": "SporTV BR",
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Lazio vs Udinese",
+      "image": "o",
+      "cat": "Serie A 🇮🇹",
+      "eventInfo": {
+        "teamA": "Lazio",
+        "teamB": "Udinese",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2699/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2695/image",
+        "eventName": "Lazio vs Udinese",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 18:45:00 +0000",
+        "endTime": "2026/04/27 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Alanyaspor vs Samsunspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Alanyaspor",
+        "teamB": "Samsunspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/6362/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3053/image",
+        "eventName": "Alanyaspor vs Samsunspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 14:00:00 +0000",
+        "endTime": "2026/04/27 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Konyaspor vs Trabzonspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Konyaspor",
+        "teamB": "Trabzonspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+        "eventName": "Konyaspor vs Trabzonspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 17:00:00 +0000",
+        "endTime": "2026/04/27 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Beşiktaş vs Fatih Karagümrük",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Beşiktaş",
+        "teamB": "Karagümrük",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4954/image",
+        "eventName": "Beşiktaş vs Fatih Karagümrük",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 17:00:00 +0000",
+        "endTime": "2026/04/27 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Gil Vicente vs Casa Pia",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Gil Vicente",
+        "teamB": "Casa Pia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3010/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/36365/image",
+        "eventName": "Gil Vicente vs Casa Pia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/27 19:15:00 +0000",
+        "endTime": "2026/04/27 21:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     }
