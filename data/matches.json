@@ -1288,7 +1288,10 @@
       "formats": [
         "beIN ENGLISH",
         "FOX DEPORTES",
-        "PARAMOUNT+ HD"
+        "HD SERVER",
+        "DAZN SPORTS HD",
+        "SD SERVER",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1305,8 +1308,26 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-cagliari-vs-atalanta&streamNo=1",
-          "title": "PARAMOUNT+ HD",
+          "link": "https://chatgpt.hereisman.net/playlist/49697/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8|referer=https://hardsmart.click/",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339723.m3u8?txSecret=3b39b887690bc2eb70059ecb177731b7&txTime=69EFD3E4|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1397,9 +1418,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4366126.m3u8?txSecret=c99799811c8c621c9dc20002775e686d&txTime=69EFD46C|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
@@ -1427,9 +1455,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4366153.m3u8?txSecret=4728412916a686afc88cb06122199b77&txTime=69EFD49A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil1/ligtv2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
