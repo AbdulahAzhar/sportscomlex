@@ -612,7 +612,7 @@
       "adsLimit": "8",
       "publish": "1",
       "formats": [
-        "WILLOW ENG - AQ",
+        "WILLOW [Ad-Free]",
         "FOX CRICKET",
         "WILLOW HINDI",
         "Willow HD",
@@ -1050,13 +1050,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404637.m3u8?txSecret=7e678ee381c8fc4b2c81fd1c0da66d45&txTime=69EBD675|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404610.m3u8?txSecret=386c3bef0b765b22615a4f9516f0d3b0&txTime=69F12663|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.66/hls/yoooqqq.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -1080,13 +1087,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404662.m3u8?txSecret=65bc677b7b0c18c02315d8e7990523d6&txTime=69EBDB96|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404688.m3u8?txSecret=df62b6259ab8928904e07fcf54313a88&txTime=69F12D48|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.66/hls/VFFFQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
