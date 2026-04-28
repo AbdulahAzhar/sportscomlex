@@ -841,44 +841,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS - AQ",
         "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "title": "TSN SPORTS - AQ",
-          "type": "1"
-        },
-        {
           "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49716/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/btsport.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fdet-orl",
-          "title": "NBA LIVE FHD",
-          "type": "0"
         },
         {
           "api": null,
@@ -914,9 +886,6 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -926,24 +895,6 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49723/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://balkisusuleimanfema.s3.us-west-2.amazonaws.com/sportsnet.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fokc-phx",
-          "title": "NBA LIVE FHD",
-          "type": "0"
         },
         {
           "api": null,
@@ -979,43 +930,15 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE HD",
-        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49724/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.nimesh.eu.cc/nba.m3u8",
-          "title": "NBA LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fmin-den",
-          "title": "NBA LIVE FHD",
-          "type": "0"
         },
         {
           "api": null,
@@ -1290,19 +1213,19 @@
     },
     {
       "id": "400",
-      "title": "PSG vs FC Bayern München",
+      "title": "Atlético Madrid vs Arsenal",
       "image": "o",
       "cat": "UCL",
       "eventInfo": {
-        "teamA": "PSG",
-        "teamB": "Bayern",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1644/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-        "eventName": "PSG vs FC Bayern München",
+        "teamA": "Atl. Madrid",
+        "teamB": "Arsenal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/42/image",
+        "eventName": "Atlético Madrid vs Arsenal",
         "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/04/28 19:00:00 +0000",
-        "endTime": "2026/04/28 21:05:00 +0000"
+        "isHot": "0",
+        "startTime": "2026/04/29 19:00:00 +0000",
+        "endTime": "2026/04/29 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1404,41 +1327,27 @@
     },
     {
       "id": "401",
-      "title": "Al-Hilal vs Damac",
+      "title": "San Lorenzo vs Santos",
       "image": "o",
-      "cat": "Pro League 🇸🇦",
+      "cat": "Copa Sudamericana",
       "eventInfo": {
-        "teamA": "Al-Hilal",
-        "teamB": "Damac",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/204126/image",
-        "eventName": "Al-Hilal vs Damac FC",
+        "teamA": "San Lorenzo",
+        "teamB": "Santos",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3201/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1968/image",
+        "eventName": "San Lorenzo vs Santos",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/28 18:00:00 +0000",
-        "endTime": "2026/04/28 20:00:00 +0000"
+        "startTime": "2026/04/28 22:00:00 +0000",
+        "endTime": "2026/04/29 00:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD",
-        "FOX DEPORTES",
         "SportDigital Fussball",
-        ""
+        "SportzX Live"
       ],
       "channels": [
-        {
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
         {
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
@@ -1447,8 +1356,8 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404690.m3u8?txSecret=cc84d70c2775ce740e6d68ebda97a676&txTime=69F13A20|Referer=https://player.787200.com/",
-          "title": "",
+          "link": "https://live.vivo200.com/live/sd-1-4518181.m3u8?txSecret=0b3a2935cff162e7d2f5014e018a5e33&txTime=69F16E02|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1629,9 +1538,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX MLB"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49742/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
