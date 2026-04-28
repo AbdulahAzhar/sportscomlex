@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 26,
+  "total_events": 22,
   "results": [
     {
       "id": "312",
@@ -330,8 +330,8 @@
         "eventName": "🥊 WWE Monday Night RAW",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/28 00:00:00 +0000",
-        "endTime": "2026/04/28 02:30:00 +0000"
+        "startTime": "2026/05/05 00:00:00 +0000",
+        "endTime": "2026/05/05 02:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -823,78 +823,6 @@
       ]
     },
     {
-      "id": "375",
-      "title": "Denver Nuggets",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Nuggets",
-        "teamB": "Timberwolves",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3417/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3426/image",
-        "eventName": "Denver Nuggets vs Timberwolves",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 02:30:00 +0000",
-        "endTime": "2026/04/28 05:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE HD",
-        "NBA LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49724/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.nimesh.eu.cc/nba.m3u8",
-          "title": "NBA LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fmin-den",
-          "title": "NBA LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "383",
       "title": "Al-Shabab vs Al-Fateh",
       "image": "o",
@@ -1007,159 +935,6 @@
         {
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4404696.m3u8?txSecret=49b3c189823b10516ccc05e8913599ea&txTime=69E018EC|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "386",
-      "title": "Pittsburgh Penguins",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Penguins",
-        "teamB": "Flyers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3697/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3699/image",
-        "eventName": "Pittsburgh Penguins vs Philadelphia Flyers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/27 23:00:00 +0000",
-        "endTime": "2026/04/28 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
-        "NHL LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49729/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.nimesh.eu.cc/nhl.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-27%2Fphi-pit",
-          "title": "NHL LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "387",
-      "title": "Utah Mammoth",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Mammoth",
-        "teamB": "Golden Knights",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/530472/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/257523/image",
-        "eventName": "Utah Mammoth vs Golden Knights",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 01:30:00 +0000",
-        "endTime": "2026/04/28 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
-        "NHL LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49729/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.shoncine.com/nhl.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnhl%2F2026-04-26%2Fcol-la",
-          "title": "NHL LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "397",
-      "title": "White Sox",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "White Sox",
-        "teamB": "Angels",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3644/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5929/image",
-        "eventName": "Chicago White Sox vs Los Angeles Angels",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 02:30:00 +0000",
-        "endTime": "2026/04/28 05:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49713/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
