@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 40,
   "results": [
     {
       "id": "312",
@@ -605,7 +605,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
         "eventName": "Punjab Kings vs Rajasthan Royals",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/28 14:00:00 +0000",
         "endTime": "2026/04/28 17:45:00 +0000"
       },
@@ -1032,110 +1032,6 @@
       ]
     },
     {
-      "id": "383",
-      "title": "Al-Shabab vs Al-Fateh",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Shabab",
-        "teamB": "Al-Fateh",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/34313/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/56023/image",
-        "eventName": "Al-Shabab vs Al-Fateh",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 16:00:00 +0000",
-        "endTime": "2026/04/28 18:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404610.m3u8?txSecret=386c3bef0b765b22615a4f9516f0d3b0&txTime=69F12663|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.66/hls/yoooqqq.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "384",
-      "title": "Neom SC vs Al-Hazem",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Neom SC",
-        "teamB": "Al-Hazem",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/530631/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/168086/image",
-        "eventName": "Neom SC vs Al-Hazem",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 16:45:00 +0000",
-        "endTime": "2026/04/28 18:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404688.m3u8?txSecret=df62b6259ab8928904e07fcf54313a88&txTime=69F12D48|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.66/hls/VFFFQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "385",
-      "title": "Al-Khaleej vs Al-Najma",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Khaleej",
-        "teamB": "Al-Najma",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/167228/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/395831/image",
-        "eventName": "Al-Khaleej vs Al-Najma SC",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/28 18:00:00 +0000",
-        "endTime": "2026/04/28 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404642.m3u8?txSecret=cd064366aedf65208dcc4be333eb0dea&txTime=69F139D5|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "386",
       "title": "Buffalo Sabres",
       "image": "o",
@@ -1404,13 +1300,14 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
         "eventName": "PSG vs FC Bayern München",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/28 19:00:00 +0000",
         "endTime": "2026/04/28 21:05:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "PARAMOUNT+ HD",
         "ViX SPANISH FHD",
         "CBS SPORTS HD",
@@ -1421,9 +1318,16 @@
         "SonyLiv [ENG]",
         "SonyLiv [HIN]",
         "SportzX Live",
-        "beIN SPORTS AR"
+        "beIN SPORTS AR",
+        "Paramount AQ"
       ],
       "channels": [
+        {
+          "api": "2128008edf1c48f09f2b4c242b92313b:32452567799140999f8fca3d5f5b98e2",
+          "link": "https://adjara-live-eu.akamaized.net/exp=1777488033~acl=%2f*~id=5eb3efd7-2dfc-4de4-b979-01c21f9e3985~data=hdntl,aXA9MTEyLjIwNS45My43MSZleHA9MTc3NzQwMTY2MiZlaWQ9OTUwNTQ2Jm9pZD0xMDImdHlwZT1WT0QmdWlkPUV6NEFlN3w0ODVmMzZkZi01YzY2LTRiYWQtOGU1OS01Yjg2MzNmMzY0NzkmY2lkPWRjZS5hZGphcmEmcHQ9bnVsbA~hmac=0767de48c0eaab4b14482c5a5ecd5ef15e03a2eaff31e85268bf9cb6a602fd26/dash/live/2001589/302088-320743/manifest-d.mpd",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
@@ -1489,6 +1393,12 @@
           "link": "https://8syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
           "title": "beIN SPORTS AR",
           "type": "0"
+        },
+        {
+          "api": "06d8f51569de2908912a1a34c0a9004e:0c7eb934ba186a59adf540e4e1062bde",
+          "link": "https://live-emt-pv-ta.amazon.fastly-edge.com/PDX/ed00534eb1a440e698d13c852e10749f/v1/dash/746463508834/paramount_aha_amzn1_dv_live_csid_9d501772-ebcd-44de-876a-2f5b335df190_us-west-2_pdx_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ztcmhbuzwv/out/v1/b0568f1d22d74750b1ccdd4618a5f82a/796ec3ed-f87f-4192-be03-9907f0d35719-cenc.mpd?aws.sessionId=8c57d0f7-b90c-498d-85ce-01d2c19b120b&amznDtid=AOAGZA014O5RE&amznPN=xp&amznPV=ATVWebPlayerSDK-1.0.236687.0&encoding=segmentBase",
+          "title": "Paramount AQ",
+          "type": "1"
         }
       ]
     },
