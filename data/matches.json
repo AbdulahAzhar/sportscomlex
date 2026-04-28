@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 33,
+  "total_events": 35,
   "results": [
     {
       "id": "312",
@@ -599,15 +599,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "DC",
-        "teamB": "RCB",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187841/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187843/image",
-        "eventName": "Delhi Capitals vs Royal Challengers Bengaluru",
+        "teamA": "PBKS",
+        "teamB": "RR",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187776/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
+        "eventName": "Punjab Kings vs Rajasthan Royals",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/27 14:00:00 +0000",
-        "endTime": "2026/04/27 17:45:00 +0000"
+        "startTime": "2026/04/28 14:00:00 +0000",
+        "endTime": "2026/04/28 17:45:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -841,6 +841,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS - AQ",
         "TSN SPORTS FHD",
         "SportzX NBA",
         "NBA LIVE - AQ",
@@ -850,6 +851,12 @@
       ],
       "channels": [
         {
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "title": "TSN SPORTS - AQ",
+          "type": "1"
+        },
+        {
           "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
@@ -857,7 +864,7 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49644/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49716/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
           "type": "0"
         },
@@ -869,7 +876,7 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-26%2Fcle-tor",
+          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fdet-orl",
           "title": "NBA LIVE FHD",
           "type": "0"
         },
@@ -908,13 +915,14 @@
       "formats": [
         "TSN SPORTS FHD",
         "SportzX NBA",
+        "NBA LIVE FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
         },
@@ -922,6 +930,12 @@
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49671/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fokc-phx",
+          "title": "NBA LIVE FHD",
           "type": "0"
         },
         {
@@ -957,6 +971,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TSN SPORTS FHD",
         "SportzX NBA",
         "NBA LIVE - AQ",
         "NBA LIVE FHD",
@@ -964,6 +979,12 @@
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49689/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -978,7 +999,7 @@
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-26%2Fbos-phi",
+          "link": "https://watch.damitv.live/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-27%2Fmin-den",
           "title": "NBA LIVE FHD",
           "type": "0"
         },
@@ -992,6 +1013,124 @@
           "api": null,
           "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "Al-Shabab vs Al-Fateh",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Shabab",
+        "teamB": "Al-Fateh",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34313/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56023/image",
+        "eventName": "Al-Shabab vs Al-Fateh",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/28 16:00:00 +0000",
+        "endTime": "2026/04/28 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404637.m3u8?txSecret=7e678ee381c8fc4b2c81fd1c0da66d45&txTime=69EBD675|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "Neom SC vs Al-Hazem",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Neom SC",
+        "teamB": "Al-Hazem",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/530631/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/168086/image",
+        "eventName": "Neom SC vs Al-Hazem",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/28 16:45:00 +0000",
+        "endTime": "2026/04/28 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404662.m3u8?txSecret=65bc677b7b0c18c02315d8e7990523d6&txTime=69EBDB96|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "title": "Al-Khaleej vs Al-Najma",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Khaleej",
+        "teamB": "Al-Najma",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/167228/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/395831/image",
+        "eventName": "Al-Khaleej vs Al-Najma SC",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/04/28 18:00:00 +0000",
+        "endTime": "2026/04/28 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD",
+        "FANCODE FHD",
+        "FOX DEPORTES",
+        "SportDigital Fussball",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404696.m3u8?txSecret=49b3c189823b10516ccc05e8913599ea&txTime=69E018EC|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1167,19 +1306,19 @@
     },
     {
       "id": "400",
-      "title": "Manchester United vs Brentford",
+      "title": "PSG vs FC Bayern München",
       "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "cat": "UCL",
       "eventInfo": {
-        "teamA": "Man Utd",
-        "teamB": "Brentford",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/35/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/50/image",
-        "eventName": "Manchester United vs Brentford",
+        "teamA": "PSG",
+        "teamB": "Bayern",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1644/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+        "eventName": "PSG vs FC Bayern München",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/27 19:00:00 +0000",
-        "endTime": "2026/04/27 21:00:00 +0000"
+        "startTime": "2026/04/28 19:00:00 +0000",
+        "endTime": "2026/04/28 21:05:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1267,19 +1406,19 @@
     },
     {
       "id": "401",
-      "title": "Espanyol vs Levante UD",
+      "title": "Al-Hilal vs Damac",
       "image": "o",
-      "cat": "LaLiga 🇪🇸",
+      "cat": "Pro League 🇸🇦",
       "eventInfo": {
-        "teamA": "Espanyol",
-        "teamB": "Levante",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2814/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2849/image",
-        "eventName": "Espanyol vs Levante UD",
+        "teamA": "Al-Hilal",
+        "teamB": "Damac",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/204126/image",
+        "eventName": "Al-Hilal vs Damac FC",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/27 19:00:00 +0000",
-        "endTime": "2026/04/27 21:00:00 +0000"
+        "startTime": "2026/04/28 18:00:00 +0000",
+        "endTime": "2026/04/28 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1318,19 +1457,19 @@
     },
     {
       "id": "402",
-      "title": "Cagliari vs Atalanta",
+      "title": "Southampton vs Ipswich Town",
       "image": "o",
-      "cat": "Serie A 🇮🇹",
+      "cat": "Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "eventInfo": {
-        "teamA": "Cagliari",
-        "teamB": "Atalanta",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
-        "eventName": "Cagliari vs Atalanta",
+        "teamA": "Southampton",
+        "teamB": "Ipswich",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/45/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/32/image",
+        "eventName": "Southampton vs Ipswich Town",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/27 16:30:00 +0000",
-        "endTime": "2026/04/27 18:30:00 +0000"
+        "startTime": "2026/04/28 18:45:00 +0000",
+        "endTime": "2026/04/28 20:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1733,10 +1872,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TNT SPORTS",
         "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49714/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -1748,36 +1894,6 @@
           "link": "https://edge2caster.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Cádiz vs Las Palmas",
-      "image": "o",
-      "cat": "LaLiga 2",
-      "eventInfo": {
-        "teamA": "Cádiz",
-        "teamB": "Las Palmas",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4488/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/6577/image",
-        "eventName": "Cádiz vs Las Palmas",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/27 18:30:00 +0000",
-        "endTime": "2026/04/27 20:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga Hypermotion ES"
-      ],
-      "channels": [
-        {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
         }
       ]
     }
