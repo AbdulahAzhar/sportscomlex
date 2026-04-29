@@ -927,19 +927,26 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "THMANYAH HD",
         "SportzX Live",
         "SD SERVER"
       ],
       "channels": [
         {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6737/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404610.m3u8?txSecret=386c3bef0b765b22615a4f9516f0d3b0&txTime=69F12663|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404607.m3u8?txSecret=bfd61eb5dbefc486c0648ccc8bf791e1&txTime=69F27297|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "http://195.178.110.66/hls/yoooqqq.m3u8|Referer=http://www.fawanews.sc/",
+          "link": "http://195.178.110.66/hls/CYYY.m3u8|Referer=http://www.fawanews.sc/",
           "title": "SD SERVER",
           "type": "0"
         }
@@ -965,7 +972,10 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "THMANYAH HD",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "channels": [
         {
@@ -979,6 +989,24 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1403/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404666.m3u8?txSecret=6f9147386dc04fab90b0a5a21dd23eb3&txTime=69F272DD|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.66/hls/CYYYQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1003,7 +1031,8 @@
       "formats": [
         "FOX SPORTS FHD",
         "FOX DEPORTES",
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "THMANYAH HD"
       ],
       "channels": [
         {
@@ -1022,6 +1051,12 @@
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
+          "title": "THMANYAH HD",
           "type": "1"
         }
       ]
@@ -1246,7 +1281,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TNT Sports 1",
+        "TNT SPORTS FHD",
         "PARAMOUNT+ HD",
         "ViX SPANISH FHD",
         "CBS SPORTS HD",
@@ -1264,7 +1299,7 @@
         {
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT Sports 1",
+          "title": "TNT SPORTS FHD",
           "type": "1"
         },
         {
@@ -1540,9 +1575,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49781/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1570,9 +1612,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49783/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edge2caster.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1600,9 +1649,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49785/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edge2caster.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
