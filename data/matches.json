@@ -519,13 +519,13 @@
       "channels": [
         {
           "api": "daa8ea92553fd16cd6bfae2b8c582715:4042e041b5639b79b69ae07a872eef9b",
-          "link": "https://qw.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
           "title": "TSN SPORTS",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49030/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/49815/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "SportzX WWE",
           "type": "0"
         },
@@ -796,6 +796,8 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
+        "SportzX NBA",
+        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -805,6 +807,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49816/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://romoramad.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
         },
         {
           "api": null,
@@ -839,16 +853,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS FHD",
+        "SportzX NBA",
+        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49819/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://romoramad.s3.us-east-1.amazonaws.com/nbatv.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
         },
         {
           "api": null,
@@ -992,10 +1013,24 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
+        "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49808/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.ceylonnet.com/nhl.m3u8",
+          "title": "NHL LIVE HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1029,10 +1064,24 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NHL",
+        "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49821/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://601.ceylonnet.com/nhl2.m3u8",
+          "title": "NHL LIVE HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
