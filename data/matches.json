@@ -561,7 +561,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187843/image",
         "eventName": "Gujarat Titans vs Royal Challengers Bengaluru",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/30 14:00:00 +0000",
         "endTime": "2026/04/30 17:45:00 +0000"
       },
@@ -1198,7 +1198,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
         "eventName": "Nottingham Forest vs Aston Villa",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/04/30 19:00:00 +0000",
         "endTime": "2026/04/30 21:00:00 +0000"
       },
@@ -1206,9 +1206,12 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "ViX SPANISH FHD",
         "PARAMOUNT+ HD",
+        "PARAMOUNT+ AQ",
         "ZIGGO SPORTS",
-        "SonyLiv [ENG]"
+        "SonyLiv [ENG]",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1218,9 +1221,21 @@
           "type": "1"
         },
         {
+          "api": "6f3f25efd808c910bf084bbb2c28ea09:ed000eae0bfb55d6f4e3f71170b56c33",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vutqxumqbw/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+          "title": "ViX SPANISH FHD",
+          "type": "1"
+        },
+        {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49852/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://romoramad.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "title": "PARAMOUNT+ AQ",
           "type": "0"
         },
         {
@@ -1233,6 +1248,12 @@
           "api": null,
           "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/Football3004/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4532048.m3u8?txSecret=e3fdf6429c9d96f0f685a10dbab913a9&txTime=69F3EE95|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1257,14 +1278,23 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "ViX SPANISH FHD",
         "TNT SPORTS HD",
-        "SonyLiv [ENG]"
+        "TNT SPORTS - AQ",
+        "SonyLiv [ENG]",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
           "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "d3326180c33110a59c756536facaebad:ed1a63212d65adcff7dcddd23753eda6",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/eyfh03oth9/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+          "title": "ViX SPANISH FHD",
           "type": "1"
         },
         {
@@ -1275,8 +1305,20 @@
         },
         {
           "api": null,
+          "link": "https://romoramad.s3.us-east-1.amazonaws.com/sportsnet.m3u8",
+          "title": "TNT SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Football3004/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4532046.m3u8?txSecret=fa35332dedf58c689ad50ef6286b99c1&txTime=69F3EEFC|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1301,6 +1343,7 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
+        "ViX SPANISH FHD",
         "TNT SPORTS HD",
         "SonyLiv [ENG]",
         "SportzX Live"
@@ -1310,6 +1353,12 @@
           "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
           "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "6661785f5ba70b9040ee3fab154e2fba:c2ed6f730c2929bca536f46e5d9f41d9",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/4gqnla5nzq/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+          "title": "ViX SPANISH FHD",
           "type": "1"
         },
         {
@@ -1326,7 +1375,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4369019.m3u8?txSecret=ab70e1a950232e82c8d36008e541a147&txTime=69F29ABE|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/hd-en-1-4532047.m3u8?txSecret=1e1c659b8a47a1bf1b029aafb92957c9&txTime=69F3EF21|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1351,10 +1400,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "ViX SPANISH FHD",
         "PARAMOUNT+ HD",
-        "ZIGGO SPORTS"
+        "TNT SPORTS HD",
+        "ZIGGO SPORTS",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "8791760f60b598bd5bccb9a1cd61a215:16b44a05eab26a817dedccacbfb633aa",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o29r88rqq8/out/v1/59dc0639d2c44432bf89984131478749/cenc.mpd",
+          "title": "ViX SPANISH FHD",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/49851/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -1362,10 +1420,22 @@
           "type": "0"
         },
         {
+          "api": null,
+          "link": "https://daffodil.ceylonnet.com/tnt5.m3u8",
+          "title": "TNT SPORTS HD",
+          "type": "0"
+        },
+        {
           "api": "3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02",
           "link": "https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd?accountinfo=~~V2.0~LNS2PBO5tyhp5z1Pe6ObBA6cd7a4ec35c4492167b9376e6dff2932~BZw2dESHw-I1PQCFh9gGxCMvrIIzgMdYAe900qj8l6aoXUX9ahyR6I9EUIu7nDR4f4887615c83ea7a8cee6dd33137c4ebe:UTC,",
           "title": "ZIGGO SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4532044.m3u8?txSecret=2a891e6b7a02a63d5d0670182a608b5b&txTime=69F3EF3C|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1677,9 +1747,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49857/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
