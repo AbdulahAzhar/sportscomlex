@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 22,
+  "total_events": 17,
   "results": [
     {
       "id": "312",
@@ -460,8 +460,8 @@
         "eventName": "🥊 WWE NXT",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/04/29 00:00:00 +0000",
-        "endTime": "2026/04/29 02:30:00 +0000"
+        "startTime": "2026/05/06 00:00:00 +0000",
+        "endTime": "2026/05/06 02:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -777,115 +777,6 @@
       ]
     },
     {
-      "id": "374",
-      "title": "Cleveland Cavaliers",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Cavaliers",
-        "teamB": "Raptors",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3432/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3433/image",
-        "eventName": "Cleveland Cavaliers vs Toronto Raptors",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/29 23:30:00 +0000",
-        "endTime": "2026/04/30 02:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49819/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://romoramad.s3.us-east-1.amazonaws.com/nbatv.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "375",
-      "title": "Los Angeles Lakers",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Lakers",
-        "teamB": "Rockets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3427/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3412/image",
-        "eventName": "Los Angeles Lakers vs Houston Rockets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/30 02:00:00 +0000",
-        "endTime": "2026/04/30 04:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49828/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://romoramad.s3.us-east-1.amazonaws.com/sportsnet.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "383",
       "title": "Al-Okhdood vs Al-Ettifaq",
       "image": "o",
@@ -948,25 +839,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX SPORTS FHD",
-        "FOX DEPORTES",
         "THMANYAH HD",
-        "SportzX Live",
-        "SD SERVER"
+        "SportzX Live"
       ],
       "channels": [
-        {
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
         {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1403/index.mpd",
@@ -977,63 +853,6 @@
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4404666.m3u8?txSecret=6f9147386dc04fab90b0a5a21dd23eb3&txTime=69F272DD|Referer=https://player.787200.com/",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://195.178.110.66/hls/CYYYQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "387",
-      "title": "Philadelphia Flyers",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Flyers",
-        "teamB": "Penguins",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3699/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3697/image",
-        "eventName": "Philadelphia Flyers vs Pittsburgh Penguins",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/29 23:30:00 +0000",
-        "endTime": "2026/04/30 02:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49821/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://601.ceylonnet.com/nhl2.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -1090,43 +909,6 @@
       ]
     },
     {
-      "id": "399",
-      "title": "Athletics",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Athletics",
-        "teamB": "Royals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3645/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3651/image",
-        "eventName": "Athletics vs Kansas City Royals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/30 01:40:00 +0000",
-        "endTime": "2026/04/30 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49826/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "Nottingham Forest vs Aston Villa",
       "image": "o",
@@ -1174,36 +956,6 @@
           "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/UCL_Atle2904/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [HIN]",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "401",
-      "title": "Los Angeles vs CD Toluca",
-      "image": "o",
-      "cat": "CONCACAF Cup 🇺🇸",
-      "eventInfo": {
-        "teamA": "Los Angeles",
-        "teamB": "Toluca",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/274650/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-        "eventName": "Los Angeles FC vs CD Toluca",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/30 02:30:00 +0000",
-        "endTime": "2026/04/30 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FOX SPORTS FHD"
-      ],
-      "channels": [
-        {
-          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
         }
       ]
     },
