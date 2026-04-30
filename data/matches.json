@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 37,
+  "total_events": 35,
   "results": [
     {
       "id": "312",
@@ -796,8 +796,6 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -807,18 +805,6 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49816/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://romoramad.s3.us-east-1.amazonaws.com/btsport.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
         },
         {
           "api": null,
@@ -853,23 +839,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
+        "TSN SPORTS FHD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49819/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://romoramad.s3.us-east-1.amazonaws.com/nbatv.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
         },
         {
           "api": null,
@@ -905,8 +884,6 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -919,18 +896,6 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49828/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://romoramad.s3.us-east-1.amazonaws.com/btsport.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
           "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
@@ -939,87 +904,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "383",
-      "title": "Al-Okhdood vs Al-Ettifaq",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Okhdood",
-        "teamB": "Al-Ettifaq",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/336456/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/34318/image",
-        "eventName": "Al-Okhdood vs Al-Ettifaq",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/30 16:00:00 +0000",
-        "endTime": "2026/04/30 18:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "THMANYAH HD",
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1403/index.mpd",
-          "title": "THMANYAH HD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404612.m3u8?txSecret=d3e289a8514fff2e9a5202a8ea11ddfe&txTime=69F3C2BB|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.190/hls/kdddqqqqqq.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "384",
-      "title": "Al-Kholood vs Al-Fayha",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Kholood",
-        "teamB": "Al-Fayha",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/269199/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/168094/image",
-        "eventName": "Al-Kholood vs Al-Fayha",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/04/30 18:00:00 +0000",
-        "endTime": "2026/04/30 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "THMANYAH HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
-          "title": "THMANYAH HD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404623.m3u8?txSecret=5a0dbce6f388a21dc5e2e8aae8701067&txTime=69F3E4C1|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1043,24 +927,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49808/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.ceylonnet.com/nhl.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1094,24 +964,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49821/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://601.ceylonnet.com/nhl2.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1145,9 +1001,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TNT SPORTS FHD",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1198,7 +1061,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
         "eventName": "Nottingham Forest vs Aston Villa",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/04/30 19:00:00 +0000",
         "endTime": "2026/04/30 21:00:00 +0000"
       },
