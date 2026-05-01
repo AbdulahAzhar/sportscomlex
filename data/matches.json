@@ -21,15 +21,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY SPORTS HD",
+        "SKY SPORTS FHD",
         "TSN SPORTS",
         "FANCODE FHD",
         "SportzX F1 HD",
         "SKY SPORT F1",
         "SKY SPORTS HD",
-        "ELEVEN SPORTS",
-        "VIAPLAY SPORTS",
         "beIN SPORTS SD",
-        "SportzX Live",
         "Sky F1 SD",
         "Sky F1 DE",
         "DAZN ES SD",
@@ -37,6 +36,18 @@
         "Fox Sports - AQ"
       ],
       "channels": [
+        {
+          "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777737369~acl=%2f*~id=e866972a-196b-48e9-9909-c6532574404c~data=hdntl,aXA9MTcyLjIxNi4yNDguMTMmZXhwPTE3Nzc2NTA5OTgmZWlkPTkzNjY0MyZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=f47d058466667781c6d14689e87cc84033ef507399d9367ebd4f61e3e23a00e6/dash/live/2093749/219026-314033/manifest-d.mpd",
+          "title": "SKY SPORTS HD",
+          "type": "1"
+        },
+        {
+          "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777737369~acl=%2f*~id=e866972a-196b-48e9-9909-c6532574404c~data=hdntl,aXA9MTcyLjIxNi4yNDguMTMmZXhwPTE3Nzc2NTA5OTgmZWlkPTkzNjY0MyZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=f47d058466667781c6d14689e87cc84033ef507399d9367ebd4f61e3e23a00e6/dash/live/2093666/294921-318514/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
         {
           "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
@@ -68,18 +79,6 @@
           "type": "0"
         },
         {
-          "api": "2e94219c1fc838eeaa36ece916d78211:fc85a15c05cf2429338896a8d6df9da8",
-          "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/D11/Manifest.mpd",
-          "title": "ELEVEN SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn-blabla.winner-api.icu/strimcdn/1774759494/lp/tv/viaplay_tv_plus/hls/index.m3u8?jwt=NDUuMTQuNzEuMTV8MTc3NDgwMjY5NHwvc3RyaW1jZG4vbHAvdHYvdmlhcGxheV90dl9wbHVzL2hscy9pbmRleC5tM3U4fERmVDNRN0F2RTd0SHJuT0ZqQThiU29QQ2tLa2YyUmNZcExKcnBqbFhLM3c",
-          "title": "VIAPLAY SPORTS",
-          "type": "0"
-        },
-        {
           "api": null,
           "link": "https://wahyu1ptv.pages.dev/AstroBein1.m3u8",
           "title": "beIN SPORTS SD",
@@ -87,25 +86,19 @@
         },
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/91LHlS9qZPK5/index.m3u8",
+          "link": "https://smarthard.click/hls/91LHlS9qZPK5/index.m3u8|Referer=https://hardsmart.click/",
           "title": "Sky F1 SD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/07HL6dzqKCAr/index.m3u8",
+          "link": "https://smarthard.click/hls/07HL6dzqKCAr/index.m3u8|Referer=https://hardsmart.click/",
           "title": "Sky F1 DE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/RdKfpotjL5g/index.m3u8",
+          "link": "https://smarthard.click/hls/RdKfpotjL5g/index.m3u8|Referer=https://hardsmart.click/",
           "title": "DAZN ES SD",
           "type": "0"
         },
@@ -795,24 +788,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49864/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -847,7 +826,6 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -857,12 +835,6 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49871/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
         },
         {
           "api": null,
@@ -897,31 +869,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49876/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://dami-tv.pro/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-30%2Fden-min",
-          "title": "NBA LIVE HD",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -955,17 +906,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49866/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -999,24 +943,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49877/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.nimesh.eu.cc/nhl.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -1050,23 +980,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
-        "NHL LIVE HD",
+        "PREMIER SPORTS",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49830/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.ceylonnet.com/nhl.m3u8",
-          "title": "NHL LIVE HD",
-          "type": "0"
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
         },
         {
           "api": null,
@@ -2029,36 +1952,6 @@
       ]
     },
     {
-      "id": "425",
-      "title": "Rizespor vs Konyaspor",
-      "image": "o",
-      "cat": "Super Lig",
-      "eventInfo": {
-        "teamA": "Rizespor",
-        "teamB": "Konyaspor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3064/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
-        "eventName": "Rizespor vs Konyaspor",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 14:00:00 +0000",
-        "endTime": "2026/05/01 16:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN SPORTS SD"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "beIN SPORTS SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "426",
       "title": "Gaziantep FK vs Beşiktaş",
       "image": "o",
@@ -2077,14 +1970,51 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "beIN SPORTS SD"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4366122.m3u8?txSecret=a50e82c2db989de2a51fdc403e67e696&txTime=69F530E0|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "beIN SPORTS SD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Andorra vs Albacete Balompié",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "FC Andorra",
+        "teamB": "Albacete",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2848/image",
+        "eventName": "Andorra vs Albacete Balompié",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 14:15:00 +0000",
+        "endTime": "2026/05/01 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
         }
       ]
     }
