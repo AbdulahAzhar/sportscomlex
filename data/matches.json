@@ -22,13 +22,13 @@
       "publish": "1",
       "formats": [
         "SKY SPORTS HD",
-        "SKY SPORTS FHD",
-        "TSN SPORTS",
+        "SKY SPORTS UHD",
+        "TSN SPORTS FHF",
         "FANCODE FHD",
         "SportzX F1 HD",
         "SKY SPORT F1",
         "SKY SPORTS HD",
-        "beIN SPORTS SD",
+        "ELEVEN SPORTS",
         "Sky F1 SD",
         "Sky F1 DE",
         "DAZN ES SD",
@@ -45,13 +45,13 @@
         {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777737369~acl=%2f*~id=e866972a-196b-48e9-9909-c6532574404c~data=hdntl,aXA9MTcyLjIxNi4yNDguMTMmZXhwPTE3Nzc2NTA5OTgmZWlkPTkzNjY0MyZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=f47d058466667781c6d14689e87cc84033ef507399d9367ebd4f61e3e23a00e6/dash/live/2093666/294921-318514/manifest-d.mpd",
-          "title": "SKY SPORTS FHD",
+          "title": "SKY SPORTS UHD",
           "type": "1"
         },
         {
           "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-          "title": "TSN SPORTS",
+          "title": "TSN SPORTS FHF",
           "type": "1"
         },
         {
@@ -79,10 +79,10 @@
           "type": "0"
         },
         {
-          "api": null,
-          "link": "https://wahyu1ptv.pages.dev/AstroBein1.m3u8",
-          "title": "beIN SPORTS SD",
-          "type": "0"
+          "api": "69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59",
+          "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
+          "title": "ELEVEN SPORTS",
+          "type": "1"
         },
         {
           "api": null,
@@ -1846,7 +1846,12 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
-        "NOW SPORTS PL"
+        "SKY SPORTS FHD",
+        "NOW SPORTS PL",
+        "USA TV - AQ",
+        "USA NETWORK HD",
+        "HUB PREMIER HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1856,9 +1861,39 @@
           "type": "1"
         },
         {
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777737364~acl=%2f*~id=593bfb9b-958a-4fbd-975e-3d2188975e2c~data=hdntl,aXA9MTcyLjIxNi4yNDguMTMmZXhwPTE3Nzc2NTA5OTQmZWlkPTkzNjU3NiZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=6ce4814cb72d604eb990637c8fdfcc87ba1e519e6c5c59b635f83d4b1454cbbe/dash/live/2093753/219035-314047/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/b5d5801b00e60a1a0a558a488419d2bd/manifest/video.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49886/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA NETWORK HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn-1.ttvb.eu.org/api/Hub-Premier-1/index.m3u8",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343343.m3u8?txSecret=82052b9f7f1ed3e3bc704ffbdd83fb8e&txTime=69F5416A|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1908,7 +1943,7 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
+          "link": "https://chatgpt.hereisman.net/playlist/49884/load-playlist?|Referer=https://gooz.aapmains.net",
           "title": "ESPN DEPORTES",
           "type": "0"
         }
@@ -1934,7 +1969,8 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "PARAMOUNT+ HD"
       ],
       "channels": [
         {
@@ -1948,6 +1984,12 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49883/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
         }
       ]
     },
