@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 37,
+  "total_events": 43,
   "results": [
     {
       "id": "312",
@@ -777,64 +777,6 @@
       ]
     },
     {
-      "id": "375",
-      "title": "Minnesota Timberwolves",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Timberwolves",
-        "teamB": "Nuggets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3426/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3417/image",
-        "eventName": "Minnesota Timberwolves vs Denver Nuggets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 01:30:00 +0000",
-        "endTime": "2026/05/01 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX NBA",
-        "NBA LIVE HD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49876/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://dami-tv.pro/ppv-extract/play?url=https%3A%2F%2Fpooembed.eu%2Fembed%2Fnba%2F2026-04-30%2Fden-min",
-          "title": "NBA LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "387",
       "title": "Edmonton Oilers",
       "image": "o",
@@ -882,36 +824,6 @@
           "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "399",
-      "title": "Ind. Medellin",
-      "image": "o",
-      "cat": "CON. Libertadores",
-      "eventInfo": {
-        "teamA": "Ind. Medellín",
-        "teamB": "Cusco",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/6115/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/63760/image",
-        "eventName": "Ind. Medellín vs Cusco FC",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 02:00:00 +0000",
-        "endTime": "2026/05/01 04:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH FHD"
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
         }
       ]
     },
@@ -1680,6 +1592,281 @@
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8",
           "title": "NOW SPORTS PL",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "title": "Girona FC vs Mallorca",
+      "image": "o",
+      "cat": "LaLiga 🇪🇸",
+      "eventInfo": {
+        "teamA": "Girona",
+        "teamB": "Mallorca",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/24264/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2826/image",
+        "eventName": "Girona FC vs Mallorca",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 19:00:00 +0000",
+        "endTime": "2026/05/01 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "Laliga TV FHD",
+        "PREMIER SPORTS",
+        "ESPN DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
+          "title": "ESPN DEPORTES",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "title": "Pisa vs Lecce",
+      "image": "o",
+      "cat": "Serie A 🇮🇹",
+      "eventInfo": {
+        "teamA": "Pisa",
+        "teamB": "Lecce",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2737/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2689/image",
+        "eventName": "Pisa vs Lecce",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 18:45:00 +0000",
+        "endTime": "2026/05/01 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "FOX DEPORTES"
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "title": "Rizespor vs Konyaspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Rizespor",
+        "teamB": "Konyaspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3064/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "eventName": "Rizespor vs Konyaspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 14:00:00 +0000",
+        "endTime": "2026/05/01 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "Gaziantep FK vs Beşiktaş",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Gaziantep",
+        "teamB": "Beşiktaş",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5138/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "eventName": "Gaziantep FK vs Beşiktaş JK",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 17:00:00 +0000",
+        "endTime": "2026/05/01 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "title": "Andorra vs Albacete Balompié",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "FC Andorra",
+        "teamB": "Albacete",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2848/image",
+        "eventName": "Andorra vs Albacete Balompié",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 14:15:00 +0000",
+        "endTime": "2026/05/01 16:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Deportivo vs Leganés",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Deportivo",
+        "teamB": "Leganés",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2832/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2845/image",
+        "eventName": "Deportivo vs Leganés",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 16:30:00 +0000",
+        "endTime": "2026/05/01 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Real Zaragoza vs Granada",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Real Zaragoza",
+        "teamB": "Granada",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2815/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "eventName": "Real Zaragoza vs Granada",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 19:00:00 +0000",
+        "endTime": "2026/05/01 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Livingston vs Aberdeen",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "Livingston",
+        "teamB": "Aberdeen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2356/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2355/image",
+        "eventName": "Livingston vs Aberdeen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 18:45:00 +0000",
+        "endTime": "2026/05/01 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "CBS NETWORK"
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
         }
       ]
     }
