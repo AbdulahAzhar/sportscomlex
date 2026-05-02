@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 45,
   "results": [
     {
       "id": "312",
@@ -719,43 +719,6 @@
       ]
     },
     {
-      "id": "384",
-      "title": "Damac FC vs Al-Khaleej",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Damac",
-        "teamB": "Al-Khaleej",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/204126/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/167228/image",
-        "eventName": "Damac FC vs Al-Khaleej",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/02 16:10:00 +0000",
-        "endTime": "2026/05/02 18:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "THMANYAH HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6737/index.mpd",
-          "title": "THMANYAH HD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404623.m3u8?txSecret=5a0dbce6f388a21dc5e2e8aae8701067&txTime=69F3E4C1|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "386",
       "title": "Carolina Hurricanes",
       "image": "o",
@@ -1381,36 +1344,6 @@
         {
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "434",
-      "title": "Trabzonspor vs Göztepe",
-      "image": "o",
-      "cat": "Super Lig",
-      "eventInfo": {
-        "teamA": "Trabzonspor",
-        "teamB": "Göztepe",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3054/image",
-        "eventName": "Trabzonspor vs Göztepe",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/02 17:00:00 +0000",
-        "endTime": "2026/05/02 19:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4366116.m3u8?txSecret=f053ab643d23eb148da1daa3fcc8f293&txTime=69F675BA|referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
