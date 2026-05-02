@@ -175,83 +175,6 @@
       ]
     },
     {
-      "id": "324",
-      "title": "UFC",
-      "image": "o",
-      "cat": "UFC",
-      "eventInfo": {
-        "teamA": "J. Della Maddalena",
-        "teamB": "C. Prates",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/461944/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/486851/image",
-        "eventName": "UFC Fight Night: Della Maddalena vs Prates",
-        "eventType": "null",
-        "startTime": "2026/05/02 08:00:00 +0000",
-        "endTime": "2026/05/02 16:00:00 +0000"
-      },
-      "adsLimit": "13",
-      "publish": "1",
-      "formats": [
-        "TNT SPORTS FHD",
-        "SETANTA SPORTS",
-        "SportzX+ UFC",
-        "UFC+ FHD",
-        "Paramount+ BR",
-        "SportzX LIVE",
-        "UFC+ - AQ"
-      ],
-      "channels": [
-        {
-          "api": "d0f2e5c39e70c18f29bf77768a1ad89a:d6853c51fcf37a18905f0609972395d7",
-          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
-          "title": "TNT Sports",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://indiasmellsverybad.xyz/live/ufc-on-espn-73-royval-vs-kape720p/index.m3u8",
-          "title": "SportzX UFC",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://gg.poocloud.in/ufc/tracks-v1a1/mono.ts.m3u8?|Referer=https://ppv.to/&Origin=https://ppv.to",
-          "title": "SportzX FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://red9.lumenlyra.space/playlist/41184/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX TV+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edgestreams.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Low",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://azplay.live/hls/NFLHD30/index.m3u8?|Referer=https://arizonaplay.club/&Origin=https://arizonaplay.club",
-          "title": "SportzX HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn1.dtplumber.cfd/live/cdn1/chunks.m3u8",
-          "title": "FAST Server",
-          "type": "0"
-        },
-        {
-          "api": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47",
-          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
-          "title": "UFC+ - AQ",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "327",
       "title": "ONE Friday Fights 130",
       "image": "o",
@@ -2080,21 +2003,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Paramount+ SD",
-        "ESPN DEPORTES"
+        "FANCODE FHD"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://instreams.pro/bil1/bbc2/tracks-v1a1/mono.m3u8|referer=https://instream.click/",
-          "title": "Paramount+ SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
-          "title": "ESPN DEPORTES",
-          "type": "0"
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
         }
       ]
     },
@@ -2308,6 +2224,50 @@
         {
           "api": null,
           "link": "https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "AFC Ajax vs PSV Eindhoven",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Ajax",
+        "teamB": "PSV",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+        "eventName": "AFC Ajax vs PSV Eindhoven",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/02 18:00:00 +0000",
+        "endTime": "2026/05/02 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportDigital Fussball",
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "ESPN NL",
           "type": "0"
         }
