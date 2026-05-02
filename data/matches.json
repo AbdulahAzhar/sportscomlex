@@ -379,9 +379,6 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX WWE",
-        "WWE LIVE FHD",
-        "WWE LIVE SD",
         "SportzX Live",
         "Backup HD",
         "Backup SD",
@@ -389,24 +386,6 @@
         "USA TV (USA VPN)"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49497/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX WWE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-wwe-friday-night-smackdown&streamNo=1",
-          "title": "WWE LIVE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-wwe-friday-night-smackdown&streamNo=3",
-          "title": "WWE LIVE SD",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
@@ -547,15 +526,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "RR",
-        "teamB": "DC",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187842/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
-        "eventName": "Rajasthan Royals vs Delhi Capitals",
+        "teamA": "CSK",
+        "teamB": "MI",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187777/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187780/image",
+        "eventName": "Chennai Super Kings vs Mumbai Indians",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/01 14:00:00 +0000",
-        "endTime": "2026/05/01 17:45:00 +0000"
+        "startTime": "2026/05/02 14:00:00 +0000",
+        "endTime": "2026/05/02 17:45:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -655,20 +634,106 @@
       ]
     },
     {
+      "id": "367",
+      "title": "IPL - 02",
+      "image": "o",
+      "cat": "Indian Premier League",
+      "eventInfo": {
+        "teamA": "GT",
+        "teamB": "PBKS",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/216006/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187776/image",
+        "eventName": "Gujarat Titans vs Punjab Kings",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 14:00:00 +0000",
+        "endTime": "2026/05/03 17:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "WILLOW [Ad-Free]",
+        "FOX CRICKET - AQ",
+        "FOX CRICKET HD",
+        "WILLOW HINDI",
+        "STAR IN [ENG]",
+        "STAR IN [HIN]",
+        "STAR IN [TAM]",
+        "STAR IN [TEL]",
+        "SD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "7cb361793a6e99ded8ca042a499b7f45:8efbe47bdb7cbea560d3abfe3a933cf8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjnd301okd/out/v1/ea7ec99915184a66bb1e7e49fe14baa7/cenc.mpd",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
+        {
+          "api": "6a70902dcc79493f98d00064d93e8460:eb950593a82a15994676e4431113b551",
+          "link": "https://foxteldashmtgmpxlive01.akamaized.net/v1/dash/40a0de4a910d426b321814c25ab1ea7bbc30818d/prod-dash-switch-gambproxy-akamai/live/channel091/channel091_mcs.isml/playlist_high.mpd?hdnts=exp=1777145784~hmac=2ba30b713211ce738273ff2ca7261f5e7d3e58de79e7a5f7a9c3cc7178949fa8",
+          "title": "FOX CRICKET - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-lucknow-super-giants-vs-kolkata-knight-riders&streamNo=1",
+          "title": "FOX CRICKET HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://datahub11.com:80/live/Jen12345/Jen54321/703300.ts",
+          "title": "WILLOW HINDI",
+          "type": "0"
+        },
+        {
+          "api": "965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [TAM]",
+          "type": "1"
+        },
+        {
+          "api": "49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5",
+          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+          "title": "STAR IN [TEL]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "http://195.178.110.76/hls/ZDDDZQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "368",
       "title": "PSL 01",
       "image": "o",
       "cat": "PSL",
       "eventInfo": {
-        "teamA": "ISL",
+        "teamA": "PES",
         "teamB": "HYK",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/212416/image",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212420/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
-        "eventName": "Islamabad United vs Hyderabad Kingsmen",
+        "eventName": "Peshawar Zalmi vs Hyderabad Kingsmen",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/01 14:00:00 +0000",
-        "endTime": "2026/05/01 17:45:00 +0000"
+        "startTime": "2026/05/03 14:00:00 +0000",
+        "endTime": "2026/05/03 16:00:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -766,198 +831,6 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
-        }
-      ]
-    },
-    {
-      "id": "373",
-      "title": "Orlando Magic",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Magic",
-        "teamB": "Pistons",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3437/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3424/image",
-        "eventName": "Orlando Magic vs Detroit Pistons",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 23:00:00 +0000",
-        "endTime": "2026/05/02 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "374",
-      "title": "Toronto Raptors",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Raptors",
-        "teamB": "Cavaliers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3433/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3432/image",
-        "eventName": "Toronto Raptors vs Cleveland Cavaliers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 23:30:00 +0000",
-        "endTime": "2026/05/02 02:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "375",
-      "title": "Los Angeles Lakers",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Rockets",
-        "teamB": "Lakers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3412/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3427/image",
-        "eventName": "Houston Rockets vs Los Angeles Lakers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/02 01:30:00 +0000",
-        "endTime": "2026/05/02 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hfsdqtaxvb67.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "386",
-      "title": "Canadiens",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Canadiens",
-        "teamB": "Lightning",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3690/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3694/image",
-        "eventName": "Montréal Canadiens vs Tampa Bay Lightning",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 23:00:00 +0000",
-        "endTime": "2026/05/02 01:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "387",
-      "title": "Boston Bruins",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Bruins",
-        "teamB": "Sabres",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3677/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3678/image",
-        "eventName": "Boston Bruins vs Buffalo Sabres",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/01 23:30:00 +0000",
-        "endTime": "2026/05/02 02:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
         }
       ]
     },
@@ -2057,6 +1930,133 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
           "title": "Laliga Hypermotion ES",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Deportivo vs Leganés",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Deportivo",
+        "teamB": "Leganés",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2832/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2845/image",
+        "eventName": "Deportivo vs Leganés",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 16:30:00 +0000",
+        "endTime": "2026/05/01 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Real Zaragoza vs Granada",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Real Zaragoza",
+        "teamB": "Granada",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2815/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+        "eventName": "Real Zaragoza vs Granada",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 19:00:00 +0000",
+        "endTime": "2026/05/01 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Livingston vs Aberdeen",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "Livingston",
+        "teamB": "Aberdeen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2356/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2355/image",
+        "eventName": "Livingston vs Aberdeen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 18:45:00 +0000",
+        "endTime": "2026/05/01 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "CBS NETWORK"
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "title": "Detroit Tigers vs Texas Rangers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Tigers",
+        "teamB": "Rangers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3647/image",
+        "eventName": "Detroit Tigers vs Texas Rangers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/01 22:40:00 +0000",
+        "endTime": "2026/05/02 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX MLB",
+          "type": "0"
         }
       ]
     }
