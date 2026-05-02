@@ -194,7 +194,6 @@
       "formats": [
         "TNT SPORTS FHD",
         "SETANTA SPORTS",
-        "PRELIMS FHD",
         "SportzX+ UFC",
         "UFC+ FHD",
         "Paramount+ BR",
@@ -521,7 +520,7 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/05/02 08:00:00 +0000",
-        "endTime": "2026/05/02 11:45:00 +0000"
+        "endTime": "2026/05/02 12:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1227,7 +1226,8 @@
       "publish": "1",
       "formats": [
         "Laliga TV FHD",
-        "Movistar Laliga"
+        "Movistar Laliga",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1240,6 +1240,12 @@
           "api": null,
           "link": "https://instreams.pro/EU/HDTV8/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "Movistar Laliga",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4358408.m3u8?txSecret=ee4c5ea6ce867af9f8a97112ccf8a9c8&txTime=69F62D34|referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1382,13 +1388,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "DAZN IT HD"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/hd-en-1-4339717.m3u8?txSecret=e06f42bf843239cc69753dd986a7b81e&txTime=69F627AC|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV11/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "DAZN IT HD",
           "type": "0"
         }
       ]
@@ -1687,7 +1700,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Ligue1+ HD"
+        "Ligue1+ HD",
+        "beIN SPORTS US",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1695,6 +1710,18 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2083/index.mpd",
           "title": "Ligue1+ HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://edgestreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347965.m3u8?txSecret=9728cdd29c176abf1e8d447755bfdaef&txTime=69F62856|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
