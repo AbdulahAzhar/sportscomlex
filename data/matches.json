@@ -1226,7 +1226,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Laliga TV FHD"
+        "Laliga TV FHD",
+        "Movistar Laliga"
       ],
       "channels": [
         {
@@ -1234,6 +1235,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
           "title": "Laliga TV FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV8/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "Movistar Laliga",
+          "type": "0"
         }
       ]
     },
@@ -1484,8 +1491,8 @@
           "type": "1"
         },
         {
-          "api": "586dddf468ae3dcd8b4df34cbd17ab37:b50bfd59dc72a57930a38776bd9c3cc4",
-          "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sports_2/D11/Manifest.mpd",
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
         },
@@ -1516,13 +1523,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SporTV BR",
         "ELEVEN SPORTS",
         "SKY BUNDESLIGA SD"
       ],
       "channels": [
         {
-          "api": "222e6835692435b0a2ac692a17343c2d:18f03461c9a9282d7baf09b6b75aa6ef",
-          "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sports_3/D11/Manifest.mpd",
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6412/index.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
         },
