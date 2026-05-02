@@ -1165,9 +1165,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "NOVA SPORTS PL",
         "NOW SPORTS PL"
       ],
       "channels": [
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd",
+          "title": "NOVA SPORTS PL",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://eventcdn02-nowe.akamaized.net/hls/CH622/index.m3u8",
@@ -1226,6 +1233,7 @@
       "publish": "1",
       "formats": [
         "Laliga TV FHD",
+        "DAZN LALIGA HD",
         "Movistar Laliga",
         "SportzX Live"
       ],
@@ -1235,6 +1243,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
           "title": "Laliga TV FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/daznlaliga/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "DAZN LALIGA HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -1388,10 +1402,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PARAMOUNT+ HD",
         "SportzX Live",
         "DAZN IT HD"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49944/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4339717.m3u8?txSecret=e06f42bf843239cc69753dd986a7b81e&txTime=69F627AC|Referer=https://player.787200.com/",
@@ -1400,7 +1421,7 @@
         },
         {
           "api": null,
-          "link": "https://instreams.live/EU/HDTV11/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8|referer=https://hardsmart.click/",
           "title": "DAZN IT HD",
           "type": "0"
         }
@@ -1485,7 +1506,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/5885/image",
         "eventName": "Bayern München vs Heidenheim",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/02 13:30:00 +0000",
         "endTime": "2026/05/02 15:30:00 +0000"
       },
@@ -1493,8 +1514,12 @@
       "publish": "1",
       "formats": [
         "SporTV BR",
+        "BUNDESLIGA HD [ENG]",
         "ELEVEN SPORTS",
-        "SKY BUNDESLIGA SD"
+        "ONE SPORTS HD",
+        "SKY BUNDESLIGA HD",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1504,6 +1529,12 @@
           "type": "1"
         },
         {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49945/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "BUNDESLIGA HD [ENG]",
+          "type": "0"
+        },
+        {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
           "title": "ELEVEN SPORTS",
@@ -1511,8 +1542,26 @@
         },
         {
           "api": null,
+          "link": "https://daffodil.nimesh.eu.cc/one.m3u8",
+          "title": "ONE SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ueyeztrazb4.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347648.m3u8?txSecret=9baa6170a599a83601b9e80425ae3d03&txTime=69F64190|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1580,13 +1629,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA SD"
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
           "link": "https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347631.m3u8?txSecret=b6e99c39e2cc4403c8dd14e31b7c6110&txTime=69F641F9|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1610,13 +1666,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA SD"
+        "BUNDESLIGA HD [ENG]",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49947/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "BUNDESLIGA HD [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347619.m3u8?txSecret=ecaf24e6380b02fb23530191fe220616&txTime=69F64256|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1640,13 +1710,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA SD"
+        "BUNDESLIGA HD [ENG]",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49948/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "BUNDESLIGA HD [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347665.m3u8?txSecret=0c7ee9c3edebde1fe4e812e15e5d2f68&txTime=69F64223|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1670,13 +1754,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA SD"
+        "BUNDESLIGA HD [ENG]",
+        "SKY BUNDESLIGA SD",
+        "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/49946/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "BUNDESLIGA HD [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes5/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347637.m3u8?txSecret=4647019aa5869f738fd56964eb487fb7&txTime=69F641C4|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1702,7 +1800,9 @@
       "formats": [
         "Ligue1+ HD",
         "beIN SPORTS US",
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER",
+        "CANAL+ HD"
       ],
       "channels": [
         {
@@ -1721,6 +1821,18 @@
           "api": null,
           "link": "https://live.vivo200.com/live/hd-en-1-4347965.m3u8?txSecret=9728cdd29c176abf1e8d447755bfdaef&txTime=69F62856|Referer=https://player.787200.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/amazon2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV22/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "CANAL+ HD",
           "type": "0"
         }
       ]
@@ -1834,9 +1946,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Paramount+ SD",
         "ESPN DEPORTES"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/bbc2/tracks-v1a1/mono.m3u8|referer=https://instream.click/",
+          "title": "Paramount+ SD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
