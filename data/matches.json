@@ -21,6 +21,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY SPORTS FHD",
         "TSN SPORTS FHD",
         "FANCODE FHD",
         "SKY SPORTS 4k",
@@ -38,6 +39,12 @@
       ],
       "channels": [
         {
+          "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777909489~acl=%2f*~id=b77eb585-70bb-4b92-824f-cbd87312047c~data=hdntl,aXA9MTA4LjE4MS4xLjI0MSZleHA9MTc3NzgyMzExOCZlaWQ9OTM2NjQzJm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=65d5d1abb802159ed195e8e88247316ef382ad1a555c76bb7f4e0c5732a73e72/dash/live/2093749/219026-314033/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
           "title": "TSN SPORTS FHD",
@@ -51,7 +58,7 @@
         },
         {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777834656~acl=%2f*~id=e708530b-60d1-4d5d-a87b-5fc0559865af~data=hdntl,aXA9MTA4LjE4MS4zLjE0OSZleHA9MTc3Nzc0ODI4NSZlaWQ9OTM1NjIzJm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=d78e00b90997feb6aca124627e3fab756fd2cb4bf4783769458d0a53d7f1adb1/dash/live/2093666/294921-318514/manifest-d.mpd",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777909488~acl=%2f*~id=c4e7285a-4b85-4cf8-9113-5cf0fce56b08~data=hdntl,aXA9MTA4LjE4MS4xLjI0MSZleHA9MTc3NzgyMzExOCZlaWQ9OTM5MjI1Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=40072fb54ef71544d38ffffae7cb690792baf750f07976a0840b74a8ee2ed6b2/dash/live/2093666/294921-318514/manifest-d.mpd",
           "title": "SKY SPORTS 4k",
           "type": "1"
         },
@@ -451,120 +458,6 @@
       ]
     },
     {
-      "id": "366",
-      "title": "IPL - 01",
-      "image": "o",
-      "cat": "Indian Premier League",
-      "eventInfo": {
-        "teamA": "SRH",
-        "teamB": "KKR",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187844/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187775/image",
-        "eventName": "Sunrisers Hyderabad vs Kolkata Knight Riders",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/03 10:00:00 +0000",
-        "endTime": "2026/05/03 13:45:00 +0000"
-      },
-      "adsLimit": "8",
-      "publish": "1",
-      "formats": [
-        "WILLOW [Ad-Free]",
-        "KAYO SPORTS HIN",
-        "CRICBUZZ HD",
-        "SKY CRICKET",
-        "FOX CRICKET",
-        "WILLOW HINDI",
-        "SD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd",
-          "title": "PRIME VIDEO",
-          "type": "1"
-        },
-        {
-          "api": "2d0646dd8a8c511de3b2485071705038:1ddbda2f121875fd43dcd758497cbf82",
-          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/7j8yftutgs/out/v1/8a40608178f045839a1c0c0a055d6a90/cenc.mpd",
-          "title": "WILLOW [Ad Free]",
-          "type": "1"
-        },
-        {
-          "api": "9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab",
-          "link": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd",
-          "title": "PRIME HINDI",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
-          "title": "SKY SPORTS - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/57c9fd581995339676bb330a024502e2/manifest/stream_t9e72c8d63ef150818cea65aca509f8bd_r1479738631.m3u8?llhlsHBs=0.9",
-          "title": "PTV Sports",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sfsfs.valverdeae7.workers.dev/live.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://matcheslinkz.pages.dev/&origin=https://matcheslinkz.pages.dev",
-          "title": "S©portzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live-pull.aisports.mobi/moviebox/device01/playlist.m3u8|Referer=https://sportslivenow.top/",
-          "title": "JIO HOTSTAR",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://103.229.254.25:7001/play/a0a0/index.m3u8",
-          "title": "Star Sports [HIN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR ENG - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR HIN - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TAM - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TEL - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR KAN - IN",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "367",
       "title": "IPL - 02",
       "image": "o",
@@ -576,9 +469,8 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187776/image",
         "eventName": "Gujarat Titans vs Punjab Kings",
         "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/05/03 14:00:00 +0000",
-        "endTime": "2026/05/03 17:45:00 +0000"
+        "startTime": "2026/05/03 08:00:00 +0000",
+        "endTime": "2026/05/03 11:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -611,7 +503,7 @@
         },
         {
           "api": null,
-          "link": "https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJ3aWxsb3ctMSIsImV4cCI6MTc3NzgzMjIwM30.K85O4h20YtNglDCG-9fK3wc5ReVlYK5He_OF8PcjdU4/willow-1.m3u8",
+          "link": "https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJmb3gtc3BvcnRzLTUwMSIsImV4cCI6MTc3NzgzODQ3NH0.9WlORCa8PboayG8yh9Rm1a6unfy4bDyP0U8wRSGYpk4/fox-sports-501.m3u8",
           "title": "FOX CRICKET",
           "type": "0"
         },
@@ -858,7 +750,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404623.m3u8?txSecret=5a0dbce6f388a21dc5e2e8aae8701067&txTime=69F3E4C1|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404624.m3u8?txSecret=1df110833a4df842bcff4aaad0d8cdf6&txTime=69F7D382|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -876,7 +768,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/23400/image",
         "eventName": "Al-Qadsiah vs Al-Nassr",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/03 18:00:00 +0000",
         "endTime": "2026/05/03 20:00:00 +0000"
       },
@@ -902,7 +794,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404682.m3u8?txSecret=4d593c2b635723ff9b4486e2009688d1&txTime=69F68068|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404632.m3u8?txSecret=407295d2e4e2932be910c86b4725b40d&txTime=69F7D35A|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1045,18 +937,30 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
         "eventName": "Aston Villa vs Tottenham Hotspur",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/03 18:00:00 +0000",
         "endTime": "2026/05/03 20:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY SPORTS FHD",
         "TNT SPORTS FHD",
         "UNIVERSO FHD",
-        "NOVA SPORTS PL"
+        "NOVA SPORTS PL",
+        "SKY SPORTS FHD",
+        "USA TV HD",
+        "USA TV - AQ",
+        "HD SERVER",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777909488~acl=%2f*~id=c4e7285a-4b85-4cf8-9113-5cf0fce56b08~data=hdntl,aXA9MTA4LjE4MS4xLjI0MSZleHA9MTc3NzgyMzExOCZlaWQ9OTM5MjI1Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=40072fb54ef71544d38ffffae7cb690792baf750f07976a0840b74a8ee2ed6b2/dash/live/2093753/219035-314047/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
         {
           "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
@@ -1074,6 +978,36 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd",
           "title": "NOVA SPORTS PL",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJlcGwtNzQwOTM3IiwiZXhwIjoxNzc3ODM5NzAzfQ.zQbcoLYCDKXgvCWvnLm0Ih-gwmvfS0O2DO0fC92Wmco/epl-740937.m3u8",
+          "title": "SKY SPORTS FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50042/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/7b2add8f6c990c9e43454caedce67487/manifest/video.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/bakuknhertyung1/mux_video_ts/index-1.m3u8",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343334.m3u8?txSecret=6516b0973cbb0815ec8337e3921120f0&txTime=69F7CBC3|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1372,12 +1306,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "DAZN SPORTS",
         "SportzX Live"
       ],
       "channels": [
         {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD232/index.mpd",
+          "title": "DAZN SPORTS",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/hd-en-1-4347639.m3u8?txSecret=400900b1f09def72e0b5a9c664e6dbcb&txTime=69F7CB95|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1857,25 +1798,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4351801.m3u8?txSecret=b19eea5aad20a05f32b88048cbfafb25&txTime=69F62338|Referer=https://player.787200.com/",
+          "link": "https://chatgpt.hereisman.net/playlist/50037/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4351801.m3u8?txSecret=f6ab0d19353bf0abd4fd7489ce89aed8&txTime=69F72C95",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://d.koltcddqq.shop/hls/JWWWQ.m3u8|Referer=http://www.fawanews.sc/",
-          "title": "LOW QUALITY",
           "type": "0"
         }
       ]
@@ -1899,9 +1835,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50030/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1929,9 +1872,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50033/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1959,9 +1909,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50040/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1989,9 +1946,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50038/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -2085,6 +2049,36 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "452",
+      "title": "Athletics vs Cleveland Guardians",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Athletics",
+        "teamB": "Guardians",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3645/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "eventName": "Athletics vs Cleveland Guardians",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 20:05:00 +0000",
+        "endTime": "2026/05/03 23:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
