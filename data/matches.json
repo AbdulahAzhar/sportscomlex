@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 39,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -723,7 +723,7 @@
         "eventType": "null",
         "isHot": "1",
         "startTime": "2026/05/02 23:30:00 +0000",
-        "endTime": "2026/05/03 04:00:00 +0000"
+        "endTime": "2026/05/03 04:50:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -760,6 +760,307 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "title": "Detroit Pistons",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Pistons",
+        "teamB": "Magic",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3437/image",
+        "eventName": "Detroit Pistons vs Orlando Magic",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 19:30:00 +0000",
+        "endTime": "2026/05/03 22:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "NBA LIVE - AQ",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50001/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/7b2add8f6c990c9e43454caedce67487/manifest/video.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Cleveland Cavaliers",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Cavaliers",
+        "teamB": "Raptors",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3432/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3433/image",
+        "eventName": "Cleveland Cavaliers vs Toronto Raptors",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 23:30:00 +0000",
+        "endTime": "2026/05/04 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "title": "Al-Shabab vs Al-Taawoun",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Shabab",
+        "teamB": "Al-Taawoun",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34313/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/56021/image",
+        "eventName": "Al-Shabab vs Al-Taawoun",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 16:00:00 +0000",
+        "endTime": "2026/05/03 18:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "THMANYAH HD",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1403/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404612.m3u8?txSecret=d3e289a8514fff2e9a5202a8ea11ddfe&txTime=69F3C2BB|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "title": "Al-Ahli vs Al-Okhdood",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Ahli",
+        "teamB": "Al-Okhdood",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/336456/image",
+        "eventName": "Al-Ahli vs Al-Okhdood",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 18:00:00 +0000",
+        "endTime": "2026/05/03 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "THMANYAH HD",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6737/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404623.m3u8?txSecret=5a0dbce6f388a21dc5e2e8aae8701067&txTime=69F3E4C1|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "title": "Al-Qadsiah vs Al-Nassr",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Qadsiah",
+        "teamB": "Al-Nassr",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/56027/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/23400/image",
+        "eventName": "Al-Qadsiah vs Al-Nassr",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 18:00:00 +0000",
+        "endTime": "2026/05/03 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "THMANYAH HD",
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404682.m3u8?txSecret=4d593c2b635723ff9b4486e2009688d1&txTime=69F68068|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Tampa Bay Lightning",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Lightning",
+        "teamB": "Canadiens",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3694/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3690/image",
+        "eventName": "Tampa Bay Lightning vs Montréal Canadiens",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 22:00:00 +0000",
+        "endTime": "2026/05/04 00:50:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50004/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Colorado Avalanche",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Avalanche",
+        "teamB": "Wild",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3682/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3689/image",
+        "eventName": "Colorado Avalanche vs Minnesota Wild",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/04 01:00:00 +0000",
+        "endTime": "2026/05/04 04:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1773,6 +2074,43 @@
         {
           "api": null,
           "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "ESPN NL",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "title": "AZ Alkmaar vs Twente",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "AZ",
+        "teamB": "Twente",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+        "eventName": "AZ Alkmaar vs Twente",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 14:45:00 +0000",
+        "endTime": "2026/05/03 16:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "ESPN NL"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "ESPN NL",
           "type": "0"
         }
