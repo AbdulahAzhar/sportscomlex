@@ -15,8 +15,8 @@
         "eventName": "Formula 1 - Miami GP",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/03 19:50:00 +0000",
-        "endTime": "2026/05/03 21:30:00 +0000"
+        "startTime": "2026/05/03 16:50:00 +0000",
+        "endTime": "2026/05/03 19:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -569,7 +569,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187776/image",
         "eventName": "Gujarat Titans vs Punjab Kings",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/03 14:00:00 +0000",
         "endTime": "2026/05/03 17:45:00 +0000"
       },
@@ -577,32 +577,28 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
-        "FOX CRICKET - AQ",
-        "FOX CRICKET HD",
+        "KAYO SPORTS HIN",
+        "FOX CRICKET",
         "WILLOW HINDI",
-        "STAR IN [ENG]",
-        "STAR IN [HIN]",
-        "STAR IN [TAM]",
-        "STAR IN [TEL]",
         "SD SERVER"
       ],
       "channels": [
         {
-          "api": "7cb361793a6e99ded8ca042a499b7f45:8efbe47bdb7cbea560d3abfe3a933cf8",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjnd301okd/out/v1/ea7ec99915184a66bb1e7e49fe14baa7/cenc.mpd",
+          "api": "82eabe094566556d22f1708a1b466113:8ea1e0002435567dd51ef8c848f65bbe",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/adb04xbxx2/out/v1/cc995fdb08e045308b91b144b3acc5a6/cenc.mpd",
           "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
         {
-          "api": "6a70902dcc79493f98d00064d93e8460:eb950593a82a15994676e4431113b551",
-          "link": "https://foxteldashmtgmpxlive01.akamaized.net/v1/dash/40a0de4a910d426b321814c25ab1ea7bbc30818d/prod-dash-switch-gambproxy-akamai/live/channel091/channel091_mcs.isml/playlist_high.mpd?hdnts=exp=1777145784~hmac=2ba30b713211ce738273ff2ca7261f5e7d3e58de79e7a5f7a9c3cc7178949fa8",
-          "title": "FOX CRICKET - AQ",
+          "api": "dcedd692f3315f768ddb192ed266d05f:6cf182dc2d612c127d408851c9d2e524",
+          "link": "https://dck1-ac-live.cdn.indazn.com/out/v1/761f422bb93edb7b/d3ee4c1daf714b36826fabd93c90986a/index.mpd",
+          "title": "KAYO SPORTS HIN",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://cdn.damitv.live/iptv-proxy/streamed/play?source=admin&id=ppv-lucknow-super-giants-vs-kolkata-knight-riders&streamNo=1",
-          "title": "FOX CRICKET HD",
+          "link": "https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJmb3gtc3BvcnRzLTUwMSIsImV4cCI6MTc3NzgyNDU5Mn0.zRLc3afHrTTcrwv_1ictDXXcOyjZy-Ahu-A5XtMyow8/fox-sports-501.m3u8",
+          "title": "FOX CRICKET",
           "type": "0"
         },
         {
@@ -610,30 +606,6 @@
           "link": "http://datahub11.com:80/live/Jen12345/Jen54321/703300.ts",
           "title": "WILLOW HINDI",
           "type": "0"
-        },
-        {
-          "api": "965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [ENG]",
-          "type": "1"
-        },
-        {
-          "api": "400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [HIN]",
-          "type": "1"
-        },
-        {
-          "api": "2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [TAM]",
-          "type": "1"
-        },
-        {
-          "api": "49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5",
-          "link": "https://jiotvioslive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1775385215~exp=1775406815~acl=/*~hmac=9a4fc1ddf5dd175aa7686dd36e2405c697964732d869fab61a713895cfb4b240|cookie=__hdnea__=st=1775395804~exp=1775482204~acl=/*~hmac=45803f9e63aa713a908516973f9fa7a54ee172ba1f9b4663f56d951216a3bf2e&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-          "title": "STAR IN [TEL]",
-          "type": "1"
         },
         {
           "api": null,
@@ -1067,6 +1039,7 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
+        "SKY SPORTS FHD",
         "TELEMUNDO FHD",
         "NOVA SPORTS PL"
       ],
@@ -1075,6 +1048,12 @@
           "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
           "title": "FUBO SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777888982~acl=%2f*~id=5ab6b213-c1cf-45d6-9f37-10d15da07547~data=hdntl,aXA9MTA4LjE4MS4xLjI0MSZleHA9MTc3NzgwMjYxMiZlaWQ9OTM5NTQwJm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=a94ea5169b56f65cbbd95557178037d8073e21b2d75b8843a419b7b60e6a5fb4/dash/live/2093753/219035-314047/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
           "type": "1"
         },
         {
@@ -1147,19 +1126,54 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/7/image",
         "eventName": "Bournemouth vs Crystal Palace",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/03 13:00:00 +0000",
         "endTime": "2026/05/03 15:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SKY SPORTS FHD",
+        "PEACOCK+ HD",
+        "PEACOCK+ FHD",
+        "PEACOCK+ AQ",
+        "HUB PREMIER HD",
         "SportzX Live"
       ],
       "channels": [
         {
+          "api": "01d02c97d1c949f9877acd230dcaa56d:708410b8bf1f4e998931183e8fab5d1e",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777888979~acl=%2f*~id=8bd8d7bc-3623-42fa-ac05-1d2904bed8e4~data=hdntl,aXA9MTA4LjE4MS4xLjI0MSZleHA9MTc3NzgwMjYwOSZlaWQ9OTM5NjAwJm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=feb4734d2ca9cba182dd4073c73d16c27782df3b0fac7dfb63b0f6ce1cb0f21e/dash/live/2093741/219037-313808/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/50019/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PEACOCK+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJlcGwtNzQwOTM4IiwiZXhwIjoxNzc3ODI0NTc1fQ.0yeX7GYxaqo24qLhI3zama0SDQlmxWaBnc38NyUunFg/epl-740938.m3u8",
+          "title": "PEACOCK+ FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rifusfcollins.s3.us-east-1.amazonaws.com/sportsnet.m3u8",
+          "title": "PEACOCK+ AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/bakuknhertyung1/mux_video_ts1/index-1.m3u8",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343324.m3u8?txSecret=7de7cb4a0dfc0d33fb7b1f54c9db5339&txTime=69F78847|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1356,71 +1370,6 @@
       ]
     },
     {
-      "id": "407",
-      "title": "Bologna vs Cagliari",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "Bologna",
-        "teamB": "Cagliari",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2685/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-        "eventName": "Bologna vs Cagliari",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/03 10:30:00 +0000",
-        "endTime": "2026/05/03 12:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH FHD",
-        "FOX DEPORTES",
-        "COSMOTE Sport",
-        "HD SERVER",
-        "DAZN SPORTS HD",
-        "DAZN IT SD"
-      ],
-      "channels": [
-        {
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-          "title": "beIN ENGLISH FHD",
-          "type": "1"
-        },
-        {
-          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "title": "FOX DEPORTES",
-          "type": "1"
-        },
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd",
-          "title": "COSMOTE Sport",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50011/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "DAZN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8|Referer=https://hardsmart.click/",
-          "title": "DAZN IT SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "408",
       "title": "Sassuolo vs Milan",
       "image": "o",
@@ -1432,7 +1381,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2692/image",
         "eventName": "Sassuolo vs Milan",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/03 13:00:00 +0000",
         "endTime": "2026/05/03 15:00:00 +0000"
       },
@@ -1440,8 +1389,11 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH FHD",
+        "PARAMOUNT+ HD",
         "ELEVEN SPORTS",
-        "COSMOTE Sport"
+        "COSMOTE Sport",
+        "SportzX Live",
+        "DAZN IT SD"
       ],
       "channels": [
         {
@@ -1449,6 +1401,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50020/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
         },
         {
           "api": "69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59",
@@ -1461,6 +1419,18 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd",
           "title": "COSMOTE Sport",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339716.m3u8?txSecret=e473b236fd4fc87d45e1e3d197a1c9c7&txTime=69F786EC|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "DAZN IT SD",
+          "type": "0"
         }
       ]
     },
@@ -1578,14 +1548,35 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "ELEVEN SPORTS"
+        "DAZN SPORTS",
+        "ELEVEN SPORTS",
+        "HD SERVER",
+        "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD232/index.mpd",
+          "title": "DAZN SPORTS",
+          "type": "0"
+        },
         {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV18/tracks-a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347614.m3u8?txSecret=bc403495eb2040a9cb9be6a903a9e3f9&txTime=69F78CFA|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1675,7 +1666,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "LIGUE1+ HD"
+        "LIGUE1+ HD",
+        "beIN SPORTS US",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1683,6 +1676,18 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2085/index.mpd",
           "title": "LIGUE1+ HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347962.m3u8?txSecret=128235c1119c22aaa4dddc970ee98a23&txTime=69F78A0F|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1825,9 +1830,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "CBS NETWORK",
         "ESPN DEPORTES"
       ],
       "channels": [
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
@@ -1927,36 +1939,6 @@
       ]
     },
     {
-      "id": "423",
-      "title": "Volendam vs SC Heerenveen",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "Volendam",
-        "teamB": "Heerenveen",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2968/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
-        "eventName": "Volendam vs SC Heerenveen",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/03 10:15:00 +0000",
-        "endTime": "2026/05/03 12:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "ESPN NL"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "ESPN NL",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "424",
       "title": "Fortuna Sittard vs Feyenoord",
       "image": "o",
@@ -1976,6 +1958,7 @@
       "publish": "1",
       "formats": [
         "NOVA SPORTS",
+        "SportzX Live",
         "ESPN NL"
       ],
       "channels": [
@@ -1984,6 +1967,12 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2700/index.mpd",
           "title": "NOVA SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4344737.m3u8?txSecret=b316a00ded4f81ba86f1c4350b0b98c6&txTime=69F78567|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         },
         {
           "api": null,
@@ -2012,9 +2001,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX Live",
         "ESPN NL"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4344751.m3u8?txSecret=634bbd47f9396006ae2287790d849e72&txTime=69F7859B|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
@@ -2115,6 +2111,66 @@
         {
           "api": null,
           "link": "https://instreams.pro/bil1/ligtv2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Karagümrük vs Gençlerbirliği",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Karagümrük",
+        "teamB": "Gençlerbirliği",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4954/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+        "eventName": "Karagümrük vs Gençlerbirliği",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 17:00:00 +0000",
+        "endTime": "2026/05/03 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "beIN SPORTS SD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "title": "Kayserispor vs Eyüpspor",
+      "image": "o",
+      "cat": "Super Lig",
+      "eventInfo": {
+        "teamA": "Kayserispor",
+        "teamB": "Eyüpspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
+        "eventName": "Kayserispor vs Eyüpspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 17:00:00 +0000",
+        "endTime": "2026/05/03 19:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN SPORTS SD"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "beIN SPORTS SD",
           "type": "0"
         }
