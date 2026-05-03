@@ -1398,7 +1398,10 @@
       "formats": [
         "beIN ENGLISH FHD",
         "FOX DEPORTES",
-        "COSMOTE Sport"
+        "COSMOTE Sport",
+        "HD SERVER",
+        "DAZN SPORTS HD",
+        "DAZN IT SD"
       ],
       "channels": [
         {
@@ -1418,6 +1421,24 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd",
           "title": "COSMOTE Sport",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50011/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://smarthard.click/hls/kNChJ1NxVGy/index.m3u8|Referer=https://hardsmart.click/",
+          "title": "DAZN IT SD",
+          "type": "0"
         }
       ]
     },
