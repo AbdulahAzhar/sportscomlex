@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 17,
+  "total_events": 19,
   "results": [
     {
       "id": "312",
@@ -984,6 +984,73 @@
           "api": "69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59",
           "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
           "title": "ELEVEN SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Hearts vs Rangers",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "Hearts",
+        "teamB": "Rangers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2353/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2351/image",
+        "eventName": "Heart of Midlothian vs Rangers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/04 16:30:00 +0000",
+        "endTime": "2026/05/04 18:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Sporting CP vs Vitória",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Sporting",
+        "teamB": "Vitória",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+        "eventName": "Sporting CP vs Vitória",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/04 19:15:00 +0000",
+        "endTime": "2026/05/04 21:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
           "type": "1"
         }
       ]
