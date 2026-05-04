@@ -265,18 +265,11 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX WWE",
         "SportzX HD",
         "Backup SD",
         "Tap Sport LQ"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49704/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX WWE",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
@@ -593,7 +586,6 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS",
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -603,12 +595,6 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50054/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
         },
         {
           "api": null,
@@ -729,7 +715,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404624.m3u8?txSecret=1df110833a4df842bcff4aaad0d8cdf6&txTime=69F7D382|Referer=https://player.787200.com/",
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404657.m3u8?txSecret=e4dd3abd525413406f4dea00bb363a9d&txTime=69FA2FA9",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -754,17 +740,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball",
         "THMANYAH HD",
         "SportzX Live"
       ],
       "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
         {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
@@ -773,7 +752,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404632.m3u8?txSecret=407295d2e4e2932be910c86b4725b40d&txTime=69F7D35A|Referer=https://player.787200.com/",
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404647.m3u8?txSecret=fbbfb6e09fcaa207dd4656d1238d8591&txTime=69FA2FA9",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -835,17 +814,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NHL",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50079/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -962,7 +934,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
         "eventName": "Everton vs Manchester City",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/04 19:00:00 +0000",
         "endTime": "2026/05/04 21:00:00 +0000"
       },
@@ -972,7 +944,13 @@
         "FUBO SPORTS FHD",
         "SKY SPORTS FHD",
         "NBC UNIVERSO",
-        "NOVA SPORTS PL"
+        "NOVA SPORTS PL",
+        "SKY MAIN EVENT",
+        "SKY SPORTS PL",
+        "USA TV HD",
+        "USA TV - AQ",
+        "SKY SPORTS HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -998,6 +976,42 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd",
           "title": "NOVA SPORTS PL",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/8b32d9b86828db9817f4a70da988ca84/manifest/video.m3u8",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://hghndasw.gbgdhdffhf.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJlcGwtNzQwOTQxIiwiaXAiOiIxMTguMTc5LjE4NC4wLzI0Iiwic2Vzc2lvbl9pZCI6IjM0ZmZkMDAyLWYwNWEtNDZjYy1iOTU1LTJkMjA5ZDM0MTFjNyIsImV4cCI6MTc3NzkyOTIyMX0.lep42pZA85J_zek1jhLTZxCizyDParBHsOImThWIboI/epl-740941.m3u8",
+          "title": "SKY SPORTS PL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50086/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rifusfcollins.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "title": "USA TV - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/puytuyhoitrewr1/mux_video_ts1/index-1.m3u8",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4343356.m3u8?txSecret=5c4820e90f84a0a6b1d8c6fd987d8211&txTime=69FA37A1",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1109,7 +1123,8 @@
         "beIN ENGLISH FHD",
         "PREMIER SPORTS",
         "DAZN SPORTS DE",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1132,8 +1147,14 @@
         },
         {
           "api": null,
-          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
+          "link": "https://chatgpt.hereisman.net/playlist/50084/load-playlist?|Referer=https://gooz.aapmains.net/",
           "title": "ESPN DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4358401.m3u8?txSecret=4411ac6121289d2b7af05ccc957ff800&txTime=69FA37A1",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1231,8 +1252,13 @@
       "formats": [
         "beIN ENGLISH FHD",
         "FOX DEPORTES",
+        "beIN SPORTS - AQ",
         "COSMOTE Sport",
-        "ELEVEN SPORTS"
+        "ELEVEN SPORTS",
+        "FOX Sports HD",
+        "DAZN SPORTS",
+        "SKY SPORTS IT",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1248,6 +1274,12 @@
           "type": "1"
         },
         {
+          "title": "beIN SPORTS - AQ",
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/7b2add8f6c990c9e43454caedce67487/manifest/video.m3u8",
+          "type": "0",
+          "api": null
+        },
+        {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd",
           "title": "COSMOTE Sport",
@@ -1258,6 +1290,30 @@
           "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50083/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "FOX Sports HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.live/EU/HDTV12/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "SKY SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4339707.m3u8?txSecret=f3a07a17fc1ca09b9cab94655c4625a1&txTime=69FA37A1",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1324,7 +1380,8 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1332,6 +1389,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4369074.m3u8?txSecret=f0a7e80e6d7aef0d9139d6520026ee7e&txTime=69FA3B62",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
