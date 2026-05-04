@@ -485,8 +485,12 @@
       "publish": "1",
       "formats": [
         "WILLOW [Ad-Free]",
+        "SKY SPORTS FHD",
+        "SKY SPORTS 4k",
+        "NOON SPORTS",
         "SKY CRICKET",
         "FOX CRICKET",
+        "Star Sports HIN",
         "WILLOW HINDI",
         "SD SERVER"
       ],
@@ -699,7 +703,7 @@
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4404608.m3u8?txSecret=ec583d1b6fe9303bfe22f16de9a63a0a&txTime=69F7BA6D|Referer=https://player.787200.com/",
+          "link": "https://live.vivo200.com/live/sd-1-4404635.m3u8?txSecret=d9d81d8ee9e0acb26122618ba6852360&txTime=69F8FC8D|Referer=https://player.787200.com/",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -997,10 +1001,10 @@
           "type": "1"
         },
         {
-          "api": null,
-          "link": "Tere MA Ka Bhosra",
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777979072~acl=%2F*~id=3544e2aa-ed11-42a6-8f95-7d1f018ffc88~data=hdntl,aXA9MjA4Ljg3LjI0Mi4yMyZleHA9MTc3Nzg5MjcwMiZlaWQ9OTM1NjI0Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=355ac1317ec9f634e0c902f5e8ca0c3330e2e1571a0c980afda6de1aae81dc13/dash/live/2093753/219035-314047/manifest-d.mpd",
           "title": "SKY SPORTS FHD",
-          "type": "0"
+          "type": "1"
         },
         {
           "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
@@ -1039,7 +1043,12 @@
         "FUBO SPORTS FHD",
         "SKY SPORTS FHD",
         "NBC UNIVERSO",
-        "NOVA SPORTS PL"
+        "SKY SPORTS PL",
+        "NOVA SPORTS PL",
+        "USA TV HD",
+        "HUB PREMIER SD",
+        "SportzX Live",
+        "SMOOTH SERVER"
       ],
       "channels": [
         {
@@ -1049,10 +1058,10 @@
           "type": "1"
         },
         {
-          "api": null,
-          "link": "Tere MA Ka Bhosra",
+          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1777979072~acl=%2F*~id=3544e2aa-ed11-42a6-8f95-7d1f018ffc88~data=hdntl,aXA9MjA4Ljg3LjI0Mi4yMyZleHA9MTc3Nzg5MjcwMiZlaWQ9OTM1NjI0Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=355ac1317ec9f634e0c902f5e8ca0c3330e2e1571a0c980afda6de1aae81dc13/dash/live/2093753/219035-314047/manifest-d.mpd",
           "title": "SKY SPORTS FHD",
-          "type": "0"
+          "type": "1"
         },
         {
           "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
@@ -1061,10 +1070,40 @@
           "type": "1"
         },
         {
+          "api": null,
+          "link": "https://hghndasw.gbgdhdffhf.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJlcGwtNzQwOTQwIiwiaXAiOiIxMTguMTc5LjE4NC4wLzI0Iiwic2Vzc2lvbl9pZCI6IjVkZTI2M2YxLTM4NjUtNDg1YS1iOTY0LTRiMmVmMjQxMjFjMCIsImV4cCI6MTc3NzkxNTI2Mn0.t382d-YzSFgadnrKggSeZQMx6o6tVW7UuLRoR0Uk9gE/epl-740940.m3u8",
+          "title": "SKY SPORTS PL",
+          "type": "0"
+        },
+        {
           "api": "0:0",
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd",
           "title": "NOVA SPORTS PL",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50081/load-playlist?|Referer=https://gooz.aapmains.net/",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/superpremier/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HUB PREMIER SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343339.m3u8?txSecret=8c110e6e7e68c231b36bdab6ec604268&txTime=69F8E984|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/puytuyhoitrewr1/mux_video_ts1/index-1.m3u8",
+          "title": "SMOOTH SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1143,7 +1182,8 @@
         "beIN ENGLISH FHD",
         "FOX DEPORTES",
         "COSMOTE Sport",
-        "ELEVEN SPORTS"
+        "ELEVEN SPORTS",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1169,6 +1209,12 @@
           "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339711.m3u8?txSecret=60e06401d85c6b40654b234ea4fcab1c&txTime=69F8FCD2|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1245,7 +1291,8 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1259,6 +1306,12 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4529565.m3u8?txSecret=39b6a7ec68208c88b739be76874ed483&txTime=69F8FCF9|Referer=https://player.787200.com/",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
