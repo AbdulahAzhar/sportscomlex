@@ -591,10 +591,24 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
+        "NBA LIVE - AQ",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50121/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rifusfcollins.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "title": "NBA LIVE - AQ",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -917,7 +931,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
         "eventName": "Arsenal vs Atlético Madrid",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/05 19:00:00 +0000",
         "endTime": "2026/05/05 21:00:00 +0000"
       },
@@ -1239,9 +1253,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50135/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
