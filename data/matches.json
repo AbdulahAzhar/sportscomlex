@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 29,
+  "total_events": 30,
   "results": [
     {
       "id": "312",
@@ -694,7 +694,8 @@
       "publish": "1",
       "formats": [
         "THMANYAH HD",
-        "SportzX Live"
+        "SportzX Live",
+        "THMANYAH HD"
       ],
       "channels": [
         {
@@ -705,8 +706,14 @@
         },
         {
           "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404647.m3u8?txSecret=fbbfb6e09fcaa207dd4656d1238d8591&txTime=69FA2FA9",
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404677.m3u8?txSecret=474c03bd3cf9c18ae3cdbfc50b867b54&txTime=69FB83F8",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
+          "title": "THMANYAH HD",
           "type": "0"
         }
       ]
@@ -917,13 +924,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "TNT BRASIL FHD",
+        "HBO MAX BR"
       ],
       "channels": [
         {
+          "api": "833c25ef8498d93b2ce35443b10f892c:bc703292aefed912c02976273e5e3c63",
+          "link": "https://a40live-pv-ta-amazon.akamaized.net/gru-nitro/live/clients/dash/enc/ut7mlye5xp/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+          "title": "TNT BRASIL FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://image-storage-31.imgcontent.xyz/live/arsenal-x-atletico-de-madrid/index.m3u8",
+          "title": "HBO MAX BR",
           "type": "0"
         }
       ]
@@ -1254,6 +1268,43 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "Beşiktaş JK vs Konyaspor",
+      "image": "o",
+      "cat": "Türkiye Kupası",
+      "eventInfo": {
+        "teamA": "Beşiktaş",
+        "teamB": "Konyaspor",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
+        "eventName": "Beşiktaş JK vs Konyaspor",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/05 17:30:00 +0000",
+        "endTime": "2026/05/05 19:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportDigital Fussball",
+        "A Spor HD"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4534767.m3u8?txSecret=32f944c24757252b0964b43b5861dfb8&txTime=69FB7B8C",
+          "title": "A Spor HD",
           "type": "0"
         }
       ]
