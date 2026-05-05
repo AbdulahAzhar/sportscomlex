@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 30,
+  "total_events": 34,
   "results": [
     {
       "id": "312",
@@ -591,17 +591,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS",
-          "type": "1"
-        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -635,30 +628,23 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
-        "NBA LIVE - AQ",
-        "NBA LIVE FHD",
+        "TSN SPORTS FHD",
+        "TSN SPORTS HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
         {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50114/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NBA",
-          "type": "0"
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
         },
         {
-          "api": null,
-          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/8b32d9b86828db9817f4a70da988ca84/manifest/video.m3u8",
-          "title": "NBA LIVE - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.denishdhakal.com.np/nba2.m3u8",
-          "title": "NBA LIVE FHD",
-          "type": "0"
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS HD",
+          "type": "1"
         },
         {
           "api": null,
@@ -693,15 +679,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "THMANYAH HD",
+        "FOX SPORTS FHD",
         "SportzX Live",
-        "THMANYAH HD"
+        "THMANYAH HD",
+        "FOX SPORTS HD"
       ],
       "channels": [
         {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
-          "title": "THMANYAH HD",
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
           "type": "1"
         },
         {
@@ -714,6 +701,12 @@
           "api": null,
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
           "title": "THMANYAH HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/450_hd/index.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=669a9804c040c8ebc7b4d042842adcdb&x-time=1778005080",
+          "title": "FOX SPORTS HD",
           "type": "0"
         }
       ]
@@ -737,10 +730,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PREMIER SPORTS",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -917,27 +917,125 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
         "eventName": "Arsenal vs Atlético Madrid",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/05 19:00:00 +0000",
         "endTime": "2026/05/05 21:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "AMAZON PRIME FHD",
+        "SETANTA SPORTS",
         "TNT BRASIL FHD",
-        "HBO MAX BR"
+        "VIX SPANISH - AQ",
+        "PARAMOUNT+ AQ",
+        "PARAMOUNT+ AQ",
+        "Sky Sport Austria",
+        "PARAMOUNT+ HD",
+        "HBO MAX BR",
+        "SportzX Live - AQ",
+        "PREMIER SPORTS HD",
+        "SonyLiv [ENG]",
+        "SonyLiv [HIN]",
+        "beIN SPORTS AR",
+        "FAST SERVER",
+        "HD SERVER"
       ],
       "channels": [
         {
+          "api": "680a24e3d3785ea8b3a33a56928ea128:3f07a7f94f0ac7ee96057224b6a4163d",
+          "link": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/6sdrohc6nu/out/v1/f2e4108696b347a1b2440b948a3a6abf/cenc.mpd",
+          "title": "AMAZON PRIME FHD",
+          "type": "1"
+        },
+        {
+          "api": "62139d9d54cb4d9d9efc8371960fdef2:c8f6563dabdd40ccaf1077027819d1eb",
+          "link": "https://adjara-live-eu.akamaized.net/exp=1778092902~acl=%2F*~id=eec7b1d4-ba46-41f8-a676-5511099263af~data=hdntl,aXA9MTgwLjE5MC4xMjkuMTk3JmV4cD0xNzc4MDA2NTMyJmVpZD05NTMwNTgmb2lkPTEwMiZ0eXBlPVZPRCZ1aWQ9RXo0QWU3fDQ4NWYzNmRmLTVjNjYtNGJhZC04ZTU5LTViODYzM2YzNjQ3OSZjaWQ9ZGNlLmFkamFyYSZwdD1udWxs~hmac=5292b49e7ae46b9bb47f7c52cbb7819d425fa3d511d2840541b38d459560bc02/dash/live/2019598/302464-321126/manifest-d.mpd",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "833c25ef8498d93b2ce35443b10f892c:bc703292aefed912c02976273e5e3c63",
-          "link": "https://a40live-pv-ta-amazon.akamaized.net/gru-nitro/live/clients/dash/enc/ut7mlye5xp/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ut7mlye5xp/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
           "title": "TNT BRASIL FHD",
           "type": "1"
+        },
+        {
+          "api": "89f8296d837d332a6aa9055bbb1eccdc:a43cee3f804235986bd0443f775fa568",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w9ebcxzrc0/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+          "title": "VIX SPANISH - AQ",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/7b2add8f6c990c9e43454caedce67487/manifest/video.m3u8",
+          "title": "PARAMOUNT+ AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cors.x-sure.co/https://dai.google.com/linear/hls/event/OY8m8F7CSa-bgQkjhk5jnw/master.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36&origin=https://embedsports.top.datakameha.xyz",
+          "title": "PARAMOUNT+ AQ",
+          "type": "0"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD233/index.mpd",
+          "title": "Sky Sport Austria",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/qweunigeing1/mux_video_ts1/index-1.m3u8",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
         },
         {
           "api": null,
           "link": "https://image-storage-31.imgcontent.xyz/live/arsenal-x-atletico-de-madrid/index.m3u8",
           "title": "HBO MAX BR",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rifusfcollins.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "title": "SportzX Live - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://601.sraspers.org/arsenal.m3u8",
+          "title": "PREMIER SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/UCL_Athl0505/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/UCL_Athl0505/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv [HIN]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/Xt7dMz8KfXUzcW9MO3zJYNOeoNA1M8VAjqegvMGVp6u27U4_gyMaVFW3oq4tl85h2r2otlsffGWffXw6kB-h2g/transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ18xMDgwcDMwXzEwIiwiSGVpZ2h0IjoxMDgwLCJLYnBzIjo1NTAwLCJXaWR0aCI6MTkyMH0.OImMZabKYJ0cs9CnIapU-4aBk6KNBiJxi1hh-6l4BZ4/dynamic_delta.m3u8?type=live",
+          "title": "beIN SPORTS AR",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4531805.m3u8?txSecret=6d007247a704047c08118b6c9cc7fffb&txTime=69FB8F3B",
+          "title": "FAST SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/24/chunks.m3u8?is_vip=false&token=611accdf525b7788c3ffacdb70a4feef6aae5b58&x-sign=13212f4855725b26701d328749598d9f&x-time=1778007540",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -1306,6 +1404,126 @@
           "link": "https://pul-tenm.nbs3g.com/live/sd-1-4534767.m3u8?txSecret=32f944c24757252b0964b43b5861dfb8&txTime=69FB7B8C",
           "title": "A Spor HD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "title": "Sporting Cristal vs Palmeiras",
+      "image": "o",
+      "cat": "CON. Libertadores",
+      "eventInfo": {
+        "teamA": "Sporting Cristal",
+        "teamB": "Palmeiras",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2302/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+        "eventName": "Sporting Cristal vs Palmeiras",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/05 22:00:00 +0000",
+        "endTime": "2026/05/06 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "title": "Rosario Central vs Libertad",
+      "image": "o",
+      "cat": "CON. Libertadores",
+      "eventInfo": {
+        "teamA": "Rosario Central",
+        "teamB": "Libertad",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3217/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5996/image",
+        "eventName": "Rosario Central vs Libertad",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/05 22:00:00 +0000",
+        "endTime": "2026/05/06 00:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "title": "Barcelona SC vs Boca Juniors",
+      "image": "o",
+      "cat": "CON. Libertadores",
+      "eventInfo": {
+        "teamA": "Barcelona SC",
+        "teamB": "Boca Juniors",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5250/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3202/image",
+        "eventName": "Barcelona SC vs Boca Juniors",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/06 00:00:00 +0000",
+        "endTime": "2026/05/06 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "title": "Always Ready vs Lanús",
+      "image": "o",
+      "cat": "CON. Libertadores",
+      "eventInfo": {
+        "teamA": "Always Ready",
+        "teamB": "Lanús",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/268083/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3218/image",
+        "eventName": "Always Ready vs Lanús",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/06 00:30:00 +0000",
+        "endTime": "2026/05/06 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "channels": [
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2088/index.mpd",
+          "title": "LIGUE1+ HD",
+          "type": "1"
         }
       ]
     }
