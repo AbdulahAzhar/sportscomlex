@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 12,
+  "total_events": 10,
   "results": [
     {
       "id": "312",
@@ -574,50 +574,6 @@
       ]
     },
     {
-      "id": "373",
-      "title": "New York Knicks",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Knicks",
-        "teamB": "76ers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3421/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3420/image",
-        "eventName": "New York Knicks vs Philadelphia 76ers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/05 00:00:00 +0000",
-        "endTime": "2026/05/05 03:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "385",
       "title": "Al-Ittihad vs Al-Kholood",
       "image": "o",
@@ -650,57 +606,6 @@
           "api": null,
           "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404647.m3u8?txSecret=fbbfb6e09fcaa207dd4656d1238d8591&txTime=69FA2FA9",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "387",
-      "title": "Golden Knights",
-      "image": "o",
-      "cat": "NHL",
-      "eventInfo": {
-        "teamA": "Golden Knights",
-        "teamB": "Ducks",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/257523/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3675/image",
-        "eventName": "Vegas Golden Knights vs Anaheim Ducks",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/05 01:30:00 +0000",
-        "endTime": "2026/05/05 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX NHL",
-        "NHL LIVE FHD",
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50112/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "SportzX NHL",
-          "type": "0"
-        },
-        {
-          "title": "NHL LIVE FHD",
-          "link": "https://daffodil.denishdhakal.com.np/nhl.m3u8",
-          "type": "0",
-          "api": null
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
           "type": "0"
         }
       ]
