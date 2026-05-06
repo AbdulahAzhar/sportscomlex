@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 34,
+  "total_events": 31,
   "results": [
     {
       "id": "312",
@@ -675,57 +675,6 @@
       ]
     },
     {
-      "id": "385",
-      "title": "Al-Ittihad vs Al-Kholood",
-      "image": "o",
-      "cat": "Pro League 🇸🇦",
-      "eventInfo": {
-        "teamA": "Al-Khaleej",
-        "teamB": "Al-Hilal",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/167228/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-        "eventName": "Al-Khaleej vs Al-Hilal",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/05 18:00:00 +0000",
-        "endTime": "2026/05/05 20:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FOX SPORTS FHD",
-        "SportzX Live",
-        "THMANYAH HD",
-        "FOX SPORTS HD"
-      ],
-      "channels": [
-        {
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "title": "FOX SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404677.m3u8?txSecret=474c03bd3cf9c18ae3cdbfc50b867b54&txTime=69FB83F8",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
-          "title": "THMANYAH HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/450_hd/index.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=669a9804c040c8ebc7b4d042842adcdb&x-time=1778005080",
-          "title": "FOX SPORTS HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "386",
       "title": "Colorado Avalanche",
       "image": "o",
@@ -745,6 +694,7 @@
       "publish": "1",
       "formats": [
         "PREMIER SPORTS",
+        "SportzX NHL",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -757,6 +707,12 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50143/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "title": "SportzX Live",
           "type": "0"
@@ -765,36 +721,6 @@
           "api": null,
           "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "394",
-      "title": "Colorado Rockies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Rockies",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "Colorado Rockies vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/06 00:40:00 +0000",
-        "endTime": "2026/05/06 03:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1290,9 +1216,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50137/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1320,9 +1253,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50140/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1350,9 +1290,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50141/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1387,43 +1334,6 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "412",
-      "title": "Beşiktaş JK vs Konyaspor",
-      "image": "o",
-      "cat": "Türkiye Kupası",
-      "eventInfo": {
-        "teamA": "Beşiktaş",
-        "teamB": "Konyaspor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
-        "eventName": "Beşiktaş JK vs Konyaspor",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/05 17:30:00 +0000",
-        "endTime": "2026/05/05 19:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball",
-        "A Spor HD"
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4534767.m3u8?txSecret=32f944c24757252b0964b43b5861dfb8&txTime=69FB7B8C",
-          "title": "A Spor HD",
           "type": "0"
         }
       ]
