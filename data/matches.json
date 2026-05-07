@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 16,
+  "total_events": 13,
   "results": [
     {
       "id": "312",
@@ -789,53 +789,6 @@
       ]
     },
     {
-      "id": "374",
-      "title": "Minnesota Timberwolves",
-      "image": "o",
-      "cat": "NBA",
-      "eventInfo": {
-        "teamA": "Spurs",
-        "teamB": "Timberwolves",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3429/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3426/image",
-        "eventName": "Spurs vs Minnesota Timberwolves",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/07 01:30:00 +0000",
-        "endTime": "2026/05/07 04:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "HD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "HD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "385",
       "title": "Al-Shabab vs Al-Nassr",
       "image": "o",
@@ -878,78 +831,6 @@
           "api": null,
           "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404652.m3u8?txSecret=d1d294364090bdad0ed8199be0eb171b&txTime=69FCD2AB",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "395",
-      "title": "Chicago Cubs",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cubs",
-        "teamB": "Reds",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3633/image",
-        "eventName": "Chicago Cubs vs Cincinnati Reds",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/06 23:40:00 +0000",
-        "endTime": "2026/05/07 02:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "398",
-      "title": "Colorado Rockies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Rockies",
-        "teamB": "Mets",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
-        "eventName": "Colorado Rockies vs New York Mets",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/07 01:20:00 +0000",
-        "endTime": "2026/05/07 04:20:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX LIVE"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX LIVE",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX LIVE",
           "type": "0"
         }
       ]
