@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 13,
+  "total_events": 27,
   "results": [
     {
       "id": "312",
@@ -36,68 +36,6 @@
         "DAZN ES SD",
         "F1 TV FHD",
         "Fox Sports - AQ"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "FANCODE FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS 4k",
-          "logo": ""
-        },
-        {
-          "title": "SportzX F1 HD",
-          "logo": ""
-        },
-        {
-          "title": "APPLE TV FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORT F1",
-          "logo": ""
-        },
-        {
-          "title": "SKY F1 - AQ",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "ELEVEN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "CANAL+ HD",
-          "logo": ""
-        },
-        {
-          "title": "Sky F1 DE",
-          "logo": ""
-        },
-        {
-          "title": "DAZN ES SD",
-          "logo": ""
-        },
-        {
-          "title": "F1 TV FHD",
-          "logo": ""
-        },
-        {
-          "title": "Fox Sports - AQ",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -219,36 +157,6 @@
         "DAZN SPORTS",
         "CANAL+ HD"
       ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS - AQ",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
-        },
-        {
-          "title": "FANCODE FHD",
-          "logo": ""
-        },
-        {
-          "title": "SPO TV - AQ",
-          "logo": ""
-        },
-        {
-          "title": "ZIGGO SPORT - AQ",
-          "logo": ""
-        },
-        {
-          "title": "TNT SPORTS SD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
-        },
-        {
-          "title": "DAZN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "CANAL+ HD",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
@@ -317,20 +225,6 @@
         "Server 2",
         "Server 3"
       ],
-      "formatsNew": [
-        {
-          "title": "One Fight - AQ",
-          "logo": ""
-        },
-        {
-          "title": "Server 2",
-          "logo": ""
-        },
-        {
-          "title": "Server 3",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
@@ -375,24 +269,6 @@
         "SportzX HD",
         "Backup SD",
         "Tap Sport LQ"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX WWE",
-          "logo": ""
-        },
-        {
-          "title": "SportzX HD",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "Tap Sport LQ",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -445,28 +321,6 @@
         "Backup SD",
         "USA TV HD",
         "USA TV (USA VPN)"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "Backup HD",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV HD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV (USA VPN)",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -524,20 +378,6 @@
         "Backup SD",
         "Tap Sports"
       ],
-      "formatsNew": [
-        {
-          "title": "HD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "Tap Sports",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -584,28 +424,6 @@
         "BACKUP HD",
         "BACKUP SD"
       ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SportzX WWE",
-          "logo": ""
-        },
-        {
-          "title": "Fox Sports Premium",
-          "logo": ""
-        },
-        {
-          "title": "BACKUP HD",
-          "logo": ""
-        },
-        {
-          "title": "BACKUP SD",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "daa8ea92553fd16cd6bfae2b8c582715:4042e041b5639b79b69ae07a872eef9b",
@@ -640,6 +458,43 @@
       ]
     },
     {
+      "id": "355",
+      "title": "Bangladesh vs Pakistan",
+      "image": "o",
+      "cat": "Cricket",
+      "eventInfo": {
+        "teamA": "BAN",
+        "teamB": "PAK",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187754/image",
+        "eventName": "Bangladesh vs Pakistan",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/08 04:00:00 +0000",
+        "endTime": "2026/05/08 11:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FANCODE FHD",
+        "FANCODE - SD"
+      ],
+      "channels": [
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": "5689304538fa9f3bb3da99c939a2ad4f:6907c88ed8ebdd35a2fa80b9684715e1",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+          "title": "FANCODE - SD",
+          "type": "1"
+        }
+      ]
+    },
+    {
       "id": "366",
       "title": "IPL - 01",
       "image": "o",
@@ -658,43 +513,16 @@
       "adsLimit": "8",
       "publish": "1",
       "formats": [
+        "WILLOW FHD",
         "WILLOW [Ad-Free]",
+        "KAYO HINDI FHD",
+        "SKY SPORTS FHD",
         "SKY SPORTS 4k",
         "NOON SPORTS",
         "SKY CRICKET",
         "Star Sports HIN",
         "WILLOW HINDI",
         "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SKY SPORTS 4k",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "NOON SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY CRICKET",
-          "logo": ""
-        },
-        {
-          "title": "Star Sports HIN",
-          "logo": ""
-        },
-        {
-          "title": "WILLOW HINDI",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -784,6 +612,94 @@
       ]
     },
     {
+      "id": "373",
+      "title": "Detroit Pistons",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Pistons",
+        "teamB": "Cavaliers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3432/image",
+        "eventName": "Detroit Pistons vs Cleveland Cavaliers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 23:00:00 +0000",
+        "endTime": "2026/05/08 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "TSN SPORTS HD",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "title": "TSN SPORTS HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Oklahoma City Thunder",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Thunder",
+        "teamB": "Lakers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3418/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3427/image",
+        "eventName": "Oklahoma City Thunder vs Los Angeles Lakers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/08 01:30:00 +0000",
+        "endTime": "2026/05/08 04:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "385",
       "title": "Al-Shabab vs Al-Nassr",
       "image": "o",
@@ -805,16 +721,6 @@
         "THMANYAH HD",
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "THMANYAH HD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "0:0",
@@ -825,6 +731,80 @@
         {
           "api": null,
           "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404652.m3u8?txSecret=d1d294364090bdad0ed8199be0eb171b&txTime=69FCD2AB",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Philadelphia Flyers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Flyers",
+        "teamB": "Hurricanes",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3699/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "eventName": "Philadelphia Flyers vs Carolina Hurricanes",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/08 00:00:00 +0000",
+        "endTime": "2026/05/08 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "San Diego Padres",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Padres",
+        "teamB": "Cardinals",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3636/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "eventName": "San Diego Padres vs Cardinals",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/08 02:10:00 +0000",
+        "endTime": "2026/05/08 05:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -850,97 +830,9 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS - AQ",
-        "SETANTA SPORTS",
-        "TNT BRASIL FHD",
-        "ViX SPANISH FHD",
-        "PARAMOUNT+ MQ",
         "TNT SPORTS FHD",
-        "PARAMOUNT+ FHD",
-        "PARAMOUNT+ HD",
-        "CBS SPORTS HD",
-        "DAZN SPORTS DE",
-        "HBO MAX BR",
         "SonyLiv [ENG]",
-        "SonyLiv [HIN]",
-        "Beckham Watch Along",
-        "beIN SPORTS FHD",
-        "FAST SERVER",
-        "FAST SERVER 2",
-        "HD SERVER FAST"
-      ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS - AQ",
-          "logo": ""
-        },
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "TNT BRASIL FHD",
-          "logo": ""
-        },
-        {
-          "title": "ViX SPANISH FHD",
-          "logo": ""
-        },
-        {
-          "title": "PARAMOUNT+ MQ",
-          "logo": ""
-        },
-        {
-          "title": "TNT SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "PARAMOUNT+ FHD",
-          "logo": ""
-        },
-        {
-          "title": "PARAMOUNT+ HD",
-          "logo": ""
-        },
-        {
-          "title": "CBS SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "DAZN SPORTS DE",
-          "logo": ""
-        },
-        {
-          "title": "HBO MAX BR",
-          "logo": ""
-        },
-        {
-          "title": "SonyLiv [ENG]",
-          "logo": ""
-        },
-        {
-          "title": "SonyLiv [HIN]",
-          "logo": ""
-        },
-        {
-          "title": "Beckham Watch Along",
-          "logo": ""
-        },
-        {
-          "title": "beIN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "FAST SERVER",
-          "logo": ""
-        },
-        {
-          "title": "FAST SERVER 2",
-          "logo": ""
-        },
-        {
-          "title": "HD SERVER FAST",
-          "logo": ""
-        }
+        "SonyLiv [HIN]"
       ],
       "channels": [
         {
@@ -950,63 +842,9 @@
           "type": "1"
         },
         {
-          "api": "25cd285194cc41a0be94c9b33fb344a5:f5064de56bc24304be98258de84e4a9f",
-          "link": "https://adjara-live-eu.akamaized.net/exp=1778179489~acl=%2f*~id=efbfd37b-3fb1-4ffb-839c-cd1305c69e94~data=hdntl,aXA9ODIuMTQwLjE4Ny4yOCZleHA9MTc3ODA5MzExMyZlaWQ9OTUxODk3Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=393c9ea8e4c7a83e6ac6f45785d40de0c1c0431c08a801b237aa9d8ac62c53bb/dash/live/2019616/302465-321137/manifest-d.mpd",
-          "title": "SETANTA SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "5933bd605eb7a1e5b8403eb374d6d60b:8eb13c287f71e94d40f604cd12e35d7b",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/btrchvjt1v/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd",
-          "title": "TNT BRASIL FHD",
-          "type": "1"
-        },
-        {
-          "api": "fbe2bb1c0a60bc1434a289049fdbba71:e8ec5845316f530303c51f967220ed28",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mxtcqpemg9/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
-          "title": "ViX SPANISH FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://customer-fs1fh3v94c4r9bi3.cloudflarestream.com/a9ca1c400592bd44c595658c044c962b/manifest/video.m3u8",
-          "title": "PARAMOUNT+ MQ",
-          "type": "0"
-        },
-        {
           "api": null,
           "link": "https://cdn-1.ttvb.eu.org/api/TNT-Sports-1/index.m3u8",
           "title": "TNT SPORTS FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://bhghgh.gbgdhdffhf.shop/uefa-1.m3u8|Origin=https://cxfoot.pages.dev",
-          "title": "PARAMOUNT+ FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://storage.googleapis.com/qtyngheroverbrix1/mux_video_ts1/index-1.m3u8",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50163/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "CBS SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD232/index.mpd",
-          "title": "DAZN SPORTS DE",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://image-storage-31.imgcontent.xyz/live/bayern-de-munique-x-psg/index.m3u8",
-          "title": "HBO MAX BR",
           "type": "0"
         },
         {
@@ -1019,36 +857,6 @@
           "api": null,
           "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/Bayern_v0605/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
           "title": "SonyLiv [HIN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://bhghgh.gbgdhdffhf.shop/uefa-2.m3u8|Origin=https://cxfoot.pages.dev",
-          "title": "Beckham Watch Along",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://17syrialive.s3.eu-central-1.amazonaws.com/bein1/master.m3u8",
-          "title": "beIN SPORTS FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4531807.m3u8?txSecret=940adc3324d4c6415f510487f4a1e222&txTime=69FCD2AB",
-          "title": "FAST SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4531807.m3u8?txSecret=39b735037f4f4bcf217895f258c08332&txTime=69FBD278|Referer=https://player.787200.com/",
-          "title": "FAST SERVER 2",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/1/chunks.m3u8?is_vip=false&token=d9281b93e57381f7e8dc3553bca8ef5697b96b12&x-sign=e4fb018b1ed1cfea55cd959ddb8de1b8&x-time=1778093340",
-          "title": "HD SERVER FAST",
           "type": "0"
         }
       ]
@@ -1073,12 +881,6 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS FHD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1110,12 +912,6 @@
       "formats": [
         "TNT SPORTS FHD"
       ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS FHD",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1146,17 +942,311 @@
       "formats": [
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Yankees vs Texas Rangers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Yankees",
+        "teamB": "Rangers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3654/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3647/image",
+        "eventName": "Yankees vs Texas Rangers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 16:35:00 +0000",
+        "endTime": "2026/05/07 19:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Nationals vs Minnesota Twins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Nationals",
+        "teamB": "Twins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5930/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3649/image",
+        "eventName": "Nationals vs Minnesota Twins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 17:05:00 +0000",
+        "endTime": "2026/05/07 20:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Royals vs Cleveland Guardians",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Royals",
+        "teamB": "Guardians",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3651/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "eventName": "Royals vs Cleveland Guardians",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 18:10:00 +0000",
+        "endTime": "2026/05/07 21:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Chicago Cubs vs Cincinnati Reds",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Cubs",
+        "teamB": "Reds",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3627/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3633/image",
+        "eventName": "Chicago Cubs vs Cincinnati Reds",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 18:20:00 +0000",
+        "endTime": "2026/05/07 21:20:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50135/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Colorado Rockies vs New York Mets",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Rockies",
+        "teamB": "Mets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
+        "eventName": "Colorado Rockies vs New York Mets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 19:10:00 +0000",
+        "endTime": "2026/05/07 22:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50137/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Diamondbacks vs Pittsburgh Pirates",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Diamondbacks",
+        "teamB": "Pirates",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3637/image",
+        "eventName": "Diamondbacks vs Pittsburgh Pirates",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 19:40:00 +0000",
+        "endTime": "2026/05/07 22:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50140/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Miami Marlins vs Baltimore Orioles",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Marlins",
+        "teamB": "Orioles",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3639/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3652/image",
+        "eventName": "Miami Marlins vs Baltimore Orioles",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 22:40:00 +0000",
+        "endTime": "2026/05/08 00:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50141/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "Philadelphia Phillies vs Athletics",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Phillies",
+        "teamB": "Athletics",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3635/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3645/image",
+        "eventName": "Philadelphia Phillies vs Athletics",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 22:40:00 +0000",
+        "endTime": "2026/05/08 01:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "Red Sox vs Tampa Bay Rays",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Red Sox",
+        "teamB": "Rays",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3653/image",
+        "eventName": "Red Sox vs Tampa Bay Rays",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/07 23:10:00 +0000",
+        "endTime": "2026/05/08 02:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "channels": [
+        {
+          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "title": "SportDigital Fussball",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4534767.m3u8?txSecret=32f944c24757252b0964b43b5861dfb8&txTime=69FB7B8C",
+          "title": "A Spor HD",
           "type": "0"
         }
       ]
