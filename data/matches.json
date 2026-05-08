@@ -547,9 +547,8 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187754/image",
         "eventName": "Bangladesh vs Pakistan",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/08 04:00:00 +0000",
-        "endTime": "2026/05/08 11:30:00 +0000"
+        "startTime": "2026/05/09 04:00:00 +0000",
+        "endTime": "2026/05/09 11:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1607,13 +1606,26 @@
       "publish": "1",
       "formats": [
         "Laliga TV FHD",
+        "FANCODE FHD",
         "ESPN DEPORTES"
       ],
       "channels": [
         {
+          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
+          "title": "Laliga TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
+          "link": "https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/",
+          "title": "ESPN DEPORTES",
           "type": "0"
         }
       ]
@@ -1732,27 +1744,54 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "FUBO SPORTS",
         "beIN ENGLISH FHD",
-        "FOX DEPORTES",
+        "PARAMOUNT+ HD",
         "COSMOTE Sport HD",
-        "ELEVEN SPORTS"
+        "ELEVEN SPORTS",
+        "DAZN SPORTS IT",
+        "SportzX Live"
       ],
       "channels": [
         {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2084/index.mpd",
-          "title": "LIGUE1+ HD",
+          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "title": "FUBO SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH FHD",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://edgestreams.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "beIN SPORTS US",
+          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/25/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=135deca1ac7e837a9a959fc4b86c9361&x-time=1778265480",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd",
+          "title": "COSMOTE Sport HD",
+          "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd",
+          "title": "ELEVEN SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS IT",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347963.m3u8?txSecret=742011b44acca43ad67d6d62a4383744&txTime=69F7DE6B|Referer=https://player.787200.com/",
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4339704.m3u8?txSecret=184e50f5b5cc3d88f446d38c32b8b811&txTime=69FF7F84",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1778,16 +1817,32 @@
       "publish": "1",
       "formats": [
         "SporTV BR FHD",
+        "BUNDESLIGA HD",
+        "DAZN SPORTS",
         "ELEVEN SPORTS",
         "SKY BUNDESLIGA HD",
-        "SKY BUNDESLIGA SD"
+        "SportzX Live",
+        "SKY BUNDESLIGA SD",
+        "SonyLiv HD"
       ],
       "channels": [
         {
-          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "api": "3de028eafb3b2caffec03be1c1c818b3:8fbdd8a9ae6748696bb13e547bb093fc",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
           "title": "SporTV BR FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/8/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=6c8a2a9b7e3fc18c4ef97accbd76ec12&x-time=1778264040",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://soccer.250909.cc/event/1726/index.m3u8",
+          "title": "DAZN SPORTS",
+          "type": "0"
         },
         {
           "api": "0:0",
@@ -1803,8 +1858,20 @@
         },
         {
           "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4347626.m3u8?txSecret=e2e247c12338a1b5013ef7ec2bf75ddc&txTime=69FF7C3E",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "SKY BUNDESLIGA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/BLIGA_Bo0805/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "title": "SonyLiv HD",
           "type": "0"
         }
       ]
@@ -1828,12 +1895,40 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "LIGUE 1+ HD"
+        "LIGUE 1+ HD",
+        "beIN ENGLISH HD",
+        "beIN SPORTS US",
+        "beIN SPORTS FHD",
+        "SportzX Live"
       ],
       "channels": [
         {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD2084/index.mpd",
+          "title": "LIGUE 1+ HD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/274842_hd/index.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=0ee8bdb294139a61b738ece6dc1e5cef&x-time=1778265360",
+          "title": "beIN ENGLISH HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/398_hd/index.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=2592c7a887dc873af61ba3c30591d70b&x-time=1778265420",
+          "title": "beIN SPORTS US",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/894.m3u8",
+          "title": "beIN SPORTS FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4347973.m3u8?txSecret=0d0ea440df177b9a5a9b43269745f801&txTime=69FF7F84",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1858,7 +1953,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX DEPORTES"
+        "SporTV BR",
+        "FOX DEPORTES",
+        "THMANYAH HD",
+        "SportzX Live"
       ],
       "channels": [
         {
@@ -1866,6 +1964,18 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": "0:0",
+          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd",
+          "title": "THMANYAH HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4532680.m3u8?txSecret=cf4847515657efa4be283426deb6b809&txTime=69FF7354",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
