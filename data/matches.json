@@ -214,16 +214,18 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/461861/image",
         "eventName": "UFC 328: Chimaev vs Strickland",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/09 21:00:00 +0000",
         "endTime": "2026/05/10 04:30:00 +0000"
       },
       "adsLimit": "13",
       "publish": "1",
       "formats": [
+        "UFC FIGHT EARLY",
         "TNT SPORTS FHD",
-        "SportzX+ UFC",
-        "UFC+ FHD",
+        "PARAMOUNT+ HD",
+        "SPX UFC+ FHD",
+        "SPX UFC+ AQ",
         "Paramount+ BR",
         "SportzX LIVE",
         "UFC+ - AQ"
@@ -1166,10 +1168,17 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX WWE HD",
         "HD SERVER",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50320/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX WWE HD",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
