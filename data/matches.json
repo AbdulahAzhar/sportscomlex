@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 44,
+  "total_events": 47,
   "results": [
     {
       "id": "312",
@@ -999,6 +999,155 @@
       ]
     },
     {
+      "id": "373",
+      "title": "Cleveland Cavaliers",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Cavaliers",
+        "teamB": "Pistons",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3432/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "eventName": "Cleveland Cavaliers vs Detroit Pistons",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/09 19:00:00 +0000",
+        "endTime": "2026/05/09 22:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Oklahoma City Thunder",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Lakers",
+        "teamB": "Thunder",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3427/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3418/image",
+        "eventName": "Los Angeles Lakers vs Oklahoma City Thunder",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/10 00:30:00 +0000",
+        "endTime": "2026/05/10 03:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "SportzX NBA",
+        "NBA LIVE FHD",
+        "SPX LIVE HD",
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NBA",
+          "logo": ""
+        },
+        {
+          "title": "NBA LIVE FHD",
+          "logo": ""
+        },
+        {
+          "title": "SPX LIVE HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50266/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://nb2.bpfiles.cfd/live/timber/stream.m3u8",
+          "title": "NBA LIVE FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/hd-en-2-3918855.m3u8?txSecret=08342df6047b9a3676afdb797fd38025&txTime=69FFE44B",
+          "title": "SPX LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.192/hls/waaax.m3u8|Referer=http://www.fawanews.sc/",
+          "title": "SD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "383",
       "title": "Al-Khaleej vs Al-Ettifaq",
       "image": "o",
@@ -1179,6 +1328,133 @@
           "api": null,
           "link": "https://pul-tenm.nbs3g.com/live/sd-1-4404676.m3u8?txSecret=3c83e6b69da972b024662e12ac1f5d2c&txTime=69FE242E",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Philadelphia Flyers",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Flyers",
+        "teamB": "Hurricanes",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3699/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "eventName": "Philadelphia Flyers vs Carolina Hurricanes",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/09 22:00:00 +0000",
+        "endTime": "2026/05/10 01:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "title": "Minnesota Wild",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Wild",
+        "teamB": "Avalanche",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3689/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
+        "eventName": "Minnesota Wild vs Colorado Avalanche",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/10 01:00:00 +0000",
+        "endTime": "2026/05/10 04:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX NHL",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NHL",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50267/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NHL",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/hjksgdfauzy51.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
           "type": "0"
         }
       ]
@@ -2662,48 +2938,6 @@
         {
           "api": null,
           "link": "https://instreams.pro/bil1/ligtv3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "title": "beIN SPORTS SD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "430",
-      "title": "Nürnberg vs Schalke",
-      "image": "o",
-      "cat": "2. Bundesliga",
-      "eventInfo": {
-        "teamA": "Nürnberg",
-        "teamB": "Schalke",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2523/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2530/image",
-        "eventName": "Nürnberg vs Schalke",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/09 18:30:00 +0000",
-        "endTime": "2026/05/09 20:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SKY BUNDESLIGA SD"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY BUNDESLIGA SD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4366152.m3u8?txSecret=84a4537987803c00ab4b71361cc86ca8&txTime=69F7C454|Referer=https://player.787200.com/",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "title": "beIN SPORTS SD",
           "type": "0"
         }
