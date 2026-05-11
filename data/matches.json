@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 24,
+  "total_events": 27,
   "results": [
     {
       "id": "312",
@@ -670,8 +670,8 @@
         "TAPMAD - AQ",
         "Willow HD",
         "FANCODE - SD",
-        "FOX CRICKET FHD",
-        "PTV Sports"
+        "PTV Sports",
+        "FOX CRICKET FHD"
       ],
       "formatsNew": [
         {
@@ -703,11 +703,11 @@
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
         {
-          "title": "FOX CRICKET FHD",
+          "title": "PTV Sports",
           "logo": ""
         },
         {
-          "title": "PTV Sports",
+          "title": "FOX CRICKET FHD",
           "logo": ""
         }
       ],
@@ -927,6 +927,180 @@
       ]
     },
     {
+      "id": "373",
+      "title": "Cleveland Cavaliers",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Cavaliers",
+        "teamB": "Pistons",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3432/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3424/image",
+        "eventName": "Cleveland Cavaliers vs Detroit Pistons",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/12 00:00:00 +0000",
+        "endTime": "2026/05/12 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "title": "Oklahoma City Thunder",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Lakers",
+        "teamB": "Thunder",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3427/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3418/image",
+        "eventName": "Los Angeles Lakers vs Oklahoma City Thunder",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/12 02:30:00 +0000",
+        "endTime": "2026/05/12 05:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX NBA",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX NBA",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50419/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Minnesota Wild",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Wild",
+        "teamB": "Avalanche",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3689/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
+        "eventName": "Minnesota Wild vs Colorado Avalanche",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/11 23:00:00 +0000",
+        "endTime": "2026/05/12 02:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "394",
       "title": "Baltimore Orioles",
       "image": "o",
@@ -992,7 +1166,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1028,7 +1202,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1053,9 +1227,24 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "TNT SPORTS FHD",
+        "FOX SPORTS FHD",
+        "FOX DEPORTES",
         "SportzX LIVE"
       ],
       "formatsNew": [
+        {
+          "title": "TNT SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "FOX SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "FOX DEPORTES",
+          "logo": ""
+        },
         {
           "title": "SportzX LIVE",
           "logo": ""
@@ -1063,8 +1252,26 @@
       ],
       "channels": [
         {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+          "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX LIVE",
           "type": "0"
         }
@@ -1100,7 +1307,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1195,13 +1402,18 @@
       "publish": "1",
       "formats": [
         "PREMIER SPORTS",
+        "FANCODE FHD",
         "Laliga TV FHD",
         "ESPN DEPORTES"
       ],
       "formatsNew": [
         {
           "title": "PREMIER SPORTS",
-          "logo": ""
+          "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI"
+        },
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
         {
           "title": "Laliga TV FHD",
@@ -1254,6 +1466,7 @@
       "formats": [
         "FOX DEPORTES",
         "ELEVEN SPORTS",
+        "PARAMOUNT+ HD",
         "Ziggo Sports FHD"
       ],
       "formatsNew": [
@@ -1263,6 +1476,10 @@
         },
         {
           "title": "ELEVEN SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ HD",
           "logo": ""
         },
         {
@@ -1282,6 +1499,12 @@
           "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd",
           "title": "ELEVEN SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/24/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=833deacdbc0c996d5086f2f5ace27162&x-time=1778523480",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
         },
         {
           "api": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
