@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 40,
+  "total_events": 37,
   "results": [
     {
       "id": "312",
@@ -679,7 +679,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3432/image",
         "eventName": "Detroit Pistons vs Cleveland Cavaliers",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/14 00:00:00 +0000",
         "endTime": "2026/05/14 03:00:00 +0000"
       },
@@ -687,6 +687,7 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
+        "ESPN TV FHD",
         "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
@@ -696,6 +697,12 @@
           "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
           "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "326058ffe1cd4d3383781b36ca9145d1:99d405d46f114eff96789673e57d0121",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1778796599~acl=%2F*~id=f9aaa618-2abc-433a-ae81-580ba52768f2~data=hdntl,aXA9MjA4Ljg3LjI0Mi4xOTkmZXhwPTE3Nzg3MTAyMjkmZWlkPTkzODU0NiZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=3fbf81d800b2753d1d66b783a20c7a37a68ffd8010f23a1aaf1e1856cc1970d3/dash/live/2093723/219038-321034/manifest-d.mpd",
+          "title": "ESPN TV FHD",
           "type": "1"
         },
         {
@@ -832,9 +839,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX WNBA",
         "SportzX Live"
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50555/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX WNBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
@@ -899,18 +913,32 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3689/image",
         "eventName": "Colorado Avalanche vs Minnesota Wild",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/14 00:00:00 +0000",
         "endTime": "2026/05/14 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PREMIER SPORTS",
+        "ESPN TV FHD",
         "SportzX NHL",
         "SportzX Live",
         "HD SERVER"
       ],
       "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "a01e1e0d5fb145b8b33190588490a27a:bfd9e3b0866e49cbae1bb7f7116451c9",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1778796598~acl=%2F*~id=8171d523-c770-4ab7-abb0-193ef3644d0b~data=hdntl,aXA9MjA4Ljg3LjI0Mi4xOTkmZXhwPTE3Nzg3MTAyMjgmZWlkPTkzNTYyNCZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD14UlJxbzl8YmNhZWE3Y2YtYzMzNy00MDM5LTgxNTgtM2MxY2U0OWU3MjkzJmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=af2ea76f8205dc291c82c9b80c1386c0e5746e919fcb8168c1012fbdfcfa04d6/dash/live/2093724/219039-321035/manifest-d.mpd",
+          "title": "ESPN TV FHD",
+          "type": "1"
+        },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/50539/load-playlist?|Referer=https://gooz.aapmains.net",
@@ -1104,9 +1132,9 @@
     },
     {
       "id": "400",
-      "title": "Deportivo Alavés vs Barcelona",
+      "title": "Cruz Azul vs CD Guadalajara",
       "image": "o",
-      "cat": "LaLiga 🇪🇸",
+      "cat": "Liga MX",
       "eventInfo": {
         "teamA": "Cruz Azul",
         "teamB": "Guadalajara",
@@ -1121,62 +1149,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH",
-        "PREMIER SPORTS",
-        "Laliga TV FHD",
-        "TSN SPORTS FHD",
-        "FANCODE FHD",
-        "ESPN DEPORTES",
-        "SportzX Live",
-        "FAST SERVER"
+        "SportzX Live"
       ],
       "channels": [
         {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd",
-          "title": "Laliga TV FHD",
-          "type": "1"
-        },
-        {
-          "api": "f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50505/load-playlist?|Referer=https://gooz.aapmains.net",
-          "title": "ESPN DEPORTES",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4358303.m3u8?txSecret=495476eca6d1c7280f6d77b4dd3dba45&txTime=6A050E60|Referer=https://player.online909.com/",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/hd-en-6MuSsYd5pnKYRWLiNz.m3u8?txSecret=1f0e4cf8ea67bd6473d44b4765a3996e&txTime=6A04F641",
-          "title": "FAST SERVER",
           "type": "0"
         }
       ]
@@ -1289,152 +1268,6 @@
       ]
     },
     {
-      "id": "403",
-      "title": "Espanyol vs Athletic Club",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Espanyol",
-        "teamB": "Athletic Club",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2814/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2825/image",
-        "eventName": "Espanyol vs Athletic Club",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/13 17:00:00 +0000",
-        "endTime": "2026/05/13 19:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FANCODE FHD",
-        "FANCODE - SD",
-        "SPX LIVE HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-          "title": "FANCODE - SD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/51328/chunks.m3u8?is_vip=false&token=5c57ff950322b9958590e461a3f87acee528f057&x-sign=c9db70e7c3e806d695bac676fa0c9030&x-time=1778690280",
-          "title": "SPX LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4358311.m3u8?txSecret=9932a4f0cc643bd100da5733ebf70f35&txTime=6A05FAE7",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "404",
-      "title": "Getafe vs Mallorca",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Getafe",
-        "teamB": "Mallorca",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2859/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2826/image",
-        "eventName": "Getafe vs Mallorca",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/13 19:30:00 +0000",
-        "endTime": "2026/05/13 21:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FANCODE FHD",
-        "FANCODE - SD",
-        "LALIGA TV HD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-          "title": "FANCODE FHD",
-          "type": "1"
-        },
-        {
-          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-          "title": "FANCODE - SD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-livestream.rumsport7.live/stream/7/chunks.m3u8?is_vip=false&token=5c57ff950322b9958590e461a3f87acee528f057&x-sign=5063584e6ede0387e6126a2ce1640a17&x-time=1778698200",
-          "title": "LALIGA TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4358312.m3u8?txSecret=c9e71ea7e1a645bb22c7252a3f8c4f90&txTime=6A061431",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Stade Brestois vs Strasbourg",
-      "image": "o",
-      "cat": "Ligue 1 🇫🇷",
-      "eventInfo": {
-        "teamA": "Brest",
-        "teamB": "Strasbourg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1715/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1659/image",
-        "eventName": "Stade Brestois vs Strasbourg",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/13 17:00:00 +0000",
-        "endTime": "2026/05/13 19:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "ELEVEN SPORTS",
-        "beIN Sports ES",
-        "beIN SPORTS US"
-      ],
-      "channels": [
-        {
-          "api": "0:0",
-          "link": "https://d1yi40sjj0ca0v.cloudfront.net/TVD6412/index.mpd",
-          "title": "ELEVEN SPORTS",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.ellitescripts.com/beines.m3u8",
-          "title": "beIN Sports ES",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/398/chunks.m3u8?is_vip=false&token=5c57ff950322b9958590e461a3f87acee528f057&x-sign=9ad8dd8049a77ba1de9c51bc1b0f14d3&x-time=1778693820",
-          "title": "beIN SPORTS US",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "409",
       "title": "Cincinnati vs Inter Miami",
       "image": "o",
@@ -1446,7 +1279,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/337602/image",
         "eventName": "Cincinnati vs Inter Miami",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/13 23:30:00 +0000",
         "endTime": "2026/05/14 01:30:00 +0000"
       },
@@ -1454,7 +1287,9 @@
       "publish": "1",
       "formats": [
         "APPLE TV HD",
-        "SportzX Live"
+        "SportzX Live",
+        "HD SERVER",
+        "FAST SERVER"
       ],
       "channels": [
         {
@@ -1467,6 +1302,18 @@
           "api": null,
           "link": "https://live.vivo200.com/live/sd-1-4460271.m3u8?txSecret=cc5876afe0778d4bc55432086ff5bfa6&txTime=6A054C97|Referer=https://player.online909.com/",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://bobis.zaglemplokis.online/premium76/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/sd-6MvZ6B8Wj9Qky4Pmn6.m3u8?txSecret=6b35dd8d437f78ab2f813d6e723ee6f3&txTime=6A053601",
+          "title": "FAST SERVER",
           "type": "0"
         }
       ]
@@ -1937,43 +1784,6 @@
       ]
     },
     {
-      "id": "427",
-      "title": "Coritiba vs Santos",
-      "image": "o",
-      "cat": "Copa do Brasil",
-      "eventInfo": {
-        "teamA": "Coritiba",
-        "teamB": "Santos",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1982/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1968/image",
-        "eventName": "Coritiba vs Santos",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/13 22:30:00 +0000",
-        "endTime": "2026/05/14 00:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PRIME VIDEO FHD",
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": "51394da99a5b49d25f253ccc87e0e045:fba4ac0c7199ed634e69820277cb5092",
-          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rqinjldrpp/out/v1/bf6c4f84f1fe4a1b850e19a0c9d16e8f/cenc.mpd",
-          "title": "PRIME VIDEO FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://image-storage-31.imgcontent.xyz/live/internacional-x-athletic/index.m3u8",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "428",
       "title": "Mirassol vs RB Bragantino",
       "image": "o",
@@ -2007,6 +1817,36 @@
           "link": "https://image-storage-31.imgcontent.xyz/live/fluminense-x-operario-ferroviario/index.m3u8",
           "title": "PRIME VIDEO HD",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Jacuipense vs Palmeiras",
+      "image": "o",
+      "cat": "Copa do Brasil",
+      "eventInfo": {
+        "teamA": "Jacuipense",
+        "teamB": "Palmeiras",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/87166/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+        "eventName": "Jacuipense vs Palmeiras",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/14 00:30:00 +0000",
+        "endTime": "2026/05/14 02:34:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PRIME VIDEO FHD"
+      ],
+      "channels": [
+        {
+          "api": "d7acb1a27fef944a16ac5a24d1daf515:865afde5561d492bebe8074da07f74ee",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/itnxm9pzh2/out/v1/fa857febc7a2488a95bdcdaa17d52955/cenc.mpd",
+          "title": "PRIME VIDEO FHD",
+          "type": "1"
         }
       ]
     }
