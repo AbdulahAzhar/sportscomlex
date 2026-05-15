@@ -37,68 +37,6 @@
         "F1 TV FHD",
         "Fox Sports - AQ"
       ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "FANCODE FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS 4k",
-          "logo": ""
-        },
-        {
-          "title": "SportzX F1 HD",
-          "logo": ""
-        },
-        {
-          "title": "APPLE TV FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORT F1",
-          "logo": ""
-        },
-        {
-          "title": "SKY F1 - AQ",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "ELEVEN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "CANAL+ HD",
-          "logo": ""
-        },
-        {
-          "title": "Sky F1 DE",
-          "logo": ""
-        },
-        {
-          "title": "DAZN ES SD",
-          "logo": ""
-        },
-        {
-          "title": "F1 TV FHD",
-          "logo": ""
-        },
-        {
-          "title": "Fox Sports - AQ",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
@@ -207,7 +145,7 @@
         "eventBanner": "https://gepig.com/game_cover_bg_1190w/7272.jpg",
         "isHot": "0",
         "startTime": "2026/05/15 13:00:00 +0000",
-        "endTime": "2026/05/15 14:00:00 +0000"
+        "endTime": "2026/05/15 18:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -219,36 +157,6 @@
         "TNT SPORTS SD",
         "DAZN SPORTS",
         "CANAL+ HD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS - AQ",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
-        },
-        {
-          "title": "FANCODE FHD",
-          "logo": ""
-        },
-        {
-          "title": "SPO TV - AQ",
-          "logo": ""
-        },
-        {
-          "title": "ZIGGO SPORT - AQ",
-          "logo": ""
-        },
-        {
-          "title": "TNT SPORTS SD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
-        },
-        {
-          "title": "DAZN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "CANAL+ HD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -323,39 +231,44 @@
       "publish": "1",
       "formats": [
         "One Fight - AQ",
+        "beIN SPORTS HD",
+        "beIN SPORTS FHD",
         "Server 2",
         "Server 3"
-      ],
-      "formatsNew": [
-        {
-          "title": "One Fight - AQ",
-          "logo": ""
-        },
-        {
-          "title": "Server 2",
-          "logo": ""
-        },
-        {
-          "title": "Server 3",
-          "logo": ""
-        }
       ],
       "channels": [
         {
           "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
           "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "logo": "",
           "title": "One Fight - AQ",
           "type": "1"
         },
         {
+          "api": null,
+          "link": "https://iptv.852851.xyz/ch/30cc0805acb2aada8da9e2ae3fad5b5c/master.m3u8",
+          "logo": "",
+          "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/398/chunks.m3u8?is_vip=false&token=1778940341-Kv4cPTAAP5YTi-4a552a42a9a7edd62d2f0166c3071efd900847e7-2b4a5d56fe76841748ba0a6aea8520e4",
+          "logo": "",
+          "title": "beIN SPORTS FHD",
+          "type": "0"
+        },
+        {
           "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
           "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
+          "logo": "",
           "title": "Server 2",
           "type": "1"
         },
         {
           "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
           "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
+          "logo": "",
           "title": "Server 3",
           "type": "1"
         }
@@ -384,24 +297,6 @@
         "SportzX HD",
         "Backup SD",
         "Tap Sport LQ"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX WWE",
-          "logo": ""
-        },
-        {
-          "title": "SportzX HD",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "Tap Sport LQ",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -454,28 +349,6 @@
         "Backup SD",
         "USA TV HD",
         "USA TV (USA VPN)"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "Backup HD",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV HD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV (USA VPN)",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -539,20 +412,6 @@
         "Backup SD",
         "Tap Sports"
       ],
-      "formatsNew": [
-        {
-          "title": "HD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "Tap Sports",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -598,28 +457,6 @@
         "Fox Sports Premium",
         "BACKUP HD",
         "BACKUP SD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SportzX WWE",
-          "logo": ""
-        },
-        {
-          "title": "Fox Sports Premium",
-          "logo": ""
-        },
-        {
-          "title": "BACKUP HD",
-          "logo": ""
-        },
-        {
-          "title": "BACKUP SD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -681,40 +518,6 @@
         "TAPMAD - AQ",
         "FANCODE - SD",
         "FOX CRICKET FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "PREMIER SPORTS",
-          "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI"
-        },
-        {
-          "title": "FANCODE FHD",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
-        },
-        {
-          "title": "PTV Sports",
-          "logo": ""
-        },
-        {
-          "title": "TAPMAD - AQ",
-          "logo": ""
-        },
-        {
-          "title": "FANCODE - SD",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
-        },
-        {
-          "title": "FOX CRICKET FHD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -794,8 +597,9 @@
       "adsLimit": "8",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD",
         "WILLOW [Ad-Free]",
+        "SKY SPORTS FHD",
+        "KAYO HINDI FHD",
         "NOON SPORTS",
         "SKY CRICKET",
         "FOX SPORTS HD",
@@ -804,48 +608,6 @@
         "SD SERVER",
         "STAR SPORTS HIN",
         "STAR SPORTS ENG"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "NOON SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY CRICKET",
-          "logo": ""
-        },
-        {
-          "title": "FOX SPORTS HD",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
-        },
-        {
-          "title": "Star Sports HIN",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "WILLOW HINDI",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SD SERVER",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "STAR SPORTS HIN",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "STAR SPORTS ENG",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        }
       ],
       "channels": [
         {
@@ -956,21 +718,8 @@
       "formats": [
         "beIN ENGLISH",
         "TSN SPORTS",
-        "SKY TENNIS UK"
-      ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": "https://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png"
-        },
-        {
-          "title": "TSN SPORTS",
-          "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-2-hd-ca.png"
-        },
-        {
-          "title": "SKY TENNIS UK",
-          "logo": ""
-        }
+        "SKY TENNIS UK",
+        "SKY SPORTS HD"
       ],
       "channels": [
         {
@@ -1023,20 +772,6 @@
         "SKY SPORTS FHD",
         "SKY MAIN EVENT"
       ],
-      "formatsNew": [
-        {
-          "title": "FUBO SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY MAIN EVENT",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
@@ -1081,12 +816,6 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TNT SPORTS FHD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1175,12 +904,6 @@
       "formats": [
         "beIN ENGLISH"
       ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
@@ -1211,12 +934,6 @@
       "publish": "1",
       "formats": [
         "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1249,12 +966,6 @@
       "formats": [
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1285,12 +996,6 @@
       "publish": "1",
       "formats": [
         "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1323,12 +1028,6 @@
       "formats": [
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1359,12 +1058,6 @@
       "publish": "1",
       "formats": [
         "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1397,12 +1090,6 @@
       "formats": [
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1433,12 +1120,6 @@
       "publish": "1",
       "formats": [
         "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1471,12 +1152,6 @@
       "formats": [
         "SportzX Live"
       ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1507,12 +1182,6 @@
       "publish": "1",
       "formats": [
         "THMANYAH HD"
-      ],
-      "formatsNew": [
-        {
-          "title": "THMANYAH HD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1545,12 +1214,6 @@
       "formats": [
         "THMANYAH HD"
       ],
-      "formatsNew": [
-        {
-          "title": "THMANYAH HD",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": null,
@@ -1581,12 +1244,6 @@
       "publish": "1",
       "formats": [
         "Sport TV HD"
-      ],
-      "formatsNew": [
-        {
-          "title": "Sport TV HD",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1619,16 +1276,6 @@
       "formats": [
         "beIN ENGLISH",
         "CBS NETWORK"
-      ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": ""
-        },
-        {
-          "title": "CBS NETWORK",
-          "logo": ""
-        }
       ],
       "channels": [
         {
@@ -1669,16 +1316,6 @@
         "beIN ENGLISH",
         "SKY FOOTBALL"
       ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": ""
-        },
-        {
-          "title": "SKY FOOTBALL",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
@@ -1717,12 +1354,6 @@
       "formats": [
         "Laliga Hypermotion ES"
       ],
-      "formatsNew": [
-        {
-          "title": "Laliga Hypermotion ES",
-          "logo": ""
-        }
-      ],
       "channels": [
         {
           "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
@@ -1753,12 +1384,6 @@
       "publish": "1",
       "formats": [
         "Laliga Hypermotion ES"
-      ],
-      "formatsNew": [
-        {
-          "title": "Laliga Hypermotion ES",
-          "logo": ""
-        }
       ],
       "channels": [
         {
