@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 43,
   "results": [
     {
       "id": "312",
@@ -347,9 +347,7 @@
       "adsLimit": "17",
       "publish": "1",
       "formats": [
-        "UFC MAIN EVENT",
         "TNT SPORTS FHD",
-        "SETANTA SPORTS",
         "PARAMOUNT+ AQ",
         "PARAMOUNT+ HD",
         "SPX UFC+ FHD",
@@ -360,16 +358,8 @@
       ],
       "formatsNew": [
         {
-          "title": "UFC MAIN EVENT",
-          "logo": ""
-        },
-        {
           "title": "TNT SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
-        },
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
         },
         {
           "title": "PARAMOUNT+ AQ",
@@ -1039,12 +1029,12 @@
         "teamB": "ATP 1000",
         "teamAFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
         "teamBFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
-        "eventName": "ATP Rome Masters SF",
+        "eventName": "ATP Rome Masters Final",
         "eventType": "null",
         "eventBanner": "https://sportzxads.pages.dev/ruby.png",
         "isHot": "0",
-        "startTime": "2026/05/16 13:00:00 +0000",
-        "endTime": "2026/05/16 18:15:00 +0000"
+        "startTime": "2026/05/17 15:00:00 +0000",
+        "endTime": "2026/05/17 17:00:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -1551,128 +1541,6 @@
       ]
     },
     {
-      "id": "406",
-      "title": "Union Berlin vs Augsburg",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Union Berlin",
-        "teamB": "Augsburg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2547/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2600/image",
-        "eventName": "Union Berlin vs Augsburg",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 13:30:00 +0000",
-        "endTime": "2026/05/16 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "BUNDESLIGA HD",
-        "SKY BUNDESLIGA HD",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "SKY BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50662/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rolis.drompakisdoulesonline.online/premium17/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
-          "logo": "",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347613.m3u8?txSecret=0f46f21b90e3fbf4d979ea287719403c&txTime=6A08B952|Referer=https://player.online909.com/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "407",
-      "title": "M'gladbach vs Hoffenheim",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "M'gladbach",
-        "teamB": "Hoffenheim",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2527/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2569/image",
-        "eventName": "M'gladbach vs Hoffenheim",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 13:30:00 +0000",
-        "endTime": "2026/05/16 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "BUNDESLIGA HD",
-        "SKY BUNDESLIGA HD",
-        "SPX HD LIVE"
-      ],
-      "formatsNew": [
-        {
-          "title": "BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "SKY BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "SPX HD LIVE",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50661/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rolis.drompakisdoulesonline.online/premium18/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
-          "logo": "",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/20/chunks.m3u8?is_vip=false&token=1779024775-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-7ef8123e89ed2a6830a97700f46be556",
-          "logo": "",
-          "title": "SPX HD LIVE",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "408",
       "title": "Frankfurt vs Stuttgart",
       "image": "o",
@@ -1819,79 +1687,6 @@
       ]
     },
     {
-      "id": "410",
-      "title": "Freiburg vs RB Leipzig",
-      "image": "o",
-      "cat": "Bundesliga 🇩🇪",
-      "eventInfo": {
-        "teamA": "Freiburg",
-        "teamB": "Leipzig",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2538/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-        "eventName": "Freiburg vs RB Leipzig",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 13:30:00 +0000",
-        "endTime": "2026/05/16 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "BUNDESLIGA HD",
-        "ESPN LIVE HD",
-        "SKY BUNDESLIGA HD",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "ESPN LIVE HD",
-          "logo": ""
-        },
-        {
-          "title": "SKY BUNDESLIGA HD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50659/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/17/chunks.m3u8?is_vip=false&token=1779025092-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-68fcb7cc3460b620bd1153891660120e",
-          "logo": "",
-          "title": "ESPN LIVE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://rolis.drompakisdoulesonline.online/premium19/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
-          "logo": "",
-          "title": "SKY BUNDESLIGA HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4347664.m3u8?txSecret=582f9de7c6824700ba24fdc6d164f1b4&txTime=6A08B90E|Referer=https://player.online909.com/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "411",
       "title": "Al-Hilal vs Neom",
       "image": "o",
@@ -1912,7 +1707,8 @@
       "formats": [
         "SporTV BR",
         "FOX DEPORTES",
-        "THMANYAH HD"
+        "THMANYAH HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
@@ -1925,6 +1721,10 @@
         },
         {
           "title": "THMANYAH HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1949,6 +1749,13 @@
           "logo": "",
           "title": "THMANYAH HD",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404704.m3u8?txSecret=51a4def8289f263743b9a0bf51f5c178&txTime=6A08DD14|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1971,11 +1778,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "THMANYAH HD"
+        "THMANYAH HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
           "title": "THMANYAH HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1985,6 +1797,13 @@
           "link": "https://rolis.drompakisdoulesonline.online/premium10/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "THMANYAH HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404640.m3u8?txSecret=1856144ea1e4eeef0b7a45163ea4ea4f&txTime=6A08DD4D|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2045,11 +1864,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN SPORTS HD"
+        "beIN SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
           "title": "beIN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -2059,6 +1883,13 @@
           "link": "https://zomis.zempovlantis.online/premium62/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "beIN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4366100.m3u8?txSecret=9c858f6b4a74170cf2d83bd86c523110&txTime=6A08DE55|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2096,189 +1927,6 @@
           "link": "https://zomis.zempovlantis.online/premium63/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "beIN SPORTS HD",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "416",
-      "title": "Celtic vs Hearts",
-      "image": "o",
-      "cat": "Scottish Premiership",
-      "eventInfo": {
-        "teamA": "Celtic",
-        "teamB": "Hearts",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2352/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2353/image",
-        "eventName": "Celtic vs Hearts",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 11:30:00 +0000",
-        "endTime": "2026/05/16 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "SportDigital Fussball",
-        "SKY MAIN EVENT",
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": ""
-        },
-        {
-          "title": "SportDigital Fussball",
-          "logo": ""
-        },
-        {
-          "title": "SKY MAIN EVENT",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "logo": "",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "logo": "",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50652/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SKY MAIN EVENT",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/sd-1-4529572.m3u8?txSecret=c8cef66b9f86d6b7a621640d57d3685e&txTime=6A089A40|Referer=https://player.online909.com/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.55/hls/TMMMMZZ.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "417",
-      "title": "Falkirk vs Rangers",
-      "image": "o",
-      "cat": "Scottish Premiership",
-      "eventInfo": {
-        "teamA": "Falkirk",
-        "teamB": "Rangers",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2363/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2351/image",
-        "eventName": "Falkirk vs Rangers",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 11:30:00 +0000",
-        "endTime": "2026/05/16 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SPFL FEED",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "SPFL FEED",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://bobis.zaglemplokis.online/premium59/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
-          "logo": "",
-          "title": "SPFL FEED",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.47/hls/TMMMM.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "418",
-      "title": "Hibernian vs Motherwell",
-      "image": "o",
-      "cat": "Scottish Premiership",
-      "eventInfo": {
-        "teamA": "Hibernian",
-        "teamB": "Motherwell",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2354/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2346/image",
-        "eventName": "Hibernian vs Motherwell",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 11:30:00 +0000",
-        "endTime": "2026/05/16 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SPFL FEED",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "SPFL FEED",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://bobis.zaglemplokis.online/premium68/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
-          "logo": "",
-          "title": "SPFL FEED",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.47/hls/TMMMMZ.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2849,6 +2497,103 @@
           "api": null,
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "title": "Twins vs Milwaukee Brewers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Twins",
+        "teamB": "Brewers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3649/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3630/image",
+        "eventName": "Twins vs Milwaukee Brewers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/16 23:10:00 +0000",
+        "endTime": "2026/05/17 02:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "435",
+      "title": "Al-Ahli vs Al-Kholood",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Ahli",
+        "teamB": "Al-Kholood",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/269199/image",
+        "eventName": "Al-Ahli vs Al-Kholood",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/16 18:00:00 +0000",
+        "endTime": "2026/05/16 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FANCODE FHD",
+        "FOX DEPORTES",
+        "THMANYAH HD"
+      ],
+      "formatsNew": [
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
+        },
+        {
+          "title": "FOX DEPORTES",
+          "logo": ""
+        },
+        {
+          "title": "THMANYAH HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "logo": "",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium17/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "logo": "",
+          "title": "THMANYAH HD",
           "type": "0"
         }
       ]
