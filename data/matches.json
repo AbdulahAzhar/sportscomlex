@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 43,
+  "total_events": 44,
   "results": [
     {
       "id": "312",
@@ -1098,11 +1098,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SPX AFC LIVE"
       ],
       "formatsNew": [
         {
           "title": "SportDigital Fussball",
+          "logo": ""
+        },
+        {
+          "title": "SPX AFC LIVE",
           "logo": ""
         }
       ],
@@ -1113,6 +1118,13 @@
           "logo": "",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/25/chunks.m3u8?is_vip=false&token=1779039471-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-1980b5d224a3053ef06d7471820354c5",
+          "logo": "",
+          "title": "SPX AFC LIVE",
+          "type": "0"
         }
       ]
     },
@@ -1370,7 +1382,7 @@
         "eventName": "Chelsea vs Manchester City",
         "eventType": "null",
         "eventBanner": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/16 14:00:00 +0000",
         "endTime": "2026/05/16 16:05:00 +0000"
       },
@@ -2196,9 +2208,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -2207,7 +2224,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50674/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2594,6 +2619,67 @@
           "link": "https://rolis.drompakisdoulesonline.online/premium17/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "THMANYAH HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "title": "Dave Allen",
+      "image": "o",
+      "cat": "Boxing",
+      "eventInfo": {
+        "teamA": "Dave Allen",
+        "teamB": "Filip Hrgović",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/518989/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1084274/image",
+        "eventName": "Dave Allen vs Filip Hrgović",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/16 17:00:00 +0000",
+        "endTime": "2026/05/16 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "DAZN PPV HD"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "DAZN PPV HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://bo3.bofiles.cfd/live/filip/stream.m3u8",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50678/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium77/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "logo": "",
+          "title": "DAZN PPV HD",
           "type": "0"
         }
       ]
