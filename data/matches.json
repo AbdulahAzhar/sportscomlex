@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 34,
+  "total_events": 35,
   "results": [
     {
       "id": "312",
@@ -328,6 +328,130 @@
       ]
     },
     {
+      "id": "324",
+      "title": "UFC",
+      "image": "o",
+      "cat": "UFC",
+      "eventInfo": {
+        "teamA": "Arnold Allen",
+        "teamB": "Melquizael Costa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/469994/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/473425/image",
+        "eventName": "UFC Fight Night: Allen vs. Costa",
+        "eventType": "null",
+        "eventBanner": "null",
+        "isHot": "0",
+        "startTime": "2026/05/16 21:00:00 +0000",
+        "endTime": "2026/05/17 05:20:00 +0000"
+      },
+      "adsLimit": "17",
+      "publish": "1",
+      "formats": [
+        "UFC MAIN EVENT",
+        "TNT SPORTS FHD",
+        "SETANTA SPORTS",
+        "PARAMOUNT+ AQ",
+        "PARAMOUNT+ HD",
+        "SPX UFC+ FHD",
+        "SPX UFC+ HD",
+        "Paramount+ BR",
+        "SportzX LIVE",
+        "UFC+ - AQ"
+      ],
+      "formatsNew": [
+        {
+          "title": "UFC MAIN EVENT",
+          "logo": ""
+        },
+        {
+          "title": "TNT SPORTS FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
+        },
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ AQ",
+          "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SPX UFC+ FHD",
+          "logo": ""
+        },
+        {
+          "title": "SPX UFC+ HD",
+          "logo": ""
+        },
+        {
+          "title": "Paramount+ BR",
+          "logo": ""
+        },
+        {
+          "title": "SportzX LIVE",
+          "logo": ""
+        },
+        {
+          "title": "UFC+ - AQ",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d0f2e5c39e70c18f29bf77768a1ad89a:d6853c51fcf37a18905f0609972395d7",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT Sports",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://indiasmellsverybad.xyz/live/ufc-on-espn-73-royval-vs-kape720p/index.m3u8",
+          "title": "SportzX UFC",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://gg.poocloud.in/ufc/tracks-v1a1/mono.ts.m3u8?|Referer=https://ppv.to/&Origin=https://ppv.to",
+          "title": "SportzX FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://red9.lumenlyra.space/playlist/41184/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "SportzX TV+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edgestreams.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Low",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://azplay.live/hls/NFLHD30/index.m3u8?|Referer=https://arizonaplay.club/&Origin=https://arizonaplay.club",
+          "title": "SportzX HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://cdn1.dtplumber.cfd/live/cdn1/chunks.m3u8",
+          "title": "FAST Server",
+          "type": "0"
+        },
+        {
+          "api": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
+          "title": "UFC+ - AQ",
+          "type": "1"
+        }
+      ]
+    },
+    {
       "id": "327",
       "title": "ONE Friday Fights 130",
       "image": "o",
@@ -478,103 +602,6 @@
           "api": "eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f",
           "link": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd",
           "title": "Tap Sport LQ",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "329",
-      "title": "WWE Smackdown",
-      "image": "o",
-      "cat": "WWE",
-      "eventInfo": {
-        "teamA": "WWE",
-        "teamB": "WWE",
-        "teamAFlag": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-        "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-        "eventName": "🥊 WWE Friday Night SmackDown",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 00:00:00 +0000",
-        "endTime": "2026/05/16 02:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX WWE",
-        "SportzX Live",
-        "Backup HD",
-        "Backup SD",
-        "USA TV HD",
-        "USA TV (USA VPN)"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX WWE",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "Backup HD",
-          "logo": ""
-        },
-        {
-          "title": "Backup SD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV HD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV (USA VPN)",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50613/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX WWE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108084_HD/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "logo": "",
-          "title": "Backup HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
-          "logo": "",
-          "title": "Backup SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
-          "logo": "",
-          "title": "USA TV HD",
-          "type": "0"
-        },
-        {
-          "api": "58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41",
-          "link": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-          "logo": "",
-          "title": "USA TV (USA VPN)",
           "type": "1"
         }
       ]
@@ -850,7 +877,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/216006/image",
         "eventName": "Kolkata Knight Riders vs Gujarat Titans",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/16 14:00:00 +0000",
         "endTime": "2026/05/16 17:55:00 +0000"
       },
@@ -859,7 +886,6 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "SKY SPORTS FHD",
-        "KAYO HINDI FHD",
         "NOON SPORTS",
         "SKY CRICKET",
         "FOX SPORTS HD",
@@ -877,10 +903,6 @@
         {
           "title": "SKY SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "KAYO HINDI FHD",
-          "logo": ""
         },
         {
           "title": "NOON SPORTS",
@@ -1003,6 +1025,66 @@
       ]
     },
     {
+      "id": "372",
+      "title": "ATP Rome Masters",
+      "image": "o",
+      "cat": "ATP",
+      "eventInfo": {
+        "teamA": "ATP 1000",
+        "teamB": "ATP 1000",
+        "teamAFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
+        "teamBFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
+        "eventName": "ATP Rome Masters SF",
+        "eventType": "null",
+        "eventBanner": "https://sportzxads.pages.dev/ruby.png",
+        "isHot": "0",
+        "startTime": "2026/05/16 13:00:00 +0000",
+        "endTime": "2026/05/16 18:15:00 +0000"
+      },
+      "adsLimit": "9",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "TSN SPORTS"
+      ],
+      "formatsNew": [
+        {
+          "title": "beIN ENGLISH",
+          "logo": "https://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png"
+        },
+        {
+          "title": "TSN SPORTS",
+          "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-2-hd-ca.png"
+        }
+      ],
+      "channels": [
+        {
+          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+          "title": "TNT Sports 4",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
+          "title": "WILLOW (Ad Free)",
+          "type": "0"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
+          "title": "WILLOW SD",
+          "type": "2"
+        }
+      ]
+    },
+    {
       "id": "385",
       "title": "Al-Nassr vs Gamba Osaka",
       "image": "o",
@@ -1051,7 +1133,8 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
         "eventName": "Chelsea vs Manchester City",
         "eventType": "null",
-        "isHot": "0",
+        "eventBanner": "null",
+        "isHot": "1",
         "startTime": "2026/05/16 14:00:00 +0000",
         "endTime": "2026/05/16 16:05:00 +0000"
       },
@@ -1059,7 +1142,11 @@
       "publish": "1",
       "formats": [
         "TNT SPORTS FHD",
-        "SKY SPORTS FHD"
+        "SKY SPORTS FHD",
+        "TNT SPORTS - AQ",
+        "STAN SPORTS HD",
+        "SonyLiv [ENG]",
+        "SonyLiv [HIN]"
       ],
       "formatsNew": [
         {
@@ -1068,6 +1155,22 @@
         },
         {
           "title": "SKY SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "TNT SPORTS - AQ",
+          "logo": ""
+        },
+        {
+          "title": "STAN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SonyLiv [ENG]",
+          "logo": ""
+        },
+        {
+          "title": "SonyLiv [HIN]",
           "logo": ""
         }
       ],
@@ -1085,6 +1188,34 @@
           "logo": "",
           "title": "SKY SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "logo": "",
+          "title": "TNT SPORTS - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/27/chunks.m3u8?is_vip=false&token=1779025577-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-4036f30ebd1e76f71a5c4bf44752d0cb",
+          "logo": "",
+          "title": "STAN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/FACUP_Ch1605/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "logo": "",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005445/FACUP_Ch1605/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "logo": "",
+          "title": "SonyLiv [HIN]",
+          "type": "0"
         }
       ]
     },
@@ -1100,7 +1231,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
         "eventName": "Bayern München vs Köln",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/16 13:30:00 +0000",
         "endTime": "2026/05/16 15:35:00 +0000"
       },
@@ -1109,7 +1240,9 @@
       "formats": [
         "beIN ENGLISH",
         "SporTV BR",
-        "SKY BUNDESLIGA HD"
+        "DAZN SPORTS HD",
+        "SKY BUNDESLIGA HD",
+        "SonyLiv [ENG]"
       ],
       "formatsNew": [
         {
@@ -1121,7 +1254,15 @@
           "logo": ""
         },
         {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SonyLiv [ENG]",
           "logo": ""
         }
       ],
@@ -1142,9 +1283,23 @@
         },
         {
           "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/24/chunks.m3u8?is_vip=false&token=1779024688-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-af501beb400470219785a2c66f7ec9b0",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://poklis.rontokakishop.online/premium558/index.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/BLIGA_Ba1605/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "logo": "",
+          "title": "SonyLiv [ENG]",
           "type": "0"
         }
       ]
@@ -1161,27 +1316,87 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
         "eventName": "Werder Bremen vs Borussia Dortmund",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/16 13:30:00 +0000",
         "endTime": "2026/05/16 15:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA HD"
+        "Spor TV BR",
+        "BUNDESLIGA HD",
+        "SKY BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SonyLiv [ENG]",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "Spor TV BR",
+          "logo": ""
+        },
+        {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
+          "title": "SonyLiv [ENG]",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "3de028eafb3b2caffec03be1c1c818b3:8fbdd8a9ae6748696bb13e547bb093fc",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
+          "logo": "",
+          "title": "Spor TV BR",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50665/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
           "api": null,
           "link": "https://bobis.zaglemplokis.online/premium948/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/25/chunks.m3u8?is_vip=false&token=1779024828-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-9469331cfacffbfe2c7246d139a95a8b",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/BLIGA_We1605/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com",
+          "logo": "",
+          "title": "SonyLiv [ENG]",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347640.m3u8?txSecret=8d01d30acbc6b859c9344a1897f81e00&txTime=6A08B977|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1205,20 +1420,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA HD"
+        "BUNDESLIGA HD",
+        "SKY BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50663/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://rolis.drompakisdoulesonline.online/premium20/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/23/chunks.m3u8?is_vip=false&token=1779024881-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-fa5f9af5acc0ea3a12f92c95f0f62ebc",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347597.m3u8?txSecret=f84b6a19726a81fa61fafce945da57ed&txTime=6A08B89D|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1242,20 +1493,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA HD"
+        "BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SKY BUNDESLIGA HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50658/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/18/chunks.m3u8?is_vip=false&token=1779025223-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-0967cbec835d52476638d8503fdc41aa",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://bobis.zaglemplokis.online/premium947/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347650.m3u8?txSecret=985d2e1bbf809c269647aeafe916fb87&txTime=6A08B931|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1279,9 +1566,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "BUNDESLIGA HD",
+        "SKY BUNDESLIGA HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1290,7 +1587,21 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/50662/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium17/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "logo": "",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347613.m3u8?txSecret=0f46f21b90e3fbf4d979ea287719403c&txTime=6A08B952|Referer=https://player.online909.com/",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
@@ -1316,20 +1627,44 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "BUNDESLIGA HD",
+        "SKY BUNDESLIGA HD",
+        "SPX HD LIVE"
       ],
       "formatsNew": [
         {
-          "title": "SportzX Live",
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SPX HD LIVE",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/50661/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
-          "title": "SportzX Live",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium18/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "logo": "",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/20/chunks.m3u8?is_vip=false&token=1779024775-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-7ef8123e89ed2a6830a97700f46be556",
+          "logo": "",
+          "title": "SPX HD LIVE",
           "type": "0"
         }
       ]
@@ -1353,20 +1688,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA HD"
+        "BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SKY BUNDESLIGA HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50660/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/9/chunks.m3u8?is_vip=false&token=1779025172-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-f458ff95f79d3d79abd717f14de29a1b",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://bobis.zaglemplokis.online/premium949/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347663.m3u8?txSecret=9ff0c3cc2078b5cf4b35fd68cd5649d4&txTime=6A08B8E4|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1390,20 +1761,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY BUNDESLIGA HD"
+        "BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SKY BUNDESLIGA HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
           "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50664/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/1/chunks.m3u8?is_vip=false&token=1779025027-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-b7986389c12e8bf9ea1a20f196594272",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://poklis.rontokakishop.online/premium946/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347600.m3u8?txSecret=f9140c4e563271898d74e50cec0be49c&txTime=6A08B8C0|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1427,9 +1834,24 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "BUNDESLIGA HD",
+        "ESPN LIVE HD",
+        "SKY BUNDESLIGA HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "BUNDESLIGA HD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN LIVE HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY BUNDESLIGA HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1438,7 +1860,28 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/50659/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/17/chunks.m3u8?is_vip=false&token=1779025092-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-68fcb7cc3460b620bd1153891660120e",
+          "logo": "",
+          "title": "ESPN LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium19/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "logo": "",
+          "title": "SKY BUNDESLIGA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4347664.m3u8?txSecret=582f9de7c6824700ba24fdc6d164f1b4&txTime=6A08B90E|Referer=https://player.online909.com/",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
