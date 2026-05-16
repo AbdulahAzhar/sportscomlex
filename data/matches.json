@@ -1675,11 +1675,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SKY MAIN EVENT"
       ],
       "formatsNew": [
         {
           "title": "SportDigital Fussball",
+          "logo": ""
+        },
+        {
+          "title": "SKY MAIN EVENT",
           "logo": ""
         }
       ],
@@ -1690,6 +1695,13 @@
           "logo": "",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50652/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
         }
       ]
     },
