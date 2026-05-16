@@ -1129,6 +1129,77 @@
       ]
     },
     {
+      "id": "368",
+      "title": "Ronda Rousey vs Gina Carano",
+      "image": "o",
+      "cat": "Boxing",
+      "eventInfo": {
+        "teamA": "PES",
+        "teamB": "HYK",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/212420/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1178235/image",
+        "eventName": "Peshawar Zalmi vs Hyderabad Kingsmen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/03 15:00:00 +0000",
+        "endTime": "2026/05/03 18:45:00 +0000"
+      },
+      "adsLimit": "9",
+      "publish": "1",
+      "formats": [
+        "NETFLIX PPV",
+        "SportzX PPV HD"
+      ],
+      "formatsNew": [
+        {
+          "title": "NETFLIX PPV",
+          "logo": ""
+        },
+        {
+          "title": "SportzX PPV HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1fc04170e5671d37c8286afcfeb505f7:9751880fa496d361d780019bdcd91d8a",
+          "link": "https://otte.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kq9asei23n/out/v1/12e4e39869014ef19f3c30f0d598191b/cenc.mpd",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "Fancode FHD",
+          "type": "1"
+        },
+        {
+          "api": "709c812e1b4174002605df1d17d34a4c:0bbee6c9c20a0f065bf8369d54cbf83e",
+          "link": "https://a166aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/clients/dash/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+          "title": "FANCODE SD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://stream.snexus.co/live/SN_WILDLIFE/main_stream.m3u8",
+          "title": "Solhsports HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://bd-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
+          "title": "FANCODE (BD)",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1&referer=https://fancode.com/",
+          "title": "FANCODE (IND)",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "372",
       "title": "ATP Rome Masters",
       "image": "o",
@@ -1185,91 +1256,6 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
-        }
-      ]
-    },
-    {
-      "id": "385",
-      "title": "Al-Nassr vs Gamba Osaka",
-      "image": "o",
-      "cat": "AFC Champions Two",
-      "eventInfo": {
-        "teamA": "Al-Nassr",
-        "teamB": "Gamba Osaka",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/23400/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
-        "eventName": "Al-Nassr vs Gamba Osaka",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 17:45:00 +0000",
-        "endTime": "2026/05/16 19:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball",
-        "FANCODE HD",
-        "NOVA SPORTS",
-        "SPX AFC LIVE",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportDigital Fussball",
-          "logo": ""
-        },
-        {
-          "title": "FANCODE HD",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
-        },
-        {
-          "title": "NOVA SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SPX AFC LIVE",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "logo": "",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://fncd.kuvuslov.cymru/mumbai/140874_english_hls_ef7a6a2b9267306_1ta-di_h264/index.m3u8|Origin=https://famcodexwebs.pages.dev",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-          "title": "FANCODE HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50676/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "NOVA SPORTS",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/25/chunks.m3u8?is_vip=false&token=1779041405-Kv4cPTAAP5YTi-88260ea855dfcf8e7b020464a42c033ffa5af377-24fd925d101390a8d9e9fe4e657c05de",
-          "logo": "",
-          "title": "SPX AFC LIVE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4533861.m3u8?txSecret=515b209b98dba537158a7697538de71e&txTime=6A08F5C0|Referer=https://player.online909.com/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
         }
       ]
     },
@@ -1820,11 +1806,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "Sport Klub HD"
       ],
       "formatsNew": [
         {
           "title": "SportDigital Fussball",
+          "logo": ""
+        },
+        {
+          "title": "Sport Klub HD",
           "logo": ""
         }
       ],
@@ -1835,6 +1826,13 @@
           "logo": "",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/68904/chunks.m3u8?is_vip=false&token=88260ea855dfcf8e7b020464a42c033ffa5af377&x-sign=25f0a817665344de3ca160e293a484fe&x-time=1778961180",
+          "logo": "",
+          "title": "Sport Klub HD",
+          "type": "0"
         }
       ]
     },
@@ -1868,7 +1866,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/802/chunks.m3u8?is_vip=false&token=88260ea855dfcf8e7b020464a42c033ffa5af377&x-sign=372d5f2b35b71adddb774f2620bd05cf&x-time=1778961120",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
@@ -2423,7 +2421,7 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/05/16 17:00:00 +0000",
-        "endTime": "2026/05/16 21:00:00 +0000"
+        "endTime": "2026/05/16 22:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
