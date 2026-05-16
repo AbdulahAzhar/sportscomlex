@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 47,
+  "total_events": 45,
   "results": [
     {
       "id": "312",
@@ -522,7 +522,8 @@
         "PTV Sports",
         "TAPMAD - AQ",
         "FANCODE - SD",
-        "FOX CRICKET FHD"
+        "FOX CRICKET FHD",
+        "Premier Sports 2"
       ],
       "channels": [
         {
@@ -580,6 +581,12 @@
           "logo": "",
           "title": "FOX CRICKET FHD",
           "type": "0"
+        },
+        {
+          "title": "Premier Sports 2",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "type": "1",
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
         }
       ]
     },
@@ -913,68 +920,6 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/pllmazjkdzajh72.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "394",
-      "title": "St. Louis Cardinals",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Cardinals",
-        "teamB": "Royals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3632/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3651/image",
-        "eventName": "St. Louis Cardinals vs Kansas City Royals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 00:15:00 +0000",
-        "endTime": "2026/05/16 03:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "395",
-      "title": "Colorado Rockies",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Rockies",
-        "teamB": "Diamondbacks",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "eventName": "Colorado Rockies vs Arizona Diamondbacks",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/16 00:40:00 +0000",
-        "endTime": "2026/05/16 03:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
