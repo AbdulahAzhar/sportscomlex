@@ -979,34 +979,39 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
         "eventName": "Delhi Capitals vs Rajasthan Royals",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/17 14:00:00 +0000",
         "endTime": "2026/05/17 17:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD",
         "WILLOW [Ad-Free]",
+        "SKY SPORTS FHD",
         "NOON SPORTS",
-        "HUB SPORTS FHD",
+        "SKY CRICKET",
+        "FOX SPORTS HD",
         "SD SERVER"
       ],
       "formatsNew": [
         {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
           "title": "WILLOW [Ad-Free]",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+        },
+        {
+          "title": "SKY SPORTS FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "NOON SPORTS",
           "logo": ""
         },
         {
-          "title": "HUB SPORTS FHD",
+          "title": "SKY CRICKET",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+        },
+        {
+          "title": "FOX SPORTS HD",
           "logo": ""
         },
         {
@@ -1016,17 +1021,17 @@
       ],
       "channels": [
         {
+          "api": "8ab6b4ac429bfe070cfdb2a734b0f2e3:61a2198ca92d1c539abd22636fe0bf23",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fbo5ncnbyv/out/v1/ba5ff04083324474800234e8d2eef8d4/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
+        {
           "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=319ab612-2e20-46d8-844b-27cb156b638c~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzY0MjQmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=0f528e265590e386ba6fb3983f21449ea43d5fa28aed795503f83643861de1ff/dash/live/2093715/219027-321028/manifest-d.mpd",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "33f0135bc99bd90a1356c18086a7f9c0:923c0db66811b455400da2682c903b37",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pjo2efuu08/out/v1/37c363392c5c4820b1af1056273ab74c/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW [Ad-Free]",
           "type": "1"
         },
         {
@@ -1038,9 +1043,16 @@
         },
         {
           "api": null,
-          "link": "|referer=https://estraaw.pages.dev/",
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+          "title": "SKY CRICKET",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://sunffov.kuvuslov.cymru/fox501.m3u8|Referer=https://estraaw.pages.dev/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
           "logo": "",
-          "title": "HUB SPORTS FHD",
+          "title": "FOX SPORTS HD",
           "type": "0"
         },
         {
@@ -1049,6 +1061,119 @@
           "logo": "",
           "title": "SD SERVER",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "title": "ISL VS ISL",
+      "image": "o",
+      "cat": "ISL",
+      "eventInfo": {
+        "teamA": "Mohun Bagan",
+        "teamB": "East Bengal",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/370834/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/40655/image",
+        "eventName": "Mohun Bagan vs East Bengal",
+        "eventType": "null",
+        "isHot": "1",
+        "startTime": "2026/05/17 14:00:00 +0000",
+        "endTime": "2026/05/17 16:00:00 +0000"
+      },
+      "adsLimit": "8",
+      "publish": "1",
+      "formats": [
+        "FANCODE FHD",
+        "FANCODE - SD",
+        "FANCODE WORLD",
+        "FANCODE [ENG]",
+        "FANCODE [HIN]",
+        "FANCODE [MAL]",
+        "FANCODE [BAN]",
+        "FANCODE [BD]"
+      ],
+      "formatsNew": [
+        {
+          "title": "FANCODE FHD",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE - SD",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE WORLD",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE [ENG]",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE [HIN]",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE [MAL]",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE [BAN]",
+          "logo": ""
+        },
+        {
+          "title": "FANCODE [BD]",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "dafbae65bdfd4278a4b4b648da79495d:1368492078d17dd0129fa6d674b97f13",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_english_dash_38510_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [ENG]",
+          "type": "1"
+        },
+        {
+          "api": "8a1ccfbeac9741769289919c0e65b94b:3e6a60425e0465fc4a991c22c65c9b76",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_hindi_dash_54800_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [HIN]",
+          "type": "1"
+        },
+        {
+          "api": "94e62a2c71f94a0fb4c48834b11cd799:99aef645a00e3dd61588a5173e0c057b",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_tamil_dash_61057_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [TAM]",
+          "type": "1"
+        },
+        {
+          "api": "f4752dd4bc2d4fc98ab23e23f8014ff1:a58c5c58c20e0a5175cecd263c732a81",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_malayalam_dash_60112_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [MAL]",
+          "type": "1"
+        },
+        {
+          "api": "26be5abac415413c81e9105390e3a5dd:2b46ec61a16d79a8efa471f33b6f0ec0",
+          "link": "https://in-mc-flive.fancode.com/mumbai/140482_bengali_dash_77342_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BAN]",
+          "type": "1"
+        },
+        {
+          "api": "b8b4c7a012eb4daea6b2fafa9d57757d:abf2d7c5859205efca3028f623f75cd8",
+          "link": "https://bd-mc-flive.fancode.com/delhi/140482_english_dash_38610_1drmta-di_h264/index.mpd",
+          "title": "FANCODE [BD]",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.uu6611.com/live/sd-1-4496375.m3u8?txSecret=73ae3adbee35c33b3195a7da6820e3bb&txTime=69DA76E9|Referer=https://player.up909.com/",
+          "title": "WORLDWIDE HD",
+          "type": "0"
+        },
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "title": "FANCODE FHD",
+          "type": "1"
         }
       ]
     },
@@ -1320,6 +1445,42 @@
       ]
     },
     {
+      "id": "385",
+      "title": "Al-Shabab vs Al-Ittihad",
+      "image": "o",
+      "cat": "Pro League 🇸🇦",
+      "eventInfo": {
+        "teamA": "Al-Shabab",
+        "teamB": "Al-Ittihad",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/34313/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/34315/image",
+        "eventName": "Al-Shabab vs Al-Ittihad",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/17 18:00:00 +0000",
+        "endTime": "2026/05/17 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "THMANYAH HD"
+      ],
+      "formatsNew": [
+        {
+          "title": "THMANYAH HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://rolis.drompakisdoulesonline.online/premium19/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
+          "title": "THMANYAH HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "394",
       "title": "Kansas City Royals",
       "image": "o",
@@ -1501,163 +1662,6 @@
       ]
     },
     {
-      "id": "400",
-      "title": "Manchester United vs Nottingham",
-      "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "eventInfo": {
-        "teamA": "Man Utd",
-        "teamB": "Forest",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/35/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/14/image",
-        "eventName": "Manchester United vs Nottingham",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/05/17 11:30:00 +0000",
-        "endTime": "2026/05/17 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FUBO SPORTS",
-        "SKY SPORTS FHD",
-        "TELEMUNDO FHD",
-        "USA TV HD",
-        "USA TV - AQ",
-        "HUB PREMIER HD",
-        "SKY MAIN EVENT",
-        "STAN SPORTS HD",
-        "beIN ARABIC HD",
-        "SportsCast HD",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "FUBO SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "TELEMUNDO FHD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV HD",
-          "logo": ""
-        },
-        {
-          "title": "USA TV - AQ",
-          "logo": ""
-        },
-        {
-          "title": "HUB PREMIER HD",
-          "logo": ""
-        },
-        {
-          "title": "SKY MAIN EVENT",
-          "logo": ""
-        },
-        {
-          "title": "STAN SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "beIN ARABIC HD",
-          "logo": ""
-        },
-        {
-          "title": "SportsCast HD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
-          "logo": "",
-          "title": "FUBO SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=ac995ce9-4460-4baf-aa98-8964bf914c77~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzU1NDYmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=f6b8f98b065a74d282a69083cc879a3b075e09696d12209ba9f1048055d753b7/dash/live/2093712/219035-321027/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
-          "logo": "",
-          "title": "TELEMUNDO FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50734/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "USA TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://perjaka.s3.us-east-1.amazonaws.com/btsport.m3u8",
-          "logo": "",
-          "title": "USA TV - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144253/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=9e9dcb2f05e0aea2f431fc4eb66e721b&x-time=1779016320",
-          "logo": "",
-          "title": "HUB PREMIER HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/52432/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=761dc8bc53b25b67e1c9081ef6969b24&x-time=1779016320",
-          "logo": "",
-          "title": "SKY MAIN EVENT",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/20/chunks.m3u8?is_vip=false&token=1779102834-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-91b91db581ad10e12b4591a215bd5208",
-          "logo": "",
-          "title": "STAN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://23syrialive.s3.us-east-2.amazonaws.com/bein1/master.m3u8|referer=https://a11.kooora-sia.com/",
-          "logo": "",
-          "title": "beIN ARABIC HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/10f794db-a364-43d3-a02c-ff215d0e5f33/master.m3u8",
-          "logo": "",
-          "title": "SportsCast HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.vivo200.com/live/hd-en-1-4343216.m3u8?txSecret=93adf5b4108a843e95f420bdb3681d04&txTime=6A09F2AA|Referer=https://player.online909.com/",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "401",
       "title": "Brentford vs Crystal Palace",
       "image": "o",
@@ -1676,20 +1680,93 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD"
+        "PEACOCK - AQ [UK]",
+        "SKY SPORTS FHD",
+        "PEACOCK TV+ HD",
+        "SKY SPORTS HD",
+        "HUB PREMIER HD",
+        "STAN SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "PEACOCK - AQ [UK]",
+          "logo": ""
+        },
+        {
           "title": "SKY SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "PEACOCK TV+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "HUB PREMIER HD",
+          "logo": ""
+        },
+        {
+          "title": "STAN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "0022b87aca2a5c1911bcfa7d8edf348f:8d95fac4d0f35724059017e0d2046f2d",
+          "link": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021403-723261-49122fc35fd)/master_2hr.mpd?c3.ri=6a09c1e7_Q1ZYMDc_0_RkFTVExZ_0a2fbd32ad19&aws.sessionId=5a64a18b-d3e4-495b-a0c1-19421a0d2956",
+          "logo": "",
+          "title": "PEACOCK - AQ [UK]",
+          "type": "1"
+        },
+        {
           "api": "72002c630e2343849984b5d3ec418162:ae6f8e3ff42a4963ae25686cca56c8e8",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=dd194953-6fdc-4d47-a49d-a2f6a5ebcc46~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05Mzk2MDAmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=c92bee126b26f36590827efa01fd854a9d538208135cf4f837d05196ca3ba480/dash/live/2093716/219036-321029/manifest-d.mpd",
+          "logo": "",
           "title": "SKY SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50741/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "PEACOCK TV+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/52433/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=cab792116aa1cb90d4b43f1ea249e1e7&x-time=1779024960",
+          "logo": "",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144254/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=ab8976f3c5205089bed6a05e9b883452&x-time=1779026220",
+          "logo": "",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/24/chunks.m3u8?is_vip=false&token=1779112666-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-6ace253cb328b8779427346aad6cd83f",
+          "logo": "",
+          "title": "STAN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343209.m3u8?txSecret=7f454c45aa3faee8cb5f3548477ae2ea&txTime=6A0A0F7B|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1712,20 +1789,93 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD"
+        "PEACOCK - AQ [UK]",
+        "SKY SPORTS FHD",
+        "PEACOCK TV+ HD",
+        "SKY SPORTS HD",
+        "HUB PREMIER HD",
+        "STAN SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "PEACOCK - AQ [UK]",
+          "logo": ""
+        },
+        {
           "title": "SKY SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "PEACOCK TV+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "HUB PREMIER HD",
+          "logo": ""
+        },
+        {
+          "title": "STAN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "002278d86ac1b09760ebe7a7253f184a:752f8408b102ae9dbe8969f720592a06",
+          "link": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021404-723262-491230b783e)/master_2hr.mpd?c3.ri=6a09bfc3_Q1ZYMDc_0_RkFTVExZ_f994b15827ca&aws.sessionId=b91c778d-c25d-4d28-9be6-5f77bf005a7d",
+          "logo": "",
+          "title": "PEACOCK - AQ [UK]",
+          "type": "1"
+        },
+        {
           "api": "af95024eda94455e922b90a39a3af93e:852e715ef4064b05b8e1cdee285648b5",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070452~acl=%2F*~id=6b7ee9f0-7edd-4c57-bc78-800cff2e09b4~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgyJmVpZD05MzkxOTcmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=7ca2a63f4cd71f4cf3a24c71c8ee747d377a706a625387cf6f8b1d4feb311f1e/dash/live/2093711/219034-321026/manifest-d.mpd",
+          "logo": "",
           "title": "SKY SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50744/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "PEACOCK TV+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/phynterobertung4/mux_video_ts1/index-1.m3u8",
+          "logo": "",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144256/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=4f7a6d6117eed3aba4dfa406e20a780f&x-time=1779026460",
+          "logo": "",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/20/chunks.m3u8?is_vip=false&token=1779112912-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-a68fd3b338acb362bb308aba77a62ea1",
+          "logo": "",
+          "title": "STAN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343212.m3u8?txSecret=74d2fec250e86afe2ba092e67a563e71&txTime=6A0A0FB9|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1748,20 +1898,93 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD"
+        "Peacock AQ",
+        "SKY SPORTS FHD",
+        "SKY SPORTS HD",
+        "SKY SPORTS+ HD",
+        "HUB PREMIER HD",
+        "STAN SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "Peacock AQ",
+          "logo": ""
+        },
+        {
           "title": "SKY SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS+ HD",
+          "logo": ""
+        },
+        {
+          "title": "HUB PREMIER HD",
+          "logo": ""
+        },
+        {
+          "title": "STAN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "00225eda218f3ca32d35e0cc64b4c33b:6cab410869e63b7696d4ace9013174f4",
+          "link": "https://g003-sle-us-cmaf-prd-cf.cdn.peacocktv.com/pck-sle/us-east-1/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021408-723266-49123488142)/master_2hr.mpd?c3.ri=6a09c138_Q1ZYMDc_0_Q0xPVURGUk9OVA_84782b016c9e&aws.sessionId=0d171c50-160b-4763-b3d0-1b73a6655851",
+          "logo": "",
+          "title": "Peacock AQ",
+          "type": "1"
+        },
+        {
           "api": "e87521b3dfa44ed9ba004012dcb89172:bba9734a9d724531bbab7ef5d64ca1f8",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=ac995ce9-4460-4baf-aa98-8964bf914c77~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzU1NDYmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=f6b8f98b065a74d282a69083cc879a3b075e09696d12209ba9f1048055d753b7/dash/live/2093709/219033-321024/manifest-d.mpd",
+          "logo": "",
           "title": "SKY SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/phynterobertung2/mux_video_ts1/index-1.m3u8",
+          "logo": "",
+          "title": "SKY SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/52436/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=946dae19683abc59f3dd31c7f9c86470&x-time=1779026340",
+          "logo": "",
+          "title": "SKY SPORTS+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144257/chunks.m3u8?is_vip=false&token=2223516ee6861d31f8b0239a4aaf0e07a93fd97b&x-sign=a48998b6c93b0ceb68e349c988f7d5b8&x-time=1779026280",
+          "logo": "",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/3/chunks.m3u8?is_vip=false&token=1779112809-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-acf66fb875eb5a7ea57e7613fb7a2878",
+          "logo": "",
+          "title": "STAN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343221.m3u8?txSecret=5d84839c4252c1e231bc88a30a7f3df3&txTime=6A0A0F3D|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1784,11 +2007,31 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TELEMUNDO FHD"
+        "TELEMUNDO FHD",
+        "USA NETWORK",
+        "USA TV HD",
+        "HUB PREMIER HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
           "title": "TELEMUNDO FHD",
+          "logo": ""
+        },
+        {
+          "title": "USA NETWORK",
+          "logo": ""
+        },
+        {
+          "title": "USA TV HD",
+          "logo": ""
+        },
+        {
+          "title": "HUB PREMIER HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1796,8 +2039,37 @@
         {
           "api": "ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1",
           "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
+          "logo": "",
           "title": "TELEMUNDO FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://storage.googleapis.com/phynterobertung1/mux_video_ts1/index-1.m3u8",
+          "logo": "",
+          "title": "USA NETWORK",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50742/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "USA TV HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/144253/chunks.m3u8?is_vip=false&token=1779111198-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-3553ce549d0884feca7c7c38e37842ae",
+          "logo": "",
+          "title": "HUB PREMIER HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4343234.m3u8?txSecret=0daec019d200a4a2023ddb506162d62f&txTime=6A0A0F9B|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2309,7 +2581,10 @@
       "formats": [
         "beIN ENGLISH FHD",
         "FOX DEPORTES",
-        "ZIGGO SPORTS"
+        "ZIGGO SPORTS",
+        "FOX SPORTS HD",
+        "PARAMOUNT+ HD",
+        "DAZN SPORTS IT"
       ],
       "formatsNew": [
         {
@@ -2322,6 +2597,18 @@
         },
         {
           "title": "ZIGGO SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "FOX SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS IT",
           "logo": ""
         }
       ],
@@ -2343,6 +2630,24 @@
           "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd?zoneoffset=0&devkbps=1-7000&servicetype=1&icpid=86&accounttype=1&limitflux=-1&limitdur=-1&tenantId=3103&accountinfo=%7E%7EV2.0%7EqbcsJh_jU5C9BcZc959e_wae44b4867b3417aa76b5db2da20fe46c%7EKZzTWjB8qD1zdgbJjRPVLJX-tV0qiN9RBHC_iseGrsmTSRjj06oGDtGlpSCRGOwF3626cf085c08d024c7e4aafc18c32440%7EExtInfo5Ro3VppWiUusj2ippqUPkQ%3D%3D4a2d2c8ce133f43026d0e31b822b8474%3A20240601012829%3AUTC%2C10001003329222%2C87.212.140.171%2C20240601012829%2C3103_SP1S%2C10001003329222%2C-1%2C0%2C1%2C%2C%2C2%2C3103_Sport1%2C%2C%2C2%2C10000044444303%2C0%2C10000025050255%2CNDEzODg2NTY3MzEwMzI2NzMwNjMwNTY%3D%2C%2C%2C5%2C1%2CEND&GuardEncType=2&RTS=1717205309&from=11&hms_devid=1008&online=1717205309&mag_hms=1008,311,305&_=1717205322621|User-Agent=Mozila",
           "title": "ZIGGO SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50737/load-playlist?|Referer=https://gooz.aapmains.net",
+          "title": "FOX SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/15/chunks.m3u8?is_vip=false&token=1779108014-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-4da82e85549fdaadea4e2bb5bd31ce62",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/zauygazhjd.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
         }
       ]
     },
@@ -2631,42 +2936,6 @@
         "teamAFlag": "https://img.sofascore.com/api/v1/team/1647/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/1681/image",
         "eventName": "Nantes vs Toulouse",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/17 19:00:00 +0000",
-        "endTime": "2026/05/17 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "430",
-      "title": "Nice vs Metz",
-      "image": "o",
-      "cat": "Ligue 1 🇫🇷",
-      "eventInfo": {
-        "teamA": "Nice",
-        "teamB": "Metz",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1651/image",
-        "eventName": "Nice vs Metz",
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/05/17 19:00:00 +0000",
