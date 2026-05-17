@@ -968,66 +968,6 @@
       ]
     },
     {
-      "id": "372",
-      "title": "ATP Rome Masters",
-      "image": "o",
-      "cat": "ATP",
-      "eventInfo": {
-        "teamA": "ATP 1000",
-        "teamB": "ATP 1000",
-        "teamAFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
-        "teamBFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
-        "eventName": "ATP Rome Masters Final",
-        "eventType": "null",
-        "eventBanner": "https://sportzxads.pages.dev/ruby.png",
-        "isHot": "0",
-        "startTime": "2026/05/17 15:00:00 +0000",
-        "endTime": "2026/05/17 17:00:00 +0000"
-      },
-      "adsLimit": "9",
-      "publish": "1",
-      "formats": [
-        "beIN ENGLISH",
-        "TSN SPORTS"
-      ],
-      "formatsNew": [
-        {
-          "title": "beIN ENGLISH",
-          "logo": "https://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png"
-        },
-        {
-          "title": "TSN SPORTS",
-          "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-2-hd-ca.png"
-        }
-      ],
-      "channels": [
-        {
-          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-          "title": "TNT Sports 4",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW (Ad Free)",
-          "type": "0"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
-          "title": "WILLOW SD",
-          "type": "2"
-        }
-      ]
-    },
-    {
       "id": "373",
       "title": "Cleveland Cavaliers",
       "image": "o",
@@ -1047,12 +987,17 @@
       "publish": "1",
       "formats": [
         "TSN SPORTS FHD",
+        "TSN SPORTS HD",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
         {
           "title": "TSN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "TSN SPORTS HD",
           "logo": ""
         },
         {
@@ -1066,10 +1011,17 @@
       ],
       "channels": [
         {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "logo": "",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
           "logo": "",
-          "title": "TSN SPORTS FHD",
+          "title": "TSN SPORTS HD",
           "type": "1"
         },
         {
@@ -2135,42 +2087,6 @@
       ]
     },
     {
-      "id": "435",
-      "title": "Wales W vs Italy W",
-      "image": "o",
-      "cat": "Rugby",
-      "eventInfo": {
-        "teamA": "Wales",
-        "teamB": "Italy",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/164620/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/189292/image",
-        "eventName": "Wales W vs Italy W",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/17 11:15:00 +0000",
-        "endTime": "2026/05/17 13:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SKY SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=319ab612-2e20-46d8-844b-27cb156b638c~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzY0MjQmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=0f528e265590e386ba6fb3983f21449ea43d5fa28aed795503f83643861de1ff/dash/live/2093715/219027-321028/manifest-d.mpd",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "436",
       "title": "Ireland vs Scotland",
       "image": "o",
@@ -2185,42 +2101,6 @@
         "isHot": "0",
         "startTime": "2026/05/17 13:30:00 +0000",
         "endTime": "2026/05/17 15:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SKY SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "278b8746b7c7410e901af0aa3774f037:15e1142d647b474ebbd49e41efa2a9d7",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=ac995ce9-4460-4baf-aa98-8964bf914c77~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzU1NDYmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=f6b8f98b065a74d282a69083cc879a3b075e09696d12209ba9f1048055d753b7/dash/live/2093720/219029-321032/manifest-d.mpd",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "437",
-      "title": "France W vs England W",
-      "image": "o",
-      "cat": "Rugby",
-      "eventInfo": {
-        "teamA": "France",
-        "teamB": "England",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/164616/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/164602/image",
-        "eventName": "France W vs England W",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/17 15:45:00 +0000",
-        "endTime": "2026/05/17 17:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2669,6 +2549,140 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
           "title": "Laliga Hypermotion ES",
           "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "450",
+      "title": "Real Zaragoza vs Sporting Gijón",
+      "image": "o",
+      "cat": "LaLiga 2",
+      "eventInfo": {
+        "teamA": "Real Zaragoza",
+        "teamB": "Sporting",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2815/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2852/image",
+        "eventName": "Real Zaragoza vs Sporting Gijón",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/17 19:15:00 +0000",
+        "endTime": "2026/05/17 21:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "Laliga Hypermotion ES"
+      ],
+      "formatsNew": [
+        {
+          "title": "Laliga Hypermotion ES",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
+          "title": "Laliga Hypermotion ES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "451",
+      "title": "Rays vs Miami Marlins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Rays",
+        "teamB": "Marlins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3653/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3639/image",
+        "eventName": "Tampa Bay Rays vs Miami Marlins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/17 16:15:00 +0000",
+        "endTime": "2026/05/17 19:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50748/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "452",
+      "title": "Atlanta Braves vs Red Sox",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Braves",
+        "teamB": "Red Sox",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3656/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "eventName": "Atlanta Braves vs Boston Red Sox",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/17 17:35:00 +0000",
+        "endTime": "2026/05/17 20:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50768/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     }
