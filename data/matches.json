@@ -822,8 +822,8 @@
       "adsLimit": "8",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD",
         "WILLOW [Ad-Free]",
+        "SKY SPORTS FHD",
         "KAYO HINDI FHD",
         "NOON SPORTS",
         "SKY CRICKET",
@@ -836,12 +836,12 @@
       ],
       "formatsNew": [
         {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
           "title": "WILLOW [Ad-Free]",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+        },
+        {
+          "title": "SKY SPORTS FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "KAYO HINDI FHD",
@@ -1796,11 +1796,26 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH FHD",
+        "CBS SPORTS HD",
+        "DAZN SPORTS IT",
+        "DAZN SPORTS HD",
         "PARAMOUNT+ HD"
       ],
       "formatsNew": [
         {
           "title": "beIN ENGLISH FHD",
+          "logo": ""
+        },
+        {
+          "title": "CBS SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS IT",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS HD",
           "logo": ""
         },
         {
@@ -1815,6 +1830,27 @@
           "logo": "",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50733/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "CBS SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/54042/chunks.m3u8?is_vip=false&token=1779099239-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-24ba070b4528a574ff2a1044cf741316",
+          "logo": "",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
         },
         {
           "api": null,
@@ -1847,7 +1883,10 @@
         "beIN ENGLISH FHD",
         "TNT SPORTS FHD",
         "FOX DEPORTES",
-        "PARAMOUNT+ HD"
+        "DAZN SPORTS IT",
+        "DAZN SPORTS HD",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
@@ -1863,7 +1902,19 @@
           "logo": ""
         },
         {
+          "title": "DAZN SPORTS IT",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
           "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1891,9 +1942,30 @@
         },
         {
           "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/54039/chunks.m3u8?is_vip=false&token=1779099071-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-db1cdcc08401ad8711151522035ef1f9",
+          "logo": "",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/2rB5nTKlP8mE.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://poklis.rontokakishop.online/premium55/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339686.m3u8?txSecret=880daae3738f789bb3785095ca1fa3bf&txTime=6A09D83C|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2070,7 +2142,9 @@
       "publish": "1",
       "formats": [
         "ZIGGO SPORTS",
-        "PARAMOUNT+ HD"
+        "DAZN SPORTS HD",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
@@ -2078,7 +2152,15 @@
           "logo": ""
         },
         {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
           "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -2092,9 +2174,23 @@
         },
         {
           "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/54041/chunks.m3u8?is_vip=false&token=1779098987-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-5324458f9ecb1e19bd9caa753573368d",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://bobis.zaglemplokis.online/premium59/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339663.m3u8?txSecret=c9fd05b5d046426a864c3ba7e612af7d&txTime=6A09D85A|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2118,20 +2214,42 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "DAZN SPORTS IT",
         "ZIGGO SPORTS",
-        "PARAMOUNT+ HD"
+        "DAZN SPORTS HD",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "DAZN SPORTS IT",
+          "logo": ""
+        },
         {
           "title": "ZIGGO SPORTS",
           "logo": ""
         },
         {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
           "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/54040/chunks.m3u8?is_vip=false&token=1779099148-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-563aee1a48c7d9334db462eb68349f88",
+          "logo": "",
+          "title": "DAZN SPORTS IT",
+          "type": "0"
+        },
         {
           "api": "3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02",
           "link": "https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd?accountinfo=~~V2.0~LNS2PBO5tyhp5z1Pe6ObBA6cd7a4ec35c4492167b9376e6dff2932~BZw2dESHw-I1PQCFh9gGxCMvrIIzgMdYAe900qj8l6aoXUX9ahyR6I9EUIu7nDR4f4887615c83ea7a8cee6dd33137c4ebe:UTC,",
@@ -2141,9 +2259,23 @@
         },
         {
           "api": null,
+          "link": "https://mainstreams.pro/hls/2rB5nTKlP8mE.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://bobis.zaglemplokis.online/premium68/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339664.m3u8?txSecret=7ade000a65088bb7403bc26e4d4ac3b6&txTime=6A09D77F|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -2167,20 +2299,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "PARAMOUNT+ HD"
+        "SPORT 2 FHD",
+        "DAZN SPORTS HD",
+        "PARAMOUNT+ HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "SPORT 2 FHD",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
           "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+          "link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+          "logo": "",
+          "title": "SPORT 2 FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/54043/chunks.m3u8?is_vip=false&token=1779098909-Kv4cPTAAP5YTi-2223516ee6861d31f8b0239a4aaf0e07a93fd97b-ee5f973d021bc4aca24001a5f0b4f5dc",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
           "api": null,
           "link": "https://bobis.zaglemplokis.online/premium76/tracks-v1a1/mono.m3u8|Referer=https://donis.jimpenopisonline.online/",
           "logo": "",
           "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/hd-en-1-4339667.m3u8?txSecret=75cdb21f7bb1274f7393ae3b7779f4b2&txTime=6A09D878|Referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
