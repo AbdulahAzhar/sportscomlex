@@ -530,14 +530,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX WWE",
+        "SportzX HD",
         "SportzX HD",
         "Backup SD",
-        "Tap Sport LQ"
+        "Tap Sport LQ",
+        "More"
       ],
       "formatsNew": [
         {
-          "title": "SportzX WWE",
+          "title": "SportzX HD",
           "logo": ""
         },
         {
@@ -550,33 +551,48 @@
         },
         {
           "title": "Tap Sport LQ",
+          "logo": ""
+        },
+        {
+          "title": "More",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50439/load-playlist?|Referer=https://gooz.aapmains.net/",
-          "title": "SportzX WWE",
+          "link": "https://chatgpt.hereisman.net/playlist/50812/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX HD",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://29pisfqlcvyi.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://29pisfqlcvyi.windows-devs.top/",
+          "logo": "",
           "title": "SportzX HD",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/",
+          "logo": "",
           "title": "Backup SD",
           "type": "0"
         },
         {
           "api": "eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f",
           "link": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd",
+          "logo": "",
           "title": "Tap Sport LQ",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://hesgoal.cc/live/player.php?ch=es17",
+          "logo": "",
+          "title": "More",
+          "type": "2"
         }
       ]
     },
