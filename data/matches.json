@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 35,
+  "total_events": 33,
   "results": [
     {
       "id": "312",
@@ -747,13 +747,12 @@
         "eventName": "Bangladesh vs Pakistan",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/19 04:00:00 +0000",
-        "endTime": "2026/05/19 11:45:00 +0000"
+        "startTime": "2026/05/20 04:00:00 +0000",
+        "endTime": "2026/05/20 11:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Willow FHD",
         "SKY SPORTS FHD",
         "PREMIER SPORTS",
         "FANCODE FHD",
@@ -763,10 +762,6 @@
         "TOFFEE [BD]"
       ],
       "formatsNew": [
-        {
-          "title": "Willow FHD",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
         {
           "title": "SKY SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
@@ -798,15 +793,8 @@
       ],
       "channels": [
         {
-          "api": "a3f18ff86cc7d6197d18f17abb1c7bfb:b6d462d09bbac4f3eda79022f5b4b5d7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wsncgxp4c5/out/v1/f1d290b91fa642a7a63913e24211ca09/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "Willow FHD",
-          "type": "1"
-        },
-        {
           "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779183829~acl=%2F*~id=53b856a2-54ac-440a-8abf-b3e51eb12450~data=hdntl,aXA9NTIuMTkwLjE0MC4xMzMmZXhwPTE3NzkwOTc0NTkmZWlkPTkzNTYyMyZvaWQ9MTU0JnR5cGU9Vk9EJnVpZD1hZGNXWVd8YjYwYWYyOTktMDM5MS00ZDFmLWE2ZDAtZDgyNDRkZmFmMWM5JmNpZD1kY2UuZmlzZmVkJnB0PW51bGw~hmac=d59b3c0ef2ee7d07113ebb9935f72016bcade0b771049f24269b570d70c40fc7/dash/live/2093715/219027-321028/manifest-d.mpd",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779306308~acl=%2F*~id=82e93a39-7124-4f90-b824-69b5bed23141~data=hdntl,aXA9MTgwLjE5NC4yNTEuNyZleHA9MTc3OTIxOTkzNiZlaWQ9OTM5OTYyJm9pZD0xNTQmdHlwZT1WT0QmdWlkPVBwa0xwenxmNGFiYzllNS0zMDQyLTQ5MDQtYWU1OS1hMDkzYjlkNDZiYWUmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=b8fa332400f1e9b961a1d142c759f361771c419e06de47ce5c52d68e883230e7/dash/live/2093715/219027-321028/manifest-d.mpd",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
@@ -861,15 +849,15 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "RR",
-        "teamB": "LSG",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187842/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/410010/image",
-        "eventName": "Rajasthan Royals vs Lucknow Super Giants",
+        "teamA": "KKR",
+        "teamB": "MI",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187775/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187780/image",
+        "eventName": "Kolkata Knight Riders vs Mumbai Indians",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/19 14:00:00 +0000",
-        "endTime": "2026/05/19 18:00:00 +0000"
+        "startTime": "2026/05/20 14:00:00 +0000",
+        "endTime": "2026/05/20 18:00:00 +0000"
       },
       "adsLimit": "8",
       "publish": "1",
@@ -1050,6 +1038,7 @@
       "formats": [
         "TSN SPORTS FHD",
         "TSN SPORTS HD",
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
@@ -1060,6 +1049,10 @@
         },
         {
           "title": "TSN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NBA",
           "logo": ""
         },
         {
@@ -1085,6 +1078,13 @@
           "logo": "",
           "title": "TSN SPORTS HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50872/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX NBA",
+          "type": "0"
         },
         {
           "api": null,
@@ -1170,9 +1170,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1181,7 +1186,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50874/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1206,9 +1219,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1217,7 +1235,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50882/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1242,9 +1268,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1253,7 +1284,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50880/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1278,9 +1317,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX LIVE",
           "logo": ""
@@ -1289,7 +1333,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50879/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX LIVE",
           "type": "0"
         }
@@ -1314,9 +1366,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1325,7 +1382,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50876/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1333,158 +1398,37 @@
     },
     {
       "id": "400",
-      "title": "Bournemouth vs Manchester City",
+      "title": "Freiburg vs Aston Villa",
       "image": "o",
-      "cat": "EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "cat": "UEFA Europa",
       "eventInfo": {
-        "teamA": "Bournemouth",
-        "teamB": "Man City",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/60/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/17/image",
-        "eventName": "Bournemouth vs Manchester City",
+        "teamA": "Freiburg",
+        "teamB": "Aston Villa",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2538/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+        "eventName": "Freiburg vs Aston Villa",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/19 18:30:00 +0000",
-        "endTime": "2026/05/19 20:35:00 +0000"
+        "startTime": "2026/05/20 19:00:00 +0000",
+        "endTime": "2026/05/20 21:05:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FUBO SPORTS - AQ",
-        "SKY SPORTS FHD",
-        "NBC UNIVERSO",
-        "SKY SPORTS DE",
-        "USA TV HD",
-        "SKY SPORTS HD",
-        "HUB PREMIER HD",
-        "STAN SPORTS HD",
-        "SportsCast FHD",
-        "SportzX Live",
-        "FAST SERVER"
+        "TNT SPORTS FHD"
       ],
       "formatsNew": [
         {
-          "title": "FUBO SPORTS - AQ",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "NBC UNIVERSO",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS DE",
-          "logo": ""
-        },
-        {
-          "title": "USA TV HD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "HUB PREMIER HD",
-          "logo": ""
-        },
-        {
-          "title": "STAN SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "SportsCast FHD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "FAST SERVER",
+          "title": "TNT SPORTS FHD",
           "logo": ""
         }
       ],
       "channels": [
         {
-          "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
-          "logo": "",
-          "title": "FUBO SPORTS - AQ",
+          "api": "294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "title": "TNT SPORTS FHD",
           "type": "1"
-        },
-        {
-          "api": "7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779288067~acl=%2F*~id=bc0df595-e886-4891-a3fa-62c9b7c5f5d8~data=hdntl,aXA9NTguNjkuMjA0LjYzJmV4cD0xNzc5MjAxNjk0JmVpZD05Mzk1MjYmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9UHBrTHB6fGY0YWJjOWU1LTMwNDItNDkwNC1hZTU5LWEwOTNiOWQ0NmJhZSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=9b7d41eeb4c51ee475487c96ec7f1c3905aef1fb993c2950ec0674d85493f0dc/dash/live/2093712/219035-321027/manifest-d.mpd",
-          "logo": "",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f",
-          "link": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd",
-          "logo": "",
-          "title": "NBC UNIVERSO",
-          "type": "1"
-        },
-        {
-          "api": "446af6dd9ec0395eaf5ab6adac2b8234:a70a5944e51312f5a045b1e81651d033",
-          "link": "https://simplitv-live.mdn.ors.at/live/eds/sky_sport_premier_league_hd/dash/sky_sport_premier_league_hd.mpd",
-          "logo": "",
-          "title": "SKY SPORTS DE",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50849/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "USA TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://storage.googleapis.com/unicertyngherfgac1/mux_video_ts1/index-1.m3u8",
-          "logo": "",
-          "title": "SKY SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/144253/chunks.m3u8?is_vip=false&token=c4e813fd8940d2eda6336e1f984933bdac831262&x-sign=863c8f3876243e07b3eceb336e00a02f&x-time=1779214920",
-          "logo": "",
-          "title": "HUB PREMIER HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/23/chunks.m3u8?is_vip=false&token=1779301297-Kv4cPTAAP5YTi-c4e813fd8940d2eda6336e1f984933bdac831262-06d7e0684453e1cb53741ce05a3ea70e",
-          "logo": "",
-          "title": "STAN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/4b5ab23b-f254-4095-9092-7027c8fa88d5/master.m3u8|referer=https://embed.new.video/",
-          "logo": "",
-          "title": "SportsCast FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/hd-en-1-4343192.m3u8?txSecret=e8e8a5feebbbc69b01348b3327f35865&txTime=6A0DFE21",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/hd-en-6MuT7JwWZRxR14W1EW.m3u8?txSecret=1e959115a7052af4863985749252ac41&txTime=6A0CD47C",
-          "logo": "",
-          "title": "FAST SERVER",
-          "type": "0"
         }
       ]
     },
@@ -1957,92 +1901,6 @@
           "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "412",
-      "title": "Hungary vs Great Britain",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Hungary",
-        "teamB": "Great Britain",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/7053/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/7118/image",
-        "eventName": "Hungary vs Great Britain",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/19 18:20:00 +0000",
-        "endTime": "2026/05/19 20:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": "https://www.sportsmediawatch.com/wp-content/uploads/2013/05/tsn-750x375.png"
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "logo": "https://www.sportsmediawatch.com/wp-content/uploads/2013/05/tsn-750x375.png",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50850/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "413",
-      "title": "Slovenia vs Slovakia",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Slovenia",
-        "teamB": "Slovakia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5914/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5736/image",
-        "eventName": "Slovenia vs Slovakia",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/19 18:20:00 +0000",
-        "endTime": "2026/05/19 20:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": "https://www.sportsmediawatch.com/wp-content/uploads/2013/05/tsn-750x375.png"
-        }
-      ],
-      "channels": [
-        {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "logo": "https://www.sportsmediawatch.com/wp-content/uploads/2013/05/tsn-750x375.png",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
         }
       ]
     },
