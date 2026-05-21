@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 12,
+  "total_events": 28,
   "results": [
     {
       "id": "312",
@@ -837,8 +837,8 @@
       "image": "o",
       "cat": "Indian Premier League",
       "eventInfo": {
-        "teamA": "Gujarat Titans",
-        "teamB": "Chennai Super Kings",
+        "teamA": "GT",
+        "teamB": "CSK",
         "teamAFlag": "https://img.sofascore.com/api/v1/team/216006/image",
         "teamBFlag": "https://img.sofascore.com/api/v1/team/187777/image",
         "eventName": "Gujarat Titans vs Chennai Super Kings",
@@ -852,8 +852,9 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "SKY SPORTS FHD",
-        "KAYO HINDI - AQ",
+        "KAYO HINDI FHD",
         "FOX CRICKET FHD",
+        "SKY SPORTS 4k",
         "NOON SPORTS",
         "SKY CRICKET",
         "Star Sports HIN",
@@ -873,12 +874,16 @@
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
-          "title": "KAYO HINDI - AQ",
-          "logo": "https://play-lh.googleusercontent.com/cnJUFy1qP5kPvc1gFrTNuh1Lg8KlS0meXk2Sxsxr-7VfDD0PAJnFkI41fKC41BQlE44"
+          "title": "KAYO HINDI FHD",
+          "logo": ""
         },
         {
           "title": "FOX CRICKET FHD",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS 4k",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "NOON SPORTS",
@@ -886,11 +891,11 @@
         },
         {
           "title": "SKY CRICKET",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+          "logo": ""
         },
         {
           "title": "Star Sports HIN",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "logo": ""
         },
         {
           "title": "WILLOW HINDI",
@@ -898,15 +903,15 @@
         },
         {
           "title": "SD SERVER",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "logo": ""
         },
         {
           "title": "STAR SPORTS HIN",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "logo": ""
         },
         {
           "title": "STAR SPORTS ENG",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "logo": ""
         },
         {
           "title": "IPL ENG [Hotstar]",
@@ -996,6 +1001,244 @@
           "api": null,
           "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
           "title": "STAR KAN - IN",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Carolina Hurricanes",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Hurricanes",
+        "teamB": "Canadiens",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3680/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3690/image",
+        "eventName": "Carolina Hurricanes vs Montréal Canadiens",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/22 00:00:00 +0000",
+        "endTime": "2026/05/22 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "394",
+      "title": "New York Mets",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Nationals",
+        "teamB": "Mets",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5930/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3629/image",
+        "eventName": "Nationals vs New York Mets",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 20:05:00 +0000",
+        "endTime": "2026/05/21 23:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "title": "Miami Marlins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Marlins",
+        "teamB": "Braves",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3639/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3656/image",
+        "eventName": "Miami Marlins vs Atlanta Braves",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 22:40:00 +0000",
+        "endTime": "2026/05/22 01:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "title": "Toronto Blue Jays",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Yankees",
+        "teamB": "Blue Jays",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3654/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3642/image",
+        "eventName": "Yankees vs Blue Jays",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 23:05:00 +0000",
+        "endTime": "2026/05/22 02:05:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "title": "Athletics",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Angels",
+        "teamB": "Athletics",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5929/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3645/image",
+        "eventName": "Los Angeles Angels vs Athletics",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/22 01:38:00 +0000",
+        "endTime": "2026/05/22 04:38:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX LIVE",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "title": "Arizona Diamondbacks",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Diamondbacks",
+        "teamB": "Rockies",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3628/image",
+        "eventName": "Diamondbacks vs Colorado Rockies",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/22 01:40:00 +0000",
+        "endTime": "2026/05/22 04:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1132,6 +1375,379 @@
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Canada vs Norway",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Canada",
+        "teamB": "Norway",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5729/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5913/image",
+        "eventName": "Canada vs Norway",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 14:20:00 +0000",
+        "endTime": "2026/05/21 17:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "logo": "",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50928/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "Denmark vs Slovakia",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Denmark",
+        "teamB": "Slovakia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5917/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5736/image",
+        "eventName": "Denmark vs Slovakia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 18:20:00 +0000",
+        "endTime": "2026/05/21 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Latvia vs Finland",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Latvia",
+        "teamB": "Finland",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5739/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5731/image",
+        "eventName": "Latvia vs Finland",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 14:20:00 +0000",
+        "endTime": "2026/05/21 17:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "title": "Switzerland vs Great Britain",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Switzerland",
+        "teamB": "Great Britain",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5734/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/7118/image",
+        "eventName": "Switzerland vs Great Britain",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 18:20:00 +0000",
+        "endTime": "2026/05/21 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "title": "Detroit Tigers vs Guardians",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Tigers",
+        "teamB": "Guardians",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3650/image",
+        "eventName": "Detroit Tigers vs Guardians",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 17:10:00 +0000",
+        "endTime": "2026/05/21 20:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "title": "Cardinals vs Pittsburgh Pirates",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Cardinals",
+        "teamB": "Pirates",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3632/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3637/image",
+        "eventName": "Cardinals vs Pittsburgh Pirates",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 17:15:00 +0000",
+        "endTime": "2026/05/21 20:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "title": "Wolfsburg vs Paderborn",
+      "image": "o",
+      "cat": "Bundesliga 🇩🇪",
+      "eventInfo": {
+        "teamA": "Wolfsburg",
+        "teamB": "Paderborn",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2561/image",
+        "eventName": "Wolfsburg vs Paderborn",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 18:30:00 +0000",
+        "endTime": "2026/05/21 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SporTV BR"
+      ],
+      "formatsNew": [
+        {
+          "title": "SporTV BR",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "title": "Partick Thistle vs St. Mirren",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "Partick Thistle",
+        "teamB": "St Mirren",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2358/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2359/image",
+        "eventName": "Partick Thistle vs St. Mirren",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 19:00:00 +0000",
+        "endTime": "2026/05/21 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH"
+      ],
+      "formatsNew": [
+        {
+          "title": "beIN ENGLISH",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "title": "AFC Ajax vs Groningen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Ajax",
+        "teamB": "Groningen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+        "eventName": "AFC Ajax vs Groningen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 16:45:00 +0000",
+        "endTime": "2026/05/21 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "title": "Utrecht vs Heerenveen",
+      "image": "o",
+      "cat": "Eredivisie",
+      "eventInfo": {
+        "teamA": "Utrecht",
+        "teamB": "Heerenveen",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2948/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+        "eventName": "Utrecht vs Heerenveen",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/21 19:00:00 +0000",
+        "endTime": "2026/05/21 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
         }
       ]
     }
