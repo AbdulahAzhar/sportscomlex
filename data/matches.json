@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 28,
+  "total_events": 26,
   "results": [
     {
       "id": "312",
@@ -1263,13 +1263,20 @@
       "publish": "1",
       "formats": [
         "FOX SPORTS FHD",
+        "FANCODE FHD",
         "SportDigital Fussball",
-        "FOX DEPORTES"
+        "FOX DEPORTES",
+        "FOX SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
           "title": "FOX SPORTS FHD",
-          "logo": ""
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+        },
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
         {
           "title": "SportDigital Fussball",
@@ -1278,14 +1285,29 @@
         {
           "title": "FOX DEPORTES",
           "logo": ""
+        },
+        {
+          "title": "FOX SPORTS HD",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
         }
       ],
       "channels": [
         {
           "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "logo": "",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+          "title": "FANCODE FHD",
           "type": "1"
         },
         {
@@ -1301,6 +1323,20 @@
           "logo": "",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50927/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+          "title": "FOX SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404655.m3u8?txSecret=cea3f39916f2ee0a194c4637db1f1842&txTime=6A0F4B94|referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1323,9 +1359,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "FANCODE FHD",
+        "FOX SOCCER+ HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
+        },
+        {
+          "title": "FOX SOCCER+ HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1333,8 +1379,22 @@
       ],
       "channels": [
         {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://chatgpt.hereisman.net/playlist/50926/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "FOX SOCCER+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4404654.m3u8?txSecret=d5270564901b4ef5d9648150947c16a6&txTime=6A0F4B3E|referer=https://player.online909.com/",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
@@ -1371,56 +1431,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "403",
-      "title": "Canada vs Norway",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Canada",
-        "teamB": "Norway",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5729/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5913/image",
-        "eventName": "Canada vs Norway",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/21 14:20:00 +0000",
-        "endTime": "2026/05/21 17:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "logo": "",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50928/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://live.vivo200.com/live/sd-1-4404630.m3u8?txSecret=7b6eb26bd9a06762510b33af6e7c096b&txTime=6A0F4B73|referer=https://player.online909.com/",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
@@ -1458,42 +1469,6 @@
         {
           "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Latvia vs Finland",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Latvia",
-        "teamB": "Finland",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5739/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5731/image",
-        "eventName": "Latvia vs Finland",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/21 14:20:00 +0000",
-        "endTime": "2026/05/21 17:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
           "title": "TSN SPORTS FHD",
           "type": "1"
         }
@@ -1554,9 +1529,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "MLB LIVE HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1565,7 +1550,22 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50932/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://streamxyz.shop/guardians/tracks-v1a1/mono.ts.m3u8",
+          "logo": "",
+          "title": "MLB LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1590,9 +1590,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "MLB LIVE HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1601,7 +1611,22 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50934/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://streamxyz.shop/pirates/index.m3u8",
+          "logo": "",
+          "title": "MLB LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1698,11 +1723,21 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "PREMIER SPORTS"
+        "PREMIER SPORTS",
+        "SportzX Live",
+        "HD SERVER"
       ],
       "formatsNew": [
         {
           "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
           "logo": ""
         }
       ],
@@ -1710,8 +1745,23 @@
         {
           "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "logo": "",
           "title": "PREMIER SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://live.vivo200.com/live/sd-1-4543843.m3u8?txSecret=1f688c7a9ba225df1ac133b638542722&txTime=6A0F4075|referer=https://player.online909.com/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
