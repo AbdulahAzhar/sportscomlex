@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 38,
+  "total_events": 39,
   "results": [
     {
       "id": "312",
@@ -14,16 +14,18 @@
         "teamBFlag": "https://scdnmain.net/assets/tournament/40-c.png",
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/22 16:30:00 +0000",
         "endTime": "2026/05/22 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TSN SPORTS FHD",
+        "F1 TV FHD",
+        "SKY SPORTS FHD",
         "FANCODE FHD",
         "SportzX F1 HD",
+        "TSN SPORTS FHD",
         "SKY SPORT F1",
         "SKY SPORTS HD",
         "ELEVEN SPORTS",
@@ -35,8 +37,12 @@
       ],
       "formatsNew": [
         {
-          "title": "TSN SPORTS FHD",
-          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
+          "title": "F1 TV FHD",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "FANCODE FHD",
@@ -45,6 +51,10 @@
         {
           "title": "SportzX F1 HD",
           "logo": ""
+        },
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
         {
           "title": "SKY SPORT F1",
@@ -81,10 +91,17 @@
       ],
       "channels": [
         {
-          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-          "title": "TSN SPORTS FHD",
+          "api": "0a6260c2c2f0340f97a0b7ebb3134a09:34bb2e6e230099443fea9d518ce5f156",
+          "link": "https://ott-video-cf.formula1.com/v2/pa_cGF0aDolMkZoYWp2azJmZDJ2eHIlMkZvdXQlMkZ2MSUyRk1haW4lMkZQcmVzZW50YXRpb24tUjElMkZTRFItSEQtREFTSC1XVi1TSU5HTEV8a2lkOjEwNDJ8ZXhwOjE3Nzk1NTM0MDN8dHRsOjE0NDB8Z2VvOkJEfHN0cmVhbVR5cGU6U0RSX0hEX0RBU0hXVl9TSU5HTEV8c2Vzc2lvbklkOjE4MDYwMjY0NF8wMUtTODdaOUs2Q1JINlE1SFNEMVMxQVEwTV9QUHxzdGFydDoxNzc5NDY2MjQ0fGVuZDoxNzc5NTA5NDQ0fHRva2VuOlpPaXJ3RFpmeWxoUER0dE5GN09sdERpRkRqWldlOGVrQTdIbDFjVEpoZFlf/hajvk2fd2vxr/out/v1/Main/Presentation-R1/SDR-HD-DASH-WV-SINGLE/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "F1 TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779547768~acl=%2F*~id=b08c6374-4463-46bd-94f4-7c1a0962cc51~data=hdntl,aXA9MjAuMTA2LjE4Mi4yMDkmZXhwPTE3Nzk0NjEzOTgmZWlkPTk2MTUwMSZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1EWGlvRWF8YWViZmUzZDgtMTEzNy00MDQyLTllNGEtOTliODU2M2UzYWI0JmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=ca0a0cecfd5ab1d6163a8169fbd8a240df242adb75d187e70f08b70234822da2/dash/live/2093715/219027-321028/manifest-d.mpd",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+          "title": "SKY SPORTS FHD",
           "type": "1"
         },
         {
@@ -96,10 +113,17 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/49858/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/50931/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "SportzX F1 HD",
           "type": "0"
+        },
+        {
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
         },
         {
           "api": null,
@@ -424,13 +448,18 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "One Fight - AQ",
+        "One Fight FHD",
+        "ESPN SPORTS FHD",
         "Server 2",
         "Server 3"
       ],
       "formatsNew": [
         {
-          "title": "One Fight - AQ",
+          "title": "One Fight FHD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN SPORTS FHD",
           "logo": ""
         },
         {
@@ -446,18 +475,28 @@
         {
           "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
           "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-          "title": "One Fight - AQ",
+          "logo": "",
+          "title": "One Fight FHD",
+          "type": "1"
+        },
+        {
+          "api": "326058ffe1cd4d3383781b36ca9145d1:99d405d46f114eff96789673e57d0121",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779529113~acl=%2f*~id=f8a0f7f6-5eb8-49c9-a19f-2655d8d88a1a~data=hdntl,aXA9NTcuMTUxLjE0My4xNzgmZXhwPTE3Nzk0NDI3NDMmZWlkPTk2MDc3MCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1ubzZVczZ8ZTRlYzA3YmMtZGNhOC00MmIwLWFiNzQtNjI2YTIwOTBkYTQyJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=569a3a475b804e495e8abbeef2fc2c9e6b659df245657a3d63e14366c2b7b0f0/dash/live/2093723/219038-321034/manifest-d.mpd",
+          "logo": "",
+          "title": "ESPN SPORTS FHD",
           "type": "1"
         },
         {
           "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
           "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
+          "logo": "",
           "title": "Server 2",
           "type": "1"
         },
         {
           "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
           "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
+          "logo": "",
           "title": "Server 3",
           "type": "1"
         }
@@ -804,6 +843,7 @@
       "formats": [
         "WILLOW [Ad-Free]",
         "SKY SPORTS FHD",
+        "KAYO HINDI FHD",
         "FOX CRICKET FHD",
         "SKY SPORTS 4k",
         "NOON SPORTS",
@@ -823,6 +863,10 @@
         {
           "title": "SKY SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "KAYO HINDI FHD",
+          "logo": ""
         },
         {
           "title": "FOX CRICKET FHD",
@@ -1644,19 +1688,80 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SETANTA SPORTS",
+        "NOVA SPORTS",
+        "SD SERVER",
+        "ARENA SPORTS",
+        "M+ DEPORTES",
+        "Turkey Sports"
       ],
       "formatsNew": [
         {
-          "title": "SportzX Live",
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "NOVA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "ARENA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "M+ DEPORTES",
+          "logo": ""
+        },
+        {
+          "title": "Turkey Sports",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "b419be16e9c046c28b1560bd4b318aa1:5ada04fc9ba7414e8f58cba0e7c1c8fe",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779529110~acl=%2F*~id=789bcb6f-d1a7-4557-aaa6-0b393995c33f~data=hdntl,aXA9NTcuMTUxLjE0My4xNzgmZXhwPTE3Nzk0NDI3NDAmZWlkPTk2MDQ3OSZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1ubzZVczZ8ZTRlYzA3YmMtZGNhOC00MmIwLWFiNzQtNjI2YTIwOTBkYTQyJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=6bd79c084a0fabd232c6c392b9fe919b1205037ccce029edb329b6bdc92e859c/dash/live/2019612/303305-321850/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://instreams.pro/bil2/novaprime/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "NOVA SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.57/hls/TTTDDDQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV21/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "ARENA SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/plusdep1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "M+ DEPORTES",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/ssport/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "Turkey Sports",
           "type": "0"
         }
       ]
@@ -2065,6 +2170,53 @@
           "link": "https://edge2caster.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "title": "Somerset vs Hampshire",
+      "image": "o",
+      "cat": "T20 Blast",
+      "eventInfo": {
+        "teamA": "SOM",
+        "teamB": "HAM",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/187832/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/187821/image",
+        "eventName": "Somerset vs Hampshire",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/22 17:30:00 +0000",
+        "endTime": "2026/05/22 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SKY SPORTS FHD",
+        "Willow HD"
+      ],
+      "formatsNew": [
+        {
+          "title": "SKY SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "Willow HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779547763~acl=%2F*~id=ffafa7d1-8889-4cc3-b50a-9bdfcee89037~data=hdntl,aXA9MjAuMTA2LjE4Mi4yMDkmZXhwPTE3Nzk0NjEzOTMmZWlkPTk2MTUzOSZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1EWGlvRWF8YWViZmUzZDgtMTEzNy00MDQyLTllNGEtOTliODU2M2UzYWI0JmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=6362d7c371ce690fe0c24c35ad03005c49d3a7cd1648a8e0a08d2ea1b2e3105f/dash/live/2093717/219028-321030/manifest-d.mpd",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "title": "Willow HD",
+          "type": "1"
         }
       ]
     }
