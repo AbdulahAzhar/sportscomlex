@@ -14,35 +14,32 @@
         "teamBFlag": "https://scdnmain.net/assets/tournament/40-c.png",
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
+        "eventBanner": "https://iili.io/CH59QHP.png",
         "isHot": "1",
-        "startTime": "2026/05/22 16:30:00 +0000",
+        "startTime": "2026/05/22 20:30:00 +0000",
         "endTime": "2026/05/22 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "F1 TV FHD",
         "SKY SPORTS FHD",
+        "TSN SPORTS FHD",
         "FANCODE FHD",
         "SportzX F1 HD",
-        "TSN SPORTS FHD",
-        "SKY SPORT F1",
         "SKY SPORTS HD",
         "ELEVEN SPORTS",
-        "CANAL+ HD",
         "Sky F1 DE",
-        "DAZN ES SD",
         "F1 TV FHD",
         "Fox Sports - AQ"
       ],
       "formatsNew": [
         {
-          "title": "F1 TV FHD",
-          "logo": ""
-        },
-        {
           "title": "SKY SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
         {
           "title": "FANCODE FHD",
@@ -53,14 +50,6 @@
           "logo": ""
         },
         {
-          "title": "TSN SPORTS FHD",
-          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
-        },
-        {
-          "title": "SKY SPORT F1",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
           "title": "SKY SPORTS HD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
@@ -69,15 +58,7 @@
           "logo": ""
         },
         {
-          "title": "CANAL+ HD",
-          "logo": ""
-        },
-        {
           "title": "Sky F1 DE",
-          "logo": ""
-        },
-        {
-          "title": "DAZN ES SD",
           "logo": ""
         },
         {
@@ -91,17 +72,17 @@
       ],
       "channels": [
         {
-          "api": "0a6260c2c2f0340f97a0b7ebb3134a09:34bb2e6e230099443fea9d518ce5f156",
-          "link": "https://ott-video-cf.formula1.com/v2/pa_cGF0aDolMkZoYWp2azJmZDJ2eHIlMkZvdXQlMkZ2MSUyRk1haW4lMkZQcmVzZW50YXRpb24tUjElMkZTRFItSEQtREFTSC1XVi1TSU5HTEV8a2lkOjEwNDJ8ZXhwOjE3Nzk1NTM0MDN8dHRsOjE0NDB8Z2VvOkJEfHN0cmVhbVR5cGU6U0RSX0hEX0RBU0hXVl9TSU5HTEV8c2Vzc2lvbklkOjE4MDYwMjY0NF8wMUtTODdaOUs2Q1JINlE1SFNEMVMxQVEwTV9QUHxzdGFydDoxNzc5NDY2MjQ0fGVuZDoxNzc5NTA5NDQ0fHRva2VuOlpPaXJ3RFpmeWxoUER0dE5GN09sdERpRkRqWldlOGVrQTdIbDFjVEpoZFlf/hajvk2fd2vxr/out/v1/Main/Presentation-R1/SDR-HD-DASH-WV-SINGLE/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "F1 TV FHD",
-          "type": "1"
-        },
-        {
           "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779547768~acl=%2F*~id=b08c6374-4463-46bd-94f4-7c1a0962cc51~data=hdntl,aXA9MjAuMTA2LjE4Mi4yMDkmZXhwPTE3Nzk0NjEzOTgmZWlkPTk2MTUwMSZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1EWGlvRWF8YWViZmUzZDgtMTEzNy00MDQyLTllNGEtOTliODU2M2UzYWI0JmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=ca0a0cecfd5ab1d6163a8169fbd8a240df242adb75d187e70f08b70234822da2/dash/live/2093715/219027-321028/manifest-d.mpd",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+          "title": "TSN SPORTS FHD",
           "type": "1"
         },
         {
@@ -116,20 +97,6 @@
           "link": "https://chatgpt.hereisman.net/playlist/50931/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "SportzX F1 HD",
-          "type": "0"
-        },
-        {
-          "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
-          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://storage.googleapis.com/bakuknhertyung4/mux_video_ts1/index-1.m3u8",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORT F1",
           "type": "0"
         },
         {
@@ -148,23 +115,9 @@
         },
         {
           "api": null,
-          "link": "https://instreams.pro/EU/HDTV25/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "logo": "",
-          "title": "CANAL+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
           "link": "https://instreams.pro/bil2/skyf1de/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "Sky F1 DE",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://smarthard.click/hls/RdKfpotjL5g/index.m3u8|Referer=https://hardsmart.click/",
-          "logo": "",
-          "title": "DAZN ES SD",
           "type": "0"
         },
         {
@@ -1508,11 +1461,21 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportDigital Fussball"
+        "SportDigital Fussball",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "formatsNew": [
         {
           "title": "SportDigital Fussball",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
           "logo": ""
         }
       ],
@@ -1520,8 +1483,23 @@
         {
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "logo": "",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/hd-en-6Mwe5EHjHkXjotei2J.m3u8?txSecret=ea3a50f77b5dcab3d29b7b138f7feeae&txTime=6A10C2E2",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.55/hls/kggg.m3u8|Referer=http://www.fawanews.sc/",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1778,26 +1756,75 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3540/image",
         "eventName": "Semifinals, Valencia vs Real Madrid",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/22 18:00:00 +0000",
         "endTime": "2026/05/22 20:40:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SETANTA SPORTS",
+        "SportzX Live",
+        "NOVA SPORTS",
+        "SD SERVER",
+        "ARENA SPORTS"
       ],
       "formatsNew": [
         {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
           "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "NOVA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "ARENA SPORTS",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "b61abdd84cb34486b7a8ad6271856be8:24af8a63e21142c293cc71e0c9e88e92",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779547773~acl=%2F*~id=e0b374ab-0431-433d-99a7-85d26ef99f86~data=hdntl,aXA9MjAuMTA2LjE4Mi4yMDkmZXhwPTE3Nzk0NjE0MDMmZWlkPTk2MDc3MCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1EWGlvRWF8YWViZmUzZDgtMTEzNy00MDQyLTllNGEtOTliODU2M2UzYWI0JmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=1aa5adbedd7ca370ef3324e71f6f1ef54a43171d9a7b224bbbb137961f8f50ee/dash/live/2005783/303306-321860/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://live.vivo200.com/live/sd-2-3920362.m3u8?txSecret=4302461dba39d3c568fff53c32c87060&txTime=6A10A073|referer=https://player.online909.com/",
+          "logo": "",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/novaprime/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "NOVA SPORTS",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.57/hls/TTTDDDQQQ.m3u8|Referer=http://www.fawanews.sc/",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV21/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "ARENA SPORTS",
           "type": "0"
         }
       ]
@@ -1821,9 +1848,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
+        "MLB LIVE HD",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "MLB LIVE HD",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1832,7 +1869,22 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/50960/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://streamxyz.shop/cubs/tracks-v1a1/mono.ts.m3u8",
+          "logo": "",
+          "title": "MLB LIVE HD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://edge2caster.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
