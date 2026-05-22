@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 35,
+  "total_events": 31,
   "results": [
     {
       "id": "312",
@@ -15,15 +15,16 @@
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
         "eventBanner": "https://iili.io/CH59QHP.png",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/22 20:30:00 +0000",
-        "endTime": "2026/05/22 21:30:00 +0000"
+        "endTime": "2026/05/22 21:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
         "SKY SPORTS FHD",
         "TSN SPORTS FHD",
+        "SETANTA SPORTS",
         "FANCODE FHD",
         "SportzX F1 HD",
         "SKY SPORTS HD",
@@ -40,6 +41,10 @@
         {
           "title": "TSN SPORTS FHD",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
+        },
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
         },
         {
           "title": "FANCODE FHD",
@@ -73,7 +78,7 @@
       "channels": [
         {
           "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779547768~acl=%2F*~id=b08c6374-4463-46bd-94f4-7c1a0962cc51~data=hdntl,aXA9MjAuMTA2LjE4Mi4yMDkmZXhwPTE3Nzk0NjEzOTgmZWlkPTk2MTUwMSZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1EWGlvRWF8YWViZmUzZDgtMTEzNy00MDQyLTllNGEtOTliODU2M2UzYWI0JmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=ca0a0cecfd5ab1d6163a8169fbd8a240df242adb75d187e70f08b70234822da2/dash/live/2093715/219027-321028/manifest-d.mpd",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779566116~acl=%2F*~id=1f26dfa9-cc78-4598-ac11-c03c5b9ab880~data=hdntl,aXA9MTcyLjIxNS4yMzEuMTE0JmV4cD0xNzc5NDc5NzQ1JmVpZD05NjE2MDQmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9TmNKcjRkfDZlMjc2YTBmLWJkMmUtNDZhMC1iMTJiLTdhMWJlYmEyMzI2YyZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=5dadc1cbbbf42f4bc2791431fbd5b3f20400aa204a111b1220e8155c4ae0bf93/dash/live/2093715/219027-321028/manifest-d.mpd",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
@@ -83,6 +88,13 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "6eb77216ea7945998d3713be4ebbfc41:c36275beed344adbb6fdfc547be034ba",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779566123~acl=%2F*~id=40e65163-693a-41e1-bab0-0b6994d8b4fd~data=hdntl,aXA9MTcyLjIxNS4yMzEuMTE0JmV4cD0xNzc5NDc5NzUzJmVpZD05NjE1MDEmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9TmNKcjRkfDZlMjc2YTBmLWJkMmUtNDZhMC1iMTJiLTdhMWJlYmEyMzI2YyZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=f408469ff316d7a34ff16c7378362289e67f76705ea31c4810be76b7fc97608a/dash/live/2005778/303504-321866/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
           "type": "1"
         },
         {
@@ -1430,7 +1442,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
         "eventName": "Fiorentina vs Atalanta",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/22 18:45:00 +0000",
         "endTime": "2026/05/22 20:45:00 +0000"
       },
@@ -1515,7 +1527,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/1661/image",
         "eventName": "RC Lens vs Nice",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/22 19:00:00 +0000",
         "endTime": "2026/05/22 21:00:00 +0000"
       },
@@ -1589,139 +1601,6 @@
       ]
     },
     {
-      "id": "402",
-      "title": "Trabzonspor vs Konyaspor",
-      "image": "o",
-      "cat": "Türkiye Kupası",
-      "eventInfo": {
-        "teamA": "Trabzonspor",
-        "teamB": "Konyaspor",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3085/image",
-        "eventName": "Trabzonspor vs Konyaspor",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/22 17:45:00 +0000",
-        "endTime": "2026/05/22 19:45:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportDigital Fussball",
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportDigital Fussball",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "logo": "",
-          "title": "SportDigital Fussball",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/hd-en-6Mwe5EHjHkXjotei2J.m3u8?txSecret=ea3a50f77b5dcab3d29b7b138f7feeae&txTime=6A10C2E2",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.55/hls/kggg.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "405",
-      "title": "Sweden vs Italy",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Sweden",
-        "teamB": "Italy",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5735/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5733/image",
-        "eventName": "Sweden vs Italy",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/22 18:20:00 +0000",
-        "endTime": "2026/05/22 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "406",
-      "title": "Finland vs Great Britain",
-      "image": "o",
-      "cat": "IIHF World",
-      "eventInfo": {
-        "teamA": "Finland",
-        "teamB": "Great Britain",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/5731/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/7118/image",
-        "eventName": "Finland vs Great Britain",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/22 18:20:00 +0000",
-        "endTime": "2026/05/22 21:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "TSN SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "409",
       "title": "Chicago Cubs vs Houston Astros",
       "image": "o",
@@ -1777,42 +1656,6 @@
           "api": null,
           "link": "https://edge2caster.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "410",
-      "title": "Cincinnati Reds vs Louis Cardinals",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Reds",
-        "teamB": "Cardinals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3633/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
-        "eventName": "Cincinnati Reds vs Louis Cardinals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/22 22:40:00 +0000",
-        "endTime": "2026/05/23 01:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://edgestreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
