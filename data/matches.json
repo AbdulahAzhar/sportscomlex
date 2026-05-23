@@ -813,7 +813,7 @@
         },
         {
           "title": "WILLOW [Ad-Free]",
-          "logo": ""
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
           "title": "FOX CRICKET FHD",
@@ -959,16 +959,31 @@
       "adsLimit": "9",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "beIN ENGLISH FHD",
-        "ATP 500 Hamburg"
+        "STAN SPORTS",
+        "ATP 500 Hamburg",
+        "ATP 500 SETANTA"
       ],
       "formatsNew": [
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
         {
           "title": "beIN ENGLISH FHD",
           "logo": ""
         },
         {
+          "title": "STAN SPORTS",
+          "logo": ""
+        },
+        {
           "title": "ATP 500 Hamburg",
+          "logo": ""
+        },
+        {
+          "title": "ATP 500 SETANTA",
           "logo": ""
         }
       ],
@@ -1447,31 +1462,43 @@
       "publish": "1",
       "formats": [
         "SKY SPORTS FHD",
-        "SKY SPORTS 4k"
+        "SKY SPORTS 4k",
+        "WILLOW [Ad-Free]"
       ],
       "formatsNew": [
         {
           "title": "SKY SPORTS FHD",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "SKY SPORTS 4k",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "WILLOW [Ad-Free]",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         }
       ],
       "channels": [
         {
           "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779611161~acl=%2F*~id=76d3cf88-ffc3-413a-98ea-5139b26ca05c~data=hdntl,aXA9MTcyLjE4Mi4yMjUuMTYyJmV4cD0xNzc5NTI0NzkxJmVpZD05NjE1Mzkmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9aVVFd1VXfGVlZjY4NGJmLTBlNWItNDk3MC05NWNjLTRjNWNkODM2OTJiZiZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=c0e0e486d7d98eb5f95652cefb3be57d76b1152beaa8d82adf990f73d6a25cc5/dash/live/2093710/219026-321025/manifest-d.mpd",
-          "logo": "",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
         },
         {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779611158~acl=%2F*~id=d6e2c6de-d50e-481c-9959-1045ec8a65c9~data=hdntl,aXA9MTcyLjE4Mi4yMjUuMTYyJmV4cD0xNzc5NTI0Nzg4JmVpZD05NjE2MDQmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9aVVFd1VXfGVlZjY4NGJmLTBlNWItNDk3MC05NWNjLTRjNWNkODM2OTJiZiZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=148ac436dad441f38b56370db62b140f7ebf929cec0617c2f38f10a6798fecd7/dash/live/2093666/294921-318514/manifest-d.mpd",
-          "logo": "",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS 4k",
+          "type": "1"
+        },
+        {
+          "api": "6f3eaab7db8b0b8f9a247fa56ee10065:0480f4421c542db9faefc632f9ab54d7",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wfu91ice15/out/v1/97aa6cb2e1214a0c8be700eb4ce24200/cenc-sd.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW [Ad-Free]",
           "type": "1"
         }
       ]
@@ -1488,6 +1515,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/1228387/image",
         "eventName": "Boxing WBA: Usyk vs Rico",
         "eventType": "null",
+        "eventBanner": "https://iili.io/CH13BsV.png",
         "isHot": "0",
         "startTime": "2026/05/23 17:00:00 +0000",
         "endTime": "2026/05/23 20:30:00 +0000"
