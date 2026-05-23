@@ -17,7 +17,7 @@
         "eventBanner": "https://iili.io/CHgBX3J.png",
         "isHot": "1",
         "startTime": "2026/05/23 18:55:00 +0000",
-        "endTime": "2026/05/23 21:15:00 +0000"
+        "endTime": "2026/05/23 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -101,8 +101,8 @@
           "type": "1"
         },
         {
-          "api": "6007d8270bd34c4bb79ea2771af035f4:8fbea18dbc3e44138c5262e1dd578754",
-          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779630444~acl=%2F*~id=75e99b22-9e1a-445e-8f68-3653387dfdb1~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3NCZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=8049e4dab19fd3be83631bd94a8d1b97c5ae17d3b8f7b25ab49bf5ae2cbd2a6e/dash/live/2001593/303507-321913/manifest-d.mpd",
+          "api": "8659b7978e5c4736b7910a262a53dc09:fa4660da55c9446f8c62092c69a5a694",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779650334~acl=%2f*~id=3ae674f0-c974-406e-b32d-b5008cf1546c~data=hdntl,aXA9MTcyLjE3OC4xMTkuMTE0JmV4cD0xNzc5NTYzOTY0JmVpZD04ODA1MzYmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9c1VQVk5vfDMwMzk2YmViLTdjN2YtNDZkOC1iZDEwLTIzZjg4NWRjNDFkZSZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=316fe38ae178add16ca780c998b80c77956ec4a995626b1662b2f1ae0ec845e9/dash/live/2001623/303511-321943/manifest-d.mpd",
           "logo": "",
           "title": "SETANTA SPORTS",
           "type": "1"
@@ -1523,62 +1523,62 @@
     },
     {
       "id": "400",
-      "title": "England W vs New Zealand W",
+      "title": "WWE Saturday Night",
       "image": "o",
-      "cat": "Cricket",
+      "cat": "WWE",
       "eventInfo": {
-        "teamA": "ENG-W",
-        "teamB": "NZ-W",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/213121/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/213115/image",
-        "eventName": "England W vs New Zealand W",
+        "teamA": "WWE",
+        "teamB": "WWE",
+        "teamAFlag": "https://www.wwe.com/f/styles/wwe_show_logo_sm/public/all/2024/09/SNME-presale-reg-logo--5b3c37e662fa172d6cc9b7c74d699987.png",
+        "teamBFlag": "https://www.wwe.com/f/styles/wwe_show_logo_sm/public/all/2024/09/SNME-presale-reg-logo--5b3c37e662fa172d6cc9b7c74d699987.png",
+        "eventName": "WWE Saturday Nights Main Event",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/23 13:30:00 +0000",
-        "endTime": "2026/05/23 17:15:00 +0000"
+        "startTime": "2026/05/24 00:00:00 +0000",
+        "endTime": "2026/05/24 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SKY SPORTS FHD",
-        "SKY SPORTS 4k",
-        "WILLOW [Ad-Free]"
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER"
       ],
       "formatsNew": [
         {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+          "title": "SportzX Live",
+          "logo": ""
         },
         {
-          "title": "SKY SPORTS 4k",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+          "title": "HD SERVER",
+          "logo": ""
         },
         {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "title": "SD SERVER",
+          "logo": ""
         }
       ],
       "channels": [
         {
-          "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779611161~acl=%2F*~id=76d3cf88-ffc3-413a-98ea-5139b26ca05c~data=hdntl,aXA9MTcyLjE4Mi4yMjUuMTYyJmV4cD0xNzc5NTI0NzkxJmVpZD05NjE1Mzkmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9aVVFd1VXfGVlZjY4NGJmLTBlNWItNDk3MC05NWNjLTRjNWNkODM2OTJiZiZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=c0e0e486d7d98eb5f95652cefb3be57d76b1152beaa8d82adf990f73d6a25cc5/dash/live/2093710/219026-321025/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         },
         {
-          "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779611158~acl=%2F*~id=d6e2c6de-d50e-481c-9959-1045ec8a65c9~data=hdntl,aXA9MTcyLjE4Mi4yMjUuMTYyJmV4cD0xNzc5NTI0Nzg4JmVpZD05NjE2MDQmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9aVVFd1VXfGVlZjY4NGJmLTBlNWItNDk3MC05NWNjLTRjNWNkODM2OTJiZiZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=148ac436dad441f38b56370db62b140f7ebf929cec0617c2f38f10a6798fecd7/dash/live/2093666/294921-318514/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS 4k",
-          "type": "1"
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
         },
         {
-          "api": "6f3eaab7db8b0b8f9a247fa56ee10065:0480f4421c542db9faefc632f9ab54d7",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wfu91ice15/out/v1/97aa6cb2e1214a0c8be700eb4ce24200/cenc-sd.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW [Ad-Free]",
-          "type": "1"
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1595,27 +1595,27 @@
         "eventName": "Boxing WBA: Usyk vs Rico",
         "eventType": "null",
         "eventBanner": "https://iili.io/CH13BsV.png",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/23 17:00:00 +0000",
-        "endTime": "2026/05/23 20:30:00 +0000"
+        "endTime": "2026/05/23 21:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "DAZN SPORTS FHD",
         "DAZN SPORTS HD",
+        "SportzX Live",
         "SportzX Boxing",
         "SPX HD LIVE",
-        "SportzX Live",
+        "DAZN SPORTS FHD",
         "SD SERVER"
       ],
       "formatsNew": [
         {
-          "title": "DAZN SPORTS FHD",
+          "title": "DAZN SPORTS HD",
           "logo": ""
         },
         {
-          "title": "DAZN SPORTS HD",
+          "title": "SportzX Live",
           "logo": ""
         },
         {
@@ -1627,7 +1627,7 @@
           "logo": ""
         },
         {
-          "title": "SportzX Live",
+          "title": "DAZN SPORTS FHD",
           "logo": ""
         },
         {
@@ -1638,16 +1638,16 @@
       "channels": [
         {
           "api": null,
-          "link": "https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8",
+          "link": "https://chatgpt.hereisman.net/playlist/50991/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
-          "title": "DAZN SPORTS FHD",
+          "title": "DAZN SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50991/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://601.teicontools.com.br/ppv.m3u8",
           "logo": "",
-          "title": "DAZN SPORTS HD",
+          "title": "SportzX Live",
           "type": "0"
         },
         {
@@ -1666,9 +1666,9 @@
         },
         {
           "api": null,
-          "link": "https://601.teicontools.com.br/ppv.m3u8",
+          "link": "https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8",
           "logo": "",
-          "title": "SportzX Live",
+          "title": "DAZN SPORTS FHD",
           "type": "0"
         },
         {
