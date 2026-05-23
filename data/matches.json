@@ -15,7 +15,7 @@
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
         "eventBanner": "https://iili.io/CH19KYJ.png",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/23 15:55:00 +0000",
         "endTime": "2026/05/23 21:20:00 +0000"
       },
@@ -24,9 +24,11 @@
       "formats": [
         "SKY SPORTS FHD",
         "TSN SPORTS FHD",
+        "SETANTA SPORTS",
         "FANCODE FHD",
         "SportzX F1 HD",
         "TSN SPORTS HD",
+        "SportzX Live",
         "SKY SPORTS HD",
         "ELEVEN SPORTS",
         "Sky F1 DE",
@@ -43,6 +45,10 @@
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
         {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
           "title": "FANCODE FHD",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
@@ -53,6 +59,10 @@
         {
           "title": "TSN SPORTS HD",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
         },
         {
           "title": "SKY SPORTS HD",
@@ -91,6 +101,13 @@
           "type": "1"
         },
         {
+          "api": "6007d8270bd34c4bb79ea2771af035f4:8fbea18dbc3e44138c5262e1dd578754",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779630444~acl=%2F*~id=75e99b22-9e1a-445e-8f68-3653387dfdb1~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3NCZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=8049e4dab19fd3be83631bd94a8d1b97c5ae17d3b8f7b25ab49bf5ae2cbd2a6e/dash/live/2001593/303507-321913/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
           "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
@@ -110,6 +127,13 @@
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/239_abrhd.m3u8?is_vip=false&token=127920290db96c37289e17b2d795182b6190b2c0&x-sign=b97a3e382ccaf26fce916c1841cfbd26&x-time=1779551940",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         },
         {
           "api": null,
@@ -1533,20 +1557,44 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "DAZN SPORTS HD"
+        "DAZN SPORTS FHD",
+        "DAZN SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
+          "title": "DAZN SPORTS FHD",
+          "logo": ""
+        },
+        {
           "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
+          "link": "https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8",
+          "logo": "",
+          "title": "DAZN SPORTS FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/50991/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://601.teicontools.com.br/ppv.m3u8",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1570,19 +1618,32 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "ESPN SPORTS FHD",
+        "CBS SPORTS HD"
       ],
       "formatsNew": [
         {
-          "title": "SportzX Live",
+          "title": "ESPN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "CBS SPORTS HD",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "a01e1e0d5fb145b8b33190588490a27a:bfd9e3b0866e49cbae1bb7f7116451c9",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779630446~acl=%2F*~id=73cc8a93-53b9-4ff8-bb93-fc324174ae24~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3NiZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=dba06fc59dc4d49ed1b51697907e2aaf21028e69d12b920e9789d798df8c6c58/dash/live/2093724/219039-321035/manifest-d.mpd",
+          "logo": "",
+          "title": "ESPN SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/24/chunks.m3u8?is_vip=false&token=1779638218-Kv4cPTAAP5YTi-127920290db96c37289e17b2d795182b6190b2c0-af71c2d167b737abfae17d958e3f3110",
+          "logo": "",
+          "title": "CBS SPORTS HD",
           "type": "0"
         }
       ]
@@ -1989,7 +2050,9 @@
       "publish": "1",
       "formats": [
         "FUBO SPORTS",
-        "beIN ENGLISH"
+        "beIN ENGLISH",
+        "PARAMOUNT+ HD",
+        "CBS SPORTS FHD"
       ],
       "formatsNew": [
         {
@@ -1999,20 +2062,44 @@
         {
           "title": "beIN ENGLISH",
           "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "CBS SPORTS FHD",
+          "logo": ""
         }
       ],
       "channels": [
         {
           "api": "dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd",
+          "logo": "",
           "title": "FUBO SPORTS",
           "type": "1"
         },
         {
           "api": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51011/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-livestream.rumsport10.live/stream/1/chunks.m3u8?is_vip=false&token=1779638276-Kv4cPTAAP5YTi-127920290db96c37289e17b2d795182b6190b2c0-94c66ccd29fdbb91ece5c9e526570bec",
+          "logo": "",
+          "title": "CBS SPORTS FHD",
+          "type": "0"
         }
       ]
     },
@@ -2182,42 +2269,6 @@
           "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779630444~acl=%2F*~id=75e99b22-9e1a-445e-8f68-3653387dfdb1~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3NCZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=8049e4dab19fd3be83631bd94a8d1b97c5ae17d3b8f7b25ab49bf5ae2cbd2a6e/dash/live/2005782/303294-321902/manifest-d.mpd",
           "logo": "",
           "title": "SETANTA SPORTS",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "419",
-      "title": "Manly vs Gold Coast",
-      "image": "o",
-      "cat": "NRL Rugby",
-      "eventInfo": {
-        "teamA": "Manly",
-        "teamB": "Gold Coast",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4259/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/7313/image",
-        "eventName": "Manly Sea Eagles vs Gold Coast",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/23 09:35:00 +0000",
-        "endTime": "2026/05/23 11:35:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SKY SPORTS FHD"
-      ],
-      "formatsNew": [
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "fdd24dd2c6c14126ad7c1ad1066b03dd:08289c6d57d54e8d8dca55e1862afb82",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779566126~acl=%2F*~id=ddd3ccec-9953-4785-9649-c90d1263e0ac~data=hdntl,aXA9MTcyLjIxNS4yMzEuMTE0JmV4cD0xNzc5NDc5NzU2JmVpZD05NjA0Nzkmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9TmNKcjRkfDZlMjc2YTBmLWJkMmUtNDZhMC1iMTJiLTdhMWJlYmEyMzI2YyZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=12ba10e59dc89d4636cdb217cfdb65220197a04f0f8a1312134b1b393c91a28e/dash/live/2093722/219032-321033/manifest-d.mpd",
-          "title": "SKY SPORTS FHD",
           "type": "1"
         }
       ]
@@ -2505,6 +2556,42 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "title": "Red Sox vs Minnesota Twins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Red Sox",
+        "teamB": "Twins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3649/image",
+        "eventName": "Red Sox vs Minnesota Twins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/23 20:10:00 +0000",
+        "endTime": "2026/05/23 23:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
