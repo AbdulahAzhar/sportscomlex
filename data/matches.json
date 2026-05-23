@@ -14,10 +14,10 @@
         "teamBFlag": "https://scdnmain.net/assets/tournament/40-c.png",
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
-        "eventBanner": "https://iili.io/CH19KYJ.png",
-        "isHot": "1",
-        "startTime": "2026/05/23 15:55:00 +0000",
-        "endTime": "2026/05/23 21:20:00 +0000"
+        "eventBanner": "https://iili.io/CHgBX3J.png",
+        "isHot": "0",
+        "startTime": "2026/05/23 19:55:00 +0000",
+        "endTime": "2026/05/23 21:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -974,81 +974,6 @@
       ]
     },
     {
-      "id": "372",
-      "title": "ATP 250 Geneva",
-      "image": "o",
-      "cat": "ATP",
-      "eventInfo": {
-        "teamA": "ATP 250",
-        "teamB": "ATP 250",
-        "teamAFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
-        "teamBFlag": "https://www.atptour.com/assets/atpwt/images/tournament/badges/categorystamps_1000.png",
-        "eventName": "ATP 250 Geneva, FINAL",
-        "eventType": "null",
-        "eventBanner": "https://iili.io/CH5SYUQ.png",
-        "isHot": "0",
-        "startTime": "2026/05/23 13:00:00 +0000",
-        "endTime": "2026/05/23 16:00:00 +0000"
-      },
-      "adsLimit": "9",
-      "publish": "1",
-      "formats": [
-        "SETANTA SPORTS",
-        "beIN ENGLISH FHD",
-        "STAN SPORTS",
-        "ATP 500 Hamburg",
-        "ATP 500 SETANTA"
-      ],
-      "formatsNew": [
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "beIN ENGLISH FHD",
-          "logo": ""
-        },
-        {
-          "title": "STAN SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "ATP 500 Hamburg",
-          "logo": ""
-        },
-        {
-          "title": "ATP 500 SETANTA",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-          "title": "TNT Sports 4",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW (Ad Free)",
-          "type": "0"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
-          "title": "WILLOW SD",
-          "type": "2"
-        }
-      ]
-    },
-    {
       "id": "373",
       "title": "Cleveland Cavaliers",
       "image": "o",
@@ -1152,7 +1077,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/50765/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/51013/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "SportzX WNBA",
           "type": "0"
@@ -1550,7 +1475,7 @@
         "eventName": "Boxing WBA: Usyk vs Rico",
         "eventType": "null",
         "eventBanner": "https://iili.io/CH13BsV.png",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/23 17:00:00 +0000",
         "endTime": "2026/05/23 20:30:00 +0000"
       },
@@ -1559,7 +1484,10 @@
       "formats": [
         "DAZN SPORTS FHD",
         "DAZN SPORTS HD",
-        "SportzX Live"
+        "SportzX Boxing",
+        "SPX HD LIVE",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "formatsNew": [
         {
@@ -1571,7 +1499,19 @@
           "logo": ""
         },
         {
+          "title": "SportzX Boxing",
+          "logo": ""
+        },
+        {
+          "title": "SPX HD LIVE",
+          "logo": ""
+        },
+        {
           "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
           "logo": ""
         }
       ],
@@ -1592,9 +1532,30 @@
         },
         {
           "api": null,
+          "link": "https://bo6.bofiles.cfd/live/usyk/stream.m3u8",
+          "logo": "",
+          "title": "SportzX Boxing",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://streamxyz.shop/boxing/tracks-v1a1/mono.ts.m3u8",
+          "logo": "",
+          "title": "SPX HD LIVE",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://601.teicontools.com.br/ppv.m3u8",
           "logo": "",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108084_HD/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2051,6 +2012,7 @@
       "formats": [
         "FUBO SPORTS",
         "beIN ENGLISH",
+        "SETANTA SPORTS",
         "PARAMOUNT+ HD",
         "CBS SPORTS FHD"
       ],
@@ -2061,6 +2023,10 @@
         },
         {
           "title": "beIN ENGLISH",
+          "logo": ""
+        },
+        {
+          "title": "SETANTA SPORTS",
           "logo": ""
         },
         {
@@ -2085,6 +2051,13 @@
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
           "logo": "",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "40c65735c79240ca9fbf30e37f5a3d27:aa0a85822051467d8f1d6725d0281ee7",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779630451~acl=%2F*~id=8980c9d6-ed65-4bdb-bbd2-78a7f7021bdb~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA4MSZlaWQ9OTYxNTM5Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=2bc3a2381fba47a3b8639e381c3fa3aa19323040aa2fff1e739e9ff0d3a2af70/dash/live/2019652/303365-321918/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
           "type": "1"
         },
         {
@@ -2292,19 +2265,20 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX MLB"
       ],
       "formatsNew": [
         {
-          "title": "SportzX Live",
+          "title": "SportzX MLB",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
-          "title": "SportzX Live",
+          "link": "https://chatgpt.hereisman.net/playlist/51015/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
           "type": "0"
         }
       ]
@@ -2328,9 +2302,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "MLB LIVE AQ",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "MLB LIVE AQ",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -2339,7 +2318,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://hugomer.s3.us-east-1.amazonaws.com/yankees.m3u8",
+          "logo": "",
+          "title": "MLB LIVE AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -2592,6 +2579,42 @@
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "title": "Royals vs Seattle Mariners",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Royals",
+        "teamB": "Mariners",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3651/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3641/image",
+        "eventName": "Royals vs Seattle Mariners",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/23 20:10:00 +0000",
+        "endTime": "2026/05/23 23:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
         }
