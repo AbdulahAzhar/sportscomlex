@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 46,
+  "total_events": 45,
   "results": [
     {
       "id": "312",
@@ -15,9 +15,9 @@
         "eventName": "Formula 1 - Canada GP",
         "eventType": "null",
         "eventBanner": "https://iili.io/CHTbqFe.png",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/24 18:30:00 +0000",
-        "endTime": "2026/05/24 21:30:00 +0000"
+        "endTime": "2026/05/24 21:50:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -1335,44 +1335,6 @@
       ]
     },
     {
-      "id": "401",
-      "title": "Serie A MULTIVIEW",
-      "image": "o",
-      "cat": "Serie A 🇮🇹",
-      "eventInfo": {
-        "teamA": "MULTIVIEW",
-        "teamB": "MULTIVIEW",
-        "teamAFlag": "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-        "teamBFlag": "https://images.fotmob.com/image_resources/logo/leaguelogo/47.png",
-        "eventName": "Serie A MULTIVIEW",
-        "eventType": "null",
-        "eventBanner": "https://iili.io/CJoNVTu.png",
-        "isHot": "0",
-        "startTime": "2026/05/24 18:40:00 +0000",
-        "endTime": "2026/05/24 20:50:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SETANTA SPORTS"
-      ],
-      "formatsNew": [
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "eacdb9a620b44e76bb2c6020a2c160b7:b8611a06d1764c36bd202643f38802eb",
-          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716810~acl=%2F*~id=fafefc95-635e-4e0d-ac2d-24d2bf8963f8~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQ0MCZlaWQ9OTYxNjA0Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=183a25a7ecc2a191fbf6ed5293ed1502669a94be9f30bbdccd5ba99d3f809ab7/dash/live/2019456/303593-322017/manifest-d.mpd",
-          "logo": "",
-          "title": "SETANTA SPORTS",
-          "type": "1"
-        }
-      ]
-    },
-    {
       "id": "438",
       "title": "Pumas UNAM vs Cruz Azul",
       "image": "o",
@@ -1391,19 +1353,44 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "TUDN USA HD",
+        "SportzX Live",
+        "TUDN SPORTS HD"
       ],
       "formatsNew": [
         {
+          "title": "TUDN USA HD",
+          "logo": ""
+        },
+        {
           "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "TUDN SPORTS HD",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://daffodil.thelistener.pk/tudn.m3u8",
+          "logo": "",
+          "title": "TUDN USA HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil1/tudn/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.sandhost.qzz.io/tudn.m3u8",
+          "logo": "",
+          "title": "TUDN SPORTS HD",
           "type": "0"
         }
       ]
@@ -2753,20 +2740,45 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX DEPORTES"
+        "FOX USA HD",
+        "FOX DEPORTES",
+        "FOX SPORTS HD"
       ],
       "formatsNew": [
         {
+          "title": "FOX USA HD",
+          "logo": ""
+        },
+        {
           "title": "FOX DEPORTES",
           "logo": ""
+        },
+        {
+          "title": "FOX SPORTS HD",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
         }
       ],
       "channels": [
         {
+          "api": null,
+          "link": "https://daffodil.thelistener.pk/fox.m3u8",
+          "logo": "",
+          "title": "FOX USA HD",
+          "type": "0"
+        },
+        {
           "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "logo": "",
           "title": "FOX DEPORTES",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://daffodil.sandhost.qzz.io/fox.m3u8",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+          "title": "FOX SPORTS HD",
+          "type": "0"
         }
       ]
     }
