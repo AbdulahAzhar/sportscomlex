@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 45,
+  "total_events": 46,
   "results": [
     {
       "id": "312",
@@ -28,6 +28,8 @@
         "FANCODE FHD",
         "SportzX F1 HD",
         "TSN SPORTS HD",
+        "SKY MAIN EVENT",
+        "SKY SPORTS IT",
         "SportzX Live",
         "SKY SPORTS HD",
         "ELEVEN SPORTS",
@@ -61,6 +63,14 @@
           "logo": ""
         },
         {
+          "title": "SKY MAIN EVENT",
+          "logo": ""
+        },
+        {
+          "title": "SKY SPORTS IT",
+          "logo": ""
+        },
+        {
           "title": "SportzX Live",
           "logo": ""
         },
@@ -89,72 +99,98 @@
         {
           "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779716803~acl=%2F*~id=e3c0718d-26eb-451b-b368-a9fbedc1b4e4~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzMyZlaWQ9OTYxOTI1Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=800bc367bc4fbebb5232949fb01a993338ba9807309cf0e71c39a0c15060d608/dash/live/2093710/219026-321025/manifest-d.mpd",
+          "logo": "",
           "title": "SKY SPORTS FHD",
           "type": "1"
         },
         {
           "api": "e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd",
+          "logo": "",
           "title": "TSN SPORTS FHD",
           "type": "1"
         },
         {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779716805~acl=%2F*~id=cd2e1d0b-3186-41d0-9ed6-d7a16394b589~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzNSZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=b9417a424a24c7db299b8ae46a2917d3e289d500f517791b700e67d748f6e7a8/dash/live/2093666/294921-318514/manifest-d.mpd",
+          "logo": "",
           "title": "SKY SPORTS 4k",
           "type": "1"
         },
         {
           "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
           "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "logo": "",
           "title": "FANCODE FHD",
           "type": "1"
         },
         {
           "api": null,
           "link": "https://chatgpt.hereisman.net/playlist/50931/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
           "title": "SportzX F1 HD",
           "type": "0"
         },
         {
           "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "logo": "",
           "title": "TSN SPORTS HD",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/239_abrhd.m3u8?is_vip=false&token=127920290db96c37289e17b2d795182b6190b2c0&x-sign=b97a3e382ccaf26fce916c1841cfbd26&x-time=1779551940",
+          "link": "https://601.thelistener.pk/main.m3u8",
+          "logo": "",
+          "title": "SKY MAIN EVENT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://601.sandhost.qzz.io/italy.m3u8",
+          "logo": "",
+          "title": "SKY SPORTS IT",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/239_abrhd.m3u8?is_vip=false&token=742b8d8dc86748ce939f7faa0ee7c3dc0d37c090&x-sign=83031b88763b9dd54ea98260d7969115&x-time=1779652200",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SKY SPORTS HD",
           "type": "0"
         },
         {
           "api": "69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59",
           "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
+          "logo": "",
           "title": "ELEVEN SPORTS",
           "type": "1"
         },
         {
           "api": null,
           "link": "https://instreams.pro/bil2/skyf1de/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "Sky F1 DE",
           "type": "0"
         },
         {
           "api": "609d795905904705028ef54653019af7:2c791eb611e57a7d7f203022bc1b9ba3",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd",
+          "logo": "",
           "title": "F1 TV FHD",
           "type": "1"
         },
         {
           "api": "2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd",
+          "logo": "",
           "title": "Fox Sports - AQ",
           "type": "1"
         }
@@ -788,301 +824,6 @@
       ]
     },
     {
-      "id": "366",
-      "title": "IPL - 01",
-      "image": "o",
-      "cat": "Indian Premier League",
-      "eventInfo": {
-        "teamA": "MI",
-        "teamB": "RR",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187780/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187842/image",
-        "eventName": "Mumbai Indians vs Rajasthan Royals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 10:00:00 +0000",
-        "endTime": "2026/05/24 14:05:00 +0000"
-      },
-      "adsLimit": "8",
-      "publish": "1",
-      "formats": [
-        "WILLOW [Ad-Free]",
-        "SKY SPORTS FHD",
-        "KAYO HINDI FHD",
-        "FOX CRICKET FHD",
-        "SKY SPORTS 4k",
-        "NOON SPORTS",
-        "SKY CRICKET",
-        "Star Sports HIN",
-        "WILLOW HINDI",
-        "SD SERVER",
-        "STAR SPORTS HIN",
-        "STAR SPORTS ENG",
-        "IPL ENG [Hotstar]"
-      ],
-      "formatsNew": [
-        {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "KAYO HINDI FHD",
-          "logo": ""
-        },
-        {
-          "title": "FOX CRICKET FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS 4k",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "NOON SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY CRICKET",
-          "logo": ""
-        },
-        {
-          "title": "Star Sports HIN",
-          "logo": ""
-        },
-        {
-          "title": "WILLOW HINDI",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "STAR SPORTS HIN",
-          "logo": ""
-        },
-        {
-          "title": "STAR SPORTS ENG",
-          "logo": ""
-        },
-        {
-          "title": "IPL ENG [Hotstar]",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd",
-          "title": "PRIME VIDEO",
-          "type": "1"
-        },
-        {
-          "api": "2d0646dd8a8c511de3b2485071705038:1ddbda2f121875fd43dcd758497cbf82",
-          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/7j8yftutgs/out/v1/8a40608178f045839a1c0c0a055d6a90/cenc.mpd",
-          "title": "WILLOW [Ad Free]",
-          "type": "1"
-        },
-        {
-          "api": "9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab",
-          "link": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd",
-          "title": "PRIME HINDI",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https",
-          "title": "SKY SPORTS - AQ",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/57c9fd581995339676bb330a024502e2/manifest/stream_t9e72c8d63ef150818cea65aca509f8bd_r1479738631.m3u8?llhlsHBs=0.9",
-          "title": "PTV Sports",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sfsfs.valverdeae7.workers.dev/live.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://matcheslinkz.pages.dev/&origin=https://matcheslinkz.pages.dev",
-          "title": "S©portzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://live-pull.aisports.mobi/moviebox/device01/playlist.m3u8|Referer=https://sportslivenow.top/",
-          "title": "JIO HOTSTAR",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)",
-          "title": "WILLOW HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://103.229.254.25:7001/play/a0a0/index.m3u8",
-          "title": "Star Sports [HIN]",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR ENG - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR HIN - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TAM - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR TEL - IN",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343",
-          "title": "STAR KAN - IN",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "367",
-      "title": "IPL - 02",
-      "image": "oo",
-      "cat": "Indian Premier League",
-      "eventInfo": {
-        "teamA": "KKR",
-        "teamB": "DC",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/187775/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/187841/image",
-        "eventName": "Kolkata Knight Riders vs Delhi Capitals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 14:00:00 +0000",
-        "endTime": "2026/05/24 18:00:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "WILLOW [Ad-Free]",
-        "SKY SPORTS FHD",
-        "KAYO HINDI FHD",
-        "FOX CRICKET FHD",
-        "NOON SPORTS",
-        "SKY CRICKET",
-        "FOX SPORTS HD",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "WILLOW [Ad-Free]",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "KAYO HINDI FHD",
-          "logo": ""
-        },
-        {
-          "title": "FOX CRICKET FHD",
-          "logo": ""
-        },
-        {
-          "title": "NOON SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SKY CRICKET",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
-        },
-        {
-          "title": "FOX SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "4f0e68ca695cb1c75706aebeb380fe42:1be42fb616b27c0bbc2988927d86afa8",
-          "link": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/quldkybevx/out/v1/bfb8b5d2a416491da8869721816ad6c0/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW [Ad-Free]",
-          "type": "1"
-        },
-        {
-          "api": "01d02c97d1c949f9877acd230dcaa56d:708410b8bf1f4e998931183e8fab5d1e",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779698206~acl=%2F*~id=dcd4e583-c8ac-4d3f-a73c-589fa0155dba~data=hdntl,aXA9MjAuMTYxLjQ0LjE3OCZleHA9MTc3OTYxMTgzNiZlaWQ9OTYxOTI1Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPW54ZkJBM3w5OWU3MGNlYy0yYmVkLTQyNmQtODdkNi0zNmFhM2E1YTMzYWMmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=7f1ef132b1820605a0a6aafaddbbf6cd352b20d30ab0a706335b2d8b77f23dd7/dash/live/2093719/219037-321031/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "ecc68c7bc91756a190dcd7fd0c12cefc:73e68b8b7409b6e603ecc67a44918175",
-          "link": "https://dck1-fs-live.dtcdn.dazn.com/out/v1/761f422bb93edb7b/58e3b017d11a40d684bfdd4e93d1f004/index.mpd",
-          "logo": "",
-          "title": "KAYO HINDI FHD",
-          "type": "1"
-        },
-        {
-          "api": "01c9bbf8137e58378a5ead514998a7b4:fb01e61809e80e5e93a889cd31daab22",
-          "link": "https://dck1-fs-live.dtcdn.dazn.com/out/v1/814bffb9b389f652/d65feac5647949e6b45b2674d4715398/index.mpd",
-          "logo": "",
-          "title": "FOX CRICKET FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://dai.google.com/linear/hls/event/mbsfWpAoS2Olw5e-nkM-gw/master.m3u8|user-agent=Cricbuzz/7.00.01 (Linux;Android 13) AndroidXMedia3/1.5.1&x-forwarded-for=1.178.20.23",
-          "logo": "",
-          "title": "NOON SPORTS",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-          "title": "SKY CRICKET",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://sunffov.kuvuslov.cymru/fox501.m3u8|Referer=https://estraaw.pages.dev/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "FOX SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://v.zgdyoqa.shop/hls/JPPPX.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "373",
       "title": "Oklahoma City Thunder",
       "image": "o",
@@ -1495,6 +1236,66 @@
       ]
     },
     {
+      "id": "400",
+      "title": "AEW Double or Nothing",
+      "image": "o",
+      "cat": "WWE",
+      "eventInfo": {
+        "teamA": "AEW",
+        "teamB": "AEW",
+        "teamAFlag": "https://upload.wikimedia.org/wikipedia/commons/3/35/AEW_Double_or_Nothing_logo.png",
+        "teamBFlag": "https://upload.wikimedia.org/wikipedia/commons/3/35/AEW_Double_or_Nothing_logo.png",
+        "eventName": "AEW Double or Nothing",
+        "eventType": "null",
+        "startTime": "2026/05/25 00:00:00 +0000",
+        "endTime": "2026/05/25 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live",
+        "HD SERVER",
+        "SD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|referer=https://26hrwgorfcmh.windows-devs.top/",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": "401",
       "title": "Serie A MULTIVIEW",
       "image": "o",
@@ -1507,7 +1308,7 @@
         "eventName": "Serie A MULTIVIEW",
         "eventType": "null",
         "eventBanner": "https://iili.io/CJoNVTu.png",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/24 18:40:00 +0000",
         "endTime": "2026/05/24 20:50:00 +0000"
       },
@@ -1533,57 +1334,27 @@
       ]
     },
     {
-      "id": "450",
-      "title": "Napoli vs Udinese",
+      "id": "438",
+      "title": "Pumas UNAM vs Cruz Azul",
       "image": "o",
-      "cat": "Serie A 🇮🇹",
+      "cat": "Liga MX",
       "eventInfo": {
-        "teamA": "Napoli",
-        "teamB": "Udinese",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-        "eventName": "SSC Napoli vs Udinese",
+        "teamA": "Pumas",
+        "teamB": "Cruz Azul",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1933/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
+        "eventName": "Pumas UNAM vs Cruz Azul",
         "eventType": "null",
         "isHot": "0",
-        "startTime": "2026/05/24 16:00:00 +0000",
-        "endTime": "2026/05/24 18:00:00 +0000"
+        "startTime": "2026/05/25 01:00:00 +0000",
+        "endTime": "2026/05/25 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SETANTA SPORTS",
-        "beIN ENGLISH",
-        "ZIGGO SPORTS",
-        "PARAMOUNT+ HD",
-        "DAZN SPORTS HD",
-        "DAZN ZONA SD",
         "SportzX Live"
       ],
       "formatsNew": [
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "beIN ENGLISH",
-          "logo": ""
-        },
-        {
-          "title": "ZIGGO SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "PARAMOUNT+ HD",
-          "logo": ""
-        },
-        {
-          "title": "DAZN SPORTS HD",
-          "logo": ""
-        },
-        {
-          "title": "DAZN ZONA SD",
-          "logo": ""
-        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1591,51 +1362,8 @@
       ],
       "channels": [
         {
-          "api": "97c4d45654be4a819468b0922ff23147:026bcc6ff1964ba187e5e072b1fdc18e",
-          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716808~acl=%2F*~id=36fb73d5-8fd7-4442-a1a4-29edfb8ca880~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzOCZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=345a6aa8c997488374bf009dd7dc7a719f2feb4601bd6fe1f77a99c8d3b95ca3/dash/live/2001527/303370-322007/manifest-d.mpd",
-          "logo": "",
-          "title": "SETANTA SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "logo": "",
-          "title": "beIN ENGLISH",
-          "type": "1"
-        },
-        {
-          "api": "3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0",
-          "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?accountinfo=~~V2.0~OhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8~1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc:UTC,",
-          "logo": "",
-          "title": "ZIGGO SPORTS",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "https://instreams.pro/US/NFLHD12/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "logo": "",
-          "title": "PARAMOUNT+ HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/EU/HDTV11/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "logo": "",
-          "title": "DAZN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil2/daznzona/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "logo": "",
-          "title": "DAZN ZONA SD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/hd-en-6MuSNj2XXC8x3Lkqzv.m3u8?txSecret=e63ce3d75e6d5087b02c936e35edb339&txTime=6A13494A",
-          "logo": "",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1882,7 +1610,8 @@
         "SETANTA SPORTS",
         "beIN ENGLISH",
         "TNT SPORTS FHD",
-        "TNT SPORTS HD"
+        "TNT SPORTS HD",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
@@ -1899,6 +1628,10 @@
         },
         {
           "title": "TNT SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1930,6 +1663,13 @@
           "logo": "",
           "title": "TNT SPORTS HD",
           "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/hd-en-6MuSNj2XXLvsXG4WcW.m3u8?txSecret=662058f0b6308cc49736af59a0c7fe91&txTime=6A13719A",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1952,11 +1692,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SETANTA SPORTS"
+        "SETANTA SPORTS",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
           "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1967,6 +1712,13 @@
           "logo": "",
           "title": "SETANTA SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/hd-en-6MuSNj2XgUdgGtANaa.m3u8?txSecret=b2c3ad8d8be40e3819697459dd094bd4&txTime=6A13719A",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -1989,12 +1741,18 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "beIN ENGLISH FHD",
         "PREMIER SPORTS",
         "Laliga TV FHD",
-        "ESPN DEPORTES"
+        "ESPN DEPORTES",
+        "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
         {
           "title": "beIN ENGLISH FHD",
           "logo": ""
@@ -2010,9 +1768,20 @@
         {
           "title": "ESPN DEPORTES",
           "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
         }
       ],
       "channels": [
+        {
+          "api": "3433911df75d48179c5cb48bbfd6d72d:3307be9befb3432c9161bd60fd929535",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716810~acl=%2F*~id=fafefc95-635e-4e0d-ac2d-24d2bf8963f8~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQ0MCZlaWQ9OTYxNjA0Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=183a25a7ecc2a191fbf6ed5293ed1502669a94be9f30bbdccd5ba99d3f809ab7/dash/live/2001533/303253-322020/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
         {
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
@@ -2040,164 +1809,13 @@
           "logo": "",
           "title": "ESPN DEPORTES",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "458",
-      "title": "AFC Ajax vs Utrecht",
-      "image": "o",
-      "cat": "Eredivisie",
-      "eventInfo": {
-        "teamA": "Ajax",
-        "teamB": "Utrecht",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/2948/image",
-        "eventName": "AFC Ajax vs Utrecht",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 10:15:00 +0000",
-        "endTime": "2026/05/24 12:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PREMIER SPORTS",
-        "SETANTA SPORTS",
-        "SportDigital Fussball",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "PREMIER SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SETANTA SPORTS",
-          "logo": ""
-        },
-        {
-          "title": "SportDigital Fussball",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "logo": "",
-          "title": "PREMIER SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "45a884dfcd874b70a92031341c9934e2:9ed77e6c10724bbeba270df44f9d1468",
-          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779698208~acl=%2f*~id=1fc77b9f-6def-4555-9bf4-57a305e3124b~data=hdntl,aXA9MjAuMTYxLjQ0LjE3OCZleHA9MTc3OTYxMTgzOCZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW54ZkJBM3w5OWU3MGNlYy0yYmVkLTQyNmQtODdkNi0zNmFhM2E1YTMzYWMmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=c3f9ce712607b34af4bfe3c88f371d125a4ec7234c3784bc2bb46b55a5a43c3c/dash/live/2001629/303650-321961/manifest-d.mpd",
-          "logo": "",
-          "title": "SETANTA SPORTS",
-          "type": "1"
-        },
-        {
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-          "logo": "",
-          "title": "SportDigital Fussball",
-          "type": "1"
         },
         {
           "api": null,
-          "link": "https://play.ltwxsc.com/live/sd-6Mwe5ZtfDLR7WDsCsx.m3u8?txSecret=95987cecd07f8cfa33de3113bc37f60e&txTime=6A12F8A9",
+          "link": "https://play.ltwxsc.com/live/hd-en-6MuSsYcLWJtrqLtthc.m3u8?txSecret=9aafdbf28ab6bca2530094ce02af7b9c&txTime=6A137213",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "459",
-      "title": "Sporting CP vs Torreense",
-      "image": "o",
-      "cat": "Taça de Portugal",
-      "eventInfo": {
-        "teamA": "Sporting",
-        "teamB": "Torreense",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3001/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/25787/image",
-        "eventName": "Sporting CP vs Torreense",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 16:15:00 +0000",
-        "endTime": "2026/05/24 18:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live",
-        "SD SERVER"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/sd-6MwdLRKHJ1R9GNKD5p.m3u8?txSecret=4c22024fb934c7019207aaa22f484690&txTime=6A134F62",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.42/hls/FFFFF.m3u8|referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "460",
-      "title": "Albacete vs Real Sociedad",
-      "image": "o",
-      "cat": "LaLiga 🇪🇸",
-      "eventInfo": {
-        "teamA": "Albacete",
-        "teamB": "Real Sociedad B U21",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/2848/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
-        "eventName": "Albacete vs Real Sociedad",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 14:15:00 +0000",
-        "endTime": "2026/05/24 16:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "Laliga Hypermotion ES"
-      ],
-      "formatsNew": [
-        {
-          "title": "Laliga Hypermotion ES",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd",
-          "title": "Laliga Hypermotion ES",
-          "type": "1"
         }
       ]
     },
@@ -2907,6 +2525,197 @@
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "478",
+      "title": "Remo vs Athletico",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Remo",
+        "teamB": "Athletico",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2012/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1967/image",
+        "eventName": "Remo vs Athletico",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 19:00:00 +0000",
+        "endTime": "2026/05/24 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIERER BR",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "479",
+      "title": "Cruzeiro vs Chapecoense",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Cruzeiro",
+        "teamB": "Chapecoense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1954/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+        "eventName": "Cruzeiro vs Chapecoense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 19:00:00 +0000",
+        "endTime": "2026/05/24 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PRIME VIDEO"
+      ],
+      "formatsNew": [
+        {
+          "title": "PRIME VIDEO",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "7daa94378ef6b4da0dde4e5e40a83360:cf780489726c04879889b97270cbf31a",
+          "link": "https://abkv2pxaaaaaaaamms3xu2tu2eynb.ta.bia-cf.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/uq2koin2rk/out/v1/178bde30fb5a49209e3d41f17da49bfe/cenc.mpd",
+          "title": "PRIME VIDEO",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "480",
+      "title": "Corinthians vs Atlético Mineiro",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Corinthians",
+        "teamB": "Atlético-MG",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1957/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1977/image",
+        "eventName": "Corinthians vs Atlético Mineiro",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 21:30:00 +0000",
+        "endTime": "2026/05/24 23:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIERER BR"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIERER BR",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "481",
+      "title": "Vasco da Gama vs Bragantino",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Vasco",
+        "teamB": "RB Bragantino",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1999/image",
+        "eventName": "Vasco da Gama vs Bragantino",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 23:30:00 +0000",
+        "endTime": "2026/05/25 01:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SporTV BR FHD",
+        "PREMIERER BR"
+      ],
+      "formatsNew": [
+        {
+          "title": "SporTV BR FHD",
+          "logo": ""
+        },
+        {
+          "title": "PREMIERER BR",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR FHD",
+          "type": "1"
+        },
+        {
+          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "title": "PREMIERER BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "482",
+      "title": "Inter Miami vs Philadelphia Union",
+      "image": "o",
+      "cat": "MLS 🇺🇸",
+      "eventInfo": {
+        "teamA": "Inter Miami",
+        "teamB": "Philadelphia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/337602/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/39833/image",
+        "eventName": "Inter Miami vs Philadelphia Union",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 23:00:00 +0000",
+        "endTime": "2026/05/25 01:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX DEPORTES"
+      ],
+      "formatsNew": [
+        {
+          "title": "FOX DEPORTES",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
         }
       ]
     }
