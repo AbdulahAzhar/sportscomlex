@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 36,
+  "total_events": 40,
   "results": [
     {
       "id": "312",
@@ -992,8 +992,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW [Ad-Free]",
         "SKY SPORTS FHD",
+        "WILLOW [Ad-Free]",
+        "FOX CRICKET FHD",
         "KAYO HINDI FHD",
         "NOON SPORTS",
         "SKY CRICKET",
@@ -1002,12 +1003,16 @@
       ],
       "formatsNew": [
         {
+          "title": "SKY SPORTS FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
           "title": "WILLOW [Ad-Free]",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
-          "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+          "title": "FOX CRICKET FHD",
+          "logo": ""
         },
         {
           "title": "KAYO HINDI FHD",
@@ -1032,6 +1037,13 @@
       ],
       "channels": [
         {
+          "api": "01d02c97d1c949f9877acd230dcaa56d:708410b8bf1f4e998931183e8fab5d1e",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779698206~acl=%2F*~id=dcd4e583-c8ac-4d3f-a73c-589fa0155dba~data=hdntl,aXA9MjAuMTYxLjQ0LjE3OCZleHA9MTc3OTYxMTgzNiZlaWQ9OTYxOTI1Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPW54ZkJBM3w5OWU3MGNlYy0yYmVkLTQyNmQtODdkNi0zNmFhM2E1YTMzYWMmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=7f1ef132b1820605a0a6aafaddbbf6cd352b20d30ab0a706335b2d8b77f23dd7/dash/live/2093719/219037-321031/manifest-d.mpd",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": "8ab6b4ac429bfe070cfdb2a734b0f2e3:61a2198ca92d1c539abd22636fe0bf23",
           "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fbo5ncnbyv/out/v1/ba5ff04083324474800234e8d2eef8d4/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
@@ -1039,10 +1051,10 @@
           "type": "1"
         },
         {
-          "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779070453~acl=%2F*~id=319ab612-2e20-46d8-844b-27cb156b638c~data=hdntl,aXA9NTIuMTYxLjU2LjcwJmV4cD0xNzc4OTg0MDgzJmVpZD05MzY0MjQmb2lkPTE1NCZ0eXBlPVZPRCZ1aWQ9YWRjV1lXfGI2MGFmMjk5LTAzOTEtNGQxZi1hNmQwLWQ4MjQ0ZGZhZjFjOSZjaWQ9ZGNlLmZpc2ZlZCZwdD1udWxs~hmac=0f528e265590e386ba6fb3983f21449ea43d5fa28aed795503f83643861de1ff/dash/live/2093715/219027-321028/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS FHD",
+          "api": "01c9bbf8137e58378a5ead514998a7b4:fb01e61809e80e5e93a889cd31daab22",
+          "link": "https://dck1-fs-live.dtcdn.dazn.com/out/v1/814bffb9b389f652/d65feac5647949e6b45b2674d4715398/index.mpd",
+          "logo": "",
+          "title": "FOX CRICKET FHD",
           "type": "1"
         },
         {
@@ -1097,7 +1109,7 @@
         "eventBanner": "https://iili.io/CHyjeBp.png",
         "isHot": "0",
         "startTime": "2026/05/24 08:30:00 +0000",
-        "endTime": "2026/05/24 12:00:00 +0000"
+        "endTime": "2026/05/24 13:00:00 +0000"
       },
       "adsLimit": "9",
       "publish": "1",
@@ -1159,6 +1171,75 @@
           "link": "https://crichdplayer.com/willow-cricket-live-stream-2026",
           "title": "WILLOW SD",
           "type": "2"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "title": "Colorado Avalanche",
+      "image": "o",
+      "cat": "NHL",
+      "eventInfo": {
+        "teamA": "Golden Knights",
+        "teamB": "Avalanche",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/257523/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
+        "eventName": "Golden Knights vs Colorado Avalanche",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/25 00:00:00 +0000",
+        "endTime": "2026/05/25 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "PREMIER SPORTS",
+        "ESPN SPORTS HD",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "PREMIER SPORTS",
+          "logo": ""
+        },
+        {
+          "title": "ESPN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "a01e1e0d5fb145b8b33190588490a27a:bfd9e3b0866e49cbae1bb7f7116451c9",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779650339~acl=%2F*~id=67f01e74-9ebc-40c1-a53b-83235cc9b59a~data=hdntl,aXA9MTcyLjE3OC4xMTkuMTE0JmV4cD0xNzc5NTYzOTY5JmVpZD05NjE1Mzkmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9c1VQVk5vfDMwMzk2YmViLTdjN2YtNDZkOC1iZDEwLTIzZjg4NWRjNDFkZSZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=67635eced926a91fa46db60891128fc65a440530a70cb8cf74137c5caf579c43/dash/live/2093724/219039-321035/manifest-d.mpd",
+          "title": "ESPN SPORTS HD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/uyopzarf50.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "title": "HD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -1837,20 +1918,69 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH FHD"
+        "SETANTA SPORTS",
+        "beIN ENGLISH FHD",
+        "CBS SPORTS HD",
+        "SportzX Live",
+        "SD SERVER"
       ],
       "formatsNew": [
         {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
           "title": "beIN ENGLISH FHD",
+          "logo": ""
+        },
+        {
+          "title": "CBS SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
           "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "eaf1930cde4241aea40155c85d47c55d:7c9776cfafae43048f7b61c4e706fc37",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779698206~acl=%2f*~id=dcd4e583-c8ac-4d3f-a73c-589fa0155dba~data=hdntl,aXA9MjAuMTYxLjQ0LjE3OCZleHA9MTc3OTYxMTgzNiZlaWQ9OTYxOTI1Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPW54ZkJBM3w5OWU3MGNlYy0yYmVkLTQyNmQtODdkNi0zNmFhM2E1YTMzYWMmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=7f1ef132b1820605a0a6aafaddbbf6cd352b20d30ab0a706335b2d8b77f23dd7/dash/live/2001596/303309-321963/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH FHD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274860_abrhd.m3u8?is_vip=false&token=1779710283-Kv4cPTAAP5YTi-557157c0330f32907bbed1fd9ca9e83eb2c762ac-5b5ae183a5b3e4ad8f8cfa729ad98c6b",
+          "logo": "",
+          "title": "CBS SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4542752.m3u8?txSecret=a3f968d1a61a079c1e603295948b2c37&txTime=6A14385E",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://livecdn-bp-iptv.rumsport7.live/live_abr/274860_abrsd.m3u8?is_vip=false&token=557157c0330f32907bbed1fd9ca9e83eb2c762ac&x-sign=15b8afe5b87e9632d6053debb64d4973&x-time=1779623940",
+          "logo": "",
+          "title": "SD SERVER",
+          "type": "0"
         }
       ]
     },
@@ -2174,6 +2304,115 @@
           "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
           "logo": "",
           "title": "SKY SPORTS CRICKET",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "464",
+      "title": "Denmark vs Italy",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Denmark",
+        "teamB": "Italy",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5917/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5733/image",
+        "eventName": "Denmark vs Italy",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 14:20:00 +0000",
+        "endTime": "2026/05/24 17:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "465",
+      "title": "Slovakia vs Canada",
+      "image": "o",
+      "cat": "IIHF World",
+      "eventInfo": {
+        "teamA": "Slovakia",
+        "teamB": "Canada",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/5736/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/5729/image",
+        "eventName": "Slovakia vs Canada",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 18:20:00 +0000",
+        "endTime": "2026/05/24 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "466",
+      "title": "Olympiacos BC vs Real Madrid",
+      "image": "o",
+      "cat": "Euroleague",
+      "eventInfo": {
+        "teamA": "Olympiacos BC",
+        "teamB": "Real Madrid",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3501/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3540/image",
+        "eventName": "Olympiacos BC vs Real Madrid",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 18:00:00 +0000",
+        "endTime": "2026/05/24 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "logo": "",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
