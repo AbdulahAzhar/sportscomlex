@@ -1932,7 +1932,9 @@
       "publish": "1",
       "formats": [
         "PREMIER SPORTS",
-        "SportDigital Fussball"
+        "SETANTA SPORTS",
+        "SportDigital Fussball",
+        "SportzX Live"
       ],
       "formatsNew": [
         {
@@ -1940,7 +1942,15 @@
           "logo": ""
         },
         {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
           "title": "SportDigital Fussball",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
           "logo": ""
         }
       ],
@@ -1948,14 +1958,30 @@
         {
           "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "logo": "",
           "title": "PREMIER SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "45a884dfcd874b70a92031341c9934e2:9ed77e6c10724bbeba270df44f9d1468",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779698208~acl=%2f*~id=1fc77b9f-6def-4555-9bf4-57a305e3124b~data=hdntl,aXA9MjAuMTYxLjQ0LjE3OCZleHA9MTc3OTYxMTgzOCZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW54ZkJBM3w5OWU3MGNlYy0yYmVkLTQyNmQtODdkNi0zNmFhM2E1YTMzYWMmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=c3f9ce712607b34af4bfe3c88f371d125a4ec7234c3784bc2bb46b55a5a43c3c/dash/live/2001629/303650-321961/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
           "type": "1"
         },
         {
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+          "logo": "",
           "title": "SportDigital Fussball",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/sd-6Mwe5ZtfDLR7WDsCsx.m3u8?txSecret=95987cecd07f8cfa33de3113bc37f60e&txTime=6A12F8A9",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2122,9 +2148,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "WILLOW [Ad-Free]",
         "SKY SPORTS CRICKET"
       ],
       "formatsNew": [
+        {
+          "title": "WILLOW [Ad-Free]",
+          "logo": ""
+        },
         {
           "title": "SKY SPORTS CRICKET",
           "logo": ""
@@ -2132,8 +2163,16 @@
       ],
       "channels": [
         {
+          "api": "318990a4c9001a643e48138292a3ab1c:e69f62b154a95d5a96b77de655e27c1a",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mvdbju6gle/out/v1/08b75aacdf904ac4b83619c811153fd1/cenc.mpd",
+          "logo": "",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
+        {
           "api": null,
           "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "logo": "",
           "title": "SKY SPORTS CRICKET",
           "type": "0"
         }
