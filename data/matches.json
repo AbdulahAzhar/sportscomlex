@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 41,
+  "total_events": 44,
   "results": [
     {
       "id": "312",
@@ -16,7 +16,7 @@
         "eventType": "null",
         "eventBanner": "https://iili.io/CHTbqFe.png",
         "isHot": "0",
-        "startTime": "2026/05/24 19:55:00 +0000",
+        "startTime": "2026/05/24 18:30:00 +0000",
         "endTime": "2026/05/24 21:30:00 +0000"
       },
       "adsLimit": "0",
@@ -87,8 +87,8 @@
       ],
       "channels": [
         {
-          "api": "708a98b352bd4418a73a028edd84da8f:b1fa5c2bca4c4b57b924b748564532cb",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779630449~acl=%2F*~id=652a6b96-929b-4330-8938-88425d7edb82~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3OSZlaWQ9OTYxNjA0Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=6f927ef69c2397d894e60e133a42995aed4601a41dc24bf746a93054e5f7c06b/dash/live/2093715/219027-321028/manifest-d.mpd",
+          "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779716803~acl=%2F*~id=e3c0718d-26eb-451b-b368-a9fbedc1b4e4~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzMyZlaWQ9OTYxOTI1Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=800bc367bc4fbebb5232949fb01a993338ba9807309cf0e71c39a0c15060d608/dash/live/2093710/219026-321025/manifest-d.mpd",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
@@ -1258,7 +1258,7 @@
         "eventBanner": "https://iili.io/CJqUpKQ.png",
         "isHot": "1",
         "startTime": "2026/05/24 14:55:00 +0000",
-        "endTime": "2026/05/24 16:10:00 +0000"
+        "endTime": "2026/05/24 17:10:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2381,10 +2381,19 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "beIN ENGLISH",
-        "ZIGGO SPORTS"
+        "ZIGGO SPORTS",
+        "PARAMOUNT+ HD",
+        "DAZN SPORTS HD",
+        "DAZN ZONA SD",
+        "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
         {
           "title": "beIN ENGLISH",
           "logo": ""
@@ -2392,20 +2401,73 @@
         {
           "title": "ZIGGO SPORTS",
           "logo": ""
+        },
+        {
+          "title": "PARAMOUNT+ HD",
+          "logo": ""
+        },
+        {
+          "title": "DAZN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "DAZN ZONA SD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "97c4d45654be4a819468b0922ff23147:026bcc6ff1964ba187e5e072b1fdc18e",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716808~acl=%2F*~id=36fb73d5-8fd7-4442-a1a4-29edfb8ca880~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzOCZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=345a6aa8c997488374bf009dd7dc7a719f2feb4601bd6fe1f77a99c8d3b95ca3/dash/live/2001527/303370-322007/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH",
           "type": "1"
         },
         {
           "api": "3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0",
           "link": "https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?accountinfo=~~V2.0~OhA1DF4svOZppKxb-t-Ngw144cce44121c63284a33d5453493e5c8~1_Fmlu5PevHMYnEi9Z_HX2goKAd0VHSuxZMoIcAXcawYvG1meqGp2eQ2Ibhjvh7e59e7f6df3d57f23a32024ad67f0f19dc:UTC,",
+          "logo": "",
           "title": "ZIGGO SPORTS",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NFLHD12/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "PARAMOUNT+ HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/EU/HDTV11/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "DAZN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/daznzona/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "DAZN ZONA SD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://play.ltwxsc.com/live/hd-en-6MuSNj2XXC8x3Lkqzv.m3u8?txSecret=e63ce3d75e6d5087b02c936e35edb339&txTime=6A13494A",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
         }
       ]
     },
@@ -2846,19 +2908,32 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live"
+        "SportzX Live",
+        "SD SERVER"
       ],
       "formatsNew": [
         {
           "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "SD SERVER",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "link": "https://play.ltwxsc.com/live/sd-6MwdLRKHJ1R9GNKD5p.m3u8?txSecret=4c22024fb934c7019207aaa22f484690&txTime=6A134F62",
+          "logo": "",
           "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.42/hls/FFFFF.m3u8|referer=http://www.fawanews.sc/",
+          "logo": "",
+          "title": "SD SERVER",
           "type": "0"
         }
       ]
@@ -2918,11 +2993,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "beIN ENGLISH"
+        "beIN ENGLISH",
+        "SETANTA SPORTS"
       ],
       "formatsNew": [
         {
           "title": "beIN ENGLISH",
+          "logo": ""
+        },
+        {
+          "title": "SETANTA SPORTS",
           "logo": ""
         }
       ],
@@ -2930,7 +3010,15 @@
         {
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "d234acfe2def4f839623e5d50c4c60a8:12e9d45c606a443796f4e56b28bb5799",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716808~acl=%2f*~id=36fb73d5-8fd7-4442-a1a4-29edfb8ca880~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzOCZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=345a6aa8c997488374bf009dd7dc7a719f2feb4601bd6fe1f77a99c8d3b95ca3/dash/live/2019629/303257-322008/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
           "type": "1"
         }
       ]
@@ -3112,6 +3200,141 @@
         {
           "api": null,
           "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "467",
+      "title": "Blue Jays vs Pittsburgh Pirates",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Blue Jays",
+        "teamB": "Pittsburgh Pirates",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3642/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3637/image",
+        "eventName": "Blue Jays vs Pittsburgh Pirates",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 16:15:00 +0000",
+        "endTime": "2026/05/24 19:15:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51108/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "468",
+      "title": "Red Sox vs Minnesota Twins",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Boston Red Sox",
+        "teamB": "Minnesota Twins",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3646/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3649/image",
+        "eventName": "Red Sox vs Minnesota Twins",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 17:35:00 +0000",
+        "endTime": "2026/05/24 20:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX LIVE"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX LIVE",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "SportzX LIVE",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "469",
+      "title": "Orioles vs Detroit Tigers",
+      "image": "o",
+      "cat": "MLB",
+      "eventInfo": {
+        "teamA": "Baltimore Orioles",
+        "teamB": "Detroit Tigers",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3652/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3648/image",
+        "eventName": "Baltimore Orioles vs Detroit Tigers",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/24 16:35:00 +0000",
+        "endTime": "2026/05/24 19:35:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX MLB",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51109/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
