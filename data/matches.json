@@ -24,10 +24,10 @@
       "formats": [
         "SKY SPORTS FHD",
         "TSN SPORTS FHD",
+        "SETANTA SPORTS",
         "SKY SPORTS 4k",
         "FANCODE FHD",
         "SportzX F1 HD",
-        "TSN SPORTS HD",
         "SKY MAIN EVENT",
         "SKY SPORTS IT",
         "SportzX Live",
@@ -47,6 +47,10 @@
           "logo": ""
         },
         {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
+        {
           "title": "SKY SPORTS 4k",
           "logo": ""
         },
@@ -56,10 +60,6 @@
         },
         {
           "title": "SportzX F1 HD",
-          "logo": ""
-        },
-        {
-          "title": "TSN SPORTS HD",
           "logo": ""
         },
         {
@@ -111,6 +111,13 @@
           "type": "1"
         },
         {
+          "api": "f5432332be2e4564be84bf56c7f7882e:99953e23098d424bae3babe32fc7e466",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779737054~acl=%2F*~id=91b2b77c-5acf-4562-a302-81dfd4e0db31~data=hdntl,aXA9MTcyLjE4NS4xNjcuMzYmZXhwPTE3Nzk2NTA2ODQmZWlkPTk2MjYwOCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1FcVo5d2d8YmY4MTQ1ODAtMWFjMy00NjczLWFhMDktMDhlMjI1Y2NkMDFhJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=e3d75e1fd221b2be35a0c17a3e03975e84b24153ab4ec4f7ac54eb335251287b/dash/live/2019465/303514-322024/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779716805~acl=%2F*~id=cd2e1d0b-3186-41d0-9ed6-d7a16394b589~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzNSZlaWQ9OTYxNjEzJm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=b9417a424a24c7db299b8ae46a2917d3e289d500f517791b700e67d748f6e7a8/dash/live/2093666/294921-318514/manifest-d.mpd",
           "logo": "",
@@ -130,13 +137,6 @@
           "logo": "",
           "title": "SportzX F1 HD",
           "type": "0"
-        },
-        {
-          "api": "c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "logo": "",
-          "title": "TSN SPORTS HD",
-          "type": "1"
         },
         {
           "api": null,
@@ -1110,9 +1110,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1121,7 +1126,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51137/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1182,9 +1195,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX LIVE",
           "logo": ""
@@ -1193,7 +1211,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51139/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX LIVE",
           "type": "0"
         }
@@ -1218,9 +1244,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1229,7 +1260,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51141/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1308,7 +1347,7 @@
         "eventName": "Serie A MULTIVIEW",
         "eventType": "null",
         "eventBanner": "https://iili.io/CJoNVTu.png",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/24 18:40:00 +0000",
         "endTime": "2026/05/24 20:50:00 +0000"
       },
@@ -1952,9 +1991,9 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3540/image",
         "eventName": "Olympiacos vs Real Madrid",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/05/24 18:00:00 +0000",
-        "endTime": "2026/05/24 21:00:00 +0000"
+        "endTime": "2026/05/24 20:45:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -2510,15 +2549,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51136/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
