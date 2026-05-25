@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 45,
+  "total_events": 40,
   "results": [
     {
       "id": "312",
@@ -835,7 +835,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3418/image",
         "eventName": "Spurs vs Oklahoma City Thunder",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/25 00:00:00 +0000",
         "endTime": "2026/05/25 03:00:00 +0000"
       },
@@ -843,12 +843,27 @@
       "publish": "1",
       "formats": [
         "ESPN SPORTS FHD",
+        "SportzX NBA",
+        "NBA LIVE FHD",
+        "NBA LIVE ALT",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
         {
           "title": "ESPN SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NBA",
+          "logo": ""
+        },
+        {
+          "title": "NBA LIVE FHD",
+          "logo": ""
+        },
+        {
+          "title": "NBA LIVE ALT",
           "logo": ""
         },
         {
@@ -870,6 +885,27 @@
         },
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51154/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://bo5.bofiles.cfd/live/spurs/stream.m3u8",
+          "logo": "",
+          "title": "NBA LIVE FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.kinescopecdn.net/on-air/cec62dfd-eb59-4e9c-9b27-9033eff90caf/5dff4ffa-85e1-4d99-9df5-1707f91f1922/master.m3u8",
+          "logo": "",
+          "title": "NBA LIVE ALT",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "logo": "",
           "title": "SportzX Live",
@@ -880,104 +916,6 @@
           "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "377",
-      "title": "Atlanta Dream vs Mercury",
-      "image": "o",
-      "cat": "WNBA",
-      "eventInfo": {
-        "teamA": "Atlanta",
-        "teamB": "Mercury",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/35545/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3444/image",
-        "eventName": "Atlanta Dream vs Phoenix Mercury",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 19:00:00 +0000",
-        "endTime": "2026/05/24 21:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX WNBA",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX WNBA",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/51132/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX WNBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "378",
-      "title": "Liberty vs Dallas Wings",
-      "image": "o",
-      "cat": "WNBA",
-      "eventInfo": {
-        "teamA": "Liberty",
-        "teamB": "Wings",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3446/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3450/image",
-        "eventName": "New York Liberty vs Dallas Wings",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 19:30:00 +0000",
-        "endTime": "2026/05/24 22:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX WNBA",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX WNBA",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/51135/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX WNBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1030,25 +968,35 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/3682/image",
         "eventName": "Golden Knights vs Colorado Avalanche",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/05/25 00:00:00 +0000",
         "endTime": "2026/05/25 03:00:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "PREMIER SPORTS",
         "ESPN SPORTS HD",
+        "SportzX NHL",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
         {
-          "title": "PREMIER SPORTS",
+          "title": "SETANTA SPORTS",
           "logo": ""
         },
         {
+          "title": "PREMIER SPORTS",
+          "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI"
+        },
+        {
           "title": "ESPN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NHL",
           "logo": ""
         },
         {
@@ -1062,9 +1010,16 @@
       ],
       "channels": [
         {
-          "api": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "api": "6547dbaa76c54917b68b90cfc9c606dc:e82672e5d155441da8e2d2b111b6d584",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779737054~acl=%2F*~id=91b2b77c-5acf-4562-a302-81dfd4e0db31~data=hdntl,aXA9MTcyLjE4NS4xNjcuMzYmZXhwPTE3Nzk2NTA2ODQmZWlkPTk2MjYwOCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1FcVo5d2d8YmY4MTQ1ODAtMWFjMy00NjczLWFhMDktMDhlMjI1Y2NkMDFhJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=e3d75e1fd221b2be35a0c17a3e03975e84b24153ab4ec4f7ac54eb335251287b/dash/live/2019654/303496-322029/manifest-d.mpd",
           "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
+          "api": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI",
           "title": "PREMIER SPORTS",
           "type": "1"
         },
@@ -1074,6 +1029,13 @@
           "logo": "",
           "title": "ESPN SPORTS HD",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51155/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX NHL",
+          "type": "0"
         },
         {
           "api": null,
@@ -1087,55 +1049,6 @@
           "link": "https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "394",
-      "title": "Atlanta Braves",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Braves",
-        "teamB": "Nationals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3656/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/5930/image",
-        "eventName": "Atlanta Braves vs Washington Nationals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 20:10:00 +0000",
-        "endTime": "2026/05/24 23:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX MLB",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/51137/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -1177,104 +1090,6 @@
       ]
     },
     {
-      "id": "398",
-      "title": "Athletics",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Padres",
-        "teamB": "Athletics",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3636/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3645/image",
-        "eventName": "San Diego Padres vs Athletics",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 20:10:00 +0000",
-        "endTime": "2026/05/24 23:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX LIVE"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX MLB",
-          "logo": ""
-        },
-        {
-          "title": "SportzX LIVE",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/51139/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX LIVE",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": "399",
-      "title": "Arizona Diamondbacks",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Diamondbacks",
-        "teamB": "Rockies",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3640/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3628/image",
-        "eventName": "Diamondbacks vs Colorado Rockies",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/24 20:10:00 +0000",
-        "endTime": "2026/05/24 23:10:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX MLB",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX MLB",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/51141/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": "400",
       "title": "AEW Double or Nothing",
       "image": "o",
@@ -1286,23 +1101,34 @@
         "teamBFlag": "https://upload.wikimedia.org/wikipedia/commons/3/35/AEW_Double_or_Nothing_logo.png",
         "eventName": "AEW Double or Nothing",
         "eventType": "null",
+        "isHot": "1",
         "startTime": "2026/05/25 00:00:00 +0000",
         "endTime": "2026/05/25 02:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX Live",
+        "SportzX AEW",
+        "AEW Live - AQ",
         "HD SERVER",
+        "LQ SERVER",
         "SD SERVER"
       ],
       "formatsNew": [
         {
-          "title": "SportzX Live",
+          "title": "SportzX AEW",
+          "logo": ""
+        },
+        {
+          "title": "AEW Live - AQ",
           "logo": ""
         },
         {
           "title": "HD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "LQ SERVER",
           "logo": ""
         },
         {
@@ -1313,16 +1139,30 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51152/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX AEW",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://live.kinescopecdn.net/on-air/cec62dfd-eb59-4e9c-9b27-9033eff90caf/f44cb62f-9d91-4763-bec9-ad756e0b8d70/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+          "logo": "",
+          "title": "AEW Live - AQ",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
           "logo": "",
-          "title": "SportzX Live",
+          "title": "HD SERVER",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8|referer=https://26hrwgorfcmh.windows-devs.top/",
           "logo": "",
-          "title": "HD SERVER",
+          "title": "LQ SERVER",
           "type": "0"
         },
         {
@@ -1353,13 +1193,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TUDN USA HD",
+        "TUDN SPORTS HD",
         "SportzX Live",
-        "TUDN SPORTS HD"
+        "TUDN USA HD"
       ],
       "formatsNew": [
         {
-          "title": "TUDN USA HD",
+          "title": "TUDN SPORTS HD",
           "logo": ""
         },
         {
@@ -1367,16 +1207,16 @@
           "logo": ""
         },
         {
-          "title": "TUDN SPORTS HD",
+          "title": "TUDN USA HD",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://daffodil.thelistener.pk/tudn.m3u8",
+          "link": "https://daffodil.sandhost.qzz.io/tudn.m3u8",
           "logo": "",
-          "title": "TUDN USA HD",
+          "title": "TUDN SPORTS HD",
           "type": "0"
         },
         {
@@ -1388,9 +1228,9 @@
         },
         {
           "api": null,
-          "link": "https://daffodil.sandhost.qzz.io/tudn.m3u8",
+          "link": "https://daffodil.thelistener.pk/tudn.m3u8",
           "logo": "",
-          "title": "TUDN SPORTS HD",
+          "title": "TUDN USA HD",
           "type": "0"
         }
       ]
@@ -2740,13 +2580,13 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "FOX USA HD",
+        "APPLE TV+ HD",
         "FOX DEPORTES",
         "FOX SPORTS HD"
       ],
       "formatsNew": [
         {
-          "title": "FOX USA HD",
+          "title": "APPLE TV+ HD",
           "logo": ""
         },
         {
@@ -2761,9 +2601,9 @@
       "channels": [
         {
           "api": null,
-          "link": "https://daffodil.thelistener.pk/fox.m3u8",
+          "link": "https://chatgpt.hereisman.net/playlist/51151/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
-          "title": "FOX USA HD",
+          "title": "APPLE TV+ HD",
           "type": "0"
         },
         {
