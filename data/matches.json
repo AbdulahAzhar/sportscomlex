@@ -1531,16 +1531,21 @@
       "formats": [
         "SKY SPORTS FHD",
         "SKY SPORTS 4k",
+        "WILLOW FHD",
         "SKY CRICKET HD"
       ],
       "formatsNew": [
         {
           "title": "SKY SPORTS FHD",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "SKY SPORTS 4k",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "WILLOW FHD",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
           "title": "SKY CRICKET HD",
@@ -1551,15 +1556,22 @@
         {
           "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093710/219026-321025/manifest-d.mpd",
-          "logo": "",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
         },
         {
           "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093666/294921-318514/manifest-d.mpd",
-          "logo": "",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS 4k",
+          "type": "1"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW FHD",
           "type": "1"
         },
         {
@@ -1591,7 +1603,8 @@
       "publish": "1",
       "formats": [
         "beIN ENGLISH",
-        "SporTV BR"
+        "SporTV BR",
+        "SKY BUNDESLIGA SD"
       ],
       "formatsNew": [
         {
@@ -1601,20 +1614,33 @@
         {
           "title": "SporTV BR",
           "logo": ""
+        },
+        {
+          "title": "SKY BUNDESLIGA SD",
+          "logo": ""
         }
       ],
       "channels": [
         {
           "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH",
           "type": "1"
         },
         {
           "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "logo": "",
           "title": "SporTV BR",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "SKY BUNDESLIGA SD",
+          "type": "0"
         }
       ]
     },
@@ -1637,10 +1663,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SETANTA SPORTS",
         "beIN ENGLISH",
-        "CBS NETWORK"
+        "CBS NETWORK",
+        "SKY SPORTS Football"
       ],
       "formatsNew": [
+        {
+          "title": "SETANTA SPORTS",
+          "logo": ""
+        },
         {
           "title": "beIN ENGLISH",
           "logo": ""
@@ -1648,20 +1680,40 @@
         {
           "title": "CBS NETWORK",
           "logo": ""
+        },
+        {
+          "title": "SKY SPORTS Football",
+          "logo": ""
         }
       ],
       "channels": [
         {
+          "api": "8bd8a422acf6481ca386312429058070:a8ae987bf3654b089605d987b78fcaa7",
+          "link": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779790787~acl=%2F*~id=284decba-7860-4f39-b74c-4255087b3a1c~data=hdntl,aXA9MTMuODMuMTYyLjQxJmV4cD0xNzc5NzA0NDE2JmVpZD05NjI2Mzcmb2lkPTEwOCZ0eXBlPVZPRCZ1aWQ9NmhuOVdjfGM1MDA1YzYxLWQ5YzMtNGYyMC1iMDc4LTMyNGM3MTliNWFiZCZjaWQ9ZGNlLnNwdXJzJnB0PW51bGw~hmac=2dc323600917b12047650fdcf64761e764372b75814de40e01f884b3430eb515/dash/live/2001567/303310-322032/manifest-d.mpd",
+          "logo": "",
+          "title": "SETANTA SPORTS",
+          "type": "1"
+        },
+        {
           "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "logo": "",
           "title": "beIN ENGLISH",
           "type": "1"
         },
         {
           "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
           "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "logo": "",
           "title": "CBS NETWORK",
           "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51160/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SKY SPORTS Football",
+          "type": "0"
         }
       ]
     },
