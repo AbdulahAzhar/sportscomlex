@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 11,
+  "total_events": 14,
   "results": [
     {
       "id": "312",
@@ -437,80 +437,6 @@
           "api": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47",
           "link": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
           "title": "UFC+ - AQ",
-          "type": "1"
-        }
-      ]
-    },
-    {
-      "id": "327",
-      "title": "ONE Friday Fights",
-      "image": "o",
-      "cat": "Boxing",
-      "eventInfo": {
-        "teamA": "Friday Fights",
-        "teamB": "Friday Fights",
-        "teamAFlag": "https://iili.io/FDjaT1R.md.png",
-        "teamBFlag": "https://iili.io/FDjaT1R.md.png",
-        "eventName": "ONE Friday Fights",
-        "eventType": "null",
-        "eventBanner": "https://iili.io/BihxDjj.png",
-        "isHot": "0",
-        "startTime": "2026/05/22 12:30:00 +0000",
-        "endTime": "2026/05/22 16:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "One Fight FHD",
-        "ESPN SPORTS FHD",
-        "Server 2",
-        "Server 3"
-      ],
-      "formatsNew": [
-        {
-          "title": "One Fight FHD",
-          "logo": ""
-        },
-        {
-          "title": "ESPN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "Server 2",
-          "logo": ""
-        },
-        {
-          "title": "Server 3",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
-          "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "One Fight FHD",
-          "type": "1"
-        },
-        {
-          "api": "326058ffe1cd4d3383781b36ca9145d1:99d405d46f114eff96789673e57d0121",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779529113~acl=%2f*~id=f8a0f7f6-5eb8-49c9-a19f-2655d8d88a1a~data=hdntl,aXA9NTcuMTUxLjE0My4xNzgmZXhwPTE3Nzk0NDI3NDMmZWlkPTk2MDc3MCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1ubzZVczZ8ZTRlYzA3YmMtZGNhOC00MmIwLWFiNzQtNjI2YTIwOTBkYTQyJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=569a3a475b804e495e8abbeef2fc2c9e6b659df245657a3d63e14366c2b7b0f0/dash/live/2093723/219038-321034/manifest-d.mpd",
-          "logo": "",
-          "title": "ESPN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
-          "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
-          "logo": "",
-          "title": "Server 2",
-          "type": "1"
-        },
-        {
-          "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
-          "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
-          "logo": "",
-          "title": "Server 3",
           "type": "1"
         }
       ]
@@ -1078,86 +1004,239 @@
       ]
     },
     {
-      "id": "438",
-      "title": "Pumas UNAM vs Cruz Azul",
+      "id": "400",
+      "title": "England W vs New Zealand W",
       "image": "o",
-      "cat": "Liga MX",
+      "cat": "Cricket",
       "eventInfo": {
-        "teamA": "Pumas",
-        "teamB": "Cruz Azul",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/1933/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
-        "eventName": "Pumas UNAM vs Cruz Azul",
+        "teamA": "ENG-W",
+        "teamB": "NZ-W",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/213121/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/213115/image",
+        "eventName": "England W vs New Zealand W",
         "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/25 01:00:00 +0000",
-        "endTime": "2026/05/25 03:00:00 +0000"
+        "isHot": "1",
+        "startTime": "2026/05/25 13:30:00 +0000",
+        "endTime": "2026/05/25 17:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "TUDN SPORTS HD",
-        "SportzX Live",
-        "SD SERVER",
-        "HD SERVER",
-        "TUDN USA HD"
+        "SKY SPORTS FHD",
+        "SKY SPORTS 4k",
+        "SKY CRICKET HD"
       ],
       "formatsNew": [
         {
-          "title": "TUDN SPORTS HD",
+          "title": "SKY SPORTS FHD",
           "logo": ""
         },
+        {
+          "title": "SKY SPORTS 4k",
+          "logo": ""
+        },
+        {
+          "title": "SKY CRICKET HD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093710/219026-321025/manifest-d.mpd",
+          "logo": "",
+          "title": "SKY SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093666/294921-318514/manifest-d.mpd",
+          "logo": "",
+          "title": "SKY SPORTS 4k",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "logo": "",
+          "title": "SKY CRICKET HD",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "title": "Paderborn vs Wolfsburg",
+      "image": "o",
+      "cat": "Bundesliga 🇩🇪",
+      "eventInfo": {
+        "teamA": "Paderborn",
+        "teamB": "Wolfsburg",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2561/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2524/image",
+        "eventName": "Paderborn vs Wolfsburg",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/25 18:30:00 +0000",
+        "endTime": "2026/05/25 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "SporTV BR"
+      ],
+      "formatsNew": [
+        {
+          "title": "beIN ENGLISH",
+          "logo": ""
+        },
+        {
+          "title": "SporTV BR",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "title": "Notts County vs Salford City",
+      "image": "o",
+      "cat": "League Two 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "eventInfo": {
+        "teamA": "Notts County",
+        "teamB": "Salford",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/56/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/37998/image",
+        "eventName": "Notts County vs Salford City",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/25 14:00:00 +0000",
+        "endTime": "2026/05/25 16:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "CBS NETWORK"
+      ],
+      "formatsNew": [
+        {
+          "title": "beIN ENGLISH",
+          "logo": ""
+        },
+        {
+          "title": "CBS NETWORK",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "title": "St. Mirren vs Partick Thistle",
+      "image": "o",
+      "cat": "Scottish Premiership",
+      "eventInfo": {
+        "teamA": "St Mirren",
+        "teamB": "Partick Thistle",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/2359/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/2358/image",
+        "eventName": "St. Mirren vs Partick Thistle",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/25 19:00:00 +0000",
+        "endTime": "2026/05/25 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "beIN ENGLISH",
+        "CBS NETWORK"
+      ],
+      "formatsNew": [
+        {
+          "title": "beIN ENGLISH",
+          "logo": ""
+        },
+        {
+          "title": "CBS NETWORK",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "title": "beIN ENGLISH",
+          "type": "1"
+        },
+        {
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "title": "CBS NETWORK",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "title": "Coritiba vs Bahia",
+      "image": "o",
+      "cat": "Brasileirão",
+      "eventInfo": {
+        "teamA": "Coritiba",
+        "teamB": "Bahia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/1982/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/1955/image",
+        "eventName": "Coritiba vs Bahia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/25 23:00:00 +0000",
+        "endTime": "2026/05/26 01:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
         {
           "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "HD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "TUDN USA HD",
           "logo": ""
         }
       ],
       "channels": [
         {
           "api": null,
-          "link": "https://daffodil.sandhost.qzz.io/tudn.m3u8",
-          "logo": "",
-          "title": "TUDN SPORTS HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://play.ltwxsc.com/live/sd-6Mwe5B4wL6opqxsdYr.m3u8?txSecret=19f1f975b24b80d1ace1698eadf6977b&txTime=6A13C943",
-          "logo": "",
+          "link": "https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14",
           "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.43/hls/KMMMZZZQQQ.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://instreams.pro/bil1/tudn/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
-          "logo": "",
-          "title": "HD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://daffodil.thelistener.pk/tudn.m3u8",
-          "logo": "",
-          "title": "TUDN USA HD",
           "type": "0"
         }
       ]
