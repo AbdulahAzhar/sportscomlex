@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 29,
+  "total_events": 30,
   "results": [
     {
       "id": 50002,
@@ -1065,9 +1065,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1076,7 +1081,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51247/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://edgestreams.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1101,9 +1114,14 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1112,7 +1130,15 @@
       "channels": [
         {
           "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51249/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://edge2caster.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         }
@@ -1439,6 +1465,43 @@
           "link": "https://edge2caster.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
           "type": "0"
+        }
+      ]
+    },
+    {
+      "id": 50063,
+      "title": "Jamaica vs India",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Jamaica",
+        "teamB": "India",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4769/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
+        "eventName": "Jamaica vs India",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/27 18:30:00 +0000",
+        "endTime": "2026/05/27 20:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FANCODE FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
+        }
+      ],
+      "channels": [
+        {
+          "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+          "title": "FANCODE FHD",
+          "type": "1"
         }
       ]
     }
