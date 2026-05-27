@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 38,
+  "total_events": 36,
   "results": [
     {
       "id": 50002,
@@ -1301,42 +1301,6 @@
       ]
     },
     {
-      "id": 50054,
-      "title": "Brewers vs Cardinals",
-      "image": "o",
-      "cat": "MLB",
-      "eventInfo": {
-        "teamA": "Brewers",
-        "teamB": "Cardinals",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/3630/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/3632/image",
-        "eventName": "Milwaukee Brewers vs Cardinals",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/05/27 17:40:00 +0000",
-        "endTime": "2026/05/27 20:40:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
       "id": 50055,
       "title": "Athletics vs Mariners",
       "image": "o",
@@ -1646,91 +1610,6 @@
           "api": null,
           "link": "https://edge2caster.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": 50063,
-      "title": "Jamaica vs India",
-      "image": "o",
-      "cat": "FIFA Friendlies",
-      "eventInfo": {
-        "teamA": "Jamaica",
-        "teamB": "India",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4769/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
-        "eventName": "Jamaica vs India",
-        "eventType": "null",
-        "isHot": "1",
-        "startTime": "2026/05/27 18:30:00 +0000",
-        "endTime": "2026/05/27 20:30:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "FANCODE FHD",
-        "SportzX Live",
-        "FAST SERVER",
-        "SD SERVER",
-        "SPX LIVE HD"
-      ],
-      "formatsNew": [
-        {
-          "title": "FANCODE FHD",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
-          "title": "FAST SERVER",
-          "logo": ""
-        },
-        {
-          "title": "SD SERVER",
-          "logo": ""
-        },
-        {
-          "title": "SPX LIVE HD",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": null,
-          "link": "https://fncd.kuvuslov.cymru/mumbai/142667_english_hls_a583759b9587118_1ta-di_h264/index.m3u8|origin=https://famcodexwebs.pages.dev",
-          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-          "title": "FANCODE FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pul-tenm.nbs3g.com/live/sd-1-4544824.m3u8?txSecret=1a6d9a9d8b42017afc85f23c475e08e0&txTime=6A1877D9",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pulltx.jdnzrgm.com/live/sd-6Mwe5ZtgDaegDcemdx.m3u8?txSecret=208c71593ca5d16b98d530da01da0de4&txTime=6A1761E1",
-          "logo": "",
-          "title": "FAST SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "http://193.47.62.55/hls/kikikiQ.m3u8|Referer=http://www.fawanews.sc/",
-          "logo": "",
-          "title": "SD SERVER",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pull.livecdn.cc/live/4544824.m3u8",
-          "logo": "",
-          "title": "SPX LIVE HD",
           "type": "0"
         }
       ]
