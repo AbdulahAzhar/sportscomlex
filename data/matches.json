@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 7,
+  "total_events": 12,
   "results": [
     {
       "id": 50002,
@@ -520,10 +520,16 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "WILLOW [Ad-Free]",
         "TNT SPORTS FHD",
-        "SKY SPORTS FHD"
+        "SKY SPORTS FHD",
+        "SKY SPORTS 4k"
       ],
       "formatsNew": [
+        {
+          "title": "WILLOW [Ad-Free]",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+        },
         {
           "title": "TNT SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10"
@@ -531,9 +537,20 @@
         {
           "title": "SKY SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "SKY SPORTS 4k",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         }
       ],
       "channels": [
+        {
+          "api": "0db4d11e43d4bd35a3f140a1017b6ea5:c1de4d7ebf91363d4163abf3551004ea",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xuhsgro1xj/out/v1/57b40e7b99aa405e9eb9ddf64cbc2f38/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW [Ad-Free]",
+          "type": "1"
+        },
         {
           "api": "f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
@@ -547,12 +564,19 @@
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
           "type": "1"
+        },
+        {
+          "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
+          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779983860~acl=%2F*~id=5096b6f1-6686-4eb0-8833-c1b5fdc2211f~data=hdntl,aXA9NjQuMjM2LjE0Mi4xNDgmZXhwPTE3Nzk4OTc0ODkmZWlkPTk2MzQ3MCZvaWQ9MTA4JnR5cGU9Vk9EJnVpZD1wajd1YjZ8YTJmMTZmYmYtZWU3MS00NTY5LThlYmMtOWQwNjMzMWQyYzRiJmNpZD1kY2Uuc3B1cnMmcHQ9bnVsbA~hmac=ce24aa29a40245f2927bdb8605c0aa72489d18f48ff789588539286e382f49bf/dash/live/2093666/294921-318514/manifest-d.mpd",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+          "title": "SKY SPORTS 4k",
+          "type": "1"
         }
       ]
     },
     {
       "id": 50041,
-      "title": "England W vs New Zealand W",
+      "title": "England W vs India W",
       "image": "o",
       "cat": "Cricket",
       "eventInfo": {
@@ -564,31 +588,21 @@
         "eventType": "null",
         "isHot": "0",
         "startTime": "2026/05/28 17:30:00 +0000",
-        "endTime": "2026/05/28 21:00:00 +0000"
+        "endTime": "2026/05/28 21:15:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
         "SKY SPORTS FHD",
-        "SKY SPORTS 4k",
-        "WILLOW FHD",
-        "SKY CRICKET HD"
+        "WILLOW FHD"
       ],
       "formatsNew": [
         {
           "title": "SKY SPORTS FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "SKY SPORTS 4k",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+          "logo": ""
         },
         {
           "title": "WILLOW FHD",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SKY CRICKET HD",
           "logo": ""
         }
       ],
@@ -596,30 +610,207 @@
         {
           "api": "aefc2c8d1c8840f1b6981f856c9269ba:cf8ea114c45b4d6596b2748258ab74d6",
           "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093710/219026-321025/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "4d346b1d1ae64d4a800409cffa14983e:208c972bd2da4359ac94e6944fe378b6",
-          "link": "https://dice-live-oc.akamaized.net/hdntl=exp=1779769090~acl=%2F*~id=68e3825b-e424-4ede-b44a-01bd82701425~data=hdntl,aXA9MTcyLjE4My44OS4zNCZleHA9MTc3OTY4MjcyMCZlaWQ9OTYyNjYyJm9pZD0xMDgmdHlwZT1WT0QmdWlkPW5yS25IaXxhNDE5NzJhMS1jOTk4LTQ1ZDAtYjg1NS05MmRlYjQwNzZmMmYmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=42e94e0a1e596b8894e65b2bbff7f8670440b0fc51955a8832857b9d1db43f1d/dash/live/2093666/294921-318514/manifest-d.mpd",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS 4k",
           "type": "1"
         },
         {
           "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": 50052,
+      "title": "Ireland W vs West Indies W",
+      "image": "o",
+      "cat": "Cricket",
+      "eventInfo": {
+        "teamA": "IRE-W",
+        "teamB": "WI-W",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/213116/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/213120/image",
+        "eventName": "Ireland W vs West Indies W",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/28 15:00:00 +0000",
+        "endTime": "2026/05/28 18:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "DEFAULT"
+      ],
+      "formatsNew": [
+        {
+          "title": "DEFAULT",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "title": "DEFAULT",
+          "link": "https://video.twimg.com/amplify_video/2059710746347577344/pl/0XXoG-KpOWAuxubZ.m3u8?tag=27&variant_version=1",
+          "type": "0",
+          "api": null
+        }
+      ]
+    },
+    {
+      "id": 50053,
+      "title": "Egypt vs Russia",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Egypt",
+        "teamB": "Russia",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4758/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4694/image",
+        "eventName": "Egypt vs Russia",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/28 18:00:00 +0000",
+        "endTime": "2026/05/28 20:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX DEPORTES"
+      ],
+      "formatsNew": [
+        {
+          "title": "FOX DEPORTES",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "title": "FOX DEPORTES",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": 50054,
+      "title": "Ireland vs Qatar",
+      "image": "o",
+      "cat": "FIFA Friendlies",
+      "eventInfo": {
+        "teamA": "Ireland",
+        "teamB": "Qatar",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4693/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4792/image",
+        "eventName": "Ireland vs Qatar",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/28 18:45:00 +0000",
+        "endTime": "2026/05/28 20:45:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS FHD",
+        "SporTV BR FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "FOX SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "SporTV BR FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "title": "FOX SPORTS FHD",
           "type": "1"
         },
         {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-          "logo": "",
-          "title": "SKY CRICKET HD",
-          "type": "0"
+          "api": "4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733",
+          "link": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd",
+          "title": "SporTV BR FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": 50055,
+      "title": "Casa Pia vs Torreense",
+      "image": "o",
+      "cat": "Liga Portugal",
+      "eventInfo": {
+        "teamA": "Casa Pia",
+        "teamB": "Torreense",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/36365/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/25787/image",
+        "eventName": "Casa Pia vs Torreense",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/05/28 19:00:00 +0000",
+        "endTime": "2026/05/28 21:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "DEFAULT"
+      ],
+      "formatsNew": [
+        {
+          "title": "DEFAULT",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "title": "DEFAULT",
+          "link": "https://video.twimg.com/amplify_video/2059710746347577344/pl/0XXoG-KpOWAuxubZ.m3u8?tag=27&variant_version=1",
+          "type": "0",
+          "api": null
+        }
+      ]
+    },
+    {
+      "id": 50056,
+      "title": "St Kilda Saints vs Hawthorn Hawks",
+      "image": "o",
+      "cat": "AFL",
+      "eventInfo": {
+        "teamA": "St Kilda Saints",
+        "teamB": "Hawthorn Hawks",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4453/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4445/image",
+        "eventName": "St Kilda Saints vs Hawthorn Hawks",
+        "eventType": "null",
+        "eventBanner": "null",
+        "isHot": "0",
+        "startTime": "2026/05/28 09:30:00 +0000",
+        "endTime": "2026/05/28 12:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "FOX SPORTS 2"
+      ],
+      "formatsNew": [
+        {
+          "title": "FOX SPORTS 2",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+        }
+      ],
+      "channels": [
+        {
+          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+          "title": "FOX SPORTS 2",
+          "type": "1"
         }
       ]
     }
