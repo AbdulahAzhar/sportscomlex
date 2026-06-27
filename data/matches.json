@@ -15,7 +15,7 @@
         "eventName": "Formula 1 - Austria GP",
         "eventType": "null",
         "eventBanner": "https://iili.io/CumYfYQ.png",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/06/27 10:30:00 +0000",
         "endTime": "2026/06/27 15:30:00 +0000"
       },
@@ -25,11 +25,10 @@
         "FANCODE FHD",
         "TSN SPORTS FHD",
         "SportzX F1 HD",
-        "SKY SPORTS FHD",
         "APPLE TV FHD",
         "DAZN ESPANOL",
         "SKY ITALY FHD",
-        "LOW RES",
+        "MULTI FEED",
         "SKY SPORTS F1",
         "F1 GERMANY [USA]",
         "Tipik FRANCE FHD",
@@ -47,19 +46,15 @@
         },
         {
           "title": "TSN SPORTS FHD",
-          "logo": ""
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
         {
           "title": "SportzX F1 HD",
           "logo": ""
         },
         {
-          "title": "SKY SPORTS FHD",
-          "logo": ""
-        },
-        {
           "title": "APPLE TV FHD",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "DAZN ESPANOL",
@@ -70,12 +65,12 @@
           "logo": ""
         },
         {
-          "title": "LOW RES",
+          "title": "MULTI FEED",
           "logo": ""
         },
         {
           "title": "SKY SPORTS F1",
-          "logo": ""
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "F1 GERMANY [USA]",
@@ -113,15 +108,15 @@
       "channels": [
         {
           "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
           "title": "FANCODE FHD",
           "type": "1"
         },
         {
           "api": "85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS FHD",
           "type": "1"
         },
@@ -134,43 +129,36 @@
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/c23f741307e2689321d290e69d8d943d/index.m3u8?|referer=https://pushembdz.store/",
-          "logo": "",
-          "title": "SKY SPORTS FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/87541992a2401ae4b19f7bd6b0cafcce/index.m3u8?|referer=https://pushembdz.store/",
-          "logo": "",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/0fd4f8faa595ff8b72b4cf1aeaa818bb/index.m3u8?|referer=https://pushembdz.store/",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "APPLE TV FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/bcc79f2b4a086f9997212023667c182c/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/bbae016bb7b4268f9840a1811c507545/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
           "title": "DAZN ESPANOL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/08d4d8edf496b1e52b0bba1a2973b8cf/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/fbf28db395c645bb9a171ade16e90d36/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
           "title": "SKY ITALY FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/21c7006dc2f78af00d68074937f6d054/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/6870f75b27a22fdeae9dd393da742e55/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
-          "title": "LOW RES",
+          "title": "MULTI FEED",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://xstm.250909.cc/live/SPORTSFLUX-POOL-20acb0a9c8/5ffe6c552a88/1037.m3u8",
-          "logo": "",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY SPORTS F1",
           "type": "0"
         },
@@ -1072,7 +1060,8 @@
         "SKY MAIN EVENT",
         "LOW SERVER",
         "SKY SPORT NZ",
-        "SonyLiv"
+        "SonyLiv",
+        "FOX CRICKET HD"
       ],
       "formatsNew": [
         {
@@ -1102,12 +1091,16 @@
         {
           "title": "SonyLiv",
           "logo": ""
+        },
+        {
+          "title": "FOX CRICKET HD",
+          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mMJL3P-vcTLif2h4V_S17ksNozzOICQKXMMmfdowlx9Q=s900-c-k-c0x00ffffff-no-rj"
         }
       ],
       "channels": [
         {
-          "api": "3a30b4c29151709f4878395d7246a150:825bd600ed2fa677195974879847a11e",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/nozef97xag/out/v1/d914986951c04c639cd7a6f67ab27dc5/cenc.mpd",
+          "api": "a1a1f05aaa3fd3bdbee4943cc2c93ae1:bee71825b52bd2810a0085b834d7da6e",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9shuubgs2n/out/v1/71d22d03b6d145c097696ceb34c94193/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW FHD",
           "type": "1"
@@ -1120,8 +1113,8 @@
           "type": "0"
         },
         {
-          "api": "3a30b4c29151709f4878395d7246a150:825bd600ed2fa677195974879847a11e",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nozef97xag/out/v1/d914986951c04c639cd7a6f67ab27dc5/cenc.mpd",
+          "api": "a1a1f05aaa3fd3bdbee4943cc2c93ae1:bee71825b52bd2810a0085b834d7da6e",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9shuubgs2n/out/v1/71d22d03b6d145c097696ceb34c94193/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW ALT",
           "type": "1"
@@ -1149,9 +1142,16 @@
         },
         {
           "api": null,
-          "link": "https://dai.google.com/ssai/event/XpIbI0pTQX-9mvR458k9aw/master.m3u8?hdnea=exp=1782419410~acl=/*~id=b13c7ca22427446aa65cacff732e5bd0-1782376200191~hmac=e47f0428cfdfd2606d6fac79c58df6067ee4d0bebb80a21346dd3b73709881c1|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=8f27d17b66e84dc4b57e21f81b43cd6f-1782379800208",
+          "link": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8?hdnea=exp=1782592214~acl=/*~id=8aaddbbca7e2cf5bd61a43d82d2560b1-1782549000245~hmac=391bb99ea28c5b9d20513e97c67843fe3a16afc65aa1c65039fc01b89ff3bf5d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bd93df851991f163df797f8a338779ce-1782552600172",
           "logo": "",
           "title": "SonyLiv",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://tmaxapp.site/foxcricket.m3u8",
+          "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mMJL3P-vcTLif2h4V_S17ksNozzOICQKXMMmfdowlx9Q=s900-c-k-c0x00ffffff-no-rj",
+          "title": "FOX CRICKET HD",
           "type": "0"
         }
       ]
@@ -5804,19 +5804,56 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "Willow HD"
+        "WILLOW FHD",
+        "WILLOW ALT",
+        "SKY SPORT NZ",
+        "WILLOW HD"
       ],
       "formatsNew": [
         {
-          "title": "Willow HD",
-          "logo": ""
+          "title": "WILLOW FHD",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+        },
+        {
+          "title": "WILLOW ALT",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+        },
+        {
+          "title": "SKY SPORT NZ",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+        },
+        {
+          "title": "WILLOW HD",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         }
       ],
       "channels": [
         {
+          "api": "15cb6a46b28fc380faab795e4ade11c7:bc0a81fd5fd0c056f0e25bea5a9deef1",
+          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fpfokpwebt/out/v1/3c0e5eba7c4944298dc46b564a3226e1/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": "15cb6a46b28fc380faab795e4ade11c7:bc0a81fd5fd0c056f0e25bea5a9deef1",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fpfokpwebt/out/v1/3c0e5eba7c4944298dc46b564a3226e1/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW ALT",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://tmaxapp.site/skynz2.m3u8",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+          "title": "SKY SPORT NZ",
+          "type": "0"
+        },
+        {
           "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "title": "Willow HD",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "title": "WILLOW HD",
           "type": "1"
         }
       ]
