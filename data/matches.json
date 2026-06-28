@@ -312,6 +312,7 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "Tapmad HD+",
         "TAPMAD FHD",
         "FANCODE (BD)",
         "FANCODE - IN",
@@ -319,12 +320,16 @@
       ],
       "formatsNew": [
         {
+          "title": "Tapmad HD+",
+          "logo": ""
+        },
+        {
           "title": "TAPMAD FHD",
           "logo": ""
         },
         {
           "title": "FANCODE (BD)",
-          "logo": ""
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
         {
           "title": "FANCODE - IN",
@@ -338,7 +343,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://tapmad-play-81b2.samin36x.workers.dev/tapmad/event1.m3u8|user-agent=ExoPlayerDemo/6.4.36 (Linux;Android 11) AndroidXMedia3/1.4.1",
+          "link": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/master.m3u8?hdnts=exp=1780573506~acl=/hls/?|Referer=tapmad.com",
+          "logo": "",
+          "title": "Tapmad HD+",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pastebin.com/raw/U2LaqQne?&.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36&Referer=https://www.tapmad.com/&Origin=https://www.tapmad.com",
           "logo": "",
           "title": "TAPMAD FHD",
           "type": "0"
@@ -346,7 +358,7 @@
         {
           "api": null,
           "link": "https://raw.githubusercontent.com/srhady/Fancode-bd/refs/heads/main/raw_link/bangladesh_vs_zimbabwe_143399_english.m3u8",
-          "logo": "",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
           "title": "FANCODE (BD)",
           "type": "0"
         },
@@ -952,7 +964,7 @@
         "SKY MAIN EVENT",
         "LOW SERVER",
         "SKY SPORT NZ",
-        "SonyLiv",
+        "Sony Liv [Asia]",
         "FOX CRICKET HD"
       ],
       "formatsNew": [
@@ -981,7 +993,7 @@
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
-          "title": "SonyLiv",
+          "title": "Sony Liv [Asia]",
           "logo": ""
         },
         {
@@ -991,8 +1003,8 @@
       ],
       "channels": [
         {
-          "api": "a1a1f05aaa3fd3bdbee4943cc2c93ae1:bee71825b52bd2810a0085b834d7da6e",
-          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9shuubgs2n/out/v1/71d22d03b6d145c097696ceb34c94193/cenc.mpd",
+          "api": "1e717bd1a85d07de29b78bc5369cc2a1:8ee15cad679a169ab17eceefc4eb7afa",
+          "link": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/51hxe9fvk4/out/v1/3a105f38b2524e8ebebed7da7bcd9da9/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW FHD",
           "type": "1"
@@ -1005,8 +1017,8 @@
           "type": "0"
         },
         {
-          "api": "a1a1f05aaa3fd3bdbee4943cc2c93ae1:bee71825b52bd2810a0085b834d7da6e",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9shuubgs2n/out/v1/71d22d03b6d145c097696ceb34c94193/cenc.mpd",
+          "api": "1e717bd1a85d07de29b78bc5369cc2a1:8ee15cad679a169ab17eceefc4eb7afa",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/51hxe9fvk4/out/v1/3a105f38b2524e8ebebed7da7bcd9da9/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW ALT",
           "type": "1"
@@ -1020,7 +1032,7 @@
         },
         {
           "api": null,
-          "link": "http://193.47.62.42/hls/bbbbZQ.m3u8|referer=http://www.fawanews.sc/",
+          "link": "http://193.47.62.42/hls/bbbbZQ.m3u8?|referer=http://www.fawanews.sc/",
           "logo": "",
           "title": "LOW SERVER",
           "type": "0"
@@ -1034,9 +1046,9 @@
         },
         {
           "api": null,
-          "link": "https://dai.google.com/ssai/event/ahLdkaRoSWavrsFLPU8THA/master.m3u8?hdnea=exp=1782592214~acl=/*~id=8aaddbbca7e2cf5bd61a43d82d2560b1-1782549000245~hmac=391bb99ea28c5b9d20513e97c67843fe3a16afc65aa1c65039fc01b89ff3bf5d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bd93df851991f163df797f8a338779ce-1782552600172",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/20000295/Englandv2806/ENG/std_lrh-800300010.m3u8?hdnea=exp=1782683707~acl=/*~id=90059764072974571438912851560412~hmac=d028531eb8e50ebd1ff5f2fc2945f1361956dff837764fd012bb23cc540a1b9d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=bd93df851991f163df797f8a338779ce-1782552600172",
           "logo": "",
-          "title": "SonyLiv",
+          "title": "Sony Liv [Asia]",
           "type": "0"
         },
         {
