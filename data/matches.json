@@ -22,15 +22,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "APPLE TV+ FHD",
-        "TSN SPORTS FHD",
-        "SKY SPORTS FEED",
         "FANCODE FHD",
+        "BEIN SPORTS FHD",
         "SportzX F1 HD",
-        "SKY F1 FHD",
-        "SKY F1 4K",
-        "APPLE TV HD",
-        "APPLE TV FHD",
+        "FOX SPORTS FHD",
         "DAZN ESPANOL",
         "SKY ITALY FHD",
         "LOW RES",
@@ -43,44 +38,25 @@
         "ELEVEN SPORTS",
         "Sky F1 DE",
         "F1 TV FHD",
+        "TSN SPORTS FHD",
         "Fox Sports - AQ"
       ],
       "formatsNew": [
         {
-          "title": "APPLE TV+ FHD",
-          "logo": ""
-        },
-        {
-          "title": "TSN SPORTS FHD",
-          "logo": ""
-        },
-        {
-          "title": "SKY SPORTS FEED",
-          "logo": ""
-        },
-        {
           "title": "FANCODE FHD",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
+        },
+        {
+          "title": "BEIN SPORTS FHD",
+          "logo": ""
         },
         {
           "title": "SportzX F1 HD",
           "logo": ""
         },
         {
-          "title": "SKY F1 FHD",
+          "title": "FOX SPORTS FHD",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "SKY F1 4K",
-          "logo": ""
-        },
-        {
-          "title": "APPLE TV HD",
-          "logo": ""
-        },
-        {
-          "title": "APPLE TV FHD",
-          "logo": ""
         },
         {
           "title": "DAZN ESPANOL",
@@ -131,91 +107,60 @@
           "logo": ""
         },
         {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        },
+        {
           "title": "Fox Sports - AQ",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
         }
       ],
       "channels": [
         {
-          "api": "1fa42226476f1e88ee7a3430684e3ee4:95d04e9596bb63db9ee5ad6b25035786",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/uivuundx0o/out/v1/847ce646e6b5442491682bbb6602be11/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "APPLE TV+ FHD",
-          "type": "1"
-        },
-        {
-          "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "TSN SPORTS FHD",
-          "type": "1"
-        },
-        {
-          "api": "e7a2aaef0a290e8c7c6b60465e4c4ccf:19c6e9904c23e34d62d92d871d6b96b6",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3mfnptraqh/out/v1/05b575b744274766a37f6a6241aa0309/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "SKY SPORTS FEED",
-          "type": "1"
-        },
-        {
           "api": "7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
           "title": "FANCODE FHD",
           "type": "1"
         },
         {
+          "api": "4c4b013320654277a19df8f14b80b6c5:4751e8a9d798c2a1e1c581f179771f48",
+          "link": "https://mh-bks400-06.starhubgo.com/bpk-token/1ac@ix02m30ykttvlvksqkhpxvzz0n1vghlxixt4dmca/bpk-tv/BeINSportsHD/output/manifest.mpd?bkm-query",
+          "logo": "",
+          "title": "BEIN SPORTS FHD",
+          "type": "1"
+        },
+        {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52517/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52853/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "SportzX F1 HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/dd1edec200ffc32f52a13bf21908ee2c/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/b74afe3974777b76e407dfb181f55a21/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY F1 FHD",
+          "title": "FOX SPORTS FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/sky-sports-f1-uhd.m3u8",
-          "logo": "",
-          "title": "SKY F1 4K",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://inproviszon.st/f1-on-apple.m3u8?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&referer=https://vileembeds.pages.dev/",
-          "logo": "",
-          "title": "APPLE TV HD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/d133aa244a9421ae99a205193c5bab1a/index.m3u8?|referer=https://pushembdz.store/",
-          "logo": "",
-          "title": "APPLE TV FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/40751a54996f0f170e5ea7e9d3f45447/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/f6ff498a6abd018b2d6c24aa77f6e001/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
           "title": "DAZN ESPANOL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/e59af8524947f13a9dc820e272115f32/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/264a05ba99b8850a8fbc750ae109cc03/index.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
           "title": "SKY ITALY FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/a6f9534520d15ab4a293b2e337949789/index.m3u8?|referer=https://pushembdz.store/",
+          "link": "https://whioefwhi.sense-scramble-bay.xyz/out/v2/4839b7fb4a693edb7f595e681bccf101/tracks-v0a0/mono.ts.m3u8?|referer=https://pushembdz.store/",
           "logo": "",
           "title": "LOW RES",
           "type": "0"
@@ -281,6 +226,13 @@
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd",
           "logo": "",
           "title": "F1 TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "TSN SPORTS FHD",
           "type": "1"
         },
         {
