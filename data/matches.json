@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 30,
+  "total_events": 34,
   "results": [
     {
       "id": 50002,
@@ -16,8 +16,8 @@
         "eventType": "null",
         "eventBanner": "https://iili.io/C5Fmezg.png",
         "isHot": "0",
-        "startTime": "2026/07/03 11:30:00 +0000",
-        "endTime": "2026/07/03 16:30:00 +0000"
+        "startTime": "2026/07/04 11:00:00 +0000",
+        "endTime": "2026/07/04 16:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -658,8 +658,8 @@
         "eventType": "null",
         "eventBanner": "https://iili.io/BihxDjj.png",
         "isHot": "0",
-        "startTime": "2026/07/03 12:30:00 +0000",
-        "endTime": "2026/07/03 16:30:00 +0000"
+        "startTime": "2026/07/10 12:30:00 +0000",
+        "endTime": "2026/07/10 16:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
@@ -914,6 +914,104 @@
       ]
     },
     {
+      "id": 50012,
+      "title": "San Antonio Spurs",
+      "image": "o",
+      "cat": "NBA",
+      "eventInfo": {
+        "teamA": "Spurs",
+        "teamB": "Heat",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3429/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3435/image",
+        "eventName": "San Antonio Spurs vs Miami Heat",
+        "eventType": "null",
+        "eventBanner": "null",
+        "isHot": "0",
+        "startTime": "2026/07/04 00:00:00 +0000",
+        "endTime": "2026/07/04 03:00:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "NBA FINALS FHD",
+        "ESPN SPORTS HD",
+        "SportzX NBA",
+        "HD SERVER",
+        "SportzX Live",
+        "HD SERVER"
+      ],
+      "formatsNew": [
+        {
+          "title": "NBA FINALS FHD",
+          "logo": ""
+        },
+        {
+          "title": "ESPN SPORTS HD",
+          "logo": ""
+        },
+        {
+          "title": "SportzX NBA",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        },
+        {
+          "title": "HD SERVER",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "230ef7c88f9593b724d480ad69f4364e:53abde9522ef55d393b80bcb6c3a8899",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dvi20dldek/out/v1/fedc067b45174f419d08e03ed70ebfc3/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "NBA FINALS FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51960/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "ESPN SPORTS HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51961/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/51988/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://edgestreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
+          "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
       "id": 50032,
       "title": "Boston Red Sox",
       "image": "o",
@@ -1154,6 +1252,128 @@
           "link": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": 50054,
+      "title": "CFL",
+      "image": "o",
+      "cat": "CFL",
+      "eventInfo": {
+        "teamA": "Ottawa",
+        "teamB": "Saskatchewan",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/4437/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/4438/image",
+        "eventName": "Ottawa Redblacks vs Saskatchewan Roughriders",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/07/03 23:30:00 +0000",
+        "endTime": "2026/07/04 02:30:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "TSN SPORTS FHD"
+      ],
+      "formatsNew": [
+        {
+          "title": "TSN SPORTS FHD",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "TSN SPORTS FHD",
+          "type": "1"
+        }
+      ]
+    },
+    {
+      "id": 50055,
+      "title": "Liberty vs Minnesota Lynx",
+      "image": "o",
+      "cat": "WNBA",
+      "eventInfo": {
+        "teamA": "Liberty",
+        "teamB": "Lynx",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/3446/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/3440/image",
+        "eventName": "New York Liberty vs Minnesota Lynx",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/07/03 23:30:00 +0000",
+        "endTime": "2026/07/04 02:10:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX WNBA",
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX WNBA",
+          "logo": ""
+        },
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52839/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX WNBA",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
+          "title": "SportzX Live",
+          "type": "0"
+        }
+      ]
+    },
+    {
+      "id": 50056,
+      "title": "Aces vs Chicago Sky",
+      "image": "o",
+      "cat": "WNBA",
+      "eventInfo": {
+        "teamA": "Aces",
+        "teamB": "Sky",
+        "teamAFlag": "https://img.sofascore.com/api/v1/team/35550/image",
+        "teamBFlag": "https://img.sofascore.com/api/v1/team/35546/image",
+        "eventName": "Las Vegas Aces vs Chicago Sky",
+        "eventType": "null",
+        "isHot": "0",
+        "startTime": "2026/07/04 02:00:00 +0000",
+        "endTime": "2026/07/04 04:40:00 +0000"
+      },
+      "adsLimit": "0",
+      "publish": "1",
+      "formats": [
+        "SportzX Live"
+      ],
+      "formatsNew": [
+        {
+          "title": "SportzX Live",
+          "logo": ""
+        }
+      ],
+      "channels": [
+        {
+          "api": null,
+          "link": "https://edge2caster.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "title": "SportzX Live",
           "type": "0"
         }
       ]
@@ -3731,7 +3951,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4758/image",
         "eventName": "Australia vs Egypt",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/07/03 18:00:00 +0000",
         "endTime": "2026/07/03 20:15:00 +0000"
       },
@@ -3740,9 +3960,9 @@
       "formats": [
         "FOX ONE - AQ",
         "TSN SPORTS FHD",
-        "TIPIK FR FHD",
         "TOFFE BDIX (BD)",
         "Binge BDIX (BD)",
+        "beIN ARABIC",
         "TSN4 SPORTS FHD",
         "WC TV FHD",
         "RTE SPORTS FHD",
@@ -3773,11 +3993,11 @@
         "TSN SPORTS 4K",
         "FOX ONE 4K",
         "FOX 4K LIVE",
-        "beIN MAX FHD",
+        "BBC SPORTS 4K",
+        "beIN MAX 4K",
         "TELEMUNDO FHD",
         "DAZN MUNDIAL",
         "FUSSBALL TV 4K",
-        "TELEMUNDO FHD",
         "ARABIC LIVE FHD",
         "FUSSBALL TV 4K",
         "FUSSBALL TV2 4K",
@@ -3803,7 +4023,8 @@
         "SD SERVER AR",
         "SD SERVER [SWE]",
         "beiN SPORTS FR",
-        "ESPANOL SD"
+        "ESPANOL SD",
+        "TIPIK FR FHD"
       ],
       "formatsNew": [
         {
@@ -3815,15 +4036,15 @@
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
         {
-          "title": "TIPIK FR FHD",
-          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png"
-        },
-        {
           "title": "TOFFE BDIX (BD)",
           "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/toffee-live.png"
         },
         {
           "title": "Binge BDIX (BD)",
+          "logo": ""
+        },
+        {
+          "title": "beIN ARABIC",
           "logo": ""
         },
         {
@@ -3947,7 +4168,11 @@
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
         },
         {
-          "title": "beIN MAX FHD",
+          "title": "BBC SPORTS 4K",
+          "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png"
+        },
+        {
+          "title": "beIN MAX 4K",
           "logo": ""
         },
         {
@@ -3961,10 +4186,6 @@
         {
           "title": "FUSSBALL TV 4K",
           "logo": ""
-        },
-        {
-          "title": "TELEMUNDO FHD",
-          "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png"
         },
         {
           "title": "ARABIC LIVE FHD",
@@ -4069,6 +4290,10 @@
         {
           "title": "ESPANOL SD",
           "logo": ""
+        },
+        {
+          "title": "TIPIK FR FHD",
+          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png"
         }
       ],
       "channels": [
@@ -4087,15 +4312,8 @@
           "type": "1"
         },
         {
-          "api": "adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a",
-          "link": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-          "title": "TIPIK FR FHD",
-          "type": "1"
-        },
-        {
           "api": null,
-          "link": "ok",
+          "link": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783185606~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD6pVUxTkNDTXIo4mEC5xSJ8-U-NXdXhZ9U6pocmw2CavnEmnsN82pX4PPIDZoxNnQuUFRVAIk0BtTFoJALJBgN",
           "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/toffee-live.png",
           "title": "TOFFE BDIX (BD)",
           "type": "0"
@@ -4105,6 +4323,13 @@
           "link": "https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8|referer=https://iscreen.com.bd/",
           "logo": "",
           "title": "Binge BDIX (BD)",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://mev.futeure.space/egcity1.m3u8",
+          "logo": "",
+          "title": "beIN ARABIC",
           "type": "0"
         },
         {
@@ -4123,7 +4348,7 @@
         },
         {
           "api": "d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d",
-          "link": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/66bcdbbf-5a90-41d5-b332-91c48db07257:BRU/manifest.mpd",
+          "link": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/f63170fb-3c13-4829-8e8c-0977ed9011d7:BRU/manifest.mpd",
           "logo": "",
           "title": "RTE SPORTS FHD",
           "type": "1"
@@ -4165,14 +4390,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52726/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52856/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ekabsp1680291523.png",
           "title": "BBC SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52729/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://inproviszon.st/telemundo-usa.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
           "title": "TELEMUNDO HD",
           "type": "0"
@@ -4186,7 +4411,7 @@
         },
         {
           "api": "8d3c85fa30730fdc39efc09de476415f:8fdccd948bb2cc6d99d5305ccffebcb7",
-          "link": "https://npo-nl-ams-p22-am5.cdn.streamgate.nl/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODI5MjQ2NjYsInVyaSI6IlwvbGl2ZVwvbnBvXC91XzNfNFwvbnBvcGx1c1wvZHJtXC9kYXNoX2NlbmNcL25wby0xXC8wXC8wXC8wXC9ucG8tMS5pc21sIiwidmlld2VyIjoidmlld2VyIiwicmlkIjoiZTQ3NGZmOCJ9.kAnJduFh8JT60N6RXtLvCm1zMY4JWHZix6s_s3zsaC8/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/stream.mpd",
+          "link": "https://npo-nl-ams-p17-am3.cdn.streamgate.nl/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODMxODcyMzEsInVyaSI6IlwvbGl2ZVwvbnBvXC91XzNfNFwvbnBvcGx1c1wvZHJtXC9kYXNoX2NlbmNcL25wby0xXC8wXC8wXC8wXC9ucG8tMS5pc21sIiwidmlld2VyIjoidmlld2VyIiwicmlkIjoiZGE4OTEzYSJ9.tRTSOKtB-18EqmwTxmKLSECnk2RLcyhEJR1ctHCNunw/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/stream.mpd",
           "logo": "",
           "title": "NPO1 DUTCH FHD",
           "type": "1"
@@ -4207,28 +4432,28 @@
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/fox-usa.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/beinsportsmax-sa.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "beIN MAX FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "ok",
+          "link": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRSWnEwiwmGNYv.m3u8?txSecret=3d64b4f78e7df3e83c733c7d66bbf680&txTime=6A481CB8",
           "logo": "",
           "title": "FAST SERVER",
           "type": "0"
@@ -4283,11 +4508,11 @@
           "type": "1"
         },
         {
-          "api": null,
-          "link": "ok",
+          "api": "002273c3a766d1ce78ed615584f91c02:fd69c54eb4f884efe2f22659de5bdcb6",
+          "link": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021721-723579-49135f082bb)/master_2hr.mpd?c3.ri=6a47f363_Q1ZYMDc_0_RkFTVExZ_49fa4fc06b4e%3A0&aws.sessionId=ef6fe915-591d-43cb-9a8c-f46708cbeb6f",
           "logo": "",
           "title": "PEACOCK FHD [ALT]",
-          "type": "0"
+          "type": "1"
         },
         {
           "api": "7d6bb9f86e133e4cb33440b493b6b672:584ad285dcb9e7d42cf3e93f1cc3fe11",
@@ -4298,63 +4523,63 @@
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS 4K",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/fox4k-usa.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "FOX ONE 4K",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|referer=https://xyzstreams.st/",
+          "link": "https://inproviszon.st/fox4k-usa.m3u8?|referer=https://xyzstreams.st/",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX 4K LIVE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
-          "logo": "",
-          "title": "beIN MAX FHD",
+          "link": "https://inproviszon.st/bbc-4k-2.m3u8?|referer=https://vileembeds.pages.dev/",
+          "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
+          "title": "BBC SPORTS 4K",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn011.viaplus.site/telemundo-usa.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
+          "logo": "",
+          "title": "beIN MAX 4K",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
           "title": "TELEMUNDO FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn011.viaplus.site/daznmundial-es.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/daznmundial-es.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "DAZN MUNDIAL",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn011.viaplus.site/fussballtv1uhd-de.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/fussballtv1uhd-de.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "FUSSBALL TV 4K",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://cdn011.viaplus.site/telemundo-xyz.m3u8?|referer=https://vileembeds.pages.dev/",
-          "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-          "title": "TELEMUNDO FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "ARABIC LIVE FHD",
           "type": "0"
@@ -4382,14 +4607,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52727/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52857/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52725/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52855/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX SPORTS HD",
           "type": "0"
@@ -4494,45 +4719,52 @@
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.47/hls/dTHXCZzsss.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "SD SERVER [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.42/hls/dTHXCZzsssQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "ENG SERVER SD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.51/hls/dTHXCZckkkqr.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "SD SERVER AR",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.59/hls/dTHXCZckkkqq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "SD SERVER [SWE]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.59/hls/dTHXCZckkkq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
           "title": "beiN SPORTS FR",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.59/hls/dTHXCZckkkqqq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "ESPANOL SD",
           "type": "0"
+        },
+        {
+          "api": "adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a",
+          "link": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
+          "title": "TIPIK FR FHD",
+          "type": "1"
         }
       ]
     },
@@ -4548,7 +4780,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4753/image",
         "eventName": "Argentina vs Cabo Verde",
         "eventType": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/07/03 22:00:00 +0000",
         "endTime": "2026/07/04 00:15:00 +0000"
       },
