@@ -3903,7 +3903,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4758/image",
         "eventName": "Australia vs Egypt",
         "eventType": "null",
-        "isHot": "1",
+        "isHot": "0",
         "startTime": "2026/07/03 18:00:00 +0000",
         "endTime": "2026/07/03 21:00:00 +0000"
       },
@@ -4745,14 +4745,17 @@
         "TOFFE BDIX (BD)",
         "Binge BDIX (BD)",
         "DSports FHD",
+        "TVE La 1 FHD",
         "TSN4 SPORTS FHD",
         "WC TV FHD",
         "TIPIK FR FHD",
         "RTE SPORTS FHD",
+        "FOX ONE 4K",
         "CAZE TV FHD",
+        "CANAL5 FHD",
+        "TUDN MEXICO",
         "SporTV BR FHD",
         "CT SPORTS CZ",
-        "FOX ONE 4K",
         "GOLTV VIVO",
         "ITV SPORTS HD",
         "TELEMUNDO HD",
@@ -4831,6 +4834,10 @@
           "logo": "https://iili.io/CTbh7Gj.png"
         },
         {
+          "title": "TVE La 1 FHD",
+          "logo": ""
+        },
+        {
           "title": "TSN4 SPORTS FHD",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg"
         },
@@ -4847,8 +4854,20 @@
           "logo": ""
         },
         {
+          "title": "FOX ONE 4K",
+          "logo": ""
+        },
+        {
           "title": "CAZE TV FHD",
           "logo": "https://duckduckgo.com/i/dab0d6887915781c.png"
+        },
+        {
+          "title": "CANAL5 FHD",
+          "logo": ""
+        },
+        {
+          "title": "TUDN MEXICO",
+          "logo": ""
         },
         {
           "title": "SporTV BR FHD",
@@ -4856,10 +4875,6 @@
         },
         {
           "title": "CT SPORTS CZ",
-          "logo": ""
-        },
-        {
-          "title": "FOX ONE 4K",
           "logo": ""
         },
         {
@@ -5111,6 +5126,13 @@
           "type": "1"
         },
         {
+          "api": "745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "TVE La 1 FHD",
+          "type": "1"
+        },
+        {
           "api": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
@@ -5133,16 +5155,37 @@
         },
         {
           "api": "d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d",
-          "link": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/e101edda-ef7f-4ff8-b6a5-4453db98fb2e:GRQ/manifest.mpd",
+          "link": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/39e74ad9-137f-423c-969d-e7298cf3bf4e:BRU/manifest.mpd",
           "logo": "",
           "title": "RTE SPORTS FHD",
           "type": "1"
         },
         {
-          "api": "1223d5105392cabf1bb9c2c1fdf6539a:340b409f4b8f78a343e0363a7938df38",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "api": "1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/cwghrcrum1/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "FOX ONE 4K",
+          "type": "1"
+        },
+        {
+          "api": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
           "title": "CAZE TV FHD",
+          "type": "1"
+        },
+        {
+          "api": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "CANAL5 FHD",
+          "type": "1"
+        },
+        {
+          "api": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411",
+          "link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "TUDN MEXICO",
           "type": "1"
         },
         {
@@ -5160,13 +5203,6 @@
           "type": "1"
         },
         {
-          "api": "1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xyqyiuevpp/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "",
-          "title": "FOX ONE 4K",
-          "type": "1"
-        },
-        {
           "api": "1c6bfd8d1cdd4df69ea5fc4dd2f025bb:b6fd90027dac7a94a9461f8b2638cbb4",
           "link": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080",
           "logo": "",
@@ -5175,14 +5211,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52736/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52864/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ekabsp1680291523.png",
           "title": "ITV SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/telemundo-usa.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://chatgpt.hereisman.net/playlist/52866/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
           "title": "TELEMUNDO HD",
           "type": "0"
@@ -5210,7 +5246,7 @@
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "0"
@@ -5224,14 +5260,14 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/beinsportsmax-sa.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/beinsportsmax2-sa.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "beIN MAX HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "ok",
+          "link": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRSYT2Uyo5ExJi.m3u8?txSecret=b3e47763ec414b913f8a5e6a25cf9f1e&txTime=6A485660",
           "logo": "",
           "title": "FAST SERVER",
           "type": "0"
@@ -5301,7 +5337,7 @@
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS 4K",
           "type": "0"
@@ -5322,7 +5358,7 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/telemundo-usa.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
           "title": "TELEMUNDO FHD",
           "type": "0"
@@ -5343,7 +5379,7 @@
         },
         {
           "api": null,
-          "link": "?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "ARABIC LIVE UHD",
           "type": "0"
@@ -5371,14 +5407,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52737/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52865/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52735/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52862/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX SPORTS HD",
           "type": "0"
@@ -5413,7 +5449,7 @@
         },
         {
           "api": null,
-          "link": "https://edge2caster.pro/hls/24SDAZFcsqnj24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "HD SERVER ENG",
           "type": "0"
@@ -5490,35 +5526,35 @@
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.55/hls/dTHXCZzsss.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "SD SERVER [ENG]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.55/hls/dTHXCZzsssQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "ENG SERVER SD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.47/hls/dTHXCZckkkqq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "SD SERVER [SWE]",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.55/hls/dTHXCZckkkq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
           "title": "beiN SPORTS FR",
           "type": "0"
         },
         {
           "api": null,
-          "link": "?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "link": "http://193.47.62.59/hls/dTHXCZckkkqqq.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
           "logo": "",
           "title": "ESPANOL SD",
           "type": "0"
@@ -5537,6 +5573,7 @@
         "teamBFlag": "https://img.sofascore.com/api/v1/team/4764/image",
         "eventName": "Colombia vs Ghana",
         "eventType": "null",
+        "isHot": "1",
         "startTime": "2026/07/04 01:30:00 +0000",
         "endTime": "2026/07/04 03:45:00 +0000"
       },
