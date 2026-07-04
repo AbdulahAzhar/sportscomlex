@@ -451,22 +451,21 @@
         "eventName": "England vs India",
         "eventType": "null",
         "eventBanner": "null",
-        "isHot": "0",
+        "isHot": "1",
         "startTime": "2026/07/04 13:30:00 +0000",
         "endTime": "2026/07/04 17:30:00 +0000"
       },
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "WILLOW ALT",
-        "SKY CRICKET - AQ",
         "WILLOW FHD",
+        "SKY CRICKET - AQ",
+        "WILLOW ALT",
         "TAPMAD FHD",
         "SKY MAIN EVENT",
         "SKY SPORT NZ",
         "WILLOW HD",
         "FOX CRICKET HD",
-        "SportzX Live",
         "SonyLiv - ENG",
         "SonyLiv - HIN",
         "SonyLiv - TAM",
@@ -474,7 +473,7 @@
       ],
       "formatsNew": [
         {
-          "title": "WILLOW ALT",
+          "title": "WILLOW FHD",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
@@ -482,7 +481,7 @@
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
-          "title": "WILLOW FHD",
+          "title": "WILLOW ALT",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
@@ -506,10 +505,6 @@
           "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mMJL3P-vcTLif2h4V_S17ksNozzOICQKXMMmfdowlx9Q=s900-c-k-c0x00ffffff-no-rj"
         },
         {
-          "title": "SportzX Live",
-          "logo": ""
-        },
-        {
           "title": "SonyLiv - ENG",
           "logo": ""
         },
@@ -528,10 +523,10 @@
       ],
       "channels": [
         {
-          "api": "2c60f5b5e6e8ad2d163532250859723b:cb11a5f25b5baded086a2e7a046b9b02",
-          "link": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rk7p7dafl0/out/v1/ffc1c57edf814108953aa0992b3145ff/cenc.mpd",
+          "api": "3340fb32568e2b78910762e4d7454993:1c3bf53d188425d2e105e8b1df15236b",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/qtq2yrmgxq/out/v1/c9f90a4d66634748a5345d9f418680d2/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW ALT",
+          "title": "WILLOW FHD",
           "type": "1"
         },
         {
@@ -542,10 +537,10 @@
           "type": "0"
         },
         {
-          "api": "2c60f5b5e6e8ad2d163532250859723b:cb11a5f25b5baded086a2e7a046b9b02",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rk7p7dafl0/out/v1/ffc1c57edf814108953aa0992b3145ff/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "api": "3340fb32568e2b78910762e4d7454993:1c3bf53d188425d2e105e8b1df15236b",
+          "link": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qtq2yrmgxq/out/v1/c9f90a4d66634748a5345d9f418680d2/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW FHD",
+          "title": "WILLOW ALT",
           "type": "1"
         },
         {
@@ -585,35 +580,28 @@
         },
         {
           "api": null,
-          "link": "https://tmaxapp.site/willoweng.m3u8",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/hdntl=exp=1782966245~acl=%2f*~id=79f34744-7946-4108-94d5-a7b5e2e59be7~data=hdntl~hmac=0ac72426a5d6aaad5999a2316089d6b2ca734db5aaf8aa72fbc8d0b1456d66d6/master_3500.m3u8",
+          "link": "https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/hdntl=exp=1783253944~acl=/*~id=17328806853328633332565215549785~data=hdntl~hmac=03f133583dec9616a86cafadc63f935855b77c5b21db23695a713ad4ec43b460/master_3500.m3u8",
           "logo": "",
           "title": "SonyLiv - ENG",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/hdntl=exp=1782966245~acl=%2f*~id=79f34744-7946-4108-94d5-a7b5e2e59be7~data=hdntl~hmac=0ac72426a5d6aaad5999a2316089d6b2ca734db5aaf8aa72fbc8d0b1456d66d6/master_3500.m3u8",
+          "link": "https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/hdntl=exp=1783253944~acl=/*~id=17328806853328633332565215549785~data=hdntl~hmac=03f133583dec9616a86cafadc63f935855b77c5b21db23695a713ad4ec43b460/master_3500.m3u8",
           "logo": "",
           "title": "SonyLiv - HIN",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://dishmt.slivcdn.com/hls/live/2020437-b/ten4sd/hdntl=exp=1782966245~acl=%2f*~id=79f34744-7946-4108-94d5-a7b5e2e59be7~data=hdntl~hmac=0ac72426a5d6aaad5999a2316089d6b2ca734db5aaf8aa72fbc8d0b1456d66d6/master_3500.m3u8",
+          "link": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/hdntl=exp=1783253944~acl=/*~id=17328806853328633332565215549785~data=hdntl~hmac=03f133583dec9616a86cafadc63f935855b77c5b21db23695a713ad4ec43b460/master_3500.m3u8",
           "logo": "",
           "title": "SonyLiv - TAM",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/hdntl=exp=1782966245~acl=%2f*~id=79f34744-7946-4108-94d5-a7b5e2e59be7~data=hdntl~hmac=0ac72426a5d6aaad5999a2316089d6b2ca734db5aaf8aa72fbc8d0b1456d66d6/master_3500.m3u8",
+          "link": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/hdntl=exp=1783253944~acl=/*~id=17328806853328633332565215549785~data=hdntl~hmac=03f133583dec9616a86cafadc63f935855b77c5b21db23695a713ad4ec43b460/master_3500.m3u8",
           "logo": "",
           "title": "SonyLiv - TEL",
           "type": "0"
@@ -909,15 +897,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
-        {
-          "title": "SportzX NBA",
-          "logo": ""
-        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -930,21 +913,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52890/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX NBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edgestream3.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/NBA3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
           "type": "0"
@@ -986,13 +962,15 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX LIVE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB10/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1033,13 +1011,15 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream2.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB10/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB12/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -1080,14 +1060,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB11/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB14/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
           "type": "0"
@@ -1129,14 +1109,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream1.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB12/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
           "type": "0"
@@ -1162,15 +1142,10 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
-        {
-          "title": "SportzX MLB",
-          "logo": ""
-        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1183,21 +1158,14 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52895/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX MLB",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream1.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB15/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
           "logo": "",
           "title": "HD SERVER",
           "type": "0"
@@ -1443,14 +1411,20 @@
       "publish": "1",
       "formats": [
         "WILLOW FHD",
+        "FANCODE FHD",
         "WILLOW ALT",
         "FANCODE - IN",
-        "FANCODE - BD"
+        "FANCODE - BD",
+        "LOW SERVER"
       ],
       "formatsNew": [
         {
           "title": "WILLOW FHD",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "logo": ""
+        },
+        {
+          "title": "FANCODE FHD",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
         },
         {
           "title": "WILLOW ALT",
@@ -1463,26 +1437,37 @@
         {
           "title": "FANCODE - BD",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png"
+        },
+        {
+          "title": "LOW SERVER",
+          "logo": ""
         }
       ],
       "channels": [
         {
-          "api": "8beb1a680c51476328e1b615ae48dad2:cac64617c4f8324cd43ef7bf0a3ffa8a",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h2plpwxsbj/out/v1/f8ae82b524284d7d8fce270a57a8edf1/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+          "api": "18d67f23b3a4fa2602fe7dcc4d85c771:cfe251885ca34ae5aa51e2e809aaf02c",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5d6gvqj1oq/out/v1/62a7137bc76844298b66cb9b52921d8c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
           "title": "WILLOW FHD",
           "type": "1"
         },
         {
-          "api": "8beb1a680c51476328e1b615ae48dad2:cac64617c4f8324cd43ef7bf0a3ffa8a",
-          "link": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/h2plpwxsbj/out/v1/f8ae82b524284d7d8fce270a57a8edf1/cenc.mpd",
+          "api": "065051b99bf5cf8d9a3bde5cbde6aaf9:214bd176832872339ce184338320f9a2",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+          "title": "FANCODE FHD",
+          "type": "1"
+        },
+        {
+          "api": "18d67f23b3a4fa2602fe7dcc4d85c771:cfe251885ca34ae5aa51e2e809aaf02c",
+          "link": "https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/5d6gvqj1oq/out/v1/62a7137bc76844298b66cb9b52921d8c/cenc.mpd",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW ALT",
           "type": "1"
         },
         {
           "api": null,
-          "link": "https://in-mc-fblive.fancode.com/mumbai/142979_english_hls_fc331367d392190_1ta-di_h264/index.m3u8",
+          "link": "https://dai-fancode.pages.dev/mumbai/142979_english_hls_fc331367d392190_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
           "title": "FANCODE - IN",
           "type": "0"
@@ -1492,6 +1477,13 @@
           "link": "https://bd-mc-flive.fancode.com/mumbai/142979_english_hls_fc331367d392190_1ta-di_h264/1080p.m3u8?hdntl=Expires=1783171805~_GO=Generated~acl=/mumbai/142979_english_hls_fc331367d392190_1ta-di_h264/*~Signature=Ac2BFenuXhfRr1QY9bI_UpFencoe2k9ZEmcu8OIz2rbhe2UEOs7Izkub3T5yvQD313WArA2EjuuxikLxRzLRZ5xg4aYH|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
           "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
           "title": "FANCODE - BD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://193.47.62.42/hls/HAHAHAEEQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "logo": "",
+          "title": "LOW SERVER",
           "type": "0"
         }
       ]
@@ -6231,20 +6223,20 @@
         "TSN SPORTS FHD",
         "TOFFE BDIX (BD)",
         "Binge BDIX (BD)",
-        "TUDN MEXICO",
-        "WC TV FHD",
         "TIPIK FR FHD",
-        "FOX SPORTS 4K",
-        "CANAL5 FHD",
+        "TSN4 SPORTS FHD",
+        "CTV SPORTS FHD",
+        "WC TV FHD",
         "RTE SPORTS FHD",
-        "NPO1 DUTCH FHD",
+        "FOX SPORTS 4K",
         "DSports FHD",
         "CAZE TV FHD",
         "SporTV BR FHD",
-        "FOX ONE HD",
-        "QAZ SPORTS FHD",
-        "ITV SPORTS HD",
+        "CT SPORTS CZ",
         "GOLTV VIVO",
+        "FOX ONE HD",
+        "ITV SPORTS HD",
+        "NPO1 DUTCH FHD",
         "UNITE8 HINDI HD",
         "TSN SPORTS HD",
         "FOX ONE HD",
@@ -6263,9 +6255,10 @@
         "FOX 4K LIVE",
         "TSN SPORTS 4K",
         "TELEMUNDO FHD",
+        "DAZN MUNDIAL",
         "FUSSBALL TV UHD",
         "beIN SPORTS 4K",
-        "ARABIC LIVE FHD",
+        "ARABIC LIVE UHD",
         "FUSSBALL TV 4K",
         "FUSSBALL TV2 4K",
         "IRIB 4K",
@@ -6288,7 +6281,9 @@
         "SD SERVER [SWE]",
         "beiN SPORTS FR",
         "ESPANOL SD",
-        "TOFFEE - AQ (BDIX)"
+        "BTV BDIX HD",
+        "TSports HD",
+        "SOMOY TV HD"
       ],
       "formatsNew": [
         {
@@ -6312,7 +6307,15 @@
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Logo_of_Binge.svg/330px-Logo_of_Binge.svg.png"
         },
         {
-          "title": "TUDN MEXICO",
+          "title": "TIPIK FR FHD",
+          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png"
+        },
+        {
+          "title": "TSN4 SPORTS FHD",
+          "logo": ""
+        },
+        {
+          "title": "CTV SPORTS FHD",
           "logo": ""
         },
         {
@@ -6320,24 +6323,12 @@
           "logo": ""
         },
         {
-          "title": "TIPIK FR FHD",
-          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png"
-        },
-        {
-          "title": "FOX SPORTS 4K",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
-        },
-        {
-          "title": "CANAL5 FHD",
-          "logo": "https://r2.thesportsdb.com/images/media/channel/logo/sonnfj1629403437.png"
-        },
-        {
           "title": "RTE SPORTS FHD",
           "logo": ""
         },
         {
-          "title": "NPO1 DUTCH FHD",
-          "logo": ""
+          "title": "FOX SPORTS 4K",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
         },
         {
           "title": "DSports FHD",
@@ -6352,19 +6343,23 @@
           "logo": ""
         },
         {
-          "title": "FOX ONE HD",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
+          "title": "CT SPORTS CZ",
+          "logo": ""
         },
         {
-          "title": "QAZ SPORTS FHD",
+          "title": "GOLTV VIVO",
           "logo": ""
+        },
+        {
+          "title": "FOX ONE HD",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png"
         },
         {
           "title": "ITV SPORTS HD",
           "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ekabsp1680291523.png"
         },
         {
-          "title": "GOLTV VIVO",
+          "title": "NPO1 DUTCH FHD",
           "logo": ""
         },
         {
@@ -6440,6 +6435,10 @@
           "logo": ""
         },
         {
+          "title": "DAZN MUNDIAL",
+          "logo": ""
+        },
+        {
           "title": "FUSSBALL TV UHD",
           "logo": ""
         },
@@ -6448,7 +6447,7 @@
           "logo": ""
         },
         {
-          "title": "ARABIC LIVE FHD",
+          "title": "ARABIC LIVE UHD",
           "logo": ""
         },
         {
@@ -6540,7 +6539,15 @@
           "logo": ""
         },
         {
-          "title": "TOFFEE - AQ (BDIX)",
+          "title": "BTV BDIX HD",
+          "logo": ""
+        },
+        {
+          "title": "TSports HD",
+          "logo": ""
+        },
+        {
+          "title": "SOMOY TV HD",
           "logo": ""
         }
       ],
@@ -6568,7 +6575,7 @@
         },
         {
           "api": null,
-          "link": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-3/sst/0/master_1500.m3u8?hdntl=Expires=1782946812~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclCOv2Z_yETZH-kX0wFe3dZzYcC3D9cgdqbNc5nzdA8NnzteW16KsszBhMwD5Hm2of1hjr80fPkuOkiYaADLpZoB",
+          "link": "ok",
           "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/toffee-live.png",
           "title": "TOFFE BDIX (BD)",
           "type": "0"
@@ -6581,10 +6588,24 @@
           "type": "0"
         },
         {
-          "api": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411",
-          "link": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "api": "adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a",
+          "link": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
+          "title": "TIPIK FR FHD",
+          "type": "1"
+        },
+        {
+          "api": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "",
-          "title": "TUDN MEXICO",
+          "title": "TSN4 SPORTS FHD",
+          "type": "1"
+        },
+        {
+          "api": "d185684e2330de5bea436daa094a5e86:014f0116154f5bf0050e03a6b0a23157",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "",
+          "title": "CTV SPORTS FHD",
           "type": "1"
         },
         {
@@ -6595,27 +6616,6 @@
           "type": "1"
         },
         {
-          "api": "adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a",
-          "link": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-          "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-          "title": "TIPIK FR FHD",
-          "type": "1"
-        },
-        {
-          "api": "1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ihpzducmif/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-          "title": "FOX SPORTS 4K",
-          "type": "1"
-        },
-        {
-          "api": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "https://r2.thesportsdb.com/images/media/channel/logo/sonnfj1629403437.png",
-          "title": "CANAL5 FHD",
-          "type": "1"
-        },
-        {
           "api": "d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d",
           "link": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/2e20f29a-0431-4a7e-83a3-d50ecfbb5a2a:BRU/manifest.mpd",
           "logo": "",
@@ -6623,10 +6623,10 @@
           "type": "1"
         },
         {
-          "api": "8d3c85fa30730fdc39efc09de476415f:8fdccd948bb2cc6d99d5305ccffebcb7",
-          "link": "https://npo-nl-ams-p30-am5.cdn.streamgate.nl/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODI4NTAxNDYsInVyaSI6IlwvbGl2ZVwvbnBvXC91XzNfNFwvbnBvcGx1c1wvZHJtXC9kYXNoX2NlbmNcL25wby0xXC8wXC8wXC8wXC9ucG8tMS5pc21sIiwidmlld2VyIjoidmlld2VyIiwicmlkIjoiN2FmNjY2MSJ9.duQUETqbOlZDaRwZyqdKtH5iDl2oWPe9auG3gtbpm94/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/stream.mpd",
-          "logo": "",
-          "title": "NPO1 DUTCH FHD",
+          "api": "1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ihpzducmif/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+          "title": "FOX SPORTS 4K",
           "type": "1"
         },
         {
@@ -6651,18 +6651,25 @@
           "type": "1"
         },
         {
+          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+          "link": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
+          "logo": "",
+          "title": "CT SPORTS CZ",
+          "type": "1"
+        },
+        {
+          "api": "1c6bfd8d1cdd4df69ea5fc4dd2f025bb:b6fd90027dac7a94a9461f8b2638cbb4",
+          "link": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080",
+          "logo": "",
+          "title": "GOLTV VIVO",
+          "type": "1"
+        },
+        {
           "api": "0cc2f872759c96de70237e6fa6de03d0:a879b1d38ed002d4018bce96f9219b8d",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zpfs5hlgya/out/v1/84b1d591a23640178a8e8aa43c6e59a7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX ONE HD",
           "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://fo03-bkm.beetv.kz/bpk-tv/000003038/tve/index.m3u8",
-          "logo": "",
-          "title": "QAZ SPORTS FHD",
-          "type": "0"
         },
         {
           "api": null,
@@ -6672,10 +6679,10 @@
           "type": "0"
         },
         {
-          "api": "1c6bfd8d1cdd4df69ea5fc4dd2f025bb:b6fd90027dac7a94a9461f8b2638cbb4",
-          "link": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080",
+          "api": "8d3c85fa30730fdc39efc09de476415f:8fdccd948bb2cc6d99d5305ccffebcb7",
+          "link": "https://npo-nl-ams-p30-am5.cdn.streamgate.nl/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODI4NTAxNDYsInVyaSI6IlwvbGl2ZVwvbnBvXC91XzNfNFwvbnBvcGx1c1wvZHJtXC9kYXNoX2NlbmNcL25wby0xXC8wXC8wXC8wXC9ucG8tMS5pc21sIiwidmlld2VyIjoidmlld2VyIiwicmlkIjoiN2FmNjY2MSJ9.duQUETqbOlZDaRwZyqdKtH5iDl2oWPe9auG3gtbpm94/live/npo/u_3_4/npoplus/drm/dash_cenc/npo-1/0/0/0/npo-1.isml/stream.mpd",
           "logo": "",
-          "title": "GOLTV VIVO",
+          "title": "NPO1 DUTCH FHD",
           "type": "1"
         },
         {
@@ -6687,7 +6694,7 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8?|referer=https://xyzstreams.st/",
+          "link": "?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "TSN SPORTS HD",
           "type": "0"
@@ -6701,14 +6708,14 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8?|referer=https://xyzstreams.st/",
+          "link": "?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "beIN MAX FHD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRSYcoYxLrPPt2.m3u8?txSecret=d3f7681fb93302371c80d9e3d8244b3a&txTime=6A448940",
+          "link": "ok",
           "logo": "",
           "title": "FAST SERVER",
           "type": "0"
@@ -6722,21 +6729,21 @@
         },
         {
           "api": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-          "link": "https://abecxxfaaaaaaaamc3tgtvydttd5x.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+          "link": "https://abeqnpaaaaaaaaamkm25dx7jyzllj.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS FHD",
           "type": "1"
         },
         {
           "api": "f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7",
-          "link": "https://abecxxfaaaaaaaamc3tgtvydttd5x.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+          "link": "https://abeqnpaaaaaaaaamkm25dx7jyzllj.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX ONE FHD",
           "type": "1"
         },
         {
           "api": "1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d",
-          "link": "https://abecxxfaaaaaaaamc3tgtvydttd5x.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/enc/ihpzducmif/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
+          "link": "https://abeqnpaaaaaaaaamkm25dx7jyzllj.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/enc/xyqyiuevpp/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
           "logo": "",
           "title": "FOX 4K [ALT]",
           "type": "1"
@@ -6763,11 +6770,11 @@
           "type": "1"
         },
         {
-          "api": "00220095b60e39f0f4fb0f205767abec:fde4233038574a75bc7f748416508a78",
-          "link": "https://g003-sle-us-cmaf-prd-cf.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021704-723562-49134ed1c6a)/master_2hr.mpd?c3.ri=6a445f9b_Q1ZYMDc_0_Q0xPVURGUk9OVA_9e6d8366a146%3A0&aws.sessionId=93d9ab79-e2fe-4984-bc85-c15c137bccde",
+          "api": null,
+          "link": "ok",
           "logo": "",
           "title": "PEACOCK FHD [ALT]",
-          "type": "1"
+          "type": "0"
         },
         {
           "api": "7d6bb9f86e133e4cb33440b493b6b672:584ad285dcb9e7d42cf3e93f1cc3fe11",
@@ -6785,14 +6792,14 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/fox4k-usa.m3u8?|referer=https://vileembeds.pages.dev/",
+          "link": "https://inproviszon.st/fox4k-usa.m3u8?|referer=https://xyzstreams.st/",
           "logo": "",
           "title": "FOX 4K LIVE",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8?|referer=https://xyzstreams.st/",
+          "link": "?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "TSN SPORTS 4K",
           "type": "0"
@@ -6806,6 +6813,13 @@
         },
         {
           "api": null,
+          "link": "?|referer=https://vileembeds.pages.dev/",
+          "logo": "",
+          "title": "DAZN MUNDIAL",
+          "type": "0"
+        },
+        {
+          "api": null,
           "link": "https://inproviszon.st/fussballtv1uhd-de.m3u8?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "FUSSBALL TV UHD",
@@ -6813,16 +6827,16 @@
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/bein4k-xyz-waUvqaAACr.m3u8?|referer=https://xyzstreams.st/",
+          "link": "?|referer=https://vileembeds.pages.dev/",
           "logo": "",
           "title": "beIN SPORTS 4K",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8?|referer=https://xyzstreams.st/",
+          "link": "?|referer=https://vileembeds.pages.dev/",
           "logo": "",
-          "title": "ARABIC LIVE FHD",
+          "title": "ARABIC LIVE UHD",
           "type": "0"
         },
         {
@@ -6981,9 +6995,23 @@
         },
         {
           "api": null,
-          "link": "https://pastebin.com/raw/nJ3WYKnG?e=.m3u8",
+          "link": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8",
           "logo": "",
-          "title": "TOFFEE - AQ (BDIX)",
+          "title": "BTV BDIX HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
+          "logo": "",
+          "title": "TSports HD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8",
+          "logo": "",
+          "title": "SOMOY TV HD",
           "type": "0"
         }
       ]
@@ -7804,13 +7832,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream2.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -7851,13 +7881,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB2/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -7898,13 +7930,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB3/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -7945,13 +7979,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream2.pro/hls/Czajafjihafch18.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB4/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -7992,13 +8028,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB5/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8039,13 +8077,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB6/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8086,13 +8126,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream2.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB7/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8133,13 +8175,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB8/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8180,13 +8224,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8227,13 +8273,15 @@
       "channels": [
         {
           "api": null,
-          "link": "?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "link": "https://edgestream3.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/MLB11/tracks-v1a1/mono.m3u8?|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8274,13 +8322,15 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edgestream2.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
           "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
@@ -8321,13 +8371,15 @@
       "channels": [
         {
           "api": null,
-          "link": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "link": "https://edgestream3.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "logo": "",
           "title": "SportzX Live",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://instreams.pro/US/NBA1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "link": "https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click",
+          "logo": "",
           "title": "HD SERVER",
           "type": "0"
         }
