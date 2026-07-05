@@ -1336,9 +1336,12 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "PRIME VIDEO - AQ",
         "WILLOW FHD",
+        "TAMASHA FHD",
+        "PRIME BENGAL",
+        "PRIME VIDEO ALT",
         "SKY CRICKET FHD",
-        "WILLOW ALT",
         "SKY SPORTS MIX",
         "SKY SPORT NZ",
         "WILLOW HD",
@@ -1347,16 +1350,28 @@
       ],
       "formatsNew": [
         {
+          "title": "PRIME VIDEO - AQ",
+          "logo": ""
+        },
+        {
           "title": "WILLOW FHD",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
         },
         {
-          "title": "SKY CRICKET FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
+          "title": "TAMASHA FHD",
+          "logo": ""
         },
         {
-          "title": "WILLOW ALT",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
+          "title": "PRIME BENGAL",
+          "logo": ""
+        },
+        {
+          "title": "PRIME VIDEO ALT",
+          "logo": ""
+        },
+        {
+          "title": "SKY CRICKET FHD",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
         },
         {
           "title": "SKY SPORTS MIX",
@@ -1381,10 +1396,38 @@
       ],
       "channels": [
         {
-          "api": "b686f89fa608fc0bb8fc7b21b3c98ffd:9e87208b1511dcbd6d4b54b89252c3d6",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/slqmxbfik7/out/v1/7712c83009e8420fb34db73f3a1a2151/cenc.mpd",
+          "api": "9f1106840b0996d072db21884983f407:772273c40b9c10b28b43b777beac27eb",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nqfhrxlfzd/out/v1/adc4f984bb244252b29bd96adb6a7b44/cenc.mpd",
+          "logo": "",
+          "title": "PRIME VIDEO - AQ",
+          "type": "1"
+        },
+        {
+          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
           "title": "WILLOW FHD",
+          "type": "1"
+        },
+        {
+          "api": null,
+          "link": "https://cdn14lhr.tamashaweb.com:8087/jazzauth/ICCWT20WC-ADFREE-2026-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yMy8yMDI2IDEwOjQ3OjQ0IEFNJmhhc2hfdmFsdWU9NCtjamcwTC9WdVNaWjFoRmhEQytVZz09JnZhbGlkbWludXRlcz02MA%3D%3D",
+          "logo": "",
+          "title": "TAMASHA FHD",
+          "type": "0"
+        },
+        {
+          "api": null,
+          "link": "https://pastebin.com/raw/A0UzgRVL?e=.m3u8",
+          "logo": "",
+          "title": "PRIME BENGAL",
+          "type": "0"
+        },
+        {
+          "api": "9f1106840b0996d072db21884983f407:772273c40b9c10b28b43b777beac27eb",
+          "link": "https://ABBWIKLAAAAAAAAMPTEU6ZSHBMC3U.ta.bia-cf.live.pv-cdn.net/sin-nitro/live/clients/dash/enc/miuhzspv41/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd",
+          "logo": "",
+          "title": "PRIME VIDEO ALT",
           "type": "1"
         },
         {
@@ -1393,13 +1436,6 @@
           "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
           "title": "SKY CRICKET FHD",
           "type": "0"
-        },
-        {
-          "api": "b686f89fa608fc0bb8fc7b21b3c98ffd:9e87208b1511dcbd6d4b54b89252c3d6",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/slqmxbfik7/out/v1/7712c83009e8420fb34db73f3a1a2151/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW ALT",
-          "type": "1"
         },
         {
           "api": null,
