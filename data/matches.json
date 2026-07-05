@@ -1,6 +1,6 @@
 {
   "status": true,
-  "total_events": 36,
+  "total_events": 35,
   "results": [
     {
       "id": 50006,
@@ -741,10 +741,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX LIVE",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX LIVE",
           "logo": ""
@@ -755,6 +760,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52971/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream2.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -986,15 +998,27 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX WNBA",
         "SportzX Live"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX WNBA",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52966/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX WNBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream3.pro/hls/bvnsqdfvgha70.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -1023,14 +1047,9 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
-        "SportzX WNBA",
         "SportzX Live"
       ],
       "formatsNew": [
-        {
-          "title": "SportzX WNBA",
-          "logo": ""
-        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -1039,171 +1058,7 @@
       "channels": [
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52944/load-playlist?|Referer=https://gooz.aapmains.net",
-          "logo": "",
-          "title": "SportzX WNBA",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://edge2caster.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "logo": "",
-          "title": "SportzX Live",
-          "type": "0"
-        }
-      ]
-    },
-    {
-      "id": 50059,
-      "title": "England W vs Australia W",
-      "image": "o",
-      "cat": "Cricket",
-      "eventInfo": {
-        "teamA": "ENG-W",
-        "teamB": "AUS-W",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/213121/image",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/213117/image",
-        "eventName": "England W vs Australia W",
-        "eventType": "null",
-        "isHot": "0",
-        "startTime": "2026/07/05 14:30:00 +0000",
-        "endTime": "2026/07/05 18:15:00 +0000"
-      },
-      "adsLimit": "0",
-      "publish": "1",
-      "formats": [
-        "PRIME VIDEO - AQ",
-        "WILLOW FHD",
-        "TAMASHA FHD",
-        "PRIME BENGAL",
-        "PRIME VIDEO ALT",
-        "SKY CRICKET FHD",
-        "SKY SPORTS MIX",
-        "SKY SPORT NZ",
-        "WILLOW HD",
-        "SKY MAIN EVENT",
-        "SportzX Live"
-      ],
-      "formatsNew": [
-        {
-          "title": "PRIME VIDEO - AQ",
-          "logo": ""
-        },
-        {
-          "title": "WILLOW FHD",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "TAMASHA FHD",
-          "logo": ""
-        },
-        {
-          "title": "PRIME BENGAL",
-          "logo": ""
-        },
-        {
-          "title": "PRIME VIDEO ALT",
-          "logo": ""
-        },
-        {
-          "title": "SKY CRICKET FHD",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "SKY SPORTS MIX",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "SKY SPORT NZ",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph"
-        },
-        {
-          "title": "WILLOW HD",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png"
-        },
-        {
-          "title": "SKY MAIN EVENT",
-          "logo": ""
-        },
-        {
-          "title": "SportzX Live",
-          "logo": ""
-        }
-      ],
-      "channels": [
-        {
-          "api": "9f1106840b0996d072db21884983f407:772273c40b9c10b28b43b777beac27eb",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nqfhrxlfzd/out/v1/adc4f984bb244252b29bd96adb6a7b44/cenc.mpd",
-          "logo": "",
-          "title": "PRIME VIDEO - AQ",
-          "type": "1"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW FHD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://cdn14lhr.tamashaweb.com:8087/jazzauth/ICCWT20WC-ADFREE-2026-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yMy8yMDI2IDEwOjQ3OjQ0IEFNJmhhc2hfdmFsdWU9NCtjamcwTC9WdVNaWjFoRmhEQytVZz09JnZhbGlkbWludXRlcz02MA%3D%3D",
-          "logo": "",
-          "title": "TAMASHA FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://pastebin.com/raw/A0UzgRVL?e=.m3u8",
-          "logo": "",
-          "title": "PRIME BENGAL",
-          "type": "0"
-        },
-        {
-          "api": "9f1106840b0996d072db21884983f407:772273c40b9c10b28b43b777beac27eb",
-          "link": "https://ABBWIKLAAAAAAAAMPTEU6ZSHBMC3U.ta.bia-cf.live.pv-cdn.net/sin-nitro/live/clients/dash/enc/miuhzspv41/out/v1/d7130f460d41486ea7e8e3eb45f0522f/cenc.mpd",
-          "logo": "",
-          "title": "PRIME VIDEO ALT",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY CRICKET FHD",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://tmaxapp.site/skymix.m3u8",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORTS MIX",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://tmaxapp.site/skynz1.m3u8",
-          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-          "title": "SKY SPORT NZ",
-          "type": "0"
-        },
-        {
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-          "title": "WILLOW HD",
-          "type": "1"
-        },
-        {
-          "api": null,
-          "link": "https://tmaxapp.site/skymainevent.m3u8",
-          "logo": "",
-          "title": "SKY MAIN EVENT",
-          "type": "0"
-        },
-        {
-          "api": null,
-          "link": "https://tmaxapp.site/willoweng.m3u8",
+          "link": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
           "logo": "",
           "title": "SportzX Live",
           "type": "0"
@@ -1623,7 +1478,7 @@
         },
         {
           "api": null,
-          "link": "ok",
+          "link": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783362005~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclBvh2KlwaEPWul5cgmkJ_BAV9G-xahd4-IcA36OgJiBg7-hzl29zT6h6SAz0pWVNcQTOahjZtpuAlpR2m1y5SgO",
           "logo": "https://sadatinternet.com/wp-content/uploads/2022/05/123229859_100869635171190_9162097040449781294_n.jpg",
           "title": "TOFFE BDIX (BD)",
           "type": "0"
@@ -1714,14 +1569,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52795/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52959/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "ITV SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52795/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52962/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "",
           "title": "TELEMUNDO HD",
           "type": "0"
@@ -1854,14 +1709,14 @@
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52797/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52958/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
           "title": "FOX SPORTS HD",
           "type": "0"
         },
         {
           "api": null,
-          "link": "https://chatgpt.hereisman.net/playlist/52796/load-playlist?|Referer=https://gooz.aapmains.net",
+          "link": "https://chatgpt.hereisman.net/playlist/52960/load-playlist?|Referer=https://gooz.aapmains.net",
           "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
           "title": "TSN SPORTS HD",
           "type": "0"
@@ -6662,10 +6517,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX NBA",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX NBA",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -6676,6 +6536,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52965/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX NBA",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream1.pro/hls/mlkijfezag65.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -7065,10 +6932,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -7079,6 +6951,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52964/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream2.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -7114,10 +6993,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -7128,6 +7012,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52967/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream2.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -7163,10 +7054,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -7177,6 +7073,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52969/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream1.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -7212,10 +7115,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -7226,6 +7134,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52970/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream1.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
@@ -7261,10 +7176,15 @@
       "adsLimit": "0",
       "publish": "1",
       "formats": [
+        "SportzX MLB",
         "SportzX Live",
         "HD SERVER"
       ],
       "formatsNew": [
+        {
+          "title": "SportzX MLB",
+          "logo": ""
+        },
         {
           "title": "SportzX Live",
           "logo": ""
@@ -7275,6 +7195,13 @@
         }
       ],
       "channels": [
+        {
+          "api": null,
+          "link": "https://chatgpt.hereisman.net/playlist/52972/load-playlist?|Referer=https://gooz.aapmains.net",
+          "logo": "",
+          "title": "SportzX MLB",
+          "type": "0"
+        },
         {
           "api": null,
           "link": "https://edgestream1.pro/hls/kjhfzua25.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
